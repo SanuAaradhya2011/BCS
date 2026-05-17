@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<AdhocParameter>
+  <DLMS>
+    <Descriptions>Meter Class</Descriptions>
+    <OBISCODE>1.0.60.8D.0.FF</OBISCODE>
+    <CLASS>01</CLASS>
+    <ATTRIBUTE>02</ATTRIBUTE>
+    <Value></Value>
+  </DLMS>
+  <DLMS>
+    <Descriptions>LED Pulse rate</Descriptions>
+    <OBISCODE>1.0.0.3.0.FF</OBISCODE>
+    <CLASS>01</CLASS>
+    <ATTRIBUTE>02</ATTRIBUTE>
+    <Value></Value>
+  </DLMS>
+<DLMS>
+ <Descriptions>First Occurrence Tamper ID</Descriptions>
+ <OBISCODE>1.0.0.1.96.FF</OBISCODE>
+  <CLASS>01</CLASS> 
+  <ATTRIBUTE>02</ATTRIBUTE>
+ <Value></Value>
+</DLMS>
+<DLMS>
+  <Descriptions>Date of First Tamper Occurrence</Descriptions>
+  <OBISCODE>1.0.0.1.97.FF</OBISCODE>
+   <CLASS>08</CLASS>
+  <ATTRIBUTE>02</ATTRIBUTE> 
+  <Value></Value>
+</DLMS>
+<DLMS>
+<Descriptions>Time of First Tamper Occurrence</Descriptions>  
+  <OBISCODE>1.0.0.1.98.FF</OBISCODE>
+  <CLASS>08</CLASS>
+  <ATTRIBUTE>02</ATTRIBUTE>  
+  <Value></Value>
+</DLMS>
+<DLMS>
+<Descriptions>Last Occurrence Tamper ID</Descriptions>  
+  <OBISCODE>1.0.0.1.99.FF</OBISCODE>
+  <CLASS>01</CLASS>
+  <ATTRIBUTE>02</ATTRIBUTE>  
+  <Value></Value>
+</DLMS>
+<DLMS>
+<Descriptions>Date of Last Tamper Occurrence </Descriptions> 
+  <OBISCODE>1.0.0.1.9B.FF</OBISCODE>
+   <CLASS>08</CLASS>
+  <ATTRIBUTE>02</ATTRIBUTE>  
+  <Value></Value>
+</DLMS>
+<DLMS>
+<Descriptions>Time of Last Tamper Occurrence</Descriptions>  
+  <OBISCODE>1.0.0.1.9A.FF</OBISCODE>
+  <CLASS>08</CLASS>
+  <ATTRIBUTE>02</ATTRIBUTE>  
+  <Value></Value>
+</DLMS>
+<DLMS>
+<Descriptions>Last Restoration Tamper ID</Descriptions>  
+  <OBISCODE>1.0.0.1.9C.FF</OBISCODE>
+  <CLASS>01</CLASS>
+  <ATTRIBUTE>02</ATTRIBUTE>  
+  <Value></Value>
+</DLMS>
+<DLMS>
+<Descriptions>Date of Last Tamper Restoration</Descriptions> 
+  <OBISCODE>1.0.0.1.9E.FF</OBISCODE>
+   <CLASS>08</CLASS>
+  <ATTRIBUTE>02</ATTRIBUTE>  
+  <Value></Value>
+</DLMS>
+<DLMS>
+<Descriptions>Time of Last Tamper Restoration </Descriptions>  
+  <OBISCODE>1.0.0.1.9D.FF</OBISCODE>
+  <CLASS>08</CLASS>
+  <ATTRIBUTE>02</ATTRIBUTE>  
+  <Value></Value>
+</DLMS>
+</AdhocParameter>

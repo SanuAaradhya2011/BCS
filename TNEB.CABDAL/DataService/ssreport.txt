@@ -1,0 +1,14 @@
+﻿$/BCS Applications/WorkingSolution/CABSolution/CABDAL/DataService/DatabaseFactory.cs
+
+*****************  Version 2  *****************
+User: Vermad          Date:  4/21/10  Time:  2:32p
+Checked in $/BCS Applications/WorkingSolution/CABSolution/CABDAL/DataService
+Comment:
+  
+
+*****************  Version 1  *****************
+User: Vermad          Date:  3/16/10  Time:  2:29p
+Created DatabaseFactory.cs
+Comment:
+  
+

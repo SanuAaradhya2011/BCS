@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{92BDCA32-D7F2-4B6D-AC0A-4F2CA58D1009}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GPRSComService</RootNamespace>
+    <AssemblyName>GPRSComService</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.16.0.18925.20022\lib\net40\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.2.2.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLs\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommandProcessor.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="DLMSLib\DLMSLib.cs" />
+    <Compile Include="FileUploader.cs" />
+    <Compile Include="FileUploadProcessor.cs" />
+    <Compile Include="FileUploadStatus.cs" />
+    <Compile Include="GPRSServiceInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GPRSServiceInstaller.Designer.cs">
+      <DependentUpon>GPRSServiceInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewConnectionProcessor.cs" />
+    <Compile Include="NewTaskProcessor.cs" />
+    <Compile Include="Profiles\Profile.cs" />
+    <Compile Include="RequestCommandQueue.cs" />
+    <Compile Include="ResponseProcessor.cs" />
+    <Compile Include="Tasks\BillingTask.cs" />
+    <Compile Include="Tasks\CommonTaskMethods.cs" />
+    <Compile Include="Tasks\InstantaneousTask.cs" />
+    <Compile Include="Tasks\LoadSurveyTask.cs" />
+    <Compile Include="Tasks\TamperTask.cs" />
+    <Compile Include="Tasks\TaskBase.cs" />
+    <Compile Include="Tasks\GeneralTask.cs" />
+    <Compile Include="GPRSSchedulerProcess.cs" />
+    <Compile Include="GPRSSchedulerService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GPRSSchedulerService.Designer.cs">
+      <DependentUpon>GPRSSchedulerService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Framework\ProcessBase.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Framework\WorkerBase.cs" />
+    <Compile Include="TaskManager.cs" />
+    <Compile Include="Worker\CommandProcessorWorker.cs" />
+    <Compile Include="Worker\EndpointOperationsWorker.cs" />
+    <Compile Include="Worker\FileUploaderWorker.cs" />
+    <Compile Include="Worker\GetNewTaskWorker.cs" />
+    <Compile Include="Worker\ProcessTaskWorker.cs" />
+    <Compile Include="Worker\ResponseProcessorWorker.cs" />
+    <Compile Include="Worker\TaskFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="logger.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Xml\BillingProfile.xml" />
+    <Content Include="Xml\LoadSurveyProfile.xml" />
+    <Content Include="Xml\GeneralProfile.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\InstantaneousProfile.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\TamperProfile.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CHANNEL\Generic.CHANNEL.csproj">
+      <Project>{3E3E22FF-8227-40FD-90A3-1A6EAADCFCE6}</Project>
+      <Name>Generic.CHANNEL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLMSGSMCommunication\Generic.Generic3PhaseCommunication.csproj">
+      <Project>{B1AA6220-8C67-4BA6-A97B-E639931B0E16}</Project>
+      <Name>Generic.Generic3PhaseCommunication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GPRSCommunication\Generic.GPRSCommunication.csproj">
+      <Project>{4E756C07-5331-4742-BAF8-548CC7C7F980}</Project>
+      <Name>Generic.GPRSCommunication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hunt.EPIC.Logging\Common.Hunt.EPIC.Logging.csproj">
+      <Project>{767ED638-2423-4588-95BE-1DB061975B2B}</Project>
+      <Name>Common.Hunt.EPIC.Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABBLL\Generic.CABBLL.csproj">
+      <Project>{988D73F9-B10E-41D9-BE34-FD67D11C393C}</Project>
+      <Name>Generic.CABBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABDAL\Generic.CABDAL.csproj">
+      <Project>{24A0D0CC-2668-41C7-AB8E-20CD52E735F4}</Project>
+      <Name>Generic.CABDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABEntity\Generic.CABEntity.csproj">
+      <Project>{56A4EC2F-0685-497B-AC24-111F875E8F1A}</Project>
+      <Name>Generic.CABEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABFramework\Generic.CABFramework.csproj">
+      <Project>{CF4BBFC7-E739-4789-BB1E-4FFBA6F8C6C4}</Project>
+      <Name>Generic.CABFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Generic.Utilities.csproj">
+      <Project>{1C998CF6-4BD7-449E-AD67-7057FDA6C71D}</Project>
+      <Name>Generic.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GPRSServiceInstaller.resx">
+      <DependentUpon>GPRSServiceInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  
+  -->
+</Project>

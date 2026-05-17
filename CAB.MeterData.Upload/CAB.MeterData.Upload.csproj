@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8D3B1F7B-6627-4A25-9272-6BEB2F752816}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CAB.MeterData.Upload</RootNamespace>
+    <AssemblyName>CAB.MeterData.Upload</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.16.0.18925.20022\lib\net40\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UploadFile.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CHANNEL\Generic.CHANNEL.csproj">
+      <Project>{3E3E22FF-8227-40FD-90A3-1A6EAADCFCE6}</Project>
+      <Name>Generic.CHANNEL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common.EntityMapper\Common.EntityMapper.csproj">
+      <Project>{80F6D1B4-DA86-4BC7-BE17-0AD88FCD9118}</Project>
+      <Name>Common.EntityMapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\E650MeterConfiguration\Common.CAB.E650MeterConfiguration.csproj">
+      <Project>{5205351E-A788-4D42-90DA-E87F9307D803}</Project>
+      <Name>Common.CAB.E650MeterConfiguration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EntityGenerator\Common.CAB.EntityGenerator.csproj">
+      <Project>{B9D4DE30-1F56-40D0-A44A-D16FC3C0A71B}</Project>
+      <Name>Common.CAB.EntityGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hunt.EPIC.Logging\Common.Hunt.EPIC.Logging.csproj">
+      <Project>{767ED638-2423-4588-95BE-1DB061975B2B}</Project>
+      <Name>Common.Hunt.EPIC.Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CAB.E650MeterConfiguration.Entity\Common.CAB.E650MeterConfiguration.Entity.csproj">
+      <Project>{ED428E9B-12E0-4385-8A9B-2AB28A943428}</Project>
+      <Name>Common.CAB.E650MeterConfiguration.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CAB.Parser.Entity\Common.CAB.Parser.Entity.csproj">
+      <Project>{8CAD342E-EEAD-45B5-8440-200AEEE3D1C2}</Project>
+      <Name>Common.CAB.Parser.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CAB.Parser\Common.CAB.Parser.csproj">
+      <Project>{F5257B2A-E66A-4A87-A00C-03CE2798510E}</Project>
+      <Name>Common.CAB.Parser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABBLL\Generic.CABBLL.csproj">
+      <Project>{988D73F9-B10E-41D9-BE34-FD67D11C393C}</Project>
+      <Name>Generic.CABBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABEntity\Generic.CABEntity.csproj">
+      <Project>{56A4EC2F-0685-497B-AC24-111F875E8F1A}</Project>
+      <Name>Generic.CABEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABFramework\Generic.CABFramework.csproj">
+      <Project>{CF4BBFC7-E739-4789-BB1E-4FFBA6F8C6C4}</Project>
+      <Name>Generic.CABFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNEB.CHANNEL\IEC.CAB.CHANNEL.csproj">
+      <Project>{10AA1374-4A11-44A6-921F-81761D3A253F}</Project>
+      <Name>IEC.CAB.CHANNEL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNEB.CABEntity\IEC.CAB.Entity.csproj">
+      <Project>{92D059A2-84BA-47DE-BC55-0846C449BD91}</Project>
+      <Name>IEC.CAB.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNEB.CABFramework\IEC.CAB.Framework.csproj">
+      <Project>{5A821211-487F-478E-AD65-C4AFA0EE4C82}</Project>
+      <Name>IEC.CAB.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Generic.Utilities.csproj">
+      <Project>{1C998CF6-4BD7-449E-AD67-7057FDA6C71D}</Project>
+      <Name>Generic.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

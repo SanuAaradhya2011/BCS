@@ -1,0 +1,63 @@
+﻿<Profile Type="Tamper">
+  <Utility UtilityName ="PUMA|TNEB|GPRSVER" Firmware="DEFAULT|4.45">
+    <CommandMethod Order="1"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="SNRMCommand" CommandParameter="" ValidatorName="HDLCValidator"  ValidatorParameter=""></CommandMethod>
+    <CommandMethod Order="2"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="AARQCommand" CommandParameter="" ValidatorName="AARQCommandValidator"  ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="3"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfile" CommandParameter="3,0" ValidatorName="ValidateTamperProfile"  ValidatorParameter=""></CommandMethod>
+    <CommandMethod Order="4"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfileRecursive" CommandParameter="" ValidatorName="ValidateTamperProfileRecursive"  ValidatorParameter="" IsRecursive="true" RecursiveType="COSEM" ></CommandMethod>
+    <CommandMethod Order="5"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfile" CommandParameter="2,0" ValidatorName="ValidateTamperProfile"  ValidatorParameter=""></CommandMethod>
+    <CommandMethod Order="6"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfileRecursive" CommandParameter="" ValidatorName="ValidateTamperProfileRecursive"  ValidatorParameter="" IsRecursive="true" RecursiveType="COSEM" ></CommandMethod>
+    
+    <CommandMethod Order="7"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperScalarProfile" CommandParameter="3" ValidatorName="ValidateScalarCapture"  ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="8"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadScalarProfileRecursive" CommandParameter="" ValidatorName="ValidateScalarCaptureRecursive"  ValidatorParameter="" IsRecursive="true" RecursiveType="COSEM" ></CommandMethod>
+    
+    <CommandMethod Order="9"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperScalarProfile" CommandParameter="2" ValidatorName="ValidateScalarBuffer"  ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="10"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadScalarProfileRecursive" CommandParameter="" ValidatorName="ValidateScalarBufferRecursive"  ValidatorParameter="" IsRecursive="true" RecursiveType="COSEM" ></CommandMethod>
+
+    <CommandMethod Order="11"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfile" CommandParameter="3,1" ValidatorName="ValidateTamperProfile"  ValidatorParameter=""></CommandMethod>
+    <CommandMethod Order="12"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfileRecursive" CommandParameter="" ValidatorName="ValidateTamperProfileRecursive"  ValidatorParameter="" IsRecursive="true" RecursiveType="COSEM" ></CommandMethod>
+    <CommandMethod Order="13"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="InsertBufferAndCapture" CommandParameter="" ValidatorName=""  ValidatorParameter="" ></CommandMethod>
+
+    <CommandMethod Order="14"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfile" CommandParameter="2,1" ValidatorName="ValidateTamperProfile"  ValidatorParameter=""></CommandMethod>
+    <CommandMethod Order="15"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfileRecursive" CommandParameter="" ValidatorName="ValidateTamperProfileRecursive"  ValidatorParameter="" IsRecursive="true" RecursiveType="COSEM" ></CommandMethod>
+    <CommandMethod Order="16"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="InsertBufferAndCapture" CommandParameter="" ValidatorName=""  ValidatorParameter="" ></CommandMethod>
+
+    <CommandMethod Order="17"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfile" CommandParameter="3,2" ValidatorName="ValidateTamperProfile"  ValidatorParameter=""></CommandMethod>
+    <CommandMethod Order="18"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfileRecursive" CommandParameter="" ValidatorName="ValidateTamperProfileRecursive"  ValidatorParameter="" IsRecursive="true" RecursiveType="COSEM" ></CommandMethod>
+    <CommandMethod Order="19"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="InsertBufferAndCapture" CommandParameter="" ValidatorName=""  ValidatorParameter="" ></CommandMethod>
+
+    <CommandMethod Order="20"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfile" CommandParameter="2,2" ValidatorName="ValidateTamperProfile"  ValidatorParameter=""></CommandMethod>
+    <CommandMethod Order="21"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfileRecursive" CommandParameter="" ValidatorName="ValidateTamperProfileRecursive"  ValidatorParameter="" IsRecursive="true" RecursiveType="COSEM" ></CommandMethod>
+    <CommandMethod Order="22"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="InsertBufferAndCapture" CommandParameter="" ValidatorName=""  ValidatorParameter="" ></CommandMethod>
+
+    <CommandMethod Order="23"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfile" CommandParameter="3,3" ValidatorName="ValidateTamperProfile"  ValidatorParameter=""></CommandMethod>
+    <CommandMethod Order="24"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfileRecursive" CommandParameter="" ValidatorName="ValidateTamperProfileRecursive"  ValidatorParameter="" IsRecursive="true" RecursiveType="COSEM" ></CommandMethod>
+    <CommandMethod Order="25"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="InsertBufferAndCapture" CommandParameter="" ValidatorName=""  ValidatorParameter="" ></CommandMethod>
+
+    <CommandMethod Order="26"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfile" CommandParameter="2,3" ValidatorName="ValidateTamperProfile"  ValidatorParameter=""></CommandMethod>
+    <CommandMethod Order="27"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfileRecursive" CommandParameter="" ValidatorName="ValidateTamperProfileRecursive"  ValidatorParameter="" IsRecursive="true" RecursiveType="COSEM" ></CommandMethod>
+    <CommandMethod Order="28"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="InsertBufferAndCapture" CommandParameter="" ValidatorName=""  ValidatorParameter="" ></CommandMethod>
+
+    <CommandMethod Order="29"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfile" CommandParameter="3,4" ValidatorName="ValidateTamperProfile"  ValidatorParameter=""></CommandMethod>
+    <CommandMethod Order="30"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfileRecursive" CommandParameter="" ValidatorName="ValidateTamperProfileRecursive"  ValidatorParameter="" IsRecursive="true" RecursiveType="COSEM" ></CommandMethod>
+    <CommandMethod Order="31"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="InsertBufferAndCapture" CommandParameter="" ValidatorName=""  ValidatorParameter="" ></CommandMethod>
+
+    <CommandMethod Order="32"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfile" CommandParameter="2,4" ValidatorName="ValidateTamperProfile"  ValidatorParameter=""></CommandMethod>
+    <CommandMethod Order="33"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfileRecursive" CommandParameter="" ValidatorName="ValidateTamperProfileRecursive"  ValidatorParameter="" IsRecursive="true" RecursiveType="COSEM" ></CommandMethod>
+    <CommandMethod Order="34"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="InsertBufferAndCapture" CommandParameter="" ValidatorName=""  ValidatorParameter="" ></CommandMethod>
+
+    <CommandMethod Order="35"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfile" CommandParameter="3,5" ValidatorName="ValidateTamperProfile"  ValidatorParameter=""></CommandMethod>
+    <CommandMethod Order="36"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfileRecursive" CommandParameter="" ValidatorName="ValidateTamperProfileRecursive"  ValidatorParameter="" IsRecursive="true" RecursiveType="COSEM" ></CommandMethod>
+    <CommandMethod Order="37"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="InsertBufferAndCapture" CommandParameter="" ValidatorName=""  ValidatorParameter="" ></CommandMethod>
+
+    <CommandMethod Order="38"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfile" CommandParameter="2,5" ValidatorName="ValidateTamperProfile"  ValidatorParameter=""></CommandMethod>
+    <CommandMethod Order="39"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadTamperProfileRecursive" CommandParameter="" ValidatorName="ValidateTamperProfileRecursive"  ValidatorParameter="" IsRecursive="true" RecursiveType="COSEM" ></CommandMethod>
+    <CommandMethod Order="40"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="InsertBufferAndCapture" CommandParameter="" ValidatorName=""  ValidatorParameter="" ></CommandMethod>
+
+    <CommandMethod Order="41" MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="DISCCommand" CommandParameter="" ValidatorName="HDLCValidator"  ValidatorParameter="" ></CommandMethod>
+  </Utility>
+  <Utility UtilityName ="NDPL">
+    <CommandMethod Order="1" MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="SNRMCommand" CommandParameter="" ValidatorName="HDLCValidator"  ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="2" MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="AARQCommand" CommandParameter="" ValidatorName="AARQCommandValidator"  ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="3" MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="fReadMeterSerialNumberCommand" CommandParameter="" ValidatorName="fMeterSerialNumberValidator"  ValidatorParameter="" ></CommandMethod>
+  </Utility>
+</Profile>

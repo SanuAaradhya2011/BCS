@@ -1,0 +1,86 @@
+﻿<MeterOfflineConfigSettings>
+
+  <MeterConfigElement MeterModel = "0" Firmware = "0.00">
+    <DIP>true</DIP>
+    <SIP>true</SIP>
+    <KvahSelection>true</KvahSelection>
+    <DisplayParameters>true</DisplayParameters>
+    <DisplayParametersIEC>true</DisplayParametersIEC>
+    <TOD>ONE,TWO,FOUR,FOURSP,HOLIDAY,TOU1P,FOURSP10Z8S</TOD>
+    <RTC>true</RTC>
+    <CTRatio>true</CTRatio>
+    <PTRatio>true</PTRatio>
+    <BillingType>normal</BillingType>
+    <BillingReset>true</BillingReset>
+    <LockRS232>true</LockRS232>
+    <AutoLock>true</AutoLock>
+    <DailyLog>false</DailyLog>
+    <MagneticTamperIcon>true</MagneticTamperIcon>
+    <DIPWithSliding>false</DIPWithSliding>
+    <ManualBilling>true</ManualBilling>
+    <SoftwareBilling>true</SoftwareBilling>
+    <LoadControl>true</LoadControl>
+    <LoadControl1PSmartMeter>true</LoadControl1PSmartMeter>
+    <DisconnectControl>true</DisconnectControl>
+    <RS485>false</RS485>
+    <PulseEnergy>false</PulseEnergy>
+    <ManualButtonMDReset>true</ManualButtonMDReset>
+  </MeterConfigElement>
+
+ 
+  <MeterConfigElement MeterModel = "1" Firmware = "0.00">
+    <DIP>true</DIP>
+    <SIP>true</SIP>
+    <KvahSelection>true</KvahSelection>
+    <DisplayParameters>false</DisplayParameters>
+    <DisplayParametersIEC>true</DisplayParametersIEC>
+    <TOD>ONE,FOURSP,TOU1P</TOD>
+    <RTC>true</RTC>
+    <CTRatio>false</CTRatio>
+    <PTRatio>false</PTRatio>
+    <BillingType>normal</BillingType>
+    <BillingReset>true</BillingReset>
+    <LockRS232>false</LockRS232>
+    <AutoLock>false</AutoLock>
+    <DailyLog>false</DailyLog>
+    <MagneticTamperIcon>true</MagneticTamperIcon>
+    <DIPWithSliding>false</DIPWithSliding>
+    <ManualBilling>false</ManualBilling>
+    <SoftwareBilling>false</SoftwareBilling>
+    <LoadControl>false</LoadControl>
+    <LoadControl1PSmartMeter>true</LoadControl1PSmartMeter>
+    <DisconnectControl>true</DisconnectControl>
+    <RS485>false</RS485>
+    <PulseEnergy>false</PulseEnergy>
+    <ManualButtonMDReset>false</ManualButtonMDReset>
+  </MeterConfigElement>
+ 
+  
+  <MeterConfigElement MeterModel = "2" Firmware = "0.00">
+    <DIP>true</DIP>
+    <SIP>true</SIP>
+    <KvahSelection>true</KvahSelection>
+    <DisplayParameters>true</DisplayParameters>
+    <DisplayParametersIEC>false</DisplayParametersIEC>
+    <TOD>ONE,TWO,THREE,FOUR,HOLIDAY,FOURSP10Z8S</TOD>
+    <RTC>true</RTC>
+    <CTRatio>true</CTRatio>
+    <PTRatio>true</PTRatio>
+    <BillingType>normal</BillingType>
+    <BillingReset>true</BillingReset>
+    <LockRS232>true</LockRS232>
+    <AutoLock>true</AutoLock>
+    <DailyLog>false</DailyLog>
+    <MagneticTamperIcon>false</MagneticTamperIcon>
+    <DIPWithSliding>false</DIPWithSliding>
+    <ManualBilling>true</ManualBilling>
+    <SoftwareBilling>true</SoftwareBilling>
+    <LoadControl>true</LoadControl>
+    <LoadControl1PSmartMeter>false</LoadControl1PSmartMeter>
+    <DisconnectControl>true</DisconnectControl>
+    <RS485>true</RS485>
+    <PulseEnergy>false</PulseEnergy>
+    <ManualButtonMDReset>true</ManualButtonMDReset>
+  </MeterConfigElement>
+
+</MeterOfflineConfigSettings>

@@ -1,0 +1,1292 @@
+﻿<AsciiSettings> 
+
+  <Profile ProfileName = "General" TableName = "meterdata_general" Visible = "true" >
+
+    <ProfileParameter >
+      <Description>Meter Serial Number</Description>
+      <ColumnName>meterSerialNumber</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Manufacturer Name</Description>
+      <ColumnName>manufacturername</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Firmware Version</Description>
+      <ColumnName>firmwareVersionformeter</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Meter type (3P-3W / 3P-4W)</Description>
+      <ColumnName>metertype</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Internal  CT ratio</Description>
+      <ColumnName>internalCTratio</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Internal PT ratio</Description>
+      <ColumnName>internalPTratio</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Category</Description>
+      <ColumnName>Category</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <Description>Year Of manufacture</Description>
+      <ColumnName>meteryearofmanufacture</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Internal Firmware Version</Description>
+      <ColumnName>InternalFirmwareVersion</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <!--<Description>Meter Model No.</Description>-->
+      <Description>Model-Type</Description>
+      <ColumnName>metermodelno</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <Description>Voltage Rating</Description>
+      <ColumnName>VoltageRating</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Current Rating</Description>
+      <ColumnName>BasicCurrentRating</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+  </Profile>
+
+  <Profile ProfileName = "Billing" TableName = "meterdata_billing" Visible = "true" >
+
+    <ProfileParameter >
+      <Description>Billing Date</Description>
+      <ColumnName>BillingDate</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>System Power Factor for Billing Period</Description>
+      <ColumnName>SystemPowerFactorforBillingPeriod</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Active Energy</Description>
+      <ColumnName>CumulativeEnergykWhTZ0</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Active Energy Tarrif1</Description>
+      <ColumnName>CumulativeEnergykWhTZ1</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Active Energy Tarrif2</Description>
+      <ColumnName>CumulativeEnergykWhTZ2</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Active Energy Tarrif3</Description>
+      <ColumnName>CumulativeEnergykWhTZ3</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Active Energy Tarrif4</Description>
+      <ColumnName>CumulativeEnergykWhTZ4</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Active Energy Tarrif5</Description>
+      <ColumnName>CumulativeEnergykWhTZ5</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Active Energy Tarrif6</Description>
+      <ColumnName>CumulativeEnergykWhTZ6</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Active Energy Tarrif7</Description>
+      <ColumnName>CumulativeEnergykWhTZ7</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Active Energy Tarrif8</Description>
+      <ColumnName>CumulativeEnergykWhTZ8</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Reactive Energy Lag</Description>
+      <ColumnName>CumulativeEnergykvarhLag</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Reactive Energy Lead</Description>
+      <ColumnName>CumulativeEnergykvarhLead</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Apparent Energy</Description>
+      <ColumnName>CumulativeEnergykVAhTZ0</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Apparent Energy Tarrif1</Description>
+      <ColumnName>CumulativeEnergykVAhTZ1</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Apparent Energy Tarrif2</Description>
+      <ColumnName>CumulativeEnergykVAhTZ2</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Apparent Energy Tarrif3</Description>
+      <ColumnName>CumulativeEnergykVAhTZ3</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Apparent Energy Tarrif4</Description>
+      <ColumnName>CumulativeEnergykVAhTZ4</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Apparent Energy Tarrif5</Description>
+      <ColumnName>CumulativeEnergykVAhTZ5</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Apparent Energy Tarrif6</Description>
+      <ColumnName>CumulativeEnergykVAhTZ6</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Apparent Energy Tarrif7</Description>
+      <ColumnName>CumulativeEnergykVAhTZ7</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Apparent Energy Tarrif8</Description>
+      <ColumnName>CumulativeEnergykVAhTZ8</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Active</Description>
+      <ColumnName>MDkWTZ0</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Active Date Time</Description>
+      <ColumnName>MDkWDateTimeTZ0</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Active Tarrif1</Description>
+      <ColumnName>MDkWTZ1</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Active Tarrif1 Date Time</Description>
+      <ColumnName>MDkWDateTimeTZ1</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Active Tarrif2</Description>
+      <ColumnName>MDkWTZ2</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Active Tarrif2 Date Time</Description>
+      <ColumnName>MDkWDateTimeTZ2</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Active Tarrif3</Description>
+      <ColumnName>MDkWTZ3</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Active Tarrif3 Date Time</Description>
+      <ColumnName>MDkWDateTimeTZ3</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Active Tarrif4</Description>
+      <ColumnName>MDkWTZ4</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Active Tarrif4 Date Time</Description>
+      <ColumnName>MDkWDateTimeTZ4</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Active Tarrif5</Description>
+      <ColumnName>MDkWTZ5</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Active Tarrif5 Date Time</Description>
+      <ColumnName>MDkWDateTimeTZ5</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Active Tarrif6</Description>
+      <ColumnName>MDkWTZ6</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Active Tarrif6 Date Time</Description>
+      <ColumnName>MDkWDateTimeTZ6</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+     <ProfileParameter >
+      <Description>MD Active Tarrif7</Description>
+      <ColumnName>MDkWTZ7</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Active Tarrif7 Date Time</Description>
+      <ColumnName>MDkWDateTimeTZ7</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Active Tarrif8</Description>
+      <ColumnName>MDkWTZ8</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Active Tarrif8 Date Time</Description>
+      <ColumnName>MDkWDateTimeTZ8</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Apparent</Description>
+      <ColumnName>MDkVATZ0</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Apparent Date Time</Description>
+      <ColumnName>MDkVADateTimeTZ0</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Apparent Tarrif1</Description>
+      <ColumnName>MDkVATZ1</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Apparent Tarrif1 Date Time</Description>
+      <ColumnName>MDkVADateTimeTZ1</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Apparent Tarrif2</Description>
+      <ColumnName>MDkVATZ2</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Apparent Tarrif2 Date Time</Description>
+      <ColumnName>MDkVADateTimeTZ2</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Apparent Tarrif3</Description>
+      <ColumnName>MDkVATZ3</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Apparent Tarrif3 Date Time</Description>
+      <ColumnName>MDkVADateTimeTZ3</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Apparent Tarrif4</Description>
+      <ColumnName>MDkVATZ4</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Apparent Tarrif4 Date Time</Description>
+      <ColumnName>MDkVADateTimeTZ4</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Apparent Tarrif5</Description>
+      <ColumnName>MDkVATZ5</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Apparent Tarrif5 Date Time</Description>
+      <ColumnName>MDkVADateTimeTZ5</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Apparent Tarrif6</Description>
+      <ColumnName>MDkVATZ6</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Apparent Tarrif6 Date Time</Description>
+      <ColumnName>MDkVADateTimeTZ6</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Apparent Tarrif7</Description>
+      <ColumnName>MDkVATZ7</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Apparent Tarrif7 Date Time</Description>
+      <ColumnName>MDkVADateTimeTZ7</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Apparent Tarrif8</Description>
+      <ColumnName>MDkVATZ8</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Apparent Tarrif8 Date Time</Description>
+      <ColumnName>MDkVADateTimeTZ8</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Billing Type</Description>
+      <ColumnName>BillingResetType</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+  </Profile>
+
+  <Profile ProfileName = "Instant" TableName = "meterdata_instantpower" Visible = "true" >
+
+    <ProfileParameter >
+      <Description>Real Time Clock Date and Time</Description>
+      <ColumnName>Real Time Clock - Date and Time</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Current IR</Description>
+      <ColumnName>Current - IR</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Current IY</Description>
+      <ColumnName>Current - IY</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Current IB</Description>
+      <ColumnName>Current - IB</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Phase Current</Description>
+      <ColumnName>Phase Current</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Neutral Current</Description>
+      <ColumnName>Neutral Current</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+    
+    <ProfileParameter >
+      <Description>Voltage VRN</Description>
+      <ColumnName>Voltage – VRN</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Voltage VYN</Description>
+      <ColumnName>Voltage – VYN</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Voltage VBN</Description>
+      <ColumnName>Voltage – VBN</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Phase Voltage</Description>
+      <ColumnName>Phase Voltage</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Signed Power Factor R phase</Description>
+      <ColumnName>Signed Power Factor - R phase</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Signed Power Factor Y phase</Description>
+      <ColumnName>Signed Power Factor - Y phase</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Signed Power Factor B phase</Description>
+      <ColumnName>Signed Power Factor - B phase</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Three Phase Power Factor PF</Description>
+      <ColumnName>Three Phase Power Factor - PF</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Frequency</Description>
+      <ColumnName>Frequency</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Apparent Power</Description>
+      <ColumnName>Apparent Power - kVA</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Active Power (ABS)</Description>
+      <ColumnName>Signed Active Power - kW (+ Forward - Reverse)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+<!-- single phase active and apparant power-->  
+    <ProfileParameter >
+      <Description>Apparent Power Phase</Description>
+      <ColumnName>Apparent Power Phase</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Apparent Power Neutral</Description>
+      <ColumnName>Apparent Power Neutral</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Signed Active Power Phase(+Fw;-Rev)</Description>
+      <ColumnName>Signed Active Power Phase(+Fw;-Rev)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Signed Active Power Neutral(+Fw;-Rev)</Description>
+      <ColumnName>Signed Active Power Neutral(+Fw;-Rev)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <Description>Signed Reactive Power (+ Lag; Lead)</Description>
+      <ColumnName>Signed Reactive Power - kvar (+ Lag - Lead)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Number of Power Failures</Description>
+      <ColumnName>Number of Power - Failures</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+    
+    <ProfileParameter >
+      <Description>Present month Average Power Factor</Description>
+      <ColumnName>Present month Average Power Factor</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Power Failure Duration</Description>
+      <ColumnName>Cumulative Power-Failure Duration</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <Description>Cumulative Power-On Duration</Description>
+      <ColumnName>Cumulative Power-On Duration</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Tamper Count</Description>
+      <ColumnName>Cumulative Tamper Count</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Billing Count</Description>
+      <ColumnName>Cumulative Billing Count</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Programming Count</Description>
+      <ColumnName>Cumulative Programming Count</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Billing Date</Description>
+      <ColumnName>Billing Date</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Active Energy</Description>
+      <ColumnName>Cumulative Energy - kWh</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Reactive Energy Lag</Description>
+      <ColumnName>Cumulative Energy - kvarh - lag</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Reactive Energy Lead</Description>
+      <ColumnName>Cumulative Energy - kvarh - lead</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Apparent Energy</Description>
+      <ColumnName>Cumulative Energy - kVAh</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Maximum Active Demand</Description>
+      <ColumnName>Maximum Demand – kW</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Maximum Active Demand DateTime</Description>
+      <ColumnName>Maximum Demand – kW DateTime</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Maximum Apparent Demand</Description>
+      <ColumnName>Maximum Demand – kVA</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Maximum Apparent Demand DateTime</Description>
+      <ColumnName>Maximum Demand – kVA DateTime</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Maximum Active Demand</Description>
+      <ColumnName>Cumulative Maximum Demand - kW</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Maximum Apparent Demand</Description>
+      <ColumnName>Cumulative Maximum Demand - kVA</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Export Energy</Description>
+      <ColumnName>Cumulative Export Energy - kWh</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Fundamental Energy kWh</Description>
+      <ColumnName>Fundamental Energy kWh</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>DeFraud Energy kWh</Description>
+      <ColumnName>Defraud Energy kWh(Magnet Tamper)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter>
+    
+    <ProfileParameter >
+      <Description>Cum. Event Counter(Comp 1-Voltage)</Description>
+      <ColumnName>Cum. Event Counter(Comp 1-Voltage)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cum. Event Counter(Comp 2-Current)</Description>
+      <ColumnName>Cum. Event Counter(Comp 2-Current)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cum. Event Counter(Comp 3-Power Failure)</Description>
+      <ColumnName>Cum. Event Counter(Comp 3-Power Failure)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cum. Event Counter(Comp 4-Transaction)</Description>
+      <ColumnName>Cum. Event Counter(Comp 4-Transaction)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cum. Event Counter(Comp 5-Other)</Description>
+      <ColumnName>Cum. Event Counter(Comp 5-Other)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cum. Event Counter(Comp 6-Non Roll-over)</Description>
+      <ColumnName>Cum. Event Counter(Comp 6-Non Roll-over)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cum. Event Counter (Comp 7-Connect/Disconnect)</Description>
+      <ColumnName>Cum. Event Counter (Comp 7-Connect/Disconnect)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Present Month Consumption</Description>
+      <ColumnName>Present Month Consumption</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Active Tarrif INR</Description>
+      <ColumnName>Active Tarrif INR</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>OTA f/w upgrade counter for meter</Description>
+      <ColumnName>OTA f/w upgrade counter for meter</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>OTA f/w upgrade counter for comms card</Description>
+      <ColumnName>OTA f/w upgrade counter for comms card</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+    
+  </Profile>
+  
+ <Profile ProfileName = "Load Survey" TableName = "meterdata_loadsurvey" Visible = "true" >
+    
+    <ProfileParameter >
+      <Description>Real Time Clock Date and Time</Description>
+      <ColumnName>realTimeClockDateandTime</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Current IR</Description>
+      <ColumnName>rPhaseCurrent</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Current IY</Description>
+      <ColumnName>yPhaseCurrent</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <Description>Current IB</Description>
+      <ColumnName>bPhaseCurrent</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Voltage VRN</Description>
+      <ColumnName>rPhaseVoltage</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Voltage VYN</Description>
+      <ColumnName>yPhaseVoltage</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Voltage VBN</Description>
+      <ColumnName>bPhaseVoltage</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Block Active Energy</Description>
+      <ColumnName>blockEnergykWh</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Block Reactive Energy lag</Description>
+      <ColumnName>blockEnergykvarhlag</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Block Reactive Energy lead</Description>
+      <ColumnName>blockEnergykvarhlead</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Block Apparent Energy</Description>
+      <ColumnName>blockEnergykVAh</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Frequency</Description>
+      <ColumnName>frequency</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Tamper Status</Description>
+      <ColumnName>tamperStatus</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+   
+  </Profile>
+
+  <Profile ProfileName = "Tamper" TableName = "tamper_master" Visible = "true" >
+
+    <ProfileParameter >
+      <Description>RPhase PT link Missing (Missing Potential) Occurrence</Description>
+      <ColumnName>1</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>RPhase PT link Missing (Missing Potential) Restoration</Description>
+      <ColumnName>2</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>YPhase PT link Missing (Missing Potential) Occurrence</Description>
+      <ColumnName>3</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>YPhase PT link Missing (Missing Potential) Restoration</Description>
+      <ColumnName>4</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>BPhase PT link Missing (Missing Potential) Occurrence</Description>
+      <ColumnName>5</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>BPhase PT link Missing (Missing Potential) Restoration</Description>
+      <ColumnName>6</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Over Voltage in any Phase  Occurrence</Description>
+      <ColumnName>7</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Over Voltage in any Phase  Restoration</Description>
+      <ColumnName>8</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Low Voltage in any Phase  Occurrence</Description>
+      <ColumnName>9</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Low Voltage in any Phase  Restoration</Description>
+      <ColumnName>10</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Voltage Unbalance Occurrence</Description>
+      <ColumnName>11</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Voltage Unbalance Restoration</Description>
+      <ColumnName>12</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Phase R CT reverse Occurrence</Description>
+      <ColumnName>51</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Phase R CT reverse Restoration</Description>
+      <ColumnName>52</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Phase Y CT reverse Occurrence</Description>
+      <ColumnName>53</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Phase Y CT reverse Restoration</Description>
+      <ColumnName>54</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Phase B CT reverse Occurrence</Description>
+      <ColumnName>55</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Phase B CT reverse Restoration</Description>
+      <ColumnName>56</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Phase R CT Open Occurrence</Description>
+      <ColumnName>57</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Phase R CT Open Restoration</Description>
+      <ColumnName>58</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <Description>Phase Y CT Open Occurrence</Description>
+      <ColumnName>59</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Phase Y CT Open Restoration</Description>
+      <ColumnName>60</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <Description>Phase B CT Open Occurrence</Description>
+      <ColumnName>61</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Phase B CT Open Restoration</Description>
+      <ColumnName>62</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <Description>Current Unbalance Occurrence</Description>
+      <ColumnName>63</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Current Unbalance Restoration</Description>
+      <ColumnName>64</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <Description>CT Bypass Occurrence</Description>
+      <ColumnName>65</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>CT Bypass Restoration</Description>
+      <ColumnName>66</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <Description>Over Current in any Phase Occurrence</Description>
+      <ColumnName>67</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Over Current in any Phase Restoration</Description>
+      <ColumnName>68</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Earth Loading/Current Bypass Occurrence</Description>
+      <ColumnName>69</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Earth Loading/Current Bypass Restoration</Description>
+      <ColumnName>70</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Power Failure Occurrence</Description>
+      <ColumnName>101</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Power Failure Restoration</Description>
+      <ColumnName>102</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Real Time Clock Date and Time</Description>
+      <ColumnName>151</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Demand Integration Period</Description>
+      <ColumnName>152</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <Description>Profile Capture Period</Description>
+      <ColumnName>153</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Single action Schedule for Billing Dates</Description>
+      <ColumnName>154</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <Description>Activity Calendar for Time Zones</Description>
+      <ColumnName>155</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Permanent Magnet or AC/DC Electromagnet Occurence</Description>
+      <ColumnName>201</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <Description>Permanent Magnet or AC/DC Electromagnet Restoration</Description>
+      <ColumnName>202</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Neutral Disturbance HF and DC Occurrence</Description>
+      <ColumnName>203</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <Description>Neutral Disturbance HF and DC Restoration</Description>
+      <ColumnName>204</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Very Low PF Occurrence</Description>
+      <ColumnName>205</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Very Low PF Restoration</Description>
+      <ColumnName>206</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Single Wire Operation Occurrence</Description>
+      <ColumnName>207</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Single Wire Operation Restoration</Description>
+      <ColumnName>208</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <!--//SarkarA code change start 20180308 // add Current Mismatch Tamper-->
+    <ProfileParameter >
+      <Description>Current Mismatch Occurrence</Description>
+      <ColumnName>703</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Current Mismatch Restoration</Description>
+      <ColumnName>704</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+    <!--//SarkarA code change end 20180308 -->
+    
+    <ProfileParameter >
+      <Description>Meter Cover Opening Occurrence</Description>
+      <ColumnName>251</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>kVAh Selection Changed</Description>
+      <ColumnName>158</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <Description>Voltage Phase Sequence Reversal - Occurrence</Description>
+      <ColumnName>13</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Voltage Phase Sequence Reversal - Restoration</Description>
+      <ColumnName>14</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>MD Reset</Description>
+      <ColumnName>159</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <Description>Display - Push Mode Config</Description>
+      <ColumnName>160</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Display - Scroll Mode Config</Description>
+      <ColumnName>161</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <Description>Display - HR Mode Config</Description>
+      <ColumnName>162</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Display - Scroll Time Config</Description>
+      <ColumnName>163</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+  </Profile>
+
+  <Profile ProfileName = "Midnight Energies" TableName = "meterdata_midnightdata" Visible = "true" >
+
+    <ProfileParameter >
+      <Description>Date</Description>
+      <ColumnName>realTimeClockDateandTime</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Active Energy</Description>
+      <ColumnName>CumEnergykWh</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Reactive Energy lag</Description>
+      <ColumnName>CumEnergykvarhlag</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Reactive Energy lead</Description>
+      <ColumnName>CumEnergykvarhlead</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Cumulative Apparent Energy</Description>
+      <ColumnName>CumEnergykVAh</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+  </Profile>
+
+  <Profile ProfileName = "Self Diagnostics" TableName = "meterdata_anomaly" Visible = "true" >
+
+    <ProfileParameter >
+      <Description>FLASH</Description>
+      <ColumnName>FlashStatus</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>EEPROM</Description>
+      <ColumnName>EepRamStatus</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>POWER SUPPLY</Description>
+      <ColumnName>SmpsStatus</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>RTC</Description>
+      <ColumnName>RtcStatus</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <Description>Error</Description>
+      <ColumnName>ErrorCodeStatus</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+
+  </Profile>
+
+
+</AsciiSettings>

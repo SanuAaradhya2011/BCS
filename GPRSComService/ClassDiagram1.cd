@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GPRSComService.Tasks.TaskBase">
+    <Position X="0.75" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>aAQQggCkCBCAAgACABAkBAkABY5iAcIkABSQgMDGAoE=</HashCode>
+      <FileName>Tasks\TaskBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPRSComService.GeneralTask">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABCCAAAAAAACAAAEAAAACEQAAAIAABAAAgQAAAA=</HashCode>
+      <FileName>Tasks\GeneralTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="GPRSComService.Tasks.TaskStatus">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAIAAAAAAAAAAAAAAAAAABAAABEAAAA=</HashCode>
+      <FileName>Tasks\TaskBase.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="GPRSComService.Tasks.TaskStatusChanged">
+    <Position X="7.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tasks\TaskBase.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="System" Size="8.01" />
+</ClassDiagram>

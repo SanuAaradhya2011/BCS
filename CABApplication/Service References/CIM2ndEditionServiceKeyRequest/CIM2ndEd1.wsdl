@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://iec.ch/TC57/2011/abstract" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://iec.ch/TC57/2011/abstract" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://iec.ch/TC57/2011/abstract/Imports">
+      <xsd:import schemaLocation="https://indelvr374/GSIS_CIM2ndEdition/CIM2ndEd.svc?xsd=xsd0" namespace="http://iec.ch/TC57/2011/schema/message" />
+      <xsd:import schemaLocation="https://indelvr374/GSIS_CIM2ndEdition/CIM2ndEd.svc?xsd=xsd1" namespace=" " />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="PublishEventRequest">
+    <wsdl:part xmlns:q1="http://iec.ch/TC57/2011/schema/message" name="EventMessage" element="q1:EventMessage" />
+  </wsdl:message>
+  <wsdl:message name="PublishEventRequest_Headers">
+    <wsdl:part xmlns:q2=" " name="Password" element="q2:Password" />
+    <wsdl:part xmlns:q3=" " name="UserName" element="q3:UserName" />
+  </wsdl:message>
+  <wsdl:message name="PublishEventResponse">
+    <wsdl:part xmlns:q4="http://iec.ch/TC57/2011/schema/message" name="ResponseMessage" element="q4:ResponseMessage" />
+  </wsdl:message>
+  <wsdl:message name="PublishEventResponse_Headers">
+    <wsdl:part xmlns:q5=" " name="Password" element="q5:Password" />
+    <wsdl:part xmlns:q6=" " name="UserName" element="q6:UserName" />
+  </wsdl:message>
+  <wsdl:message name="RequestRequest">
+    <wsdl:part xmlns:q7="http://iec.ch/TC57/2011/schema/message" name="RequestMessage" element="q7:RequestMessage" />
+  </wsdl:message>
+  <wsdl:message name="RequestRequest_Headers">
+    <wsdl:part xmlns:q8=" " name="Password" element="q8:Password" />
+    <wsdl:part xmlns:q9=" " name="UserName" element="q9:UserName" />
+  </wsdl:message>
+  <wsdl:portType name="Operations">
+    <wsdl:operation name="PublishEvent">
+      <wsdl:input wsaw:Action="http://iec.ch/61968/PublishEvent" name="PublishEventRequest" message="tns:PublishEventRequest" />
+      <wsdl:output wsaw:Action="http://iec.ch/61968/PublishEvent/Reply" name="PublishEventResponse" message="tns:PublishEventResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="Request">
+      <wsdl:input wsaw:Action="http://iec.ch/61968/Request" name="RequestRequest" message="tns:RequestRequest" />
+      <wsdl:output wsaw:Action="http://iec.ch/61968/Request/Reply" name="PublishEventResponse" message="tns:PublishEventResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="Response">
+      <wsdl:input wsaw:Action="http://iec.ch/61968/Response" name="PublishEventResponse" message="tns:PublishEventResponse" />
+      <wsdl:output wsaw:Action="http://iec.ch/61968/Response/Reply" name="PublishEventResponse" message="tns:PublishEventResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

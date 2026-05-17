@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F96F7B77-5A0F-42E6-9800-09F60D7C1461}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DLMS_Final</RootNamespace>
+    <AssemblyName>DLMS_Final</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccessPassword.Designer.cs">
+      <DependentUpon>AccessPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommunicationTypeDetail.cs" />
+    <Compile Include="SimSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimSelectForm.designer.cs">
+      <DependentUpon>SimSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\CABFileOperation.cs" />
+    <Compile Include="Model\CMRIModel.cs" />
+    <Compile Include="Presenter\CMRIPresenter.cs" />
+    <Compile Include="Model\TOUModel.cs" />
+    <Compile Include="DLMSMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DLMSMain.designer.cs">
+      <DependentUpon>DLMSMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBaudRateSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBaudRateSelector.Designer.cs">
+      <DependentUpon>frmBaudRateSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModemAutoConfigure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModemAutoConfigure.designer.cs">
+      <DependentUpon>frmModemAutoConfigure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIFunction.cs" />
+    <Compile Include="Presenter\TOUPresenter.cs" />
+    <Compile Include="Utility\DLMSConnection.cs" />
+    <Compile Include="Utility\HDCLLibrary.cs" />
+    <Compile Include="Utility\IConnection.cs" />
+    <Compile Include="Utility\CABConstants.cs" />
+    <Compile Include="Utility\UtilityMessage.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UtilityMessage.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ICMRI.cs" />
+    <Compile Include="Views\ITOUDefinition.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AccessPassword.resx">
+      <DependentUpon>AccessPassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DLMSMain.resx">
+      <DependentUpon>DLMSMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBaudRateSelector.resx">
+      <DependentUpon>frmBaudRateSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModemAutoConfigure.resx">
+      <DependentUpon>frmModemAutoConfigure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SerialSettings.resx">
+      <DependentUpon>SerialSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimSelectForm.resx">
+      <DependentUpon>SimSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\UtilityMessage.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UtilityMessage.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="SerialPortSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>SerialPortSettings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SerialPortSettings.cs" />
+    <Compile Include="SerialPortSettings.Designer.cs">
+      <DependentUpon>SerialPortSettings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SerialSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SerialSettings.Designer.cs">
+      <DependentUpon>SerialSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\CoreUtility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CHANNEL\Generic.CHANNEL.csproj">
+      <Project>{3E3E22FF-8227-40FD-90A3-1A6EAADCFCE6}</Project>
+      <Name>Generic.CHANNEL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLMSLIB\Generic.DLMSLIB.csproj">
+      <Project>{8C3587A9-7A26-43B8-9D12-3F5934740528}</Project>
+      <Name>Generic.DLMSLIB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FastDownloading\Generic.FastDownloading.csproj">
+      <Project>{ECAFC7D3-C712-4BE8-A0F2-15BE089C5387}</Project>
+      <Name>Generic.FastDownloading</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABAppControl\Generic.CABAppControl.csproj">
+      <Project>{10A6656A-82F9-4A64-B59E-708B0E6CC2BE}</Project>
+      <Name>Generic.CABAppControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABBLL\Generic.CABBLL.csproj">
+      <Project>{988D73F9-B10E-41D9-BE34-FD67D11C393C}</Project>
+      <Name>Generic.CABBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABEntity\Generic.CABEntity.csproj">
+      <Project>{56A4EC2F-0685-497B-AC24-111F875E8F1A}</Project>
+      <Name>Generic.CABEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABFramework\Generic.CABFramework.csproj">
+      <Project>{CF4BBFC7-E739-4789-BB1E-4FFBA6F8C6C4}</Project>
+      <Name>Generic.CABFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SerialCommunication\Generic.SerialCommunication.csproj">
+      <Project>{D8A3C316-50FF-4960-A9A4-3B5AF82DC024}</Project>
+      <Name>Generic.SerialCommunication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Generic.Utilities.csproj">
+      <Project>{1C998CF6-4BD7-449E-AD67-7057FDA6C71D}</Project>
+      <Name>Generic.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\Configuration\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

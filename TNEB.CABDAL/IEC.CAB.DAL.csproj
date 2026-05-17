@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CC40E488-B733-487F-ABD6-673569A151BB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IEC.CAB.DAL</RootNamespace>
+    <AssemblyName>IEC.CAB.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Compile Include="ApplicationLogDAL.cs" />
+    <Compile Include="ASCIIExportSettingsDAL.cs" />
+    <Compile Include="AutoLockDAL.cs" />
+    <Compile Include="BillingDAL.cs" />
+    <Compile Include="BillingResetDAL.cs" />
+    <Compile Include="DailyLogDAL.cs" />
+    <Compile Include="DBGenerationDAL.cs" />
+    <Compile Include="DisplayParamaterDAL.cs" />
+    <Compile Include="DTMDailyProfileParameterDAL.cs" />
+    <Compile Include="ExceptionLogDetailsDAL.cs" />
+    <Compile Include="GeneralDAL.cs" />
+    <Compile Include="GSMConfigDAL.cs" />
+    <Compile Include="GSMGroupScheduleDAL.cs" />
+    <Compile Include="GSMReadingStatusDAL.cs" />
+    <Compile Include="GSMScheduleDAL.cs" />
+    <Compile Include="kvarSelectionDAL.cs" />
+    <Compile Include="LoadSurveyParameterDAL.cs" />
+    <Compile Include="MDWithIPDAL.cs" />
+    <Compile Include="MeterDataHeaderInfoDAL.cs" />
+    <Compile Include="MeterModelDAL.cs" />
+    <Compile Include="MeterUnitDAL.cs" />
+    <Compile Include="NamePlateDetailDAL.cs" />
+    <Compile Include="ConsumerTypeMasterDAL.cs" />
+    <Compile Include="DTMDailyProfileDAL.cs" />
+    <Compile Include="DTMLoadSurveyDAL.cs" />
+    <Compile Include="InstantPowerDAL.cs" />
+    <Compile Include="LoadSurveyDAL.cs" />
+    <Compile Include="MeterTypeMasterDAL.cs" />
+    <Compile Include="PhasorDAL.cs" />
+    <Compile Include="ProgrammingDAL.cs" />
+    <Compile Include="ReportDAL.cs" />
+    <Compile Include="RS232DAL.cs" />
+    <Compile Include="RTCDAL.cs" />
+    <Compile Include="RTCUpdateDAL.cs" />
+    <Compile Include="TamperSnapShotDAL.cs" />
+    <Compile Include="TamperCounterGeneralDAL.cs" />
+    <Compile Include="TamperCounterDAL.cs" />
+    <Compile Include="CMRIMasterDAL.cs" />
+    <Compile Include="DataService\DALBase.cs" />
+    <Compile Include="DataService\DataParameter.cs" />
+    <Compile Include="DataService\DataRequest.cs" />
+    <Compile Include="DataService\DatabaseFactory.cs" />
+    <Compile Include="DataService\IDataHelper.cs" />
+    <Compile Include="DataService\MySQLHelper.cs" />
+    <Compile Include="DataService\ODBCHelper.cs" />
+    <Compile Include="DataService\OledbHelper.cs" />
+    <Compile Include="DataService\OracleHelper.cs" />
+    <Compile Include="DataService\SqldbHelper.cs" />
+    <Compile Include="MeterMasterDAL.cs" />
+    <Compile Include="ModuleMasterDAL.cs" />
+    <Compile Include="TamperTypeMasterDAL.cs" />
+    <Compile Include="TariffDAL.cs" />
+    <Compile Include="TODDAL.cs" />
+    <Compile Include="UnitDAL.cs" />
+    <Compile Include="UserLogActivityDAL.cs" />
+    <Compile Include="UtilityDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.16.0.18925.20022\lib\net40\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.2.2.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLs\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TNEB.CABEntity\IEC.CAB.Entity.csproj">
+      <Project>{92D059A2-84BA-47DE-BC55-0846C449BD91}</Project>
+      <Name>IEC.CAB.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNEB.CABExceptionFramework\IEC.CAB.ExceptionFramework.csproj">
+      <Project>{70C76E63-679D-4718-826A-5A22CD7557B8}</Project>
+      <Name>IEC.CAB.ExceptionFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNEB.CABFramework\IEC.CAB.Framework.csproj">
+      <Project>{5A821211-487F-478E-AD65-C4AFA0EE4C82}</Project>
+      <Name>IEC.CAB.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

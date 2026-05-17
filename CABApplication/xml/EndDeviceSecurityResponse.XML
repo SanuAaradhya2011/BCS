@@ -1,0 +1,52 @@
+
+
+<ResponseMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://iec.ch/TC57/2011/schema/message">
+<Header>
+<Verb>reply</Verb>
+<Noun>EndDeviceSecurityConfig</Noun>
+<Revision>2.0</Revision>
+<Timestamp>2017-05-18T15:58:55+05:30</Timestamp>
+<Source>command center</Source>
+<MessageID>8feb32bb-8e16-40d8-8107-1dfbbf2ca8f3</MessageID> <!-- GUID-->
+<CorrelationID>D9F521CB-406F-4F29-AEC3-2F17C8755B2D</CorrelationID>  <!--??-->
+</Header>
+<Reply>
+<Result>OK</Result> <!-- Reply Result-->
+<Error>
+<code>0.0</code> <!-- Reply Error code-->
+</Error>
+</Reply>
+<Payload>
+<EndDeviceSecurityConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://iec.ch/TC57/2011/EndDeviceSecurityConfig#">
+  <EndDeviceSecurity>
+    <Names>
+      <name>JSM00003</name> <!--Meter  xSerial ID -->
+      <NameType>
+        <description>description</description> <!--Meter x description if any-->
+        <name>Nametype</name> <!--Meter x Name type if any-->
+      </NameType>
+    </Names>
+    <meterGlobalKey>000102030405060708090A0B0C0D0E0F</meterGlobalKey>
+    <CustomAttributes>
+      <name>LLS</name> <!--Meter x LLS secret -->
+      <value>11111111</value> <!--Meter x LLS secret Value -->
+    </CustomAttributes>
+  </EndDeviceSecurity>
+  <EndDeviceSecurity>
+    <Names>
+      <name>JSM00004</name> <!--Meter y Serial ID -->
+      <NameType>
+         <description>description</description> <!--Meter y description if any-->
+         <name>Nametype</name> <!--Meter y Name type if any-->
+      </NameType>
+    </Names>
+    <meterGlobalKey>000102030405060708090A0B0C0D0E0F</meterGlobalKey>
+    <CustomAttributes>
+      <name>LLS</name> <!--Meter y LLS secret -->
+      <value>22222222</value> <!--Meter y LLS secret Value -->
+    </CustomAttributes>
+  </EndDeviceSecurity>
+</EndDeviceSecurityConfig>
+</Payload>
+</ResponseMessage>
+

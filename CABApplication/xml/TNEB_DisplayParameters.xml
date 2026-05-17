@@ -1,0 +1,906 @@
+<?xml version="1.0"?>
+<DLMS>
+
+
+
+  <DisplayParams>
+    <SNo>1</SNo>
+    <ID>0</ID>
+    <Description>LCD Test </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>2</SNo>
+    <ID>1</ID>
+    <Description>Meter Serial No </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>3</SNo>
+    <ID>2</ID>
+    <Description>Meter Constant </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>4</SNo>
+    <ID>3</ID>
+    <Description>Firmware Version No </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>5</SNo>
+    <ID>4</ID>
+    <Description>CT Ratio </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>6</SNo>
+    <ID>5</ID>
+    <Description>Voltage Phase Sequence </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>7</SNo>
+    <ID>6</ID>
+    <Description>Real Date </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>8</SNo>
+    <ID>7</ID>
+    <Description>Real Time </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>9</SNo>
+    <ID>8</ID>
+    <Description>Cumulative KWH Fundamental </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>10</SNo>
+    <ID>9</ID>
+    <Description>Cumulative Active Energy </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>11</SNo>
+    <ID>10</ID>
+    <Description>Cumulative Reactive Lag Energy </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>12</SNo>
+    <ID>11</ID>
+    <Description>Cumulative Reactive Lead Energy </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>13</SNo>
+    <ID>12</ID>
+    <Description>Cumulative Apparent Energy </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>14</SNo>
+    <ID>13</ID>
+    <Description>Rising Demand KW </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>15</SNo>
+    <ID>14</ID>
+    <Description>Rising Demand KVA </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>16</SNo>
+    <ID>15</ID>
+    <Description>MD Active </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>17</SNo>
+    <ID>16</ID>
+    <Description>MD Apparent </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>18</SNo>
+    <ID>17</ID>
+    <Description>Cumulative MD Active </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>19</SNo>
+    <ID>18</ID>
+    <Description>Cumulative MD Apparent </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>20</SNo>
+    <ID>19</ID>
+    <Description>R Phase Voltage </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>21</SNo>
+    <ID>20</ID>
+    <Description>Y Phase Voltage </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>22</SNo>
+    <ID>21</ID>
+    <Description>B Phase Voltage </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>23</SNo>
+    <ID>22</ID>
+    <Description>R Phase Current </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>24</SNo>
+    <ID>23</ID>
+    <Description>Y Phase Current </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>25</SNo>
+    <ID>24</ID>
+    <Description>B Phase Current </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>26</SNo>
+    <ID>25</ID>
+    <Description>Active Power </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>27</SNo>
+    <ID>26</ID>
+    <Description>Apparent Power </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>28</SNo>
+    <ID>27</ID>
+    <Description>Reactive Power </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>29</SNo>
+    <ID>28</ID>
+    <Description>Instantaneous PF Total </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>30</SNo>
+    <ID>29</ID>
+    <Description>R Phase Instantaneous PF </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>31</SNo>
+    <ID>30</ID>
+    <Description>Y Phase Instantaneous PF </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>32</SNo>
+    <ID>31</ID>
+    <Description>B Phase Instantaneous PF </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>33</SNo>
+    <ID>32</ID>
+    <Description>Frequency </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>34</SNo>
+    <ID>33</ID>
+    <Description>Billing Counter </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>35</SNo>
+    <ID>34</ID>
+    <Description>Billing Reset TimeStamp </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>36</SNo>
+    <ID>35</ID>
+    <Description>Billing Reset KWH </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>37</SNo>
+    <ID>36</ID>
+    <Description>Billing Reset KVARH Lag </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>38</SNo>
+    <ID>37</ID>
+    <Description>Billing Reset KVARH Lead </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>39</SNo>
+    <ID>38</ID>
+    <Description>Billing Reset KVAH </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>40</SNo>
+    <ID>39</ID>
+    <Description>Billing MD Active </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>41</SNo>
+    <ID>40</ID>
+    <Description>Billing MD Apparent </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>42</SNo>
+    <ID>41</ID>
+    <Description>Billing Average PF </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>43</SNo>
+    <ID>42</ID>
+    <Description>TOD KWH </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>44</SNo>
+    <ID>43</ID>
+    <Description>TOD KVARH LAG </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>45</SNo>
+    <ID>44</ID>
+    <Description>TOD KVARH LEAD </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>46</SNo>
+    <ID>45</ID>
+    <Description>TOD KVAH </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>47</SNo>
+    <ID>46</ID>
+    <Description>TOD MD Active </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>48</SNo>
+    <ID>47</ID>
+    <Description>TOD MD Apparent </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>49</SNo>
+    <ID>48</ID>
+    <Description>Billing TOD KWH </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>50</SNo>
+    <ID>49</ID>
+    <Description>Billing TOD KVAH </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>51</SNo>
+    <ID>50</ID>
+    <Description>Billing TOD MD Active </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>52</SNo>
+    <ID>51</ID>
+    <Description>Billing TOD MD Apparent </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>53</SNo>
+    <ID>52</ID>
+    <Description>Tamper Counter </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>54</SNo>
+    <ID>53</ID>
+    <Description>Num of Power Failure </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>55</SNo>
+    <ID>54</ID>
+    <Description>Meter Type </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>56</SNo>
+    <ID>55</ID>
+    <Description>Cu Prog Counter </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>57</SNo>
+    <ID>56</ID>
+    <Description>Total Power Off Hours </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>58</SNo>
+    <ID>57</ID>
+    <Description>Manufacturer Name </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>59</SNo>
+    <ID>58</ID>
+    <Description>Manufacture Year </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>60</SNo>
+    <ID>59</ID>
+    <Description>Tamper Id Comp1 </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>61</SNo>
+    <ID>60</ID>
+    <Description>Tamper Id Comp2 </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>62</SNo>
+    <ID>61</ID>
+    <Description>Tamper Id Comp3 </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>63</SNo>
+    <ID>62</ID>
+    <Description>Tamper Id Comp4 </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>64</SNo>
+    <ID>63</ID>
+    <Description>Tamper Id Comp5 </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>65</SNo>
+    <ID>64</ID>
+    <Description>Tamper Id Comp6 </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>66</SNo>
+    <ID>65</ID>
+    <Description>Anomaly Indicator</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>67</SNo>
+    <ID>66</ID>
+    <Description>Latest tamper occurrence </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>68</SNo>
+    <ID>67</ID>
+    <Description>Latest tamper restoration </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>69</SNo>
+    <ID>68</ID>
+    <Description>Current Phase Sequence </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>70</SNo>
+    <ID>69</ID>
+    <Description>Connection Check </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>71</SNo>
+    <ID>70</ID>
+    <Description>PT Ratio </Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>72</SNo>
+    <ID>71</ID>
+    <Description>DLMS Ver. No.</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>73</SNo>
+    <ID>72</ID>
+    <Description>Current Month APF</Description>
+  </DisplayParams>
+
+  <DisplayParams1>
+    <SNo>1</SNo>
+    <ID>0</ID>
+    <Description>LCD Test </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>2</SNo>
+    <ID>1</ID>
+    <Description>Meter Serial No </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>3</SNo>
+    <ID>2</ID>
+    <Description>Meter Constant </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>4</SNo>
+    <ID>3</ID>
+    <Description>Firmware Version No </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>5</SNo>
+    <ID>4</ID>
+    <Description>CT Ratio </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>6</SNo>
+    <ID>5</ID>
+    <Description>Voltage Phase Sequence </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>7</SNo>
+    <ID>6</ID>
+    <Description>Real Date </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>8</SNo>
+    <ID>7</ID>
+    <Description>Real Time </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>9</SNo>
+    <ID>8</ID>
+    <Description>Cumulative KWH Fundamental </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>10</SNo>
+    <ID>9</ID>
+    <Description>Cumulative Active Energy </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>11</SNo>
+    <ID>10</ID>
+    <Description>Cumulative Reactive Lag Energy </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>12</SNo>
+    <ID>11</ID>
+    <Description>Cumulative Reactive Lead Energy </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>13</SNo>
+    <ID>12</ID>
+    <Description>Cumulative Apparent Energy </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>14</SNo>
+    <ID>13</ID>
+    <Description>Rising Demand KW </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>15</SNo>
+    <ID>14</ID>
+    <Description>Rising Demand KVA </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>16</SNo>
+    <ID>15</ID>
+    <Description>MD Active </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>17</SNo>
+    <ID>16</ID>
+    <Description>MD Apparent </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>18</SNo>
+    <ID>17</ID>
+    <Description>Cumulative MD Active </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>19</SNo>
+    <ID>18</ID>
+    <Description>Cumulative MD Apparent </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>20</SNo>
+    <ID>19</ID>
+    <Description>R Phase Voltage </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>21</SNo>
+    <ID>20</ID>
+    <Description>Y Phase Voltage </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>22</SNo>
+    <ID>21</ID>
+    <Description>B Phase Voltage </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>23</SNo>
+    <ID>22</ID>
+    <Description>R Phase Current </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>24</SNo>
+    <ID>23</ID>
+    <Description>Y Phase Current </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>25</SNo>
+    <ID>24</ID>
+    <Description>B Phase Current </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>26</SNo>
+    <ID>25</ID>
+    <Description>Active Power </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>27</SNo>
+    <ID>26</ID>
+    <Description>Apparent Power </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>28</SNo>
+    <ID>27</ID>
+    <Description>Reactive Power </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>29</SNo>
+    <ID>28</ID>
+    <Description>Instantaneous PF Total </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>30</SNo>
+    <ID>29</ID>
+    <Description>R Phase Instantaneous PF </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>31</SNo>
+    <ID>30</ID>
+    <Description>Y Phase Instantaneous PF </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>32</SNo>
+    <ID>31</ID>
+    <Description>B Phase Instantaneous PF </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>33</SNo>
+    <ID>32</ID>
+    <Description>Frequency </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>34</SNo>
+    <ID>33</ID>
+    <Description>Billing Counter </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>35</SNo>
+    <ID>34</ID>
+    <Description>Billing Reset TimeStamp </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>36</SNo>
+    <ID>35</ID>
+    <Description>Billing Reset KWH </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>37</SNo>
+    <ID>36</ID>
+    <Description>Billing Reset KVARH Lag </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>38</SNo>
+    <ID>37</ID>
+    <Description>Billing Reset KVARH Lead </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>39</SNo>
+    <ID>38</ID>
+    <Description>Billing Reset KVAH </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>40</SNo>
+    <ID>39</ID>
+    <Description>Billing MD Active </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>41</SNo>
+    <ID>40</ID>
+    <Description>Billing MD Apparent </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>42</SNo>
+    <ID>41</ID>
+    <Description>Billing Average PF </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>43</SNo>
+    <ID>42</ID>
+    <Description>TOD KWH </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>44</SNo>
+    <ID>43</ID>
+    <Description>TOD KVARH LAG </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>45</SNo>
+    <ID>44</ID>
+    <Description>TOD KVARH LEAD </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>46</SNo>
+    <ID>45</ID>
+    <Description>TOD KVAH </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>47</SNo>
+    <ID>46</ID>
+    <Description>TOD MD Active </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>48</SNo>
+    <ID>47</ID>
+    <Description>TOD MD Apparent </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>49</SNo>
+    <ID>48</ID>
+    <Description>Billing TOD KWH </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>50</SNo>
+    <ID>49</ID>
+    <Description>Billing TOD KVAH </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>51</SNo>
+    <ID>50</ID>
+    <Description>Billing TOD MD Active </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>52</SNo>
+    <ID>51</ID>
+    <Description>Billing TOD MD Apparent </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>53</SNo>
+    <ID>52</ID>
+    <Description>Tamper Counter </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>54</SNo>
+    <ID>53</ID>
+    <Description>Num of Power Failure </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>55</SNo>
+    <ID>54</ID>
+    <Description>Meter Type </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>56</SNo>
+    <ID>55</ID>
+    <Description>Cu Prog Counter </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>57</SNo>
+    <ID>56</ID>
+    <Description>Total Power Off Hours </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>58</SNo>
+    <ID>57</ID>
+    <Description>Manufacturer Name </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>59</SNo>
+    <ID>58</ID>
+    <Description>Manufacture Year </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>60</SNo>
+    <ID>59</ID>
+    <Description>Tamper Id Comp1 </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>61</SNo>
+    <ID>60</ID>
+    <Description>Tamper Id Comp2 </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>62</SNo>
+    <ID>61</ID>
+    <Description>Tamper Id Comp3 </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>63</SNo>
+    <ID>62</ID>
+    <Description>Tamper Id Comp4 </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>64</SNo>
+    <ID>63</ID>
+    <Description>Tamper Id Comp5 </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>65</SNo>
+    <ID>64</ID>
+    <Description>Tamper Id Comp6 </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>66</SNo>
+    <ID>65</ID>
+    <Description>Anomaly Indicator</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>67</SNo>
+    <ID>66</ID>
+    <Description>Latest tamper occurrence </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>68</SNo>
+    <ID>67</ID>
+    <Description>Latest tamper restoration </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>69</SNo>
+    <ID>68</ID>
+    <Description>Current Phase Sequence </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>70</SNo>
+    <ID>69</ID>
+    <Description>Connection Check </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>71</SNo>
+    <ID>70</ID>
+    <Description>PT Ratio </Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>72</SNo>
+    <ID>71</ID>
+    <Description>DLMS Ver. No.</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>73</SNo>
+    <ID>72</ID>
+    <Description>Current Month APF</Description>
+  </DisplayParams1>
+
+  <HighResolution>
+    <SNo>1</SNo>
+    <ID>9</ID>
+    <Description> Cumulative Active Energy </Description>
+  </HighResolution>
+
+  <HighResolution>
+    <SNo>2</SNo>
+    <ID>10</ID>
+    <Description>  Cumulative Reactive Lag Energy </Description>
+  </HighResolution>
+
+  <HighResolution>
+    <SNo>3</SNo>
+    <ID>11</ID>
+    <Description>  Cumulative Reactive Lead Energy </Description>
+  </HighResolution>
+
+  <HighResolution>
+    <SNo>4</SNo>
+    <ID>12</ID>
+    <Description>  Cumulative Apparent Energy </Description>
+  </HighResolution>
+
+</DLMS>

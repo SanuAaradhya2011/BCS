@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5205351E-A788-4D42-90DA-E87F9307D803}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>E650MeterConfiguration</RootNamespace>
+    <AssemblyName>E650MeterConfiguration</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoLockUnlock.cs" />
+    <Compile Include="BaseConfig.cs" />
+    <Compile Include="BillingReset.cs" />
+    <Compile Include="BillingType.cs" />
+    <Compile Include="CommonConfig.cs" />
+    <Compile Include="DemandIntegrationPeriod.cs" />
+    <Compile Include="DisplayParameter.cs" />
+    <Compile Include="DisplayTimeoutParameter.cs" />
+    <Compile Include="KVAHSelection.cs" />
+    <Compile Include="LSCapturePeriod.cs" />
+    <Compile Include="ResetLockOutDays.cs" />
+    <Compile Include="RS232Lock.cs" />
+    <Compile Include="RTC.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TOUConfiguration.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CAB.E650MeterConfiguration.Entity\CAB.MeterConfiguration.Entity.csproj">
+      <Project>{ED428E9B-12E0-4385-8A9B-2AB28A943428}</Project>
+      <Name>CAB.MeterConfiguration.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CAB.Parser\Common.CAB.Parser.csproj">
+      <Project>{F5257B2A-E66A-4A87-A00C-03CE2798510E}</Project>
+      <Name>Common.CAB.Parser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CAB.Parser.Entity\Common.CAB.Parser.Entity.csproj">
+      <Project>{8CAD342E-EEAD-45B5-8440-200AEEE3D1C2}</Project>
+      <Name>Common.CAB.Parser.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

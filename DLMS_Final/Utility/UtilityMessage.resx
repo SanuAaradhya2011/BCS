@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACCESSDENIEDPLSCHANGEMODE" xml:space="preserve">
+    <value>Access Denied.Please change the mode</value>
+  </data>
+  <data name="BlankMeterID" xml:space="preserve">
+    <value>Please enter value for meter id.</value>
+  </data>
+  <data name="CMRIViewCanNotBeNull" xml:space="preserve">
+    <value>CMRI view cant not be null.</value>
+  </data>
+  <data name="CommandFileNotFound" xml:space="preserve">
+    <value>Unable to locate Fast download command file.</value>
+  </data>
+  <data name="CosemConnectionFailed" xml:space="preserve">
+    <value>Cosem Connection Failed.</value>
+  </data>
+  <data name="DataReadoutEnd" xml:space="preserve">
+    <value>Data read out from meter complted.</value>
+  </data>
+  <data name="DataReadoutStarted" xml:space="preserve">
+    <value>Data read out from meter started.</value>
+  </data>
+  <data name="DLMSCONNECTIONNOTAVAILABLE" xml:space="preserve">
+    <value>DLMS connection not available.</value>
+  </data>
+  <data name="ErrorInCommunication" xml:space="preserve">
+    <value>Communication failed with meter.</value>
+  </data>
+  <data name="FIRSTTOUCANNOTBEBLANK" xml:space="preserve">
+    <value>First TOU table can not be left blank.</value>
+  </data>
+  <data name="FUTURETOUACTIVATEDATENOTBE29FEB" xml:space="preserve">
+    <value>Future Tou Actvation date must not be 29 feb.</value>
+  </data>
+  <data name="HDLCConnectionFailed" xml:space="preserve">
+    <value>HDLC Connection Failed.</value>
+  </data>
+  <data name="IncorrectMeterID" xml:space="preserve">
+    <value>Please enter a valid meter id.</value>
+  </data>
+  <data name="InsufficientBufferSize" xml:space="preserve">
+    <value>Buffer size is insufficient to download data. Please reconfigure it.</value>
+  </data>
+  <data name="INVALID" xml:space="preserve">
+    <value>Invalid</value>
+  </data>
+  <data name="NoDataToSave" xml:space="preserve">
+    <value>No data available</value>
+  </data>
+  <data name="NOMOREENTERIESALLOWEDTHEDAYISCOMPLETE" xml:space="preserve">
+    <value>No more enteries allowed as the day is complete</value>
+  </data>
+  <data name="NotableToDisconnect" xml:space="preserve">
+    <value>Not able to disconnect.Please try again.</value>
+  </data>
+  <data name="PARAMETERWRITEENSUCESSFULLY" xml:space="preserve">
+    <value>Parameter written successfully.</value>
+  </data>
+  <data name="SavingDataToFile" xml:space="preserve">
+    <value>Saving downloaded data to file</value>
+  </data>
+  <data name="SEASONSLOTCANNOTBEBLANK" xml:space="preserve">
+    <value>Season slot not complete.</value>
+  </data>
+  <data name="Selectanoption" xml:space="preserve">
+    <value>Please select an option to download data.</value>
+  </data>
+  <data name="TOUACTIVATIONGRIDCANNOTBENULL" xml:space="preserve">
+    <value>TOU Activation grid cannot be null.</value>
+  </data>
+  <data name="TOUDAYTABLECANNOTBEBLANK" xml:space="preserve">
+    <value>Please fill TOU Day table.</value>
+  </data>
+  <data name="TOUDAYTABLEGRIDCANNOTBENULL" xml:space="preserve">
+    <value>TOU DayTable grid cannot be null</value>
+  </data>
+  <data name="TODTABLECANNOTBEBLANK" xml:space="preserve">
+    <value>Please fill TOD Detail.</value>
+  </data>
+  <data name="TODDAYTABLEGRIDCANNOTBENULL" xml:space="preserve">
+    <value>TOD Table grid(s) cannot be null</value>
+  </data>
+  <data name="TOUGRIDSCANNOTBENULL" xml:space="preserve">
+    <value>TOU Grids cannot be null.</value>
+  </data>
+  <data name="TOUSEASONTABLECANNOTBEBLANK" xml:space="preserve">
+    <value>Please fill TOU Season table.</value>
+  </data>
+  <data name="TOUTABLENOTCOMPLETE" xml:space="preserve">
+    <value>Please fill TOU table.</value>
+  </data>
+  <data name="TOUVIEWCANNOTBENULL" xml:space="preserve">
+    <value>TOU View cannot be null.</value>
+  </data>
+  <data name="TOUWEEKTABLECANNOTBEBLANK" xml:space="preserve">
+    <value>Please fill TOU Week table.</value>
+  </data>
+  <data name="UnableToReadCommandFile" xml:space="preserve">
+    <value>Unable to read commands from command file</value>
+  </data>
+  <data name="SelectReadoption" xml:space="preserve">
+    <value>Please select an option to read.</value>
+  </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Access Denied.</value>
+  </data>
+  <data name="CMRICONNECTIONFAILED" xml:space="preserve">
+    <value>CMRI Connection Failed.</value>
+  </data>
+  <data name="CMRISucessMessage" xml:space="preserve">
+    <value>Read Successfully completed for all meter IDs from CMRI and Saved in</value>
+  </data>
+  <data name="DataCorruptInCMRI" xml:space="preserve">
+    <value>Data Corrupt in CMRI please contact your Administrator.</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>Please select a file to read.</value>
+  </data>
+  <data name="SelectOption" xml:space="preserve">
+    <value>Please select an option to read.</value>
+  </data>
+  <data name="FileNameCanNotBeNull" xml:space="preserve">
+    <value>The file name cannot be null.</value>
+  </data>
+  <data name="FileNotExists" xml:space="preserve">
+    <value>Filename '{0}' does not exist.</value>
+  </data>
+  <data name="CT" xml:space="preserve">
+    <value>CT</value>
+  </data>
+  <data name="SELECTBILLINGPARAMETERS" xml:space="preserve">
+    <value>Please select Billing Parameters.</value>
+  </data>
+  <data name="SELECTINTEGRATIONPERIOD" xml:space="preserve">
+    <value>Please select Integration Period.</value>
+  </data>
+  <data name="SELECTLSCAPTUREPERIOD" xml:space="preserve">
+    <value>Please select Load Survey Capture Period.</value>
+  </data>
+  <data name="CFCCREATESUCCESS" xml:space="preserve">
+    <value>CFC File created successfully.</value>
+  </data>
+  <data name="CFCFILENOTCORRECT" xml:space="preserve">
+    <value>CFC File is not correct</value>
+  </data>
+  <data name="CFCUPLOADSUCCESS" xml:space="preserve">
+    <value>CFC File is uploaded successfully</value>
+  </data>
+  <data name="DefaultDurationValue" xml:space="preserve">
+    <value>00:00:00</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Duration (hh:mm:ss) </value>
+  </data>
+  <data name="ExceptionMessage" xml:space="preserve">
+    <value>Data Display Error</value>
+  </data>
+  <data name="Failure" xml:space="preserve">
+    <value>Failure in Accuracy Check Read Out</value>
+  </data>
+  <data name="One" xml:space="preserve">
+    <value>01</value>
+  </data>
+  <data name="TestRunning" xml:space="preserve">
+    <value>Meter accuracy check is running, Do you want to close  window?</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>00.000000</value>
+  </data>
+  <data name="Zero" xml:space="preserve">
+    <value>00</value>
+  </data>
+  <data name="BufferSizeInsufficent" xml:space="preserve">
+    <value>Buffer size is insufficent.</value>
+  </data>
+  <data name="DataSaveIn" xml:space="preserve">
+    <value>Data is successfully saved in </value>
+  </data>
+  <data name="FileCreationError" xml:space="preserve">
+    <value>Error while creating file.</value>
+  </data>
+  <data name="GeneralInstantaDataReadoutcompleted" xml:space="preserve">
+    <value>General/Instant data readout complete.</value>
+  </data>
+  <data name="Permissiondenied" xml:space="preserve">
+    <value>Permission denied.</value>
+  </data>
+  <data name="ReadingGeneralInstantData" xml:space="preserve">
+    <value>General/Instant data reading in progress... </value>
+  </data>
+  <data name="InvalidResponse" xml:space="preserve">
+    <value>Invalid Response bytes.</value>
+  </data>
+</root>

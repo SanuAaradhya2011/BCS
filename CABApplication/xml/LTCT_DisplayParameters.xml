@@ -1,0 +1,765 @@
+﻿<?xml version="1.0"?>
+<DLMS>
+  <PushDisplayParams>
+    <SNo>1</SNo>
+    <ID>0</ID>
+    <Description>LCD Test</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>2</SNo>
+    <ID>1</ID>
+    <Description>Meter Serial No</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>3</SNo>
+    <ID>6</ID>
+    <Description>Real Date</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>4</SNo>
+    <ID>7</ID>
+    <Description>Real Time</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>5</SNo>
+    <ID>19</ID>
+    <Description>R Phase Voltage</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>6</SNo>
+    <ID>20</ID>
+    <Description>Y Phase Voltage</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>7</SNo>
+    <ID>21</ID>
+    <Description>B Phase Voltage</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>8</SNo>
+    <ID>22</ID>
+    <Description>R Phase Current</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>9</SNo>
+    <ID>23</ID>
+    <Description>Y Phase Current</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>10</SNo>
+    <ID>24</ID>
+    <Description>B Phase Current</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>11</SNo>
+    <ID>29</ID>
+    <Description>R Phase Instantaneous PF</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>12</SNo>
+    <ID>30</ID>
+    <Description>Y Phase Instantaneous PF</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>13</SNo>
+    <ID>31</ID>
+    <Description>B Phase Instantaneous PF</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>14</SNo>
+    <ID>28</ID>
+    <Description>Instantaneous PF Total</Description>
+  </PushDisplayParams>
+
+  <!--<PushDisplayParams>
+    <SNo>15</SNo>
+    <ID>140</ID>
+    <Description>R Phase Active Power</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>16</SNo>
+    <ID>141</ID>
+    <Description>Y Phase Active Power</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>17</SNo>
+    <ID>142</ID>
+    <Description>B Phase Active Power</Description>
+  </PushDisplayParams>-->
+
+  <PushDisplayParams>
+    <SNo>15</SNo>
+    <ID>25</ID>
+    <Description>Total Active Power</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>16</SNo>
+    <ID>9</ID>
+    <Description>Cumulative Active Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>17</SNo>
+    <ID>12</ID>
+    <Description>Cumulative Apparent Energy</Description>
+  </PushDisplayParams>
+
+  <!--<PushDisplayParams>
+    <SNo>21</SNo>
+    <ID>99</ID>
+    <Description>Current Month Average Power Factor</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>22</SNo>
+    <ID>15</ID>
+    <Description>Current MD Active</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>23</SNo>
+    <ID>39</ID>
+    <Description>Billing MD Active</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>24</SNo>
+    <ID>13</ID>
+    <Description>Rising Demand kW with Rising Time</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>25</SNo>
+    <ID>14</ID>
+    <Description>Rising Demand kVA with Rising Time</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>26</SNo>
+    <ID>34</ID>
+    <Description>Date and Time of Last Reset</Description>
+  </PushDisplayParams>-->
+
+  <PushDisplayParams>
+    <SNo>18</SNo>
+    <ID>33</ID>
+    <Description>Cumulative Billing Counter</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>19</SNo>
+    <ID>86</ID>
+    <Description>Meter Cover Open Tamper with Date and Time</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>20</SNo>
+    <ID>42</ID>
+    <Description>Present Month TOD kWH</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>21</SNo>
+    <ID>46</ID>
+    <Description>Present Month TOD MD Active</Description>
+  </PushDisplayParams>
+
+  <!--<PushDisplayParams>
+    <SNo>31</SNo>
+    <ID>35</ID>
+    <Description>Billing Month Cumulative kWH</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>32</SNo>
+    <ID>38</ID>
+    <Description>Billing Month Cumulative kVAH</Description>
+  </PushDisplayParams>-->
+
+  <PushDisplayParams>
+    <SNo>22</SNo>
+    <ID>41</ID>
+    <Description>Billing Average PF</Description>
+  </PushDisplayParams>
+
+  <!--<PushDisplayParams>
+    <SNo>34</SNo>
+    <ID>128</ID>
+    <Description>Present Month Power Off Duration</Description>
+  </PushDisplayParams>-->
+
+  <PushDisplayParams>
+    <SNo>23</SNo>
+    <ID>32</ID>
+    <Description>Frequency</Description>
+  </PushDisplayParams>
+
+  <!--<PushDisplayParams>
+    <SNo>36</SNo>
+    <ID>139</ID>
+    <Description>Magnet Tamper Status</Description>
+  </PushDisplayParams>-->
+
+  <PushDisplayParams>
+    <SNo>24</SNo>
+    <ID>5</ID>
+    <Description>Voltage Phase Sequence</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>25</SNo>
+    <ID>10</ID>
+    <Description>Cumulative Reactive Lag Energy</Description>
+  </PushDisplayParams>
+
+ 
+
+  
+
+  <PushDisplayParams>
+    <SNo>26</SNo>
+    <ID>11</ID>
+    <Description>Cumulative Reactive Lead Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>27</SNo>
+    <ID>17</ID>
+    <Description>Cumulative MD Active</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>28</SNo>
+    <ID>18</ID>
+    <Description>Cumulative MD Apparent</Description>
+  </PushDisplayParams>
+
+  <!--<PushDisplayParams>
+    <SNo>42</SNo>
+    <ID>143</ID>
+    <Description>Cumulative R Phase Power Off Duration</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>43</SNo>
+    <ID>144</ID>
+    <Description>Cumulative Y Phase Power Off Duration</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>44</SNo>
+    <ID>145</ID>
+    <Description>Cumulative B Phase Power Off Duration</Description>
+  </PushDisplayParams>-->
+
+  <!--<PushDisplayParams>
+    <SNo>45</SNo>
+    <ID>90</ID>
+    <Description>Billing Month kWH for Last to Last Reset</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>46</SNo>
+    <ID>91</ID>
+    <Description>Billing Month kVAH for Last to Last Reset</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>47</SNo>
+    <ID>146</ID>
+    <Description>Billing Month Average PF for Last to Last Reset</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>48</SNo>
+    <ID>132</ID>
+    <Description>Billing Month MD Active for Last to Last Reset</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>49</SNo>
+    <ID>92</ID>
+    <Description>Billing Month MD Apparent for Last to Last Reset</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>50</SNo>
+    <ID>147</ID>
+    <Description>Power Off Duration for Last Billing Period</Description>
+  </PushDisplayParams>-->
+
+  <PushDisplayParams>
+    <SNo>29</SNo>
+    <ID>66</ID>
+    <Description>Latest Tamper Occurrence</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>30</SNo>
+    <ID>67</ID>
+    <Description>Latest Tamper Restoration</Description>
+  </PushDisplayParams>
+
+  <!--<PushDisplayParams>
+    <SNo>53</SNo>
+    <ID>52</ID>
+    <Description>Cumulative Tamper Counter</Description>
+  </PushDisplayParams>-->
+
+  <!--<PushDisplayParams>
+    <SNo>54</SNo>
+    <ID>148</ID>
+    <Description>R Phase Voltage THD</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>55</SNo>
+    <ID>149</ID>
+    <Description>Y Phase Voltage THD</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>56</SNo>
+    <ID>150</ID>
+    <Description>B Phase Voltage THD</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>57</SNo>
+    <ID>151</ID>
+    <Description>R Phase Current THD</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>58</SNo>
+    <ID>152</ID>
+    <Description>Y Phase Current THD</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>59</SNo>
+    <ID>153</ID>
+    <Description>B Phase Current THD</Description>
+  </PushDisplayParams>-->
+
+  <PushDisplayParams>
+    <SNo>31</SNo>
+    <ID>104</ID>
+    <Description>NVM Status</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>32</SNo>
+    <ID>137</ID>
+    <Description>RTC Battery Status</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>33</SNo>
+    <ID>68</ID>
+    <Description>Current phase sequence</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>34</SNo>
+    <ID>27</ID>
+    <Description>Reactive Power</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>35</SNo>
+    <ID>45</ID>
+    <Description>TOD KVAH</Description>
+  </PushDisplayParams>
+
+  <!--<PushDisplayParams>
+    <SNo>65</SNo>
+    <ID>140</ID>
+    <Description>2PN Tamper Count ID</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>66</SNo>
+    <ID>141</ID>
+    <Description>Invalid Phase Association Count ID</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>67</SNo>
+    <ID>142</ID>
+    <Description>Invalid Voltage Count ID</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>68</SNo>
+    <ID>143</ID>
+    <Description>Overload Count ID</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>69</SNo>
+    <ID>144</ID>
+    <Description>Cummulative Reverse Apparent Energy ID</Description>
+  </PushDisplayParams>-->
+
+  <PushDisplayParams>
+    <SNo>36</SNo>
+    <ID>47</ID>
+    <Description>TOD MD Apparent</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>37</SNo>
+    <ID>89</ID>
+    <Description>Tamper Status</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>38</SNo>
+    <ID>59</ID>
+    <Description>Tamper Id Comp 1</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>39</SNo>
+    <ID>60</ID>
+    <Description>Tamper Id Comp 2</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>40</SNo>
+    <ID>63</ID>
+    <Description>Tamper Id Comp 5</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>41</SNo>
+    <ID>64</ID>
+    <Description>Tamper Id Comp 6</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>42</SNo>
+    <ID>120</ID>
+    <Description>CT Bypass Count</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>43</SNo>
+    <ID>116</ID>
+    <Description>R Phase CT Open Count</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>44</SNo>
+    <ID>117</ID>
+    <Description>Y Phase CT Open Count</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>45</SNo>
+    <ID>118</ID>
+    <Description>B Phase CT Open Count</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>46</SNo>
+    <ID>123</ID>
+    <Description>Neutral Disturbance Count</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>47</SNo>
+    <ID>107</ID>
+    <Description>R Phase PT Missing Count</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>48</SNo>
+    <ID>108</ID>
+    <Description>Y Phase PT Missing Count</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>49</SNo>
+    <ID>109</ID>
+    <Description>B Phase PT Missing Count</Description>
+  </PushDisplayParams>-->
+
+  <PushDisplayParams>
+    <SNo>50</SNo>
+    <ID>113</ID>
+    <Description>R Phase CT Reversal Count</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>51</SNo>
+    <ID>114</ID>
+    <Description>Y Phase CT Reversal Count</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>52</SNo>
+    <ID>115</ID>
+    <Description>B Phase CT Reversal County</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>53</SNo>
+    <ID>122</ID>
+    <Description>Magnet Tamper Count</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>54</SNo>
+    <ID>106</ID>
+    <Description>Total Power on Duration</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>55</SNo>
+    <ID>56</ID>
+    <Description>Total Power off Hour</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>56</SNo>
+    <ID>69</ID>
+    <Description>Connection Check</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>57</SNo>
+    <ID>48</ID>
+    <Description>Billing TOD KWH</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>58</SNo>
+    <ID>50</ID>
+    <Description>Billing TOD MD Active</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>59</SNo>
+    <ID>51</ID>
+    <Description>Billing TOD MD Apparent</Description>
+  </PushDisplayParams>
+
+  
+  <ScrollDisplayParams>
+    <SNo>1</SNo>
+    <ID>0</ID>
+    <Description>LCD Test</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>2</SNo>
+    <ID>5</ID>
+    <Description>Voltage Phase Sequence</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>3</SNo>
+    <ID>68</ID>
+    <Description>Current phase sequence</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>4</SNo>
+    <ID>19</ID>
+    <Description>R Phase Voltage</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>5</SNo>
+    <ID>20</ID>
+    <Description>Y Phase Voltage</Description>
+  </ScrollDisplayParams>
+
+   <ScrollDisplayParams>
+    <SNo>6</SNo>
+    <ID>21</ID>
+    <Description>B Phase Voltage</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>7</SNo>
+    <ID>22</ID>
+    <Description>R Phase Current</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>8</SNo>
+    <ID>23</ID>
+    <Description>Y Phase Current</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>9</SNo>
+    <ID>24</ID>
+    <Description>B Phase Current</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>10</SNo>
+    <ID>29</ID>
+    <Description>R Phase Instantaneous PF</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>11</SNo>
+    <ID>30</ID>
+    <Description>Y Phase Instantaneous PF</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>12</SNo>
+    <ID>31</ID>
+    <Description>B Phase Instantaneous PF</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>13</SNo>
+    <ID>28</ID>
+    <Description>Instantaneous PF Total</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>14</SNo>
+    <ID>9</ID>
+    <Description>Cumulative Active Energy</Description>
+  </ScrollDisplayParams>
+
+  <!--<ScrollDisplayParams>
+    <SNo>15</SNo>
+    <ID>9</ID>
+    <Description>Cumulative Active Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>16</SNo>
+    <ID>9</ID>
+    <Description>Cumulative Active Energy</Description>
+  </ScrollDisplayParams>-->
+
+  <ScrollDisplayParams>
+    <SNo>15</SNo>
+    <ID>25</ID>
+    <Description>Total Active Power</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>16</SNo>
+    <ID>47</ID>
+    <Description>TOD MD Apparent</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>17</SNo>
+    <ID>51</ID>
+    <Description>Billing TOD MD Apparent</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>18</SNo>
+    <ID>41</ID>
+    <Description>Billing Average PF</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>19</SNo>
+    <ID>89</ID>
+    <Description>Tamper Status</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>20</SNo>
+    <ID>59</ID>
+    <Description>Tamper Id Comp 1</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>21</SNo>
+    <ID>60</ID>
+    <Description>Tamper Id Comp 2</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>22</SNo>
+    <ID>63</ID>
+    <Description>Tamper Id Comp 5</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>23</SNo>
+    <ID>64</ID>
+    <Description>Tamper Id Comp 6</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>24</SNo>
+    <ID>10</ID>
+    <Description>Cumulative Reactive Lag Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>25</SNo>
+    <ID>11</ID>
+    <Description>Cumulative Reactive Lead Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>26</SNo>
+    <ID>12</ID>
+    <Description>Cumulative Apparent Energy</Description>
+  </ScrollDisplayParams>
+
+  <!--<ScrollDisplayParams>
+    <SNo>7</SNo>
+    <ID>13</ID>
+    <Description>Rising Demand kW with Rising Time</Description>
+  </ScrollDisplayParams>-->
+
+  <HighResolution>
+    <SNo>1</SNo>
+    <ID>9</ID>
+    <Description>Cumulative Active Energy</Description>
+  </HighResolution>
+
+  <HighResolution>
+    <SNo>2</SNo>
+    <ID>10</ID>
+    <Description>Cumulative Reactive Lag Energy</Description>
+  </HighResolution>
+
+  <HighResolution>
+    <SNo>3</SNo>
+    <ID>11</ID>
+    <Description>Cumulative Reactive Lead Energy</Description>
+  </HighResolution>
+
+  <HighResolution>
+    <SNo>4</SNo>
+    <ID>12</ID>
+    <Description>Cumulative Apparent Energy</Description>
+  </HighResolution> 
+
+</DLMS>
+

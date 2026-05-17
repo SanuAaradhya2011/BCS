@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{24A0D0CC-2668-41C7-AB8E-20CD52E735F4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LTCTDAL</RootNamespace>
+    <AssemblyName>LTCTDAL</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  
+  -->
+  <ItemGroup>
+    <Compile Include="AdhocReadDAL.cs" />
+    <Compile Include="AnomalyDAL.cs" />
+    <Compile Include="ApplicationLogDAL.cs" />
+    <Compile Include="AreaDAL.cs" />
+    <Compile Include="AreaMeterDAL.cs" />
+    <Compile Include="ASCIIExportSettingsDAL.cs" />
+    <Compile Include="AutoLockDAL.cs" />
+    <Compile Include="BillingParameterDAL.cs" />
+    <Compile Include="BillingTypeDAL.cs" />
+    <Compile Include="CategoryRightDAL.cs" />
+    <Compile Include="CircleDAL.cs" />
+    <Compile Include="ConsumerExportSettingsDAL.cs" />
+    <Compile Include="LoadLimitDAL.cs" />
+    <Compile Include="LoadSwitchDAL.cs" />
+    <Compile Include="ManualMDResetDAL.cs" />
+    <Compile Include="MeteringModeDAL.cs" />
+    <Compile Include="OpticalLockUnlockDAL.cs" />
+    <Compile Include="PaymentModeDAL.cs" />
+    <Compile Include="PulseEnergyDAL.cs" />
+    <Compile Include="RJLockUnlockDAL.cs" />
+    <Compile Include="RS485DAL.cs" />
+    <Compile Include="DailyLogDAL.cs" />
+    <Compile Include="DBGenerationDAL.cs" />
+    <Compile Include="DIPDAL.cs" />
+    <Compile Include="DisconnectControlDAL.cs" />
+    <Compile Include="DisplayParameterDAL.cs" />
+    <Compile Include="DivisionDAL.cs" />
+    <Compile Include="DLMS650BillingDAL.cs" />
+    <Compile Include="DLMS650GeneralDAL.cs" />
+    <Compile Include="DLMS650InstantaneousDAL.cs" />
+    <Compile Include="DLMS650LoadSurveyDAL.cs" />
+    <Compile Include="DLMS650MidnightDataDAL.cs" />
+    <Compile Include="DLMS650NamePlateDAL.cs" />
+    <Compile Include="DLMS650PhasorDAL.cs" />
+    <Compile Include="DLMS650TamperMasterDAL.cs" />
+    <Compile Include="ExcelExportDAL.cs" />
+    <Compile Include="ExceptionLogDetailsDAL.cs" />
+    <Compile Include="FastDownLoadingDAL.cs" />
+    <Compile Include="FraudEnergyDAL.cs" />
+    <Compile Include="GPRSReportDAL.cs" />
+    <Compile Include="GroupMasterDAL.cs" />
+    <Compile Include="GSMConfigDAL.cs" />
+    <Compile Include="GSMGroupDAL.cs" />
+    <Compile Include="GSMGroupScheduleDAL.cs" />
+    <Compile Include="GSMLoggingDAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GSMReadingStatusDAL.cs" />
+    <Compile Include="GSMReportingDAL.cs" />
+    <Compile Include="GSMScheduleDAL.cs" />
+    <Compile Include="GSMTaskDAL.cs" />
+    <Compile Include="kvarSelectionDAL.cs" />
+    <Compile Include="LoadControlDAL.cs" />
+    <Compile Include="LoadSurveyParameterDAL.cs" />
+    <Compile Include="LSIPDAL.cs" />
+    <Compile Include="ManualBillingDAL.cs" />
+    <Compile Include="MDWithIPDAL.cs" />
+    <Compile Include="MeterModelDAL.cs" />
+    <Compile Include="MeterUnitDAL.cs" />
+    <Compile Include="MidnightParameterDAL.cs" />
+    <Compile Include="RegionDAL.cs" />
+    <Compile Include="ConsumerTypeMasterDAL.cs" />
+    <Compile Include="FileUploadMasterDAL.cs" />
+    <Compile Include="LoadSurveyDAL.cs" />
+    <Compile Include="MeterTypeMasterDAL.cs" />
+    <Compile Include="ReportDAL.cs" />
+    <Compile Include="RS232DAL.cs" />
+    <Compile Include="RTCDAL.cs" />
+    <Compile Include="SlidingDemandDAL.cs" />
+    <Compile Include="SoftwareBillingDAL.cs" />
+    <Compile Include="StructureInfoDAL.cs" />
+    <Compile Include="StructureOBISInfoDAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StructureUnitInfoDAL.cs" />
+    <Compile Include="SubGroupMasterDAL.cs" />
+    <Compile Include="SubGroupMeterMasterDAL.cs" />
+    <Compile Include="SystemSettingsDAL.cs" />
+    <Compile Include="TabNameDAL.cs" />
+    <Compile Include="TamperCounterDAL.cs" />
+    <Compile Include="CategoryMasterDAL.cs" />
+    <Compile Include="CMRIMasterDAL.cs" />
+    <Compile Include="ConsumerMasterDAL.cs" />
+    <Compile Include="ConsumerMeterDAL.cs" />
+    <Compile Include="DataService\DALBase.cs" />
+    <Compile Include="DataService\DataParameter.cs" />
+    <Compile Include="DataService\DataRequest.cs" />
+    <Compile Include="DataService\DatabaseFactory.cs" />
+    <Compile Include="DataService\IDataHelper.cs" />
+    <Compile Include="DataService\MySQLHelper.cs" />
+    <Compile Include="DataService\ODBCHelper.cs" />
+    <Compile Include="DataService\OledbHelper.cs" />
+    <Compile Include="DataService\OracleHelper.cs" />
+    <Compile Include="DataService\SqldbHelper.cs" />
+    <Compile Include="DesignationMasterDAL.cs" />
+    <Compile Include="MeterDataDAL.cs" />
+    <Compile Include="MeterMasterDAL.cs" />
+    <Compile Include="ModuleMasterDAL.cs" />
+    <Compile Include="SearchControlDAL.cs" />
+    <Compile Include="SuspectedConsumerDAL.cs" />
+    <Compile Include="TamperParameterDAL.cs" />
+    <Compile Include="TamperTypeMasterDAL.cs" />
+    <Compile Include="TextExportDAL.cs" />
+    <Compile Include="TodDAL.cs" />
+    <Compile Include="TOUDAL.cs" />
+    <Compile Include="UnitDAL.cs" />
+    <Compile Include="UserInformationDAL.cs" />
+    <Compile Include="UserLogActivityDAL.cs" />
+    <Compile Include="UserRightDAL.cs" />
+    <Compile Include="UtilityDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.16.0.18925.20022\lib\net40\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.2.2.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLs\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hunt.EPIC.Logging\Common.Hunt.EPIC.Logging.csproj">
+      <Project>{767ED638-2423-4588-95BE-1DB061975B2B}</Project>
+      <Name>Common.Hunt.EPIC.Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABEntity\Generic.CABEntity.csproj">
+      <Project>{56A4EC2F-0685-497B-AC24-111F875E8F1A}</Project>
+      <Name>Generic.CABEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABExceptionFramework\Generic.CABExceptionFramework.csproj">
+      <Project>{555A6772-1779-4331-BEE8-5B6DF7E5189C}</Project>
+      <Name>Generic.CABExceptionFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABFramework\Generic.CABFramework.csproj">
+      <Project>{CF4BBFC7-E739-4789-BB1E-4FFBA6F8C6C4}</Project>
+      <Name>Generic.CABFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SerialCommunication\Generic.SerialCommunication.csproj">
+      <Project>{D8A3C316-50FF-4960-A9A4-3B5AF82DC024}</Project>
+      <Name>Generic.SerialCommunication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Generic.Utilities.csproj">
+      <Project>{1C998CF6-4BD7-449E-AD67-7057FDA6C71D}</Project>
+      <Name>Generic.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

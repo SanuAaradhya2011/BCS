@@ -1,0 +1,580 @@
+<?xml version="1.0"?>
+<DLMS>
+
+  <DisplayParams>
+    <SNo>1</SNo>
+    <ID>1</ID>
+    <Description>LCD Test</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>2</SNo>
+    <ID>2</ID>
+    <Description>Anamoly Indication</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>3</SNo>
+    <ID>3</ID>
+    <Description>Meter Serial Number</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>4</SNo>
+    <ID>10</ID>
+    <Description>Date (DD-MM-YY)</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>5</SNo>
+    <ID>11</ID>
+    <Description>Real Time (HH:MM:SS)</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>6</SNo>
+    <ID>34</ID>
+    <Description>R Phase Voltage</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>7</SNo>
+    <ID>35</ID>
+    <Description>Y Phase Voltage</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>8</SNo>
+    <ID>36</ID>
+    <Description>B Phase Voltage</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>9</SNo>
+    <ID>37</ID>
+    <Description>R Phase Current</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>10</SNo>
+    <ID>38</ID>
+    <Description>Y Phase Current</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>11</SNo>
+    <ID>39</ID>
+    <Description>B Phase Current</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>12</SNo>
+    <ID>7</ID>
+    <Description>Voltage Phase Sequence</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>13</SNo>
+    <ID>41</ID>
+    <Description>R Phase Power Factor</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>14</SNo>
+    <ID>42</ID>
+    <Description>Y Phase Power Factor</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>15</SNo>
+    <ID>43</ID>
+    <Description>B Phase Power Factor</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>16</SNo>
+    <ID>40</ID>
+    <Description>Total Power Factor (with lag and lead sign)</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>17</SNo>
+    <ID>124</ID>
+    <Description>Current Month APF</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>18</SNo>
+    <ID>44</ID>
+    <Description>Frequency</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>19</SNo>
+    <ID>31</ID>
+    <Description>Active Power</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>20</SNo>
+    <ID>33</ID>
+    <Description>Reactive Power Lag</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>21</SNo>
+    <ID>30</ID>
+    <Description>Reactive Power Lead</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>22</SNo>
+    <ID>18</ID>
+    <Description>Rising KVA With Elapsed Time (in MM:SS)</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>23</SNo>
+    <ID>58</ID>
+    <Description>TOU KWh; Rate 1 to Rate 8</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>24</SNo>
+    <ID>13</ID>
+    <Description>Cumulative KWh</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>25</SNo>
+    <ID>61</ID>
+    <Description>TOU KVAh; Rate 1 to Rate 8</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>26</SNo>
+    <ID>16</ID>
+    <Description>Cumulative KVAh</Description>
+  </DisplayParams>
+
+
+  <DisplayParams>
+    <SNo>27</SNo>
+    <ID>14</ID>
+    <Description>Cumulative KVARh (Lag)</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>28</SNo>
+    <ID>15</ID>
+    <Description>Cumulative KVARh (Lead)</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>29</SNo>
+    <ID>63</ID>
+    <Description>TOU MD KW; Date and Time; Rate 1 to Rate 8</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>30</SNo>
+    <ID>19</ID>
+    <Description>Current MD KW</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>31</SNo>
+    <ID>28</ID>
+    <Description>Cumulative MD KW</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>32</SNo>
+    <ID>65</ID>
+    <Description>TOU MD KVA; Date and Time; Rate 1 to Rate 8</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>33</SNo>
+    <ID>22</ID>
+    <Description>Current MD KVA</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>34</SNo>
+    <ID>29</ID>
+    <Description>Cumulative MD KVA</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>35</SNo>
+    <ID>88</ID>
+    <Description>Reverse Cumulative KWH</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>36</SNo>
+    <ID>149</ID>
+    <Description>Reverse Cumulative KVARH Lag</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>37</SNo>
+    <ID>150</ID>
+    <Description>Reverse Cumulative KVARH Lead</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>38</SNo>
+    <ID>89</ID>
+    <Description>Reverse Cumulative KVAH</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>39</SNo>
+    <ID>69</ID>
+    <Description>Billing TOU KWh; Rate 1 to Rate 8</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>40</SNo>
+    <ID>57</ID>
+    <Description>Billing Period Average Power Factor</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>41</SNo>
+    <ID>151</ID>
+    <Description>Billing TOU KWh; Rate 1 to Rate 8 For Last 6 Month</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>42</SNo>
+    <ID>152</ID>
+    <Description>Billing TOU MD KW; Date and Time; Rate 1 to Rate 8 For Last 6 Month</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>43</SNo>
+    <ID>153</ID>
+    <Description>Billing TOU MD KVA; Date and Time; Rate 1 to Rate 8 For Last 6 Month</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>44</SNo>
+    <ID>82</ID>
+    <Description>Tamper Status</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>45</SNo>
+    <ID>83</ID>
+    <Description>Cumulative Tamper Counter</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>46</SNo>
+    <ID>116</ID>
+    <Description>Voltage Phase Sequence Reversal Counter</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>47</SNo>
+    <ID>101</ID>
+    <Description>Current Short/Bypass Counter</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>48</SNo>
+    <ID>92</ID>
+    <Description>R Phase Missing Potential Counter</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>49</SNo>
+    <ID>93</ID>
+    <Description>Y Phase Missing Potential Counter</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>50</SNo>
+    <ID>94</ID>
+    <Description>B Phase Missing Potential Counter</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>51</SNo>
+    <ID>98</ID>
+    <Description>R Phase Current Reversal Counter</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>52</SNo>
+    <ID>99</ID>
+    <Description>Y Phase Current Reversal Counter</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>53</SNo>
+    <ID>100</ID>
+    <Description>B Phase Current Reversal Counter</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>54</SNo>
+    <ID>108</ID>
+    <Description>Magnetic Tamper Counter</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>55</SNo>
+    <ID>118</ID>
+    <Description>Front Cover Open Counter</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>56</SNo>
+    <ID>84</ID>
+    <Description>Latest Tamper Occurrence Tamper ID</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>57</SNo>
+    <ID>85</ID>
+    <Description>Latest Tamper Occurrence Date and Time Stamp</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>58</SNo>
+    <ID>86</ID>
+    <Description>Latest Tamper Restoration Tamper ID</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>59</SNo>
+    <ID>87</ID>
+    <Description>Latest Tamper Restoration Date and Time Stamp</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>60</SNo>
+    <ID>129</ID>
+    <Description>Total power off hours (HHHH)</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>61</SNo>
+    <ID>45</ID>
+    <Description>Billing Reset Counter</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>62</SNo>
+    <ID>138</ID>
+    <Description>Cumulative Programming Counter</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>63</SNo>
+    <ID>26</ID>
+    <Description>Front Cover Open Occurrence ID</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>64</SNo>
+    <ID>27</ID>
+    <Description>Front Cover Open Occurrence date time</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>65</SNo>
+    <ID>154</ID>
+    <Description>Present TOD Time Zone</Description>
+  </DisplayParams>
+
+  <DisplayParams>
+    <SNo>66</SNo>
+    <ID>155</ID>
+    <Description>TOU KWH Rate 1 to 8 High Resolution</Description>
+  </DisplayParams>
+
+  <DisplayParams1>
+    <SNo>1</SNo>
+    <ID>1</ID>
+    <Description>LCD Test</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>2</SNo>
+    <ID>2</ID>
+    <Description>Anamoly Indication</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>3</SNo>
+    <ID>10</ID>
+    <Description>Date (DD-MM-YY)</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>4</SNo>
+    <ID>11</ID>
+    <Description>Real Time (HH:MM:SS)</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>5</SNo>
+    <ID>34</ID>
+    <Description>R Phase Voltage</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>6</SNo>
+    <ID>35</ID>
+    <Description>Y Phase Voltage</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>7</SNo>
+    <ID>36</ID>
+    <Description>B Phase Voltage</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>8</SNo>
+    <ID>37</ID>
+    <Description>R Phase Current</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>9</SNo>
+    <ID>38</ID>
+    <Description>Y Phase Current</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>10</SNo>
+    <ID>39</ID>
+    <Description>B Phase Current</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>11</SNo>
+    <ID>7</ID>
+    <Description>Voltage Phase Sequence</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>12</SNo>
+    <ID>41</ID>
+    <Description>R Phase Power Factor</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>13</SNo>
+    <ID>42</ID>
+    <Description>Y Phase Power Factor</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>14</SNo>
+    <ID>43</ID>
+    <Description>B Phase Power Factor</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>15</SNo>
+    <ID>40</ID>
+    <Description>Total Power Factor (with lag and lead sign)</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>16</SNo>
+    <ID>31</ID>
+    <Description>Active Power</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>17</SNo>
+    <ID>58</ID>
+    <Description>TOU KWh; Rate 1 to Rate 8</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>18</SNo>
+    <ID>13</ID>
+    <Description>Cumulative KWh</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>19</SNo>
+    <ID>69</ID>
+    <Description>Billing TOU KWh; Rate 1 to Rate 8</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>20</SNo>
+    <ID>82</ID>
+    <Description>Tamper Status</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>21</SNo>
+    <ID>83</ID>
+    <Description>Cumulative Tamper Counter</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>22</SNo>
+    <ID>84</ID>
+    <Description>Latest Tamper Occurrence - Tamper ID</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>23</SNo>
+    <ID>85</ID>
+    <Description>Latest Tamper Occurrence - Time Stamp</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>24</SNo>
+    <ID>86</ID>
+    <Description>Latest Tamper Restoration - Tamper ID</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>25</SNo>
+    <ID>87</ID>
+    <Description>Latest Tamper Restoration - Time Stamp</Description>
+  </DisplayParams1>
+
+  <DisplayParams1>
+    <SNo>26</SNo>
+    <ID>76</ID>
+    <Description>Billing TOU MD KVA; Date and Time; Rate 1 to Rate 8</Description>
+  </DisplayParams1>
+
+  <HighResolution>
+    <SNo>1</SNo>
+    <ID>120</ID>
+    <Description>kWh</Description>
+  </HighResolution>
+
+  <HighResolution>
+    <SNo>2</SNo>
+    <ID>121</ID>
+    <Description>kVArh lag</Description>
+  </HighResolution>
+
+  <HighResolution>
+    <SNo>3</SNo>
+    <ID>122</ID>
+    <Description>kVArh lead</Description>
+  </HighResolution>
+
+  <HighResolution>
+    <SNo>4</SNo>
+    <ID>123</ID>
+    <Description>kVAh</Description>
+  </HighResolution>
+</DLMS>

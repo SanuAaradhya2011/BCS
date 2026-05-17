@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <xs:import namespace="http://iec.ch/TC57/2011/schema/message" />
+  <xs:element name="RequestMessageType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://iec.ch/TC57/2011/schema/message" ref="q1:Header" />
+        <xs:element xmlns:q2="http://iec.ch/TC57/2011/schema/message" ref="q2:Request" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xsd:schema>

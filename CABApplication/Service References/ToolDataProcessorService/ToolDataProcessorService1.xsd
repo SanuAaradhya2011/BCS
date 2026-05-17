@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns=" " elementFormDefault="qualified" targetNamespace=" " xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="UploadData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="fileEntryData" nillable="true" type="tns:ArrayOfToolData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ArrayOfToolData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ToolData" nillable="true" type="tns:ToolData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfToolData" nillable="true" type="tns:ArrayOfToolData" />
+  <xs:complexType name="ToolData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="User" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceivedTime" type="xs:unsignedInt" />
+      <xs:element minOccurs="0" name="RemoteWANAddress" type="xs:unsignedLong" />
+      <xs:element minOccurs="0" name="RemoteLANAddress" type="xs:unsignedInt" />
+      <xs:element minOccurs="0" name="MessageType" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="MessagePayload" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="FileEntryName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ToolData" nillable="true" type="tns:ToolData" />
+  <xs:element name="UploadDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UploadDataResult" type="tns:UploadStatus" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="UploadStatus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Success" />
+      <xs:enumeration value="Failure" />
+      <xs:enumeration value="NetworkError" />
+      <xs:enumeration value="MessageCorrupted" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="UploadStatus" nillable="true" type="tns:UploadStatus" />
+  <xs:element name="Ping">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PingResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PingResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HHUUploadData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="hhuFileEntryData" nillable="true" type="tns:ArrayOfToolData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HHUUploadDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="HHUUploadDataResult" type="tns:UploadStatus" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

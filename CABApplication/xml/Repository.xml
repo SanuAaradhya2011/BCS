@@ -1,0 +1,1472 @@
+﻿<Repository>
+  <Instantaneous>
+    <Parameters>
+
+      <Parameter>
+        <ParameterName>Current - IR</ParameterName>
+        <MIOSCode>P2-1-1-1-0</MIOSCode>
+        <OBISCode>1.0.31.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+        <ParameterName>Current - IY</ParameterName>
+        <MIOSCode>P2-1-2-1-0</MIOSCode>
+        <OBISCode>1.0.51.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>Current - IB</ParameterName>
+        <MIOSCode>P2-1-3-1-0</MIOSCode>
+        <OBISCode>1.0.71.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+
+
+        <ParameterName>Voltage - VRN</ParameterName>
+        <MIOSCode>P1-2-1-1-0</MIOSCode>
+        <OBISCode>1.0.32.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>Voltage - VYN</ParameterName>
+        <MIOSCode>P1-2-2-1-0</MIOSCode>
+        <OBISCode>1.0.52.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>Voltage - VBN</ParameterName>
+        <MIOSCode>P1-2-3-1-0</MIOSCode>
+        <OBISCode>1.0.72.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+        <ParameterName>Signed Power Factor - R phase</ParameterName>
+        <MIOSCode>P4-1-1-0-0</MIOSCode>
+        <OBISCode>1.0.33.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+        <ParameterName>Signed Power Factor - Y phase</ParameterName>
+        <MIOSCode>P4-2-1-0-0</MIOSCode>
+        <OBISCode>1.0.53.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+        <ParameterName>Signed Power Factor - B phase</ParameterName>
+        <MIOSCode>P4-3-1-0-0</MIOSCode>
+        <OBISCode>1.0.73.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+        <ParameterName>Three Phase Power Factor - PF</ParameterName>
+        <MIOSCode>P4-4-1-0-0</MIOSCode>
+        <OBISCode>1.0.13.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+        <ParameterName>Power Factor</ParameterName>
+        <MIOSCode>P4-4-1-0-0</MIOSCode>
+        <OBISCode>1.0.13.0.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      
+      <Parameter>
+        <ParameterName>Frequency</ParameterName>
+        <MIOSCode>P9-1-0-0-0</MIOSCode>
+        <OBISCode>1.0.14.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+        <ParameterName>Apparent Power - {0}</ParameterName>
+        <MIOSCode>P3-4-4-1-0</MIOSCode>
+        <OBISCode>1.0.9.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>Active Power (ABS)</ParameterName>
+        <MIOSCode>P3-2-4-1-0</MIOSCode>
+        <OBISCode>1.0.1.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>Signed Reactive Power - {0} (+ Lag - Lead)</ParameterName>
+        <MIOSCode>P3-3-4-1-0</MIOSCode>
+        <OBISCode>1.0.3.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+
+      <Parameter>
+
+        <ParameterName>Cumulative Power-Failure Duration</ParameterName>
+        <MIOSCode>P11-1-0-0-0</MIOSCode>
+        <OBISCode>0.0.94.91.8.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+        <ParameterName>Cumulative Energy - {0}</ParameterName>
+        <MIOSCode>P7-1-18-2-0</MIOSCode>
+        <OBISCode>1.0.1.8.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      
+      <Parameter>
+        <ParameterName>Cumulative Energy kVArh</ParameterName>
+        <MIOSCode>P7-2-5-2-0</MIOSCode>
+        <OBISCode>0.0.1.8.8.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>1</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      
+      <Parameter>
+
+        <ParameterName>Cumulative Energy - {0} - lag</ParameterName>
+        <MIOSCode>P7-2-1-0-0</MIOSCode>
+        <OBISCode>1.0.5.8.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>Cumulative Energy - {0} - lead</ParameterName>
+        <MIOSCode>P7-2-4-0-0</MIOSCode>
+        <OBISCode>1.0.8.8.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>Cumulative Energy - {0}</ParameterName>
+        <MIOSCode>P7-3-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.8.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>Maximum Demand - {0}</ParameterName>
+        <MIOSCode>P7-4-18-0-0</MIOSCode>
+        <OBISCode>1.0.1.6.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+
+        <ParameterName>Maximum Demand - {0}</ParameterName>
+        <MIOSCode>P7-6-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.6.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>Cumulative Export Energy - {0}</ParameterName>
+        <MIOSCode>P7-1-6-2-0</MIOSCode>
+        <OBISCode>1.0.2.8.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+
+      <Parameter>
+        <ParameterName>Cumulative Maximum Demand - {0}</ParameterName>
+        <MIOSCode>P7-4-18-2-0</MIOSCode>
+        <OBISCode>0.0.96.0.149.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>Cumulative Maximum Demand - {0}</ParameterName>
+        <MIOSCode>P7-6-13-2-0</MIOSCode>
+        <OBISCode>0.0.96.0.150.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+        <ParameterName>Real Time Clock - Date and Time</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>0.0.1.0.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>8</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>Maximum Demand - {0}VA DateTime</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>1.0.9.6.0.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>Maximum Demand - {0}W DateTime</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>1.0.1.6.0.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+        <ParameterName>Number of Power - Failures</ParameterName>
+        <MIOSCode>P12-0-3-1-0</MIOSCode>
+        <OBISCode>0.0.96.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>Cumulative Tamper Count</ParameterName>
+        <MIOSCode>P12-0-2-1-0</MIOSCode>
+        <OBISCode>0.0.94.91.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>1</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>Cumulative Billing Count</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>0.0.0.1.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>1</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>Cumulative Programming Count</ParameterName>
+        <MIOSCode>P12-0-1-1-0</MIOSCode>
+        <OBISCode>0.0.96.2.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>1</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+
+        <ParameterName>Billing Date</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>0.0.0.1.2.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>TimeStamp</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>0.0.1.0.0.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>8</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+
+      <Parameter>
+        <ParameterName>Phase Voltage</ParameterName>
+        <MIOSCode>P1-2-7-1-0</MIOSCode>
+        <OBISCode>1.0.12.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>Phase Current</ParameterName>
+        <MIOSCode>P2-1-5-1-0</MIOSCode>
+        <OBISCode>1.0.11.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>Neutral Current</ParameterName>
+        <MIOSCode>P2-1-4-1-0</MIOSCode>
+        <OBISCode>1.0.91.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>Apparent Power Phase</ParameterName>
+        <MIOSCode>P3-4-4-1-0</MIOSCode>
+        <OBISCode>1.0.153.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>Signed Active Power Phase (+ Fw - Rev)</ParameterName>
+        <MIOSCode>P3-2-4-1-0</MIOSCode>
+        <OBISCode>1.0.152.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>Signed Active Power Neutral (+ Fw - Rev)</ParameterName>
+        <MIOSCode>P3-2-4-1-0</MIOSCode>
+        <OBISCode>1.0.172.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>Cumulative Energy kvrh Lead</ParameterName>
+        <MIOSCode>P7-2-2-0-0</MIOSCode>
+        <OBISCode>1.0.8.8.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>Defraud Energy kWh</ParameterName>
+        <MIOSCode>P7-1-13-3-0</MIOSCode>
+        <OBISCode>0.0.96.1.218.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+        <ParameterName>Defraud Energy kWh</ParameterName>
+        <MIOSCode>P7-1-18-3-1</MIOSCode>
+        <OBISCode>0.0.96.1.221.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+	  
+	  <!-- MohsinRaza: HTCT Parameters are Added -->
+	  
+	  <Parameter>
+        <ParameterName>Signed R-Phase Active Power</ParameterName>
+        <MIOSCode>P3-1-1-1-0</MIOSCode>
+        <OBISCode>1.1.24.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>Signed Y-Phase Active Power</ParameterName>
+        <MIOSCode>P3-1-2-1-0</MIOSCode>
+        <OBISCode>1.1.56.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>Signed B-Phase Active Power</ParameterName>
+        <MIOSCode>P3-1-3-1-0</MIOSCode>
+        <OBISCode>1.1.76.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>Signed R-Phase Apparent Power</ParameterName>
+        <MIOSCode>P3-4-1-1-0</MIOSCode>
+        <OBISCode>1.0.29.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>Signed Y-Phase Apparent Power</ParameterName>
+        <MIOSCode>P3-4-2-1-0</MIOSCode>
+        <OBISCode>1.0.49.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>Signed B-Phase Apparent Power</ParameterName>
+        <MIOSCode>P3-4-3-1-0</MIOSCode>
+        <OBISCode>1.0.69.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>Signed R-Phase Reactive Power </ParameterName>
+        <MIOSCode>P3-3-1-1-0</MIOSCode>
+        <OBISCode>1.0.23.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>Signed Y-Phase Reactive Power </ParameterName>
+        <MIOSCode>P3-3-2-1-0</MIOSCode>
+        <OBISCode>1.0.43.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>Signed B-Phase Reactive Power </ParameterName>
+        <MIOSCode>P3-3-3-1-0</MIOSCode>
+        <OBISCode>1.0.63.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+
+    </Parameters>
+  </Instantaneous>
+  <Billing>
+    <Parameters>
+      <Parameter>
+
+        <ParameterName>BillingDate</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>0.0.0.1.2.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>SystemPowerFactorforBillingPeriod</ParameterName>
+        <MIOSCode>P4-4-4-1-0</MIOSCode>
+        <OBISCode>1.0.13.0.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykWhTZ0</ParameterName>
+        <MIOSCode>P7-1-18-2-0</MIOSCode>
+        <OBISCode>1.0.1.8.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykWhTZ1</ParameterName>
+        <MIOSCode>P7-1-18-2-0</MIOSCode>
+        <OBISCode>1.0.1.8.1.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykWhTZ2</ParameterName>
+        <MIOSCode>P7-1-18-2-0</MIOSCode>
+        <OBISCode>1.0.1.8.2.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykWhTZ3</ParameterName>
+        <MIOSCode>P7-1-18-2-0</MIOSCode>
+        <OBISCode>1.0.1.8.3.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykWhTZ4</ParameterName>
+        <MIOSCode>P7-1-18-2-0</MIOSCode>
+        <OBISCode>1.0.1.8.4.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykWhTZ5</ParameterName>
+        <MIOSCode>P7-1-18-2-0</MIOSCode>
+        <OBISCode>1.0.1.8.5.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykWhTZ6</ParameterName>
+        <MIOSCode>P7-1-18-2-0</MIOSCode>
+        <OBISCode>1.0.1.8.6.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykWhTZ7</ParameterName>
+        <MIOSCode>P7-1-18-2-0</MIOSCode>
+        <OBISCode>1.0.1.8.7.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykWhTZ8</ParameterName>
+        <MIOSCode>P7-1-18-2-0</MIOSCode>
+        <OBISCode>1.0.1.8.8.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykvarhLag</ParameterName>
+        <MIOSCode>P7-2-1-0-0</MIOSCode>
+        <OBISCode>1.0.5.8.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykvarhLead</ParameterName>
+        <MIOSCode>P7-2-4-0-0</MIOSCode>
+        <OBISCode>1.0.8.8.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykVAhTZ0</ParameterName>
+        <MIOSCode>P7-3-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.8.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykVAhTZ1</ParameterName>
+        <MIOSCode>P7-3-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.8.1.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykVAhTZ2</ParameterName>
+        <MIOSCode>P7-3-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.8.2.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykVAhTZ3</ParameterName>
+        <MIOSCode>P7-3-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.8.3.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykVAhTZ4</ParameterName>
+        <MIOSCode>P7-3-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.8.4.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykVAhTZ5</ParameterName>
+        <MIOSCode>P7-3-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.8.5.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykVAhTZ6</ParameterName>
+        <MIOSCode>P7-3-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.8.6.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykVAhTZ7</ParameterName>
+        <MIOSCode>P7-3-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.8.7.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykVAhTZ8</ParameterName>
+        <MIOSCode>P7-3-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.8.8.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkWTZ0</ParameterName>
+        <MIOSCode>P7-4-18-0-0</MIOSCode>
+        <OBISCode>1.0.1.6.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkWDateTimeTZ0</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>1.0.1.6.0.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkWTZ1</ParameterName>
+        <MIOSCode>P7-4-18-0-0</MIOSCode>
+        <OBISCode>1.0.1.6.1.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkWDateTimeTZ1</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>1.0.1.6.1.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkWTZ2</ParameterName>
+        <MIOSCode>P7-4-18-0-0</MIOSCode>
+        <OBISCode>1.0.1.6.2.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkWDateTimeTZ2</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>1.0.1.6.2.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkWTZ3</ParameterName>
+        <MIOSCode>P7-4-18-0-0</MIOSCode>
+        <OBISCode>1.0.1.6.3.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkWDateTimeTZ3</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>1.0.1.6.3.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkWTZ4</ParameterName>
+        <MIOSCode>P7-4-18-0-0</MIOSCode>
+        <OBISCode>1.0.1.6.4.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkWDateTimeTZ4</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>1.0.1.6.4.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkWTZ5</ParameterName>
+        <MIOSCode>P7-4-18-0-0</MIOSCode>
+        <OBISCode>1.0.1.6.5.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkWDateTimeTZ5</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>1.0.1.6.5.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkWTZ6</ParameterName>
+        <MIOSCode>P7-4-18-0-0</MIOSCode>
+        <OBISCode>1.0.1.6.6.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkWDateTimeTZ6</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>1.0.1.6.6.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkWTZ7</ParameterName>
+        <MIOSCode>P7-4-18-0-0</MIOSCode>
+        <OBISCode>1.0.1.6.7.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkWDateTimeTZ7</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>1.0.1.6.7.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkWTZ8</ParameterName>
+        <MIOSCode>P7-4-18-0-0</MIOSCode>
+        <OBISCode>1.0.1.6.8.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkWDateTimeTZ8</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>1.0.1.6.8.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkVATZ0</ParameterName>
+        <MIOSCode>P7-6-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.6.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkVADateTimeTZ0</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>1.0.9.6.0.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkVATZ1</ParameterName>
+        <MIOSCode>P7-6-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.6.1.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkVADateTimeTZ1</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>1.0.9.6.1.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkVATZ2</ParameterName>
+        <MIOSCode>P7-6-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.6.2.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkVADateTimeTZ2</ParameterName>
+        <MIOSCode>P7-6-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.6.2.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkVATZ3</ParameterName>
+        <MIOSCode>P7-6-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.6.3.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkVADateTimeTZ3</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>1.0.9.6.3.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkVATZ4</ParameterName>
+        <MIOSCode>P7-6-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.6.4.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkVADateTimeTZ4</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>1.0.9.6.4.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkVATZ5</ParameterName>
+        <MIOSCode>P7-6-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.6.5.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkVADateTimeTZ5</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>1.0.9.6.5.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkVATZ6</ParameterName>
+        <MIOSCode>P7-6-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.6.6.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkVADateTimeTZ6</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>1.0.9.6.6.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkVATZ7</ParameterName>
+        <MIOSCode>P7-6-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.6.7.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkVADateTimeTZ7</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>1.0.9.6.7.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkVATZ8</ParameterName>
+        <MIOSCode>P7-6-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.6.8.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>MDkVADateTimeTZ8</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>1.0.9.6.8.255</OBISCode>
+        <Attribute>5</Attribute>
+        <ClassID>4</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+	  
+	  <!-- MohsinRaza: HTCT Parameters are Added -->
+	  
+	   <Parameter>
+        <ParameterName>CumulativeTamperCount </ParameterName>
+        <MIOSCode>B13</MIOSCode>
+        <OBISCode>0.0.94.91.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>1</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>CumulativePower-FailureDuration </ParameterName>
+        <MIOSCode>B12</MIOSCode>
+        <OBISCode>0.0.96.1.217.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+	  
+    </Parameters>
+  </Billing>
+  <LoadSurvey>
+    <Parameters>
+      <Parameter>
+
+        <ParameterName>RealTimeClockDateandTime</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>0.0.1.0.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>8</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>RPhaseCurrent</ParameterName>
+        <MIOSCode>P2-1-1-1-0</MIOSCode>
+        <OBISCode>1.0.31.27.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>YPhaseCurrent</ParameterName>
+        <MIOSCode>P2-1-2-1-0</MIOSCode>
+        <OBISCode>1.0.51.27.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>BPhaseCurrent</ParameterName>
+        <MIOSCode>P2-1-3-1-0</MIOSCode>
+        <OBISCode>1.0.71.27.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>RPhaseVoltage</ParameterName>
+        <MIOSCode>P1-2-1-1-0</MIOSCode>
+        <OBISCode>1.0.32.27.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>YPhaseVoltage</ParameterName>
+        <MIOSCode>P1-2-2-1-0</MIOSCode>
+        <OBISCode>1.0.52.27.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>BPhaseVoltage</ParameterName>
+        <MIOSCode>P1-2-3-1-0</MIOSCode>
+        <OBISCode>1.0.72.27.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>BlockEnergykWh</ParameterName>
+        <MIOSCode>P7-1-18-2-0</MIOSCode>
+        <OBISCode>1.0.1.29.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>BlockEnergykvarhlag</ParameterName>
+        <MIOSCode>P7-2-1-0-0</MIOSCode>
+        <OBISCode>1.0.5.29.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>BlockEnergykvarhlead</ParameterName>
+        <MIOSCode>P7-2-4-0-0</MIOSCode>
+        <OBISCode>1.0.8.29.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>BlockEnergykVAh</ParameterName>
+        <MIOSCode>P7-3-13-0-0</MIOSCode>
+        <OBISCode>1.0.9.29.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+        <ParameterName>powerfactor</ParameterName>
+        <MIOSCode>P4-4-1-0-0</MIOSCode>
+        <OBISCode>1.0.13.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>Frequency</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>1.0.14.27.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>apparentdemandfwd</ParameterName>
+        <MIOSCode>P7-6-13-0-0</MIOSCode>
+        <OBISCode>1.0.14.27.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>reactivedemandlead</ParameterName>
+        <MIOSCode>P7-5-4-0-0</MIOSCode>
+        <OBISCode>1.0.14.27.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>reactivedemandlag</ParameterName>
+        <MIOSCode>P7-5-1-0-0</MIOSCode>
+        <OBISCode>1.0.14.27.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>activedemandfwd</ParameterName>
+        <MIOSCode>P7-4-13-0-0</MIOSCode>
+        <OBISCode>1.0.14.27.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+        <ParameterName>Three Phase Power Factor - PF</ParameterName>
+        <MIOSCode>P4-4-1-0-0</MIOSCode>
+        <OBISCode>1.0.13.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>TamperStatus</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>0.0.96.1.152.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>1</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>AverageVoltage</ParameterName>
+        <MIOSCode>P1-2-7-4-0</MIOSCode>
+        <OBISCode>1.0.12.27.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+        <ParameterName>AverageCurrent</ParameterName>
+        <MIOSCode>P2-1-5-4-0</MIOSCode>
+        <OBISCode>1.0.11.27.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+	  <!-- MohsinRaza: HTCT Parameters are Added -->
+	  
+	   <Parameter>
+        <ParameterName>activepowerrphase</ParameterName>
+        <MIOSCode>P3-1-1-1-0</MIOSCode>
+        <OBISCode>1.1.24.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>activepoweryphase</ParameterName>
+        <MIOSCode>P3-1-2-1-0</MIOSCode>
+        <OBISCode>1.1.56.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>activepowerbphase</ParameterName>
+        <MIOSCode>P3-1-3-1-0</MIOSCode>
+        <OBISCode>1.1.76.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>apparentpowerrphase</ParameterName>
+        <MIOSCode>P3-4-1-1-0</MIOSCode>
+        <OBISCode>1.0.29.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>apparentpoweryphase</ParameterName>
+        <MIOSCode>P3-4-2-1-0</MIOSCode>
+        <OBISCode>1.0.49.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>apparentpowerbphase</ParameterName>
+        <MIOSCode>P3-4-3-1-0</MIOSCode>
+        <OBISCode>1.0.69.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>reactivepowerrphase</ParameterName>
+        <MIOSCode>P3-3-1-1-0</MIOSCode>
+        <OBISCode>1.0.23.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>reactivepoweryphase</ParameterName>
+        <MIOSCode>P3-3-2-1-0</MIOSCode>
+        <OBISCode>1.0.43.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>reactivepowerbphase</ParameterName>
+        <MIOSCode>P3-3-3-1-0</MIOSCode>
+        <OBISCode>1.0.63.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>poweroffdurationlsip</ParameterName>
+        <MIOSCode>P11-1-0-0-0</MIOSCode>
+        <OBISCode>0.0.96.1.217.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+	  
+    </Parameters>
+  </LoadSurvey>
+  <Tamper>
+    <Parameters>
+
+      <Parameter>
+
+        <ParameterName>DateTimeEvent</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>0.0.1.0.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>8</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>EventCode</ParameterName>
+        <MIOSCode>P1-0-0-0</MIOSCode>
+        <OBISCode>0.0.96.11.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>1</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CurrentIR</ParameterName>
+        <MIOSCode>P2-1-1-1-0</MIOSCode>
+        <OBISCode>1.0.31.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CurrentIY</ParameterName>
+        <MIOSCode>P2-1-2-1-0</MIOSCode>
+        <OBISCode>1.0.51.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CurrentIB</ParameterName>
+        <MIOSCode>P2-1-3-1-0</MIOSCode>
+        <OBISCode>1.0.71.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>VoltageVRN</ParameterName>
+        <MIOSCode>P1-2-1-1-0</MIOSCode>
+        <OBISCode>1.0.32.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>VoltageVYN</ParameterName>
+        <MIOSCode>P1-2-2-1-0</MIOSCode>
+        <OBISCode>1.0.52.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>VoltageVBN</ParameterName>
+        <MIOSCode>P1-2-3-1-0</MIOSCode>
+        <OBISCode>1.0.72.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>PowerFactorRphase</ParameterName>
+        <MIOSCode>P4-1-1-1-0</MIOSCode>
+        <OBISCode>1.0.33.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>PowerFactorYphase</ParameterName>
+        <MIOSCode>P4-1-2-1-0</MIOSCode>
+        <OBISCode>1.0.53.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>PowerFactorBphase</ParameterName>
+        <MIOSCode>P4-1-3-1-0</MIOSCode>
+        <OBISCode>1.0.73.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykWh</ParameterName>
+        <MIOSCode>P7-1-18-2-0</MIOSCode>
+        <OBISCode>1.0.1.8.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+
+        <ParameterName>CumulativeEnergykVAh</ParameterName>
+        <MIOSCode>P7-3-13-0-0</MIOSCode>
+        <OBISCode>1.0.1.8.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+        <ParameterName>PhaseVoltage</ParameterName>
+        <MIOSCode>P1-2-7-1-0</MIOSCode>
+        <OBISCode>1.0.12.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      <Parameter>
+        <ParameterName>PhaseCurrent</ParameterName>
+        <MIOSCode>P2-1-5-1-0</MIOSCode>
+        <OBISCode>1.0.94.91.14.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+      <Parameter>
+        <ParameterName>NeutralCurrent</ParameterName>
+        <MIOSCode>P2-1-4-1-0</MIOSCode>
+        <OBISCode>1.0.91.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+      
+      <Parameter>
+        <ParameterName>TotalPowerFactor</ParameterName>
+        <MIOSCode>P4-4-1-0-0</MIOSCode>
+        <OBISCode>1.0.13.7.0.255</OBISCode>
+        <Attribute>2</Attribute>
+        <ClassID>3</ClassID>
+        <DataIndex>0</DataIndex>
+      </Parameter>
+
+    </Parameters>
+  </Tamper>
+</Repository>

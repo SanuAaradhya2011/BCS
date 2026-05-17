@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F5257B2A-E66A-4A87-A00C-03CE2798510E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CAB.Formatters.DLMS</RootNamespace>
+    <AssemblyName>CAB.Formatters.DLMS</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.16.0.18925.20022\lib\net40\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GenericParser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataType\FastDownload\CustomDateTime.cs" />
+    <Compile Include="DataType\FastDownload\CustomDateTimeReverse.cs" />
+    <Compile Include="DataType\FastDownload\CustomDateTimeSec.cs" />
+    <Compile Include="DataType\DataTypeFactory.cs" />
+    <Compile Include="DataType\FastDownload\CustomErrorCode.cs" />
+    <Compile Include="DataType\FastDownload\CustomShortDate.cs" />
+    <Compile Include="DataType\FastDownload\CustomVisibleString.cs" />
+    <Compile Include="DataType\FastDownload\LittleEndianDoubleLongUnsigned.cs" />
+    <Compile Include="DataType\FastDownload\LittleEndianFDBlockEnergy.cs" />
+    <Compile Include="DataType\FastDownload\LittleEndianFDEnergy.cs" />
+    <Compile Include="DataType\FastDownload\LittleEndianFDEnergyLong.cs" />
+    <Compile Include="DataType\FastDownload\LittleEndianLongUnsigned.cs" />
+    <Compile Include="DataType\Time.cs" />
+    <Compile Include="FastDownload\FastDownloadParser.cs" />
+    <Compile Include="DLMSCommand.cs" />
+    <Compile Include="Parser.cs" />
+    <Compile Include="ProfileData.cs" />
+    <Compile Include="ProfileId.cs" />
+    <Compile Include="ProtocolDataType.cs" />
+    <Compile Include="DataType\Boolean.cs" />
+    <Compile Include="DataType\DataType.cs" />
+    <Compile Include="DataType\DoubleLong.cs" />
+    <Compile Include="DataType\DoubleLongUnsigned.cs" />
+    <Compile Include="DataType\Enum.cs" />
+    <Compile Include="DataType\Float32.cs" />
+    <Compile Include="DataType\Float64.cs" />
+    <Compile Include="DataType\Long64.cs" />
+    <Compile Include="DataType\Long64Unsigned.cs" />
+    <Compile Include="DataType\Long.cs" />
+    <Compile Include="DataType\LongUnsigned.cs" />
+    <Compile Include="DataType\OctetString.cs" />
+    <Compile Include="DataType\Integer.cs" />
+    <Compile Include="DataType\Unsigned.cs" />
+    <Compile Include="DataType\VisibleString.cs" />
+    <Compile Include="PayloadParser.cs" />
+    <Compile Include="ExtendedBinaryReader.cs" />
+    <Compile Include="ConfigurationParser.cs" />
+    <Compile Include="StructureInfo.cs" />
+    <Compile Include="StructureInfoManager.cs" />
+    <Compile Include="StructureUnitManager.cs" />
+    <Compile Include="StructureInfoEntity.cs" />
+    <Compile Include="StructureUnitEntity.cs" />
+    <Compile Include="StructureUnitInformation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CAB.Parser.Entity\Common.CAB.Parser.Entity.csproj">
+      <Project>{8CAD342E-EEAD-45B5-8440-200AEEE3D1C2}</Project>
+      <Name>Common.CAB.Parser.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CAB.Serialization\Common.CAB.Serialization.csproj">
+      <Project>{3B9CB8CE-14DE-4E12-AD8D-801D76FC257A}</Project>
+      <Name>Common.CAB.Serialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABCommunication.Common\Common.CAB.Communication.Common.csproj">
+      <Project>{5374f8ca-f4a8-4f30-92c4-6a938fd12518}</Project>
+      <Name>Common.CAB.Communication.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABFramework\Generic.CABFramework.csproj">
+      <Project>{CF4BBFC7-E739-4789-BB1E-4FFBA6F8C6C4}</Project>
+      <Name>Generic.CABFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Xml\BillingDataElements.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\FraudEnergyDataElements.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\InstantDataElements.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\LoadSurveyDataElements.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\LoadSurveyDataElementsNetMeters.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\MidnightDataElements.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\NameplateDataElements.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\PhasorDataElements.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\StructureInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\TamperDataElements.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\UnitInformation.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\x86\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  
+  -->
+</Project>

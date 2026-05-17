@@ -1,0 +1,1090 @@
+﻿<Columns>
+  <Column>
+    <Profile>GENERAL</Profile>
+    <DisplayName>Meter Serial Number </DisplayName>
+    <DBName> meterSerialNumber </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>GENERAL</Profile>
+    <DisplayName>Manufacturer name </DisplayName>
+    <DBName>manufacturername </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>GENERAL</Profile>
+    <DisplayName>Firmware Version </DisplayName>
+    <DBName>firmwareVersionformeter </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>GENERAL</Profile>
+    <DisplayName>Meter type (3P-3W / 3P-4W) </DisplayName>
+    <DBName>metertype </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>GENERAL</Profile>
+    <DisplayName>Internal  CT ratio </DisplayName>
+    <DBName>internalCTratio </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>GENERAL</Profile>
+    <DisplayName>Internal PT ratio </DisplayName>
+    <DBName>internalPTratio </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>GENERAL</Profile>
+    <DisplayName>Year Of manufacture </DisplayName>
+    <DBName>meteryearofmanufacture </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>GENERAL</Profile>
+    <!--<DisplayName>Meter Model No. </DisplayName>-->
+    <DisplayName>Model-Type</DisplayName>
+    <DBName>metermodelno </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Real Time Clock Date and Time </DisplayName>
+    <DBName>Real Time Clock - Date and Time </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Current IR </DisplayName>
+    <DBName>Current - IR </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Current IY </DisplayName>
+    <DBName>Current - IY </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Current IB </DisplayName>
+    <DBName>Current - IB </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Voltage VRN </DisplayName>
+    <DBName>Voltage – VRN </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Voltage VYN </DisplayName>
+    <DBName>Voltage – VYN </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Voltage VBN </DisplayName>
+    <DBName>Voltage – VBN </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Signed Power Factor R phase </DisplayName>
+    <DBName>Signed Power Factor - R phase </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Signed Power Factor Y phase </DisplayName>
+    <DBName>Signed Power Factor - Y phase </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Signed Power Factor B phase </DisplayName>
+    <DBName>Signed Power Factor - B phase </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Three Phase Power Factor PF </DisplayName>
+    <DBName>Three Phase Power Factor - PF </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Frequency </DisplayName>
+    <DBName>Frequency </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Apparent Power </DisplayName>
+    <DBName>Apparent Power - kVA </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Active Power (ABS) </DisplayName>
+    <DBName>Active Power (ABS) </DBName>
+    <Utility>PUMA</Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Signed Active Power (+ Forward; Reverse) </DisplayName>
+    <DBName>Signed Active Power - kW (+ Forward - Reverse) </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Signed Reactive Power (+ Lag; Lead) </DisplayName>
+    <DBName>Signed Reactive Power - kvar (+ Lag - Lead) </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Number of Power Failures </DisplayName>
+    <DBName>Number of Power - Failures </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Cumulative Power Failure Duration </DisplayName>
+    <DBName>Cumulative Power-Failure Duration </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Cumulative Tamper Count </DisplayName>
+    <DBName>Cumulative Tamper Count </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Cumulative Billing  Count </DisplayName>
+    <DBName>Cumulative Billing Count </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Cumulative Programming Count </DisplayName>
+    <DBName>Cumulative Programming Count </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Billing Date </DisplayName>
+    <DBName>Billing Date </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Cumulative Active Energy//Energy kWh </DisplayName>
+    <DBName>Cumulative Energy - kWh </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Cumulative Reactive Energy Lag//Energy kvarh </DisplayName>
+    <DBName>Cumulative Energy - kvarh - lag </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Cumulative Reactive Energy Lead </DisplayName>
+    <DBName>Cumulative Energy - kvarh - lead </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Cumulative Apparent Energy//Energy kVAh </DisplayName>
+    <DBName>Cumulative Energy - kVAh </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Maximum Active Demand </DisplayName>
+    <DBName>Maximum Demand – kW </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Maximum Active Demand DateTime </DisplayName>
+    <DBName>Maximum Demand – kW DateTime </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Maximum Apparent Demand </DisplayName>
+    <DBName>Maximum Demand – kVA </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Maximum Apparent Demand DateTime </DisplayName>
+    <DBName>Maximum Demand – kVA DateTime </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Cumulative Maximum Active Demand </DisplayName>
+    <DBName>Cumulative Maximum Demand - kW </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Cumulative Maximum Apparent Demand </DisplayName>
+    <DBName>Cumulative Maximum Demand - kVA </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Cumulative Export Energy </DisplayName>
+    <DBName>Cumulative Export Energy - kWh </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Reverse kWh </DisplayName>
+    <DBName>Reverse kWh </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Reverse kVAh </DisplayName>
+    <DBName>Reverse kVAh </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Reverse kVArh - lag </DisplayName>
+    <DBName>Reverse kVArh - lag </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Reverse kVArh - lead </DisplayName>
+    <DBName>Reverse kVArh - lead </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Present TOD Zone </DisplayName>
+    <DBName>Present TOD Zone </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Cumulative kWh with high Resolution - T1 </DisplayName>
+    <DBName>Cumulative kWh with high Resolution - T1 </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Cumulative kWh with high Resolution - T2 </DisplayName>
+    <DBName>Cumulative kWh with high Resolution - T2 </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Cumulative kWh with high Resolution - T3 </DisplayName>
+    <DBName>Cumulative kWh with high Resolution - T3 </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Cumulative kWh with high Resolution - T4 </DisplayName>
+    <DBName>Cumulative kWh with high Resolution - T4 </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Cumulative kWh with high Resolution - T5 </DisplayName>
+    <DBName>Cumulative kWh with high Resolution - T5 </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Cumulative kWh with high Resolution - T6 </DisplayName>
+    <DBName>Cumulative kWh with high Resolution - T6 </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Cumulative kWh with high Resolution - T7 </DisplayName>
+    <DBName>Cumulative kWh with high Resolution - T7 </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>INSTANTANEOUS</Profile>
+    <DisplayName>Cumulative kWh with high Resolution - T8 </DisplayName>
+    <DBName>Cumulative kWh with high Resolution - T8 </DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Billing Date</DisplayName>
+    <DBName>BillingDate</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>System Power Factor for Billing Period</DisplayName>
+    <DBName>SystemPowerFactorforBillingPeriod</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cumulative Active Energy</DisplayName>
+    <DBName>CumulativeEnergykWhTZ0</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cumulative Active Energy Tarrif1</DisplayName>
+    <DBName>CumulativeEnergykWhTZ1</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cumulative Active Energy Tarrif2</DisplayName>
+    <DBName>CumulativeEnergykWhTZ2</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cumulative Active Energy Tarrif3</DisplayName>
+    <DBName>CumulativeEnergykWhTZ3</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cumulative Active Energy Tarrif4</DisplayName>
+    <DBName>CumulativeEnergykWhTZ4</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cumulative Active Energy Tarrif5</DisplayName>
+    <DBName>CumulativeEnergykWhTZ5</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cumulative Active Energy Tarrif6</DisplayName>
+    <DBName>CumulativeEnergykWhTZ6</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cumulative Active Energy Tarrif7</DisplayName>
+    <DBName>CumulativeEnergykWhTZ7</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cumulative Active Energy Tarrif8</DisplayName>
+    <DBName>CumulativeEnergykWhTZ8</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cumulative Reactive Energy Lag</DisplayName>
+    <DBName>CumulativeEnergykvarhLag</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cumulative Reactive Energy Lead</DisplayName>
+    <DBName>CumulativeEnergykvarhLead</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cumulative Apparent Energy</DisplayName>
+    <DBName>CumulativeEnergykVAhTZ0</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cumulative Apparent Energy Tarrif1</DisplayName>
+    <DBName>CumulativeEnergykVAhTZ1</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cumulative Apparent Energy Tarrif2</DisplayName>
+    <DBName>CumulativeEnergykVAhTZ2</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cumulative Apparent Energy Tarrif3</DisplayName>
+    <DBName>CumulativeEnergykVAhTZ3</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cumulative Apparent Energy Tarrif4</DisplayName>
+    <DBName>CumulativeEnergykVAhTZ4</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cumulative Apparent Energy Tarrif5</DisplayName>
+    <DBName>CumulativeEnergykVAhTZ5</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cumulative Apparent Energy Tarrif6</DisplayName>
+    <DBName>CumulativeEnergykVAhTZ6</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cumulative Apparent Energy Tarrif7</DisplayName>
+    <DBName>CumulativeEnergykVAhTZ7</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cumulative Apparent Energy Tarrif8</DisplayName>
+    <DBName>CumulativeEnergykVAhTZ8</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Active </DisplayName>
+    <DBName>MDkWTZ0</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Active Date Time</DisplayName>
+    <DBName>MDkWDateTimeTZ0</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Active Tarrif1</DisplayName>
+    <DBName>MDkWTZ1</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Active Tarrif1 Date Time</DisplayName>
+    <DBName>MDkWDateTimeTZ1</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Active Tarrif2</DisplayName>
+    <DBName>MDkWTZ2</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Active Tarrif2 Date Time</DisplayName>
+    <DBName>MDkWDateTimeTZ2</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Active Tarrif3</DisplayName>
+    <DBName>MDkWTZ3</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Active Tarrif3 Date Time</DisplayName>
+    <DBName>MDkWDateTimeTZ3</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Active Tarrif4</DisplayName>
+    <DBName>MDkWTZ4</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Active Tarrif4 Date Time</DisplayName>
+    <DBName>MDkWDateTimeTZ4</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Active Tarrif5</DisplayName>
+    <DBName>MDkWTZ5</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Active Tarrif5 Date Time</DisplayName>
+    <DBName>MDkWDateTimeTZ5</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Active Tarrif6</DisplayName>
+    <DBName>MDkWTZ6</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Active Tarrif6 Date Time</DisplayName>
+    <DBName>MDkWDateTimeTZ6</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Active Tarrif7</DisplayName>
+    <DBName>MDkWTZ7</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Active Tarrif7 Date Time</DisplayName>
+    <DBName>MDkWDateTimeTZ7</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Active Tarrif8</DisplayName>
+    <DBName>MDkWTZ8</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Active Tarrif8 Date Time</DisplayName>
+    <DBName>MDkWDateTimeTZ8</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Apparent</DisplayName>
+    <DBName>MDkVATZ0</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Apparent Date Time</DisplayName>
+    <DBName>MDkVADateTimeTZ0</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Apparent Tarrif1</DisplayName>
+    <DBName>MDkVATZ1</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Apparent Tarrif1 Date Time</DisplayName>
+    <DBName>MDkVADateTimeTZ1</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Apparent Tarrif2</DisplayName>
+    <DBName>MDkVATZ2</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Apparent Tarrif2 Date Time</DisplayName>
+    <DBName>MDkVADateTimeTZ2</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Apparent Tarrif3</DisplayName>
+    <DBName>MDkVATZ3</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Apparent Tarrif3 Date Time</DisplayName>
+    <DBName>MDkVADateTimeTZ3</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Apparent Tarrif4</DisplayName>
+    <DBName>MDkVATZ4</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Apparent Tarrif4 Date Time</DisplayName>
+    <DBName>MDkVADateTimeTZ4</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Apparent Tarrif5</DisplayName>
+    <DBName>MDkVATZ5</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Apparent Tarrif5 Date Time</DisplayName>
+    <DBName>MDkVADateTimeTZ5</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Apparent Tarrif6</DisplayName>
+    <DBName>MDkVATZ6</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Apparent Tarrif6 Date Time</DisplayName>
+    <DBName>MDkVADateTimeTZ6</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Apparent Tarrif7</DisplayName>
+    <DBName>MDkVATZ7</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Apparent Tarrif7 Date Time</DisplayName>
+    <DBName>MDkVADateTimeTZ7</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Apparent Tarrif8</DisplayName>
+    <DBName>MDkVATZ8</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>MD Apparent Tarrif8 Date Time</DisplayName>
+    <DBName>MDkVADateTimeTZ8</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Billing Type</DisplayName>
+    <DBName>BillingResetType</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cum Power Off Duration</DisplayName>
+    <DBName>CumPowerOffDuration</DBName>
+    <Utility>MPKWCL</Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Cum Tamper Count</DisplayName>
+    <DBName>CumTamperCount</DBName>
+    <Utility>MPKWCL</Utility>
+  </Column>
+  <Column>
+    <Profile>BILLING</Profile>
+    <DisplayName>Power Off Duration</DisplayName>
+    <DBName>PowerOffDuration</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>RPhase PT link Missing (Missing Potential) Occurrence</DisplayName>
+    <DBName>1</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>RPhase PT link Missing (Missing Potential) Restoration</DisplayName>
+    <DBName>2</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>YPhase PT link Missing (Missing Potential) Occurrence</DisplayName>
+    <DBName>3</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>YPhase PT link Missing (Missing Potential) Restoration</DisplayName>
+    <DBName>4</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>BPhase PT link Missing (Missing Potential) Occurrence</DisplayName>
+    <DBName>5</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>BPhase PT link Missing (Missing Potential) Restoration</DisplayName>
+    <DBName>6</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Over Voltage in any Phase  Occurrence</DisplayName>
+    <DBName>7</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Over Voltage in any Phase  Restoration</DisplayName>
+    <DBName>8</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Low Voltage in any Phase  Occurrence</DisplayName>
+    <DBName>9</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Low Voltage in any Phase  Restoration</DisplayName>
+    <DBName>10</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Voltage Unbalance Occurrence</DisplayName>
+    <DBName>11</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Voltage Unbalance Restoration</DisplayName>
+    <DBName>12</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Phase R CT reverse Occurrence</DisplayName>
+    <DBName>51</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Phase R CT reverse Restoration</DisplayName>
+    <DBName>52</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Phase Y CT reverse Occurrence</DisplayName>
+    <DBName>53</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Phase Y CT reverse Restoration</DisplayName>
+    <DBName>54</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Phase B CT reverse Occurrence</DisplayName>
+    <DBName>55</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Phase B CT reverse Restoration</DisplayName>
+    <DBName>56</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Phase R CT Open Occurrence</DisplayName>
+    <DBName>57</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Phase R CT Open Restoration</DisplayName>
+    <DBName>58</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Phase Y CT Open Occurrence</DisplayName>
+    <DBName>59</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Phase Y CT Open Restoration</DisplayName>
+    <DBName>60</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Phase B CT Open Occurrence</DisplayName>
+    <DBName>61</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Phase B CT Open Restoration</DisplayName>
+    <DBName>62</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Current Unbalance Occurrence</DisplayName>
+    <DBName>63</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Current Unbalance Restoration</DisplayName>
+    <DBName>64</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>CT Bypass Occurrence</DisplayName>
+    <DBName>65</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>CT Bypass Restoration</DisplayName>
+    <DBName>66</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Over Current in any Phase Occurrence</DisplayName>
+    <DBName>67</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Over Current in any Phase Restoration</DisplayName>
+    <DBName>68</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Power failure (3 phase) Occurrence</DisplayName>
+    <DBName>101</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Power failure (3 phase) Restoration</DisplayName>
+    <DBName>102</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Real Time Clock Date and Time</DisplayName>
+    <DBName>151</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Demand Integration Period</DisplayName>
+    <DBName>152</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Profile Capture Period</DisplayName>
+    <DBName>153</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Single action Schedule for Billing Dates</DisplayName>
+    <DBName>154</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Activity Calendar for Time Zones</DisplayName>
+    <DBName>155</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Permanent Magnet or AC/DC Electromagnet Occurence</DisplayName>
+    <DBName>201</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Permanent Magnet or AC/DC Electromagnet Restoration</DisplayName>
+    <DBName>202</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Neutral Disturbance HF and DC Occurrence</DisplayName>
+    <DBName>203</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Neutral Disturbance HF and DC Restoration</DisplayName>
+    <DBName>204</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Very Low PF Occurrence</DisplayName>
+    <DBName>205</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Very Low PF Restoration</DisplayName>
+    <DBName>206</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Meter Cover Opening Occurrence</DisplayName>
+    <DBName>251</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>kVAh Selection Changed</DisplayName>
+    <DBName>158</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Voltage Phase Sequence Reversal - Occurrence</DisplayName>
+    <DBName>13</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Voltage Phase Sequence Reversal - Restoration</DisplayName>
+    <DBName>14</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>MD Reset</DisplayName>
+    <DBName>159</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Display - Push Mode Config</DisplayName>
+    <DBName>160</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Display - Scroll Mode Config</DisplayName>
+    <DBName>161</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Display - HR Mode Config</DisplayName>
+    <DBName>162</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>TAMPER</Profile>
+    <DisplayName>Display - Scroll Time Config</DisplayName>
+    <DBName>163</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>LOADSURVEY</Profile>
+    <DisplayName>Real Time Clock Date and Time</DisplayName>
+    <DBName>realTimeClockDateandTime</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>LOADSURVEY</Profile>
+    <DisplayName>Current IR</DisplayName>
+    <DBName>rPhaseCurrent</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>LOADSURVEY</Profile>
+    <DisplayName>Current IY</DisplayName>
+    <DBName>yPhaseCurrent</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>LOADSURVEY</Profile>
+    <DisplayName>Current IB</DisplayName>
+    <DBName>bPhaseCurrent</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>LOADSURVEY</Profile>
+    <DisplayName>Voltage VRN</DisplayName>
+    <DBName>rPhaseVoltage</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>LOADSURVEY</Profile>
+    <DisplayName>Voltage VYN</DisplayName>
+    <DBName>yPhaseVoltage</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>LOADSURVEY</Profile>
+    <DisplayName>Voltage VBN</DisplayName>
+    <DBName>bPhaseVoltage</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>LOADSURVEY</Profile>
+    <DisplayName>Block Active Energy//Energy kWh</DisplayName>
+    <DBName>blockEnergykWh</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>LOADSURVEY</Profile>
+    <DisplayName>Block Reactive Energy lag</DisplayName>
+    <DBName>blockEnergykvarhlag</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>LOADSURVEY</Profile>
+    <DisplayName>Block Reactive Energy lead</DisplayName>
+    <DBName>blockEnergykvarhlead</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>LOADSURVEY</Profile>
+    <DisplayName>Block Apparent Energy</DisplayName>
+    <DBName>blockEnergykVAh</DBName>
+    <Utility></Utility>
+  </Column>
+  <Column>
+    <Profile>LOADSURVEY</Profile>
+    <DisplayName>Frequency</DisplayName>
+    <DBName>frequency</DBName>
+    <Utility>PUMA</Utility>
+  </Column>
+  <Column>
+    <Profile>LOADSURVEY</Profile>
+    <DisplayName>Tamper Status</DisplayName>
+    <DBName>tamperStatus</DBName>
+    <Utility>PUMA</Utility>
+  </Column>
+</Columns>
+

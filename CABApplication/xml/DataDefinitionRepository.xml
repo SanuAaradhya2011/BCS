@@ -1,0 +1,5925 @@
+﻿<Repository>
+  <Parameter>
+    <DataDefID>1</DataDefID>
+    <ParameterName>Meter Serial Number</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2</DataDefID>
+    <ParameterName>Manufacturer Name</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>3</DataDefID>
+    <ParameterName>Firmware Version for meter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>4</DataDefID>
+    <ParameterName>Meter Type(3P-3W/3P-4W)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.94.91.9.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>5</DataDefID>
+    <ParameterName>Internal CT Ratio</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.4.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>6</DataDefID>
+    <ParameterName>Internal PT Ratio</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.4.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>7</DataDefID>
+    <ParameterName>Meter Year of Manufacture</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>8</DataDefID>
+    <ParameterName>Meter Info</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.188.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>171</DataDefID>
+    <ParameterName>Category</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.94.91.11.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>172</DataDefID>
+    <ParameterName>Phase Voltage</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.12.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>173</DataDefID>
+    <ParameterName>Phase Current</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.11.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>174</DataDefID>
+    <ParameterName>Neutral Current</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.91.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>175</DataDefID>
+    <ParameterName>Present month Average Power Factor</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.94.91.20.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>176</DataDefID>
+    <ParameterName>Cum. Event Counter(Comp 1-Voltage)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.142.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>177</DataDefID>
+    <ParameterName>Cum. Event Counter(Comp 2-Current)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.143.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>178</DataDefID>
+    <ParameterName>Cum. Event Counter(Comp 3-Power Failure)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.144.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>179</DataDefID>
+    <ParameterName>Cum. Event Counter(Comp 4-Transaction)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.145.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>180</DataDefID>
+    <ParameterName>Cum. Event Counter(Comp 5-Other)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.146.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>181</DataDefID>
+    <ParameterName>Cum. Event Counter(Comp 6-Non Roll-over)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.147.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>182</DataDefID>
+    <ParameterName>Cum. Event Counter (Comp 7-Connect/Disconnect)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.148.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>183</DataDefID>
+    <ParameterName>Present Month Consumption</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.149.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>184</DataDefID>
+    <ParameterName>Active Tarrif INR</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.150.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>185</DataDefID>
+    <ParameterName>OTA f/w upgrade counter for meter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.151.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>186</DataDefID>
+    <ParameterName>OTA f/w upgrade counter for comms card</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.152.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>187</DataDefID>
+    <ParameterName>Phase Current</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.94.91.14.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>188</DataDefID>
+    <ParameterName>Average Voltage</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.12.27.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>189</DataDefID>
+    <ParameterName>Average Current</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.11.27.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>190</DataDefID>
+    <ParameterName>Current Rating</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.94.91.12.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>192</DataDefID>
+    <ParameterName>Apparent Power Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.153.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>193</DataDefID>
+    <ParameterName>Apparent Power Neutral</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.173.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>194</DataDefID>
+    <ParameterName>Signed Active Power Phase(+Fw;-Rev)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.152.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>195</DataDefID>
+    <ParameterName>Signed Active Power Neutral(+Fw;-Rev)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.172.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>196</DataDefID>
+    <ParameterName>Cumulative Power-On Duration</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.94.91.14.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>9</DataDefID>
+    <ParameterName>Real Time Clock - Date and Time</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.1.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>8</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>10</DataDefID>
+    <ParameterName>Current - IR</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.31.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>11</DataDefID>
+    <ParameterName>Current - IY</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.51.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>12</DataDefID>
+    <ParameterName>Current - IB</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.71.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>13</DataDefID>
+    <ParameterName>Voltage - VRN</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.32.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>14</DataDefID>
+    <ParameterName>Voltage - VYN</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.52.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>15</DataDefID>
+    <ParameterName>Voltage - VBN</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.72.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>16</DataDefID>
+    <ParameterName>Signed Power Factor - R Phase (+Lag;-Lead)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.33.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>17</DataDefID>
+    <ParameterName>Signed Power Factor - Y Phase (+Lag;-Lead)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.53.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>18</DataDefID>
+    <ParameterName>Signed Power Factor - B Phase (+Lag;-Lead)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.73.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>19</DataDefID>
+    <ParameterName>Signed Power Factor (+Lag;-Lead)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.13.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>20</DataDefID>
+    <ParameterName>Frequency</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.14.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>21</DataDefID>
+    <ParameterName>Apparent Power - kVA</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>22</DataDefID>
+    <ParameterName>Active Power (ABS)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>23</DataDefID>
+    <ParameterName>Signed Active Power - kW (+Forward;-Reverse)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>24</DataDefID>
+    <ParameterName>Signed Reactive Power - kvar (+Lag;-Lead)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.3.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>25</DataDefID>
+    <ParameterName>Number of Power-Failures</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>26</DataDefID>
+    <ParameterName>Cumulative Power-Failure Duration</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.94.91.8.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>27</DataDefID>
+    <ParameterName>Cumulative Tamper Count</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.94.91.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <!-- Story - 345154-->
+  <Parameter>
+    <DataDefID>384</DataDefID>
+    <ParameterName>Delta Tamper Count</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.190.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>28</DataDefID>
+    <ParameterName>Cumulative Billing Count</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.1.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>29</DataDefID>
+    <ParameterName>Cumulative Programming Count</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>30</DataDefID>
+    <ParameterName>Billing Date</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.1.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>31</DataDefID>
+    <ParameterName>Cumulative Energy kWh Import</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.8.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>32</DataDefID>
+    <ParameterName>Cumulative Energy kvarh Lag</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.5.8.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>33</DataDefID>
+    <ParameterName>Cumulative Energy kvarh Lead</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.8.8.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>34</DataDefID>
+    <ParameterName>Cumulative Energy kVAh</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.8.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>35</DataDefID>
+    <ParameterName>Maximum Demand kW</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.6.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>36</DataDefID>
+    <ParameterName>Maximum Demand kW Date Time</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.6.0.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>37</DataDefID>
+    <ParameterName>Maximum Demand kVA</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.6.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>38</DataDefID>
+    <ParameterName>Maximum Demand kVA Date Time</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.6.0.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>39</DataDefID>
+    <ParameterName>Cumulative Maximum Demand kW</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.0.149.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>40</DataDefID>
+    <ParameterName>Cumulative Maximum Demand kVA</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.0.150.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1046</DataDefID>
+    <ParameterName>Cumulative MD kW</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.2.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1047</DataDefID>
+    <ParameterName>Cumulative MD kVA</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.2.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>41</DataDefID>
+    <ParameterName>RealTimeClockDateandTime</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.1.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>8</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1069</DataDefID>
+    <ParameterName>Cumulative Active MD</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.1.4.8.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1070</DataDefID>
+    <ParameterName>Legal Energy</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.3.8.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1071</DataDefID>
+    <ParameterName>Line Frequency</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.1.6.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>191</DataDefID>
+    <ParameterName>Power On Duration</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.94.91.13.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>385</DataDefID>
+    <ParameterName>Power On Duration 3 Phases</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.96.0.164.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>386</DataDefID>
+    <ParameterName>Power On Duration</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.96.0.165.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1063</DataDefID>
+    <ParameterName>R Phase MD Date Time</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.21.6.0.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1064</DataDefID>
+    <ParameterName>Y Phase MD Date Time</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.41.6.0.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1065</DataDefID>
+    <ParameterName>B Phase MD Date Time</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.61.6.0.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1066</DataDefID>
+    <ParameterName>R Phase MD kW</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.21.6.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1067</DataDefID>
+    <ParameterName>Y Phase MD kW</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.41.6.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1068</DataDefID>
+    <ParameterName>B Phase MD kW</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.61.6.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+
+  <!--load survey-->
+  <Parameter>
+    <DataDefID>42</DataDefID>
+    <ParameterName>RPhaseCurrent</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.31.27.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>43</DataDefID>
+    <ParameterName>YPhaseCurrent</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.51.27.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>44</DataDefID>
+    <ParameterName>BPhaseCurrent</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.71.27.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>45</DataDefID>
+    <ParameterName>RPhaseVoltage</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.32.27.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>46</DataDefID>
+    <ParameterName>YPhaseVoltage</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.52.27.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>47</DataDefID>
+    <ParameterName>BPhaseVoltage</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.72.27.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>48</DataDefID>
+    <ParameterName>BlockEnergykWh</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.29.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>49</DataDefID>
+    <ParameterName>BlockEnergykVArhLag</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.5.29.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>50</DataDefID>
+    <ParameterName>BlockEnergykVArhLead</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.8.29.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>51</DataDefID>
+    <ParameterName>BlockEnergykVAh</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.29.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>52</DataDefID>
+    <ParameterName>Frequency</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.14.27.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>53</DataDefID>
+    <ParameterName>Tamper Status</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.152.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--load survey-->
+
+  <Parameter>
+    <DataDefID>54</DataDefID>
+    <ParameterName>Signed R-Phase Active Power</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.1.24.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>55</DataDefID>
+    <ParameterName>Signed Y-Phase Active Power</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.1.56.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>56</DataDefID>
+    <ParameterName>Signed B-Phase Active Power</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.1.76.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>57</DataDefID>
+    <ParameterName>R-Phase Capacitive/Inductive  Flag</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>58</DataDefID>
+    <ParameterName>Y-Phase Capacitive /Inductive  Flag</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>59</DataDefID>
+    <ParameterName>B-Phase Capacitive /Inductive  Flag</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>60</DataDefID>
+    <ParameterName>Angle Y-R</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.191.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>61</DataDefID>
+    <ParameterName>Angle B-R</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.192.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>62</DataDefID>
+    <ParameterName>Angle Between Two</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.193.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>63</DataDefID>
+    <ParameterName>Phase Sequence</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.194.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+
+
+  <!-- farud energy-->
+
+  <Parameter>
+    <DataDefID>64</DataDefID>
+    <ParameterName>Cumulative no load duration</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>65</DataDefID>
+    <ParameterName>Fraud Apparent Energy</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>66</DataDefID>
+    <ParameterName>Fraud Active Energy</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>67</DataDefID>
+    <ParameterName>Fraud Reactive Lag  Energy</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>68</DataDefID>
+    <ParameterName>Fraud Reactive Lead  Energy</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>69</DataDefID>
+    <ParameterName>Reverse Apparent Energy </ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>70</DataDefID>
+    <ParameterName>Reverse Active Energy</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>71</DataDefID>
+    <ParameterName>Rising Demand kW</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.4.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>72</DataDefID>
+    <ParameterName>Elapsed Time kW</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.4.0.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>73</DataDefID>
+    <ParameterName>Rising Demand kVA</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.4.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>74</DataDefID>
+    <ParameterName>Elapsed Time kVA</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.4.0.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>75</DataDefID>
+    <ParameterName>Fundamental Energy kWh</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.128.8.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>76</DataDefID>
+    <ParameterName>Event Code</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.11.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>76</DataDefID>
+    <ParameterName>Event Code</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.11.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>76</DataDefID>
+    <ParameterName>Event Code</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.11.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>76</DataDefID>
+    <ParameterName>Event Code</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.11.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>76</DataDefID>
+    <ParameterName>Event Code</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.11.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>76</DataDefID>
+    <ParameterName>Event Code</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.11.5.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>76</DataDefID>
+    <ParameterName>Event Code</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.11.6.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>77</DataDefID>
+    <ParameterName>Event Code</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.197.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>78</DataDefID>
+    <ParameterName>Reverse Reactive Lag  Energy</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>79</DataDefID>
+    <ParameterName>Reverse Reactive Lead  Energy </ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>80</DataDefID>
+    <ParameterName>Total Power On Hours</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.200.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>81</DataDefID>
+    <ParameterName>Anomaly</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.157.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>82</DataDefID>
+    <ParameterName>Readout Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>83</DataDefID>
+    <ParameterName>Power-Failure Duration</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.217.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>84</DataDefID>
+    <ParameterName>Defraud Energy kWh(Magnet Tamper)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.218.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>197</DataDefID>
+    <ParameterName>Defraud Energy kWh(Mag+SWT+ND)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.221.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--Story no: 490966 WB specific tender Billing Average Load Factor support is implemented over tneb TOD Average Power Factor - TZ1 because TNEB is supported in 2 series BCS only-->
+  <!--<Parameter>
+    <DataDefID>1108</DataDefID>
+    <ParameterName>Billing Average Load Factor</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.13.0.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>-->
+
+  <Parameter>
+    <DataDefID>85</DataDefID>
+    <ParameterName>Billing Average Load Factor</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.219.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>201</DataDefID>
+    <ParameterName>LS Capture Period</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.8.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--tneb changes-->
+  <Parameter>
+    <DataDefID>202</DataDefID>
+    <ParameterName>R-Phase Missing Potential Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.162.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>203</DataDefID>
+    <ParameterName>Y-Phase Missing Potential Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.163.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>204</DataDefID>
+    <ParameterName>B-Phase Missing Potential Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.164.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>205</DataDefID>
+    <ParameterName>Over Voltage Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.165.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>206</DataDefID>
+    <ParameterName>Low Voltage Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.166.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>207</DataDefID>
+    <ParameterName>Voltage Unbalance Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.167.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>208</DataDefID>
+    <ParameterName>R-Phase CT Reversal Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.168.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>209</DataDefID>
+    <ParameterName>Y-Phase CT Reversal Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.169.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>210</DataDefID>
+    <ParameterName>B-Phase CT Reversal Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.170.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>211</DataDefID>
+    <ParameterName>R-Phase CT Open Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.171.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>212</DataDefID>
+    <ParameterName>Y-Phase CT Open Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.172.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>213</DataDefID>
+    <ParameterName>B-Phase CT Open Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.173.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>214</DataDefID>
+    <ParameterName>Current Unbalance Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.174.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>215</DataDefID>
+    <ParameterName>CT Bypass Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.175.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+
+  <Parameter>
+    <DataDefID>216</DataDefID>
+    <ParameterName>Magnet Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.177.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>217</DataDefID>
+    <ParameterName>Neutral Disturbance Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.178.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--update the name Low PF Counter with Very Low PF Tamper Counter as per Suggestion by SQA for User story 428915 -->
+  <Parameter>
+    <DataDefID>218</DataDefID>
+    <ParameterName>Very Low PF Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.179.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>236</DataDefID>
+    <ParameterName>Power On-Off Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.180.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>219</DataDefID>
+    <ParameterName>Front Cover Open Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.181.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2111</DataDefID>
+    <ParameterName>Voltage THD R-Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.182.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2112</DataDefID>
+    <ParameterName>Voltage THD Y-Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.183.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2113</DataDefID>
+    <ParameterName>Voltage THD B-Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.184.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2114</DataDefID>
+    <ParameterName>Current THD R-Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.185.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2115</DataDefID>
+    <ParameterName>Current THD Y-Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.186.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2116</DataDefID>
+    <ParameterName>Current THD B-Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.187.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>220</DataDefID>
+    <ParameterName>Voltage THD R-Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.182.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>221</DataDefID>
+    <ParameterName>Voltage THD Y-Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.183.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>222</DataDefID>
+    <ParameterName>Voltage THD B-Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.184.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>223</DataDefID>
+    <ParameterName>Current THD R-Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.185.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>224</DataDefID>
+    <ParameterName>Current THD Y-Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.186.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>225</DataDefID>
+    <ParameterName>Current THD B-Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.187.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>226</DataDefID>
+    <ParameterName>Meter Reading Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.188.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--<Parameter>
+    <DataDefID>227</DataDefID>
+    <ParameterName>System Power Factor for Billing</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.13.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>-->
+  <Parameter>
+    <DataDefID>228</DataDefID>
+    <ParameterName>Over Current Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.176.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>229</DataDefID>
+    <ParameterName>Cumulative No Load Duration</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.201.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>230</DataDefID>
+    <ParameterName>Signed R-Phase Apparent Power</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.29.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>231</DataDefID>
+    <ParameterName>Signed Y-Phase Apparent Power</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.49.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>232</DataDefID>
+    <ParameterName>Signed B-Phase Apparent Power</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.69.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>233</DataDefID>
+    <ParameterName>Signed R-Phase Reactive Power</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.23.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>234</DataDefID>
+    <ParameterName>Signed Y-Phase Reactive Power</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.43.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>235</DataDefID>
+    <ParameterName>Signed B-Phase Reactive Power</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.63.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--Invalid Phase Association tamper counter -->
+  <Parameter>
+    <DataDefID>237</DataDefID>
+    <ParameterName>Invalid Phase Association Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.193.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--Invalid Voltage tamper counter -->
+  <Parameter>
+    <DataDefID>238</DataDefID>
+    <ParameterName>Invalid Voltage Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.192.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--2PN tamper counter -->
+  <Parameter>
+    <DataDefID>239</DataDefID>
+    <ParameterName>2PN Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.195.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--Over Load tamper counter -->
+  <Parameter>
+    <DataDefID>240</DataDefID>
+    <ParameterName>Over Load Tamper Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.194.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--Cumulative Reverse kWh -->
+  <!--<Parameter>
+    <DataDefID>241</DataDefID>
+    <ParameterName>Cumulative Reverse kWh</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.140.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>-->
+
+  <!--Cumulative Reverse KVAh -->
+  <Parameter>
+    <DataDefID>242</DataDefID>
+    <ParameterName>Cumulative Reverse kVAh</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.141.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--Billing-->
+  <Parameter>
+    <DataDefID>302</DataDefID>
+    <ParameterName>Power Factor</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.13.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>304</DataDefID>
+    <ParameterName>Cumulative Energy – kWh – TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.8.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>305</DataDefID>
+    <ParameterName>Cumulative Energy – kWh – TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.8.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>306</DataDefID>
+    <ParameterName>Cumulative Energy – kWh – TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.8.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>307</DataDefID>
+    <ParameterName>Cumulative Energy – kWh – TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.8.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>308</DataDefID>
+    <ParameterName>Cumulative Energy – kWh – TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.8.5.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>309</DataDefID>
+    <ParameterName>Cumulative Energy – kWh – TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.8.6.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>310</DataDefID>
+    <ParameterName>Cumulative Energy – kWh – TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.8.7.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>311</DataDefID>
+    <ParameterName>Cumulative Energy – kWh – TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.8.8.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>315</DataDefID>
+    <ParameterName>Cumulative Energy – kVAH – TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.8.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>316</DataDefID>
+    <ParameterName>Cumulative Energy – kVAH – TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.8.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>317</DataDefID>
+    <ParameterName>Cumulative Energy – kVAH – TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.8.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>318</DataDefID>
+    <ParameterName>Cumulative Energy – kVAH – TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.8.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>319</DataDefID>
+    <ParameterName>Cumulative Energy – kVAH – TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.8.5.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>320</DataDefID>
+    <ParameterName>Cumulative Energy – kVAH – TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.8.6.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>321</DataDefID>
+    <ParameterName>Cumulative Energy – kVAH – TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.8.7.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>322</DataDefID>
+    <ParameterName>Cumulative Energy – kVAH – TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.8.8.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>325</DataDefID>
+    <ParameterName>TOD MD1 kW TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.6.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>326</DataDefID>
+    <ParameterName>TOD MD1 kW TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.6.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>327</DataDefID>
+    <ParameterName>TOD MD1 kW TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.6.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>328</DataDefID>
+    <ParameterName>TOD MD1 kW TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.6.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>329</DataDefID>
+    <ParameterName>TOD MD1 kW TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.6.5.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>330</DataDefID>
+    <ParameterName>TOD MD1 kW TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.6.6.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>331</DataDefID>
+    <ParameterName>TOD MD1 kW TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.6.7.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>332</DataDefID>
+    <ParameterName>TOD MD1 kW TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.6.8.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>333</DataDefID>
+    <ParameterName>TOD MD1 kW Date Time TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.6.1.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>334</DataDefID>
+    <ParameterName>TOD MD1 kW Date Time TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.6.2.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>335</DataDefID>
+    <ParameterName>TOD MD1 kW Date Time TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.6.3.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>336</DataDefID>
+    <ParameterName>TOD MD1 kW Date Time TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.6.4.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>337</DataDefID>
+    <ParameterName>TOD MD1 kW Date Time TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.6.5.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>338</DataDefID>
+    <ParameterName>TOD MD1 kW Date Time TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.6.6.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>339</DataDefID>
+    <ParameterName>TOD MD1 kW Date Time TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.6.7.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>340</DataDefID>
+    <ParameterName>TOD MD1 kW Date Time TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.6.8.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>343</DataDefID>
+    <ParameterName>TOD MD2 kva TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.6.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>344</DataDefID>
+    <ParameterName>TOD MD2 kva TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.6.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>345</DataDefID>
+    <ParameterName>TOD MD2 kva TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.6.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>346</DataDefID>
+    <ParameterName>TOD MD2 kva TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.6.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>347</DataDefID>
+    <ParameterName>TOD MD2 kva TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.6.5.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>348</DataDefID>
+    <ParameterName>TOD MD2 kva TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.6.6.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>349</DataDefID>
+    <ParameterName>TOD MD2 kva TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.6.7.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>350</DataDefID>
+    <ParameterName>TOD MD2 kva TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.6.8.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>351</DataDefID>
+    <ParameterName>TOD MD2 kva Date Time TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.6.1.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>352</DataDefID>
+    <ParameterName>TOD MD2 kva Date Time TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.6.2.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>353</DataDefID>
+    <ParameterName>TOD MD2 kva Date Time TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.6.3.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>354</DataDefID>
+    <ParameterName>TOD MD2 kva Date Time TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.6.4.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>355</DataDefID>
+    <ParameterName>TOD MD2 kva Date Time TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.6.5.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>356</DataDefID>
+    <ParameterName>TOD MD2 kva Date Time TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.6.6.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>357</DataDefID>
+    <ParameterName>TOD MD2 kva Date Time TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.6.7.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>358</DataDefID>
+    <ParameterName>TOD MD2 kva Date Time TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.6.8.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>360</DataDefID>
+    <ParameterName>Billing Reset Type</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.165.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <!-- Add tariff kvarh lag 1 to 8 for Smart meter Start -->
+  <Parameter>
+    <DataDefID>1081</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lag – TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.128</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1082</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lag – TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.129</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1083</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lag – TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.130</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1084</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lag – TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.131</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1085</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lag – TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.132</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1086</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lag – TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.133</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1087</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lag – TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.134</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1088</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lag – TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.135</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <!-- Add tariff kvarh lag 1 to 8 for Smart meter End -->
+
+  <!-- Add tariff kvarh lead 1 to 8 for Smart meter Start -->
+  <Parameter>
+    <DataDefID>1089</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lead – TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.136</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1090</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lead – TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.137</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1091</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lead – TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.138</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1092</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lead – TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.139</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1093</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lead – TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.140</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1094</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lead – TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.141</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1095</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lead – TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.142</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1096</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lead – TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.143</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <!-- Add tariff kvarh lead 1 to 8 for Smart meter End -->
+
+
+  <Parameter>
+    <DataDefID>362</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lag – TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.5.8.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>363</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lag – TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.5.8.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>364</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lag – TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.5.8.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>365</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lag – TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.5.8.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>366</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lag – TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.5.8.5.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>367</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lag – TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.5.8.6.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>368</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lag – TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.5.8.7.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>369</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lag – TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.5.8.8.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>370</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lead – TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.8.8.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>371</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lead – TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.8.8.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>372</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lead – TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.8.8.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>373</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lead – TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.8.8.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>374</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lead – TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.8.8.5.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>375</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lead – TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.8.8.6.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>376</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lead – TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.8.8.7.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>377</DataDefID>
+    <ParameterName>Cumulative Energy – kvarh Lead – TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.8.8.8.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>378</DataDefID>
+    <ParameterName>Power Off Time RPhase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.96.0.161.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>379</DataDefID>
+    <ParameterName>Power Off Time RPhase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.96.0.162.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>380</DataDefID>
+    <ParameterName>Power Off Time RPhase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.96.0.163.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+
+  <Parameter>
+    <DataDefID>1001</DataDefID>
+    <ParameterName>Energy Resolution</ParameterName>
+    <MeterModel>2</MeterModel>
+    <OBISCode>1.255.255.255.255.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1002</DataDefID>
+    <ParameterName>Demand Resolution</ParameterName>
+    <MeterModel>2</MeterModel>
+    <OBISCode>1.255.255.255.255.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+
+
+  <!--TOD Average PF : tneb changes for billing-->
+  <Parameter>
+    <DataDefID>1097</DataDefID>
+    <ParameterName>TOD Average Power Factor - TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.13.0.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>1098</DataDefID>
+    <ParameterName>TOD Average Power Factor - TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.13.0.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>1099</DataDefID>
+    <ParameterName>TOD Average Power Factor - TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.13.0.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>1100</DataDefID>
+    <ParameterName>TOD Average Power Factor - TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.13.0.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>1101</DataDefID>
+    <ParameterName>TOD Average Power Factor - TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.13.0.5.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>1102</DataDefID>
+    <ParameterName>TOD Average Power Factor - TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.13.0.6.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>1103</DataDefID>
+    <ParameterName>TOD Average Power Factor - TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.13.0.7.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>1104</DataDefID>
+    <ParameterName>TOD Average Power Factor - TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.13.0.8.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--Billing-->
+  <!--Story no: 490966 WB specific tender Billing Average Load Factor support is implemented over tneb TOD Average Power Factor - TZ1 because TNEB is supported in 2 series BCS only-->
+  <Parameter>
+    <DataDefID>1108</DataDefID>
+    <ParameterName>Billing Average Load Factor</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.13.0.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <!--TOD Average PF : Smart meter changes for billing-->
+  <Parameter>
+    <DataDefID>1021</DataDefID>
+    <ParameterName>TOD Average Power Factor - TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.144</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>1022</DataDefID>
+    <ParameterName>TOD Average Power Factor - TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.145</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>1023</DataDefID>
+    <ParameterName>TOD Average Power Factor - TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.146</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>1024</DataDefID>
+    <ParameterName>TOD Average Power Factor - TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.147</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>1025</DataDefID>
+    <ParameterName>TOD Average Power Factor - TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.148</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>1026</DataDefID>
+    <ParameterName>TOD Average Power Factor - TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.149</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>1027</DataDefID>
+    <ParameterName>TOD Average Power Factor - TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.150</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>1028</DataDefID>
+    <ParameterName>TOD Average Power Factor - TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.0.2.1.151</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--Smart meter Billing-->
+
+  <Parameter>
+    <DataDefID>1079</DataDefID>
+    <ParameterName>Cumulative Energy kWh Export</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.8.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1080</DataDefID>
+    <ParameterName>Cumulative Energy kVAh Export</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.8.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--Cumulative Reverse kWh modified for UserStory-428915 -->
+  <Parameter>
+    <DataDefID>1003</DataDefID>
+    <ParameterName>Cumulative Reverse kWh</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.140.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1004</DataDefID>
+    <ParameterName>Auto Lock</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.195.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+
+  <!--New Parameters for Single Phase-->
+  <Parameter>
+    <DataDefID>1029</DataDefID>
+    <ParameterName>Transaction Event Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.12.7.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1030</DataDefID>
+    <ParameterName>Tamper Reset Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.12.81.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1031</DataDefID>
+    <ParameterName>Cumulative Energy kVArh</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.1.8.8.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1032</DataDefID>
+    <ParameterName>ABC-1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.11.7.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1052</DataDefID>
+    <ParameterName>ABC-2 History 1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.11.4.1.00</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1053</DataDefID>
+    <ParameterName>ABC-2 History 2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.11.4.1.01</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1033</DataDefID>
+    <ParameterName>Neutral Power - kW</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.1.7.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1034</DataDefID>
+    <ParameterName>Single Wire Tamper Count</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.12.80.7.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1035</DataDefID>
+    <ParameterName>Earthed Load Tamper Count</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.12.80.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1036</DataDefID>
+    <ParameterName>Magnet Fraud Tamper Count</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.12.80.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1037</DataDefID>
+    <ParameterName>Neutral Disturbance Tamper Count</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.12.80.5.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1050</DataDefID>
+    <ParameterName>ESD Tamper Count</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.12.81.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1051</DataDefID>
+    <ParameterName>Cover Open Tamper Count</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.12.80.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1038</DataDefID>
+    <ParameterName>Manufacturing Date and Time</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.9.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1039</DataDefID>
+    <ParameterName>Cumulative Power-Off Duration</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1040</DataDefID>
+    <ParameterName>Single Wire Tamper Duration</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.12.81.9.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1041</DataDefID>
+    <ParameterName>Magnet Tamper Duration</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.12.81.9.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1042</DataDefID>
+    <ParameterName>Neutral Disturbance Tamper Duration</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.12.81.9.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1043</DataDefID>
+    <ParameterName>Earth Tamper Duration</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.12.81.9.5.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1048</DataDefID>
+    <ParameterName>Reverse Tamper Duration</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.12.81.9.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1049</DataDefID>
+    <ParameterName>ESD Tamper Duration</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.12.81.9.6.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <!--<Parameter>
+    <DataDefID>1072</DataDefID>
+    <ParameterName>Total Transcation Counter</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.12.80.99.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>-->
+  <Parameter>
+    <DataDefID>1044</DataDefID>
+    <ParameterName>Accuracy Class</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1045</DataDefID>
+    <ParameterName>Meter Constant</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1054</DataDefID>
+    <ParameterName>Power Factor</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.19.8.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1055</DataDefID>
+    <ParameterName>Present Month Average Power Factor</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.19.9.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1056</DataDefID>
+    <ParameterName>Over Load Tamper Count</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.12.80.9.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1057</DataDefID>
+    <ParameterName>Low Voltage Tamper Count</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.12.80.10.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1058</DataDefID>
+    <ParameterName>Low PF Tamper Count</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.12.81.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1059</DataDefID>
+    <ParameterName>Phase R CT Reverse Tamper Count</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.12.80.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1060</DataDefID>
+    <ParameterName>Fraud Energy</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.2.8.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1061</DataDefID>
+    <ParameterName>Power fail Count</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.12.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1062</DataDefID>
+    <ParameterName>Programmed Bill Day Time</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.9.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1073</DataDefID>
+    <ParameterName>Cumulative Period Of Potential Fail - R Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.128.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1074</DataDefID>
+    <ParameterName>Cumulative Period Of Potential Fail - Y Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.129.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1075</DataDefID>
+    <ParameterName>Cumulative Period Of Potential Fail - B Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.130.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1076</DataDefID>
+    <ParameterName>Cumulative Period Of Current Fail - R Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.131.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1077</DataDefID>
+    <ParameterName>Cumulative Period Of Current Fail - Y Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.132.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1078</DataDefID>
+    <ParameterName>Cumulative Period Of Current Fail - B Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.133.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--Smart meter Load control and Status Command-->
+
+  <Parameter>
+    <DataDefID>1105</DataDefID>
+    <ParameterName>Load Control</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.129.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>01</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--Smart meter Falcon 2 Connect/Disconnect and Status Command-->
+
+  <Parameter>
+    <DataDefID>1106</DataDefID>
+    <ParameterName>Relay Status</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.3.10.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>70</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <!--Story no: 490966 WB new tender specific Parameters OBIS code-->
+  <Parameter>
+    <DataDefID>1107</DataDefID>
+    <ParameterName>Billing Reset Type</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.64.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1109</DataDefID>
+    <ParameterName>Signed R-Phase Active Power</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.21.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1110</DataDefID>
+    <ParameterName>Signed Y-Phase Active Power</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.41.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1111</DataDefID>
+    <ParameterName>Signed B-Phase Active Power</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.61.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1112</DataDefID>
+    <ParameterName>Vector Current</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.90.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1113</DataDefID>
+    <ParameterName>Phase Sequence Reversal</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.128.7.26.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1114</DataDefID>
+    <ParameterName>Cumulative Fundamental kWh</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.128.8.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <!--WB new tender specific Parameters OBIS code end-->
+
+  <!--Torrent Power 3Phase OBIS Code not present for Instantaneous -->
+  <Parameter>
+    <DataDefID>1115</DataDefID>
+    <ParameterName>Cumulative MD kW</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.149.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1116</DataDefID>
+    <ParameterName>Cumulative MD kVA</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.150.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1117</DataDefID>
+    <ParameterName>Defraud Energy kVAh(Magnet Tamper)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.189.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--Torrent Power 3Phase OBIS Code not present for Instantaneous -->
+
+  <!--Start Net Metering Parameters-->
+
+  <Parameter>
+    <DataDefID>1118</DataDefID>
+    <ParameterName>Apparent Power Export - kVA</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1198</DataDefID>
+    <ParameterName>Apparent Power Forward - kVA</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.142.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1119</DataDefID>
+    <ParameterName>Active Power Export - kW</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1197</DataDefID>
+    <ParameterName>Active Power Forward - kW</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.141.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1120</DataDefID>
+    <ParameterName>Reactive kvarh Lag (Q1)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.5.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1121</DataDefID>
+    <ParameterName>Reactive kvarh Lead (Q2)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.6.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1122</DataDefID>
+    <ParameterName>Reactive kvarh Lag (Q3)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.7.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1123</DataDefID>
+    <ParameterName>Reactive kvarh Lead (Q4)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.8.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--Not in use<Parameter>
+    <DataDefID>1124</DataDefID>
+    <ParameterName>Cumulative Energy kvarh Lead (Q2)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.6.8.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1125</DataDefID>
+    <ParameterName>Cumulative Energy kvarh Lag (Q3)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.7.8.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>-->
+
+
+  <Parameter>
+    <DataDefID>1126</DataDefID>
+    <ParameterName>Maximum Demand kVA Export</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.6.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1127</DataDefID>
+    <ParameterName>Maximum Demand kVA Export Date Time</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.6.0.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1128</DataDefID>
+    <ParameterName>TOU– kWh Export– TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.8.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1129</DataDefID>
+    <ParameterName>TOU– kWh Export– TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.8.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1130</DataDefID>
+    <ParameterName>TOU– kWh Export– TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.8.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1131</DataDefID>
+    <ParameterName>TOU– kWh Export– TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.8.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1132</DataDefID>
+    <ParameterName>TOU– kWh Export– TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.8.5.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1133</DataDefID>
+    <ParameterName>TOU– kWh Export– TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.8.6.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1134</DataDefID>
+    <ParameterName>TOU– kWh Export– TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.8.7.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1135</DataDefID>
+    <ParameterName>TOU– kWh Export– TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.8.8.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1136</DataDefID>
+    <ParameterName>Cumulative Energy kvarh Lag (Q1)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.145.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1137</DataDefID>
+    <ParameterName>Cumulative Energy kvarh Lead (Q2)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.6.8.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1138</DataDefID>
+    <ParameterName>Cumulative Energy kvarh Lag (Q3)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.7.8.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1139</DataDefID>
+    <ParameterName>Cumulative Energy kvarh Lead (Q4)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.146.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1140</DataDefID>
+    <ParameterName>TOU– kVAh Export– TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.8.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1141</DataDefID>
+    <ParameterName>TOU– kVAh Export– TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.8.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1142</DataDefID>
+    <ParameterName>TOU– kVAh Export– TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.8.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1143</DataDefID>
+    <ParameterName>TOU– kVAh Export– TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.8.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1144</DataDefID>
+    <ParameterName>TOU– kVAh Export– TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.8.5.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1145</DataDefID>
+    <ParameterName>TOU– kVAh Export– TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.8.6.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1146</DataDefID>
+    <ParameterName>TOU– kVAh Export– TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.8.7.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1147</DataDefID>
+    <ParameterName>TOU– kVAh Export– TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.8.8.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1148</DataDefID>
+    <ParameterName>Maximum Demand kW Export</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.6.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1149</DataDefID>
+    <ParameterName>Maximum Demand kW Export Date Time</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.6.0.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1150</DataDefID>
+    <ParameterName>TOD MD1 kW Export TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.6.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1151</DataDefID>
+    <ParameterName>TOD MD1 kW Export Date Time TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.6.1.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1152</DataDefID>
+    <ParameterName>TOD MD1 kW Export TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.6.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1153</DataDefID>
+    <ParameterName>TOD MD1 kW Export Date Time TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.6.2.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1154</DataDefID>
+    <ParameterName>TOD MD1 kW Export TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.6.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1155</DataDefID>
+    <ParameterName>TOD MD1 kW Export Date Time TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.6.3.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1156</DataDefID>
+    <ParameterName>TOD MD1 kW Export TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.6.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1157</DataDefID>
+    <ParameterName>TOD MD1 kW Export Date Time TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.6.4.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1158</DataDefID>
+    <ParameterName>TOD MD1 kW Export TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.6.5.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1159</DataDefID>
+    <ParameterName>TOD MD1 kW Export Date Time TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.6.5.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1160</DataDefID>
+    <ParameterName>TOD MD1 kW Export TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.6.6.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1161</DataDefID>
+    <ParameterName>TOD MD1 kW Export Date Time TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.6.6.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1162</DataDefID>
+    <ParameterName>TOD MD1 kW Export TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.6.7.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1163</DataDefID>
+    <ParameterName>TOD MD1 kW Export Date Time TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.6.7.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1164</DataDefID>
+    <ParameterName>TOD MD1 kW Export TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.6.8.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1165</DataDefID>
+    <ParameterName>TOD MD1 kW Export Date Time TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.6.8.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1166</DataDefID>
+    <ParameterName>TOD MD2 kva Export TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.6.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1167</DataDefID>
+    <ParameterName>TOD MD2 kva Export Date Time TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.6.1.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1168</DataDefID>
+    <ParameterName>TOD MD2 kva Export TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.6.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1169</DataDefID>
+    <ParameterName>TOD MD2 kva Export Date Time TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.6.2.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1170</DataDefID>
+    <ParameterName>TOD MD2 kva Export TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.6.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1171</DataDefID>
+    <ParameterName>TOD MD2 kva Export Date Time TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.6.3.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1172</DataDefID>
+    <ParameterName>TOD MD2 kva Export TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.6.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1173</DataDefID>
+    <ParameterName>TOD MD2 kva Export Date Time TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.6.4.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1174</DataDefID>
+    <ParameterName>TOD MD2 kva Export TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.6.5.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1175</DataDefID>
+    <ParameterName>TOD MD2 kva Export Date Time TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.6.5.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1176</DataDefID>
+    <ParameterName>TOD MD2 kva Export TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.6.6.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1177</DataDefID>
+    <ParameterName>TOD MD2 kva Export Date Time TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.6.6.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1178</DataDefID>
+    <ParameterName>TOD MD2 kva Export TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.6.7.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1179</DataDefID>
+    <ParameterName>TOD MD2 kva Export Date Time TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.6.7.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1180</DataDefID>
+    <ParameterName>TOD MD2 kva Export TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.6.8.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1181</DataDefID>
+    <ParameterName>TOD MD2 kva Export Date Time TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.6.8.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1184</DataDefID>
+    <ParameterName>Cumulative kWh R phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.21.8.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1185</DataDefID>
+    <ParameterName>Cumulative kWh Y phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.41.8.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1186</DataDefID>
+    <ParameterName>Cumulative kWh B phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.61.8.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--<Parameter>
+    <DataDefID>1182</DataDefID>
+    <ParameterName>System Power Factor for Billing Import</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1183</DataDefID>
+    <ParameterName>System Power Factor for Billing Export</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>-->
+
+
+
+  <!--<Parameter>
+    <DataDefID>1187</DataDefID>
+    <ParameterName>kWh Absolute</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1188</DataDefID>
+    <ParameterName>kVAh Absolute</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1189</DataDefID>
+    <ParameterName>Reactive Import (Q1 + Q2) Energy</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1190</DataDefID>
+    <ParameterName>Reactive Import (Q1 + Q4) Energy</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1191</DataDefID>
+    <ParameterName>Reactive Export (Q3 + Q4) Energy</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1192</DataDefID>
+    <ParameterName>Reactive Export (Q2 + Q3) Energy</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1193</DataDefID>
+    <ParameterName>kVARh Absolute Lag Energy</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1194</DataDefID>
+    <ParameterName>kVARh Absolute Lead Energy</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.0.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>-->
+
+  --><!--Import registers-->
+  <Parameter>
+    <DataDefID>1195</DataDefID>
+    <ParameterName>Billing PF Import</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.140.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>1196</DataDefID>
+    <ParameterName>Billing PF Export</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.84.0.0.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2051</DataDefID>
+    <ParameterName>Cumulative Energy kWh Forward</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.143.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>1199</DataDefID>
+    <ParameterName>Cumulative Energy kWh Forward– TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.143.128.129.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2000</DataDefID>
+    <ParameterName>Cumulative Energy kWh Forward– TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.143.128.130.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2001</DataDefID>
+    <ParameterName>Cumulative Energy kWh Forward– TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.143.128.131.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2002</DataDefID>
+    <ParameterName>Cumulative Energy kWh Forward– TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.143.128.132.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2003</DataDefID>
+    <ParameterName>Cumulative Energy kWh Forward– TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.143.128.133.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2004</DataDefID>
+    <ParameterName>Cumulative Energy kWh Forward– TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.143.128.134.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2005</DataDefID>
+    <ParameterName>Cumulative Energy kWh Forward– TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.143.128.135.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2006</DataDefID>
+    <ParameterName>Cumulative Energy kWh Forward– TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.143.128.136.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2052</DataDefID>
+    <ParameterName>Cumulative Energy kVAh Forward</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.144.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2007</DataDefID>
+    <ParameterName>Cumulative Energy– kVAh Forward– TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.144.128.129.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2008</DataDefID>
+    <ParameterName>Cumulative Energy kVAh Forward– TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.144.128.130.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2009</DataDefID>
+    <ParameterName>Cumulative Energy kVAh Forward– TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.144.128.131.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2010</DataDefID>
+    <ParameterName>Cumulative Energy kVAh Forward– TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.144.128.132.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2011</DataDefID>
+    <ParameterName>Cumulative Energy kVAh Forward– TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.144.128.133.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2012</DataDefID>
+    <ParameterName>Cumulative Energy kVAh Forward– TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.144.128.134.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2013</DataDefID>
+    <ParameterName>Cumulative Energy kVAh Forward– TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.144.128.135.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2014</DataDefID>
+    <ParameterName>Cumulative Energy kVAh Forward– TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.144.128.136.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2015</DataDefID>
+    <ParameterName>Maximum Demand kW Forward</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.151.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2016</DataDefID>
+    <ParameterName>Maximum Demand kW Forward Date Time</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.151.128.128.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2017</DataDefID>
+    <ParameterName>TOD MD1 kW Forward TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.151.128.129.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2018</DataDefID>
+    <ParameterName>TOD MD1 kW Forward Date Time TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.151.128.129.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2019</DataDefID>
+    <ParameterName>TOD MD1 kW Forward TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.151.128.130.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2020</DataDefID>
+    <ParameterName>TOD MD1 kW Forward Date Time TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.151.128.130.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2021</DataDefID>
+    <ParameterName>TOD MD1 kW Forward TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.151.128.131.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2022</DataDefID>
+    <ParameterName>TOD MD1 kW Forward Date Time TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.151.128.131.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2023</DataDefID>
+    <ParameterName>TOD MD1 kW Forward TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.151.128.132.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2024</DataDefID>
+    <ParameterName>TOD MD1 kW Forward Date Time TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.151.128.132.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2025</DataDefID>
+    <ParameterName>TOD MD1 kW Forward TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.151.128.133.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2026</DataDefID>
+    <ParameterName>TOD MD1 kW Forward Date Time TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.151.128.133.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2027</DataDefID>
+    <ParameterName>TOD MD1 kW Forward TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.151.128.134.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2028</DataDefID>
+    <ParameterName>TOD MD1 kW Forward Date Time TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.151.128.134.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2029</DataDefID>
+    <ParameterName>TOD MD1 kW Forward TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.151.128.135.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2030</DataDefID>
+    <ParameterName>TOD MD1 kW Forward Date Time TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.151.128.135.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2031</DataDefID>
+    <ParameterName>TOD MD1 kW Forward TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.151.128.136.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2032</DataDefID>
+    <ParameterName>TOD MD1 kW Forward Date Time TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.151.128.136.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2033</DataDefID>
+    <ParameterName>Maximum Demand kVA Forward</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.152.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2034</DataDefID>
+    <ParameterName>Maximum Demand kVA Forward Date Time</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.152.128.128.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2035</DataDefID>
+    <ParameterName>TOD MD2 kva Forward TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.152.128.129.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2036</DataDefID>
+    <ParameterName>TOD MD2 kva Forward Date Time TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.152.128.129.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2037</DataDefID>
+    <ParameterName>TOD MD2 kva Forward TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.152.128.130.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2038</DataDefID>
+    <ParameterName>TOD MD2 kva Forward Date Time TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.152.128.130.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2039</DataDefID>
+    <ParameterName>TOD MD2 kva Forward TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.152.128.131.2555</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2040</DataDefID>
+    <ParameterName>TOD MD2 kva Forward Date Time TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.152.128.131.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2041</DataDefID>
+    <ParameterName>TOD MD2 kva Forward TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.152.128.132.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2042</DataDefID>
+    <ParameterName>TOD MD2 kva Forward Date Time TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.152.128.132.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2043</DataDefID>
+    <ParameterName>TOD MD2 kva Forward TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.152.128.133.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2044</DataDefID>
+    <ParameterName>TOD MD2 kva Forward Date Time TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.152.128.133.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2045</DataDefID>
+    <ParameterName>TOD MD2 kva Forward TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.152.128.134.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2046</DataDefID>
+    <ParameterName>TOD MD2 kva Forward Date Time TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.152.128.134.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2047</DataDefID>
+    <ParameterName>TOD MD2 kva Forward TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.152.128.135.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2048</DataDefID>
+    <ParameterName>TOD MD2 kva Forward Date Time TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.152.128.135.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2049</DataDefID>
+    <ParameterName>TOD MD2 kva Forward TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.152.128.136.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2050</DataDefID>
+    <ParameterName>TOD MD2 kva Forward Date Time TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.152.128.136.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--End import resgister-->
+
+  <!--Start Load survey for net metering-->
+  <Parameter>
+    <DataDefID>2053</DataDefID>
+    <ParameterName>BlockEnergykWh Forward</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.147.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2054</DataDefID>
+    <ParameterName>BlockEnergykVAh Forward</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.148.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2055</DataDefID>
+    <ParameterName>BlockEnergykWh Export</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.29.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2056</DataDefID>
+    <ParameterName>BlockEnergykVAh Export</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.29.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2075</DataDefID>
+    <ParameterName>BlockEnergykVArh Q12</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.3.29.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2076</DataDefID>
+    <ParameterName>BlockEnergykVArh Q34</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.4.29.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2097</DataDefID>
+    <ParameterName>BlockEnergykVArh Q14</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.155.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2098</DataDefID>
+    <ParameterName>BlockEnergykVArh Q23</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.156.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2099</DataDefID>
+    <ParameterName>BlockFundamentalKWHabsolute</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.128.29.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2077</DataDefID>
+    <ParameterName>BlockEnergykWh R Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.21.29.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2078</DataDefID>
+    <ParameterName>BlockEnergykWh Y Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.41.29.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2108</DataDefID>
+    <ParameterName>BlockEnergykWh B Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.61.29.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>-->
+  <Parameter>
+    <DataDefID>2057</DataDefID>
+    <ParameterName>BlockEnergykVArhLag Q3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.7.29.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2058</DataDefID>
+    <ParameterName>BlockEnergykVArhLead Q2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.6.29.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2079</DataDefID>
+    <ParameterName>BlockEnergykVArhLag Q1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.149.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2080</DataDefID>
+    <ParameterName>BlockEnergykVArhLead Q4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.150.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <!--End of Load survey for net metering-->
+
+  <!--Start of Cumulative energy lead(Q2)[dataDefID:1137] and lag(Q3)[dataDefID:1138] rate wise-->
+
+  <Parameter>
+    <DataDefID>2059</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLeadTZ1Q2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.6.8.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2060</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLeadTZ2Q2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.6.8.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2061</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLeadTZ3Q2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.6.8.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2062</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLeadTZ4Q2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.6.8.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2063</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLeadTZ5Q2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.6.8.5.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2064</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLeadTZ6Q2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.6.8.6.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2065</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLeadTZ7Q2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.6.8.7.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2066</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLeadTZ8Q2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.6.8.8.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2067</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLagTZ1Q3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.7.8.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2068</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLagTZ2Q3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.7.8.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2069</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLagTZ3Q3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.7.8.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2070</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLagTZ4Q3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.7.8.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2071</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLagTZ5Q3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.7.8.5.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2072</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLagTZ6Q3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.7.8.6.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2073</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLagTZ7Q3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.7.8.7.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2074</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLagTZ8Q3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.7.8.8.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--End of Cumulative Energy kvarh Lag TZ[1-8] Q3 && Cumulative Energy kvarh Lead TZ[1-8] Q2 -->
+
+  <!--Start of Cumulative energy lead 1139(Q4)and lag 1136(Q1) rate wise-->
+
+  <Parameter>
+    <DataDefID>2081</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLeadTZ1Q4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.146.128.129.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2082</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLeadTZ2Q4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.146.128.130.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2083</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLeadTZ3Q4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.146.128.131.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2084</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLeadTZ4Q4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.146.128.132.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2085</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLeadTZ5Q4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.146.128.133.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2086</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLeadTZ6Q4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.146.128.134.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2087</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLeadTZ7Q4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.146.128.135.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2088</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLeadTZ8Q4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.146.128.136.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+ 
+
+  <Parameter>
+    <DataDefID>2090</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLagTZ2Q1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.145.128.130.255?</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2091</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLagTZ3Q1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.145.128.131.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2092</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLagTZ4Q1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.145.128.132.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2093</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLagTZ5Q1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.145.128.133.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2094</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLagTZ6Q1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.145.128.134.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2095</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLagTZ7Q1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.145.128.135.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2096</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLagTZ8Q1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.145.128.136.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--End of Cumulative Energy kvarh Lag TZ[1-8] Q1 && Cumulative Energy kvarh Lead TZ[1-8] Q4-->
+
+  <Parameter>
+    <DataDefID>2100</DataDefID>
+    <ParameterName>Signed Q1 Reactive Power</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.5.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2101</DataDefID>
+    <ParameterName>Signed Q2 Reactive Power</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.6.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2102</DataDefID>
+    <ParameterName>Signed Q3 Reactive Power</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.7.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2103</DataDefID>
+    <ParameterName>Signed Q4 Reactive Power</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.8.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2104</DataDefID>
+    <ParameterName>Cumulative Energy kvarh (Q12)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.3.8.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2105</DataDefID>
+    <ParameterName>Cumulative Energy kvarh (Q34)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.4.8.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2106</DataDefID>
+    <ParameterName>Cumulative Energy kvarh (Q14)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.153.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2107</DataDefID>
+    <ParameterName>Cumulative Energy kvarh (Q23)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.154.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2109</DataDefID>
+    <ParameterName>Power Factor Import</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.140.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2110</DataDefID>
+    <ParameterName>Power Factor Export</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.84.0.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <!--End Net Metering Parameters (2110) -->
+
+  <!--JDVVNL Billing and Daily Survey parameters-->
+  <Parameter>
+    <DataDefID>2117</DataDefID>
+    <ParameterName>Minimum Voltage LSIP across day-R Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.32.51.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2118</DataDefID>
+    <ParameterName>Minimum Voltage LSIP across day-Y Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.52.51.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2119</DataDefID>
+    <ParameterName>Minimum Voltage LSIP across day-B Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.72.51.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2120</DataDefID>
+    <ParameterName>Highest Current LSIP across day-R Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.31.53.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2121</DataDefID>
+    <ParameterName>Highest Current LSIP across day-Y Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.51.53.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2122</DataDefID>
+    <ParameterName>Highest Current LSIP across day-B Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.71.53.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2123</DataDefID>
+    <ParameterName>Minimum Voltage LSIP across day - R Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.32.3.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2124</DataDefID>
+    <ParameterName>Minimum Voltage LSIP across day - Y Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.52.3.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2125</DataDefID>
+    <ParameterName>Minimum Voltage LSIP across day - B Phase</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.72.3.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2126</DataDefID>
+    <ParameterName>ABC</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.2.196.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <!--Last Id of VIM Series 2 for ABC code is 2126-->
+
+  <Parameter>
+    <DataDefID>2127</DataDefID>
+    <ParameterName>Defraud Energy kWh (ND Tamper)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.157.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2128</DataDefID>
+    <ParameterName>Defraud Energy kVAh (ND Tamper)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.158.128.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2129</DataDefID>
+    <ParameterName>Billing Average Load</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.1.198.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2130</DataDefID>
+    <ParameterName>Temperature</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.9.129.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2131</DataDefID>
+    <ParameterName>Total Power Off duration during LSIP</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.94.91.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2133</DataDefID>
+    <ParameterName>THD Voltage - VR</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.32.7.124.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2134</DataDefID>
+    <ParameterName>THD Voltage - VY</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.52.7.124.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2135</DataDefID>
+    <ParameterName>THD Voltage - VB</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.72.7.124.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2136</DataDefID>
+    <ParameterName>THD Current - IR</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.31.7.124.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2137</DataDefID>
+    <ParameterName>THD Current - IY</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.51.7.124.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2138</DataDefID>
+    <ParameterName>THD Current - IB</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.71.7.124.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+ <Parameter>
+    <DataDefID>2139</DataDefID>
+    <ParameterName>CumulativeEnergykvarhLagTZ1Q1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.5.8.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>174</DataDefID>
+    <ParameterName>NeutralCurrent</ParameterName>
+    <MeterModel>17</MeterModel>
+    <OBISCode>1.0.91.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <!--For smart meter-->
+  <Parameter>
+    <DataDefID>2141</DataDefID>
+    <ParameterName>Load Limit kW</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.17.0.0.255</OBISCode>
+    <Attribute>3</Attribute>
+    <ClassID>71</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2142</DataDefID>
+    <ParameterName>Temperature</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.9.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2143</DataDefID>
+    <ParameterName>Meter Reading Count(Local Port)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.12.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2144</DataDefID>
+    <ParameterName>Number of load switch</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.50.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2145</DataDefID>
+    <ParameterName>R Phase active Current</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.31.7.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2146</DataDefID>
+    <ParameterName>Y Phase active Current</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.51.7.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2147</DataDefID>
+    <ParameterName>B Phase active Current</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.71.7.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+   <!--For smart meter 1 phase-->
+    <Parameter>
+      <DataDefID>2148</DataDefID>
+      <ParameterName>Cumulative Over voltage Tamper counts</ParameterName>
+      <MeterModel>0</MeterModel>
+      <OBISCode>1.0.12.36.0.255</OBISCode>
+      <Attribute>2</Attribute>
+      <ClassID>1</ClassID>
+      <DataIndex>0</DataIndex>
+    </Parameter>
+
+    <Parameter>
+      <DataDefID>2149</DataDefID>
+      <ParameterName>Cumulative Low voltage Tamper counts</ParameterName>
+      <MeterModel>0</MeterModel>
+      <OBISCode>1.0.12.32.128.255</OBISCode>
+      <Attribute>2</Attribute>
+      <ClassID>1</ClassID>
+      <DataIndex>0</DataIndex>
+    </Parameter>
+    <Parameter>
+      <DataDefID>2150</DataDefID>
+      <ParameterName>Cumulative Current reverse Tamper counts</ParameterName>
+      <MeterModel>0</MeterModel>
+      <OBISCode>1.0.11.128.128.255</OBISCode>
+      <Attribute>2</Attribute>
+      <ClassID>1</ClassID>
+      <DataIndex>0</DataIndex>
+    </Parameter>
+    <Parameter>
+      <DataDefID>2151</DataDefID>
+      <ParameterName>Cumulative Over current Tamper counts</ParameterName>
+      <MeterModel>0</MeterModel>
+      <OBISCode>1.0.11.36.0.255</OBISCode>
+      <Attribute>2</Attribute>
+      <ClassID>1</ClassID>
+      <DataIndex>0</DataIndex>
+    </Parameter>
+    <Parameter>
+      <DataDefID>2152</DataDefID>
+      <ParameterName>Cumulative Earth Tamper counts</ParameterName>
+      <MeterModel>0</MeterModel>
+      <OBISCode>1.0.11.128.131.255</OBISCode>
+      <Attribute>2</Attribute>
+      <ClassID>1</ClassID>
+      <DataIndex>0</DataIndex>
+    </Parameter>
+
+    <Parameter>
+      <DataDefID>2153</DataDefID>
+      <ParameterName>Cumulative Magnet Tamper counts</ParameterName>
+      <MeterModel>0</MeterModel>
+      <OBISCode>0.0.96.50.0.255</OBISCode>
+      <Attribute>2</Attribute>
+      <ClassID>1</ClassID>
+      <DataIndex>0</DataIndex>
+    </Parameter>
+    <Parameter>
+      <DataDefID>2154</DataDefID>
+      <ParameterName>Cumulative ND Tamper counts</ParameterName>
+      <MeterModel>0</MeterModel>
+      <OBISCode>1.0.96.50.0.255</OBISCode>
+      <Attribute>2</Attribute>
+      <ClassID>1</ClassID>
+      <DataIndex>0</DataIndex>
+    </Parameter>
+    <Parameter>
+      <DataDefID>2155</DataDefID>
+      <ParameterName>Cumulative Single wire Tamper counts</ParameterName>
+      <MeterModel>0</MeterModel>
+      <OBISCode>1.0.96.50.1.255</OBISCode>
+      <Attribute>2</Attribute>
+      <ClassID>1</ClassID>
+      <DataIndex>0</DataIndex>
+    </Parameter>
+    <Parameter>
+      <DataDefID>2156</DataDefID>
+      <ParameterName>Cumulative Over load Tamper counts</ParameterName>
+      <MeterModel>0</MeterModel>
+      <OBISCode>1.0.1.36.0.255</OBISCode>
+      <Attribute>2</Attribute>
+      <ClassID>1</ClassID>
+      <DataIndex>0</DataIndex>
+    </Parameter>
+    <Parameter>
+      <DataDefID>2157</DataDefID>
+      <ParameterName>Cumulative Comms removal Tamper counts</ParameterName>
+      <MeterModel>0</MeterModel>
+      <OBISCode>0.0.96.50.3.255</OBISCode>
+      <Attribute>2</Attribute>
+      <ClassID>1</ClassID>
+      <DataIndex>0</DataIndex>
+    </Parameter>
+    <Parameter>
+      <DataDefID>2158</DataDefID>
+      <ParameterName>Cumulative Case open Tamper counts</ParameterName>
+      <MeterModel>0</MeterModel>
+      <OBISCode>0.0.96.20.0.255</OBISCode>
+      <Attribute>2</Attribute>
+      <ClassID>1</ClassID>
+      <DataIndex>0</DataIndex>
+    </Parameter>
+    <Parameter>
+      <DataDefID>2159</DataDefID>
+      <ParameterName>Cumulative Temperature Rise counts</ParameterName>
+      <MeterModel>0</MeterModel>
+      <OBISCode>0.0.96.50.2.255</OBISCode>
+      <Attribute>2</Attribute>
+      <ClassID>1</ClassID>
+      <DataIndex>0</DataIndex>
+    </Parameter>
+
+    <Parameter>
+      <DataDefID>2160</DataDefID>
+      <ParameterName>Billing Reset Type</ParameterName>
+      <MeterModel>0</MeterModel>
+      <OBISCode>1.0.96.50.2.255</OBISCode>
+      <Attribute>2</Attribute>
+      <ClassID>1</ClassID>
+      <DataIndex>0</DataIndex>
+    </Parameter>
+    <!--load survey-->
+    <Parameter>
+      <DataDefID>2161</DataDefID>
+      <ParameterName>Temper Flag</ParameterName>
+      <MeterModel>0</MeterModel>
+      <OBISCode>0.0.96.10.128.255</OBISCode>
+      <Attribute>2</Attribute>
+      <ClassID>1</ClassID>
+      <DataIndex>0</DataIndex>
+    </Parameter>
+
+    <Parameter>
+      <DataDefID>2162</DataDefID>
+      <ParameterName>Avg.voltage of 3 phase</ParameterName>
+      <MeterModel>0</MeterModel>
+      <OBISCode>1.0.12.27.128.255</OBISCode>
+      <Attribute>2</Attribute>
+      <ClassID>3</ClassID>
+      <DataIndex>0</DataIndex>
+    </Parameter>
+
+    <Parameter>
+      <DataDefID>2163</DataDefID>
+      <ParameterName>Avg.R phase PF</ParameterName>
+      <MeterModel>0</MeterModel>
+      <OBISCode>1.0.33.29.0.255</OBISCode>
+      <Attribute>2</Attribute>
+      <ClassID>3</ClassID>
+      <DataIndex>0</DataIndex>
+    </Parameter>
+
+    <Parameter>
+      <DataDefID>2164</DataDefID>
+      <ParameterName>Avg.Y phase PF</ParameterName>
+      <MeterModel>0</MeterModel>
+      <OBISCode>1.0.53.29.0.255</OBISCode>
+      <Attribute>2</Attribute>
+      <ClassID>3</ClassID>
+      <DataIndex>0</DataIndex>
+    </Parameter>
+
+    <Parameter>
+      <DataDefID>2165</DataDefID>
+      <ParameterName>Avg.B phase PF</ParameterName>
+      <MeterModel>0</MeterModel>
+      <OBISCode>1.0.73.29.0.255</OBISCode>
+      <Attribute>2</Attribute>
+      <ClassID>3</ClassID>
+      <DataIndex>0</DataIndex>
+    </Parameter>
+
+    <Parameter>
+      <DataDefID>2166</DataDefID>
+      <ParameterName>Avg.Total PF</ParameterName>
+      <MeterModel>0</MeterModel>
+      <OBISCode>1.0.13.29.0.255</OBISCode>
+      <Attribute>2</Attribute>
+      <ClassID>3</ClassID>
+      <DataIndex>0</DataIndex>
+    </Parameter>
+    <!--For smart meter 1 phase-->
+
+  <!--For smart meter 3 phase load survey -->
+
+  <Parameter>
+    <DataDefID>2167</DataDefID>
+    <ParameterName>Avg.Neutral Current</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.91.29.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2168</DataDefID>
+    <ParameterName>%THDV R-Ph Avg.(Upto 11th harmonic)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.32.128.124.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2169</DataDefID>
+    <ParameterName>%THDV Y-Ph Avg.(Upto 11th harmonic)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.52.128.124.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2170</DataDefID>
+    <ParameterName>%THDV B-Ph Avg.(Upto 11th harmonic)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.72.128.124.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2171</DataDefID>
+    <ParameterName>%THDI R-Ph Avg.(Upto 11th harmonic)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.31.128.124.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2172</DataDefID>
+    <ParameterName>%THDI Y-Ph Avg.(Upto 11th harmonic)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.51.128.124.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2173</DataDefID>
+    <ParameterName>%THDI B-Ph Avg.(Upto 11th harmonic)</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.71.128.124.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  
+  <!--For smart meter 3 phase load survey -->
+  <!--For smart meter 3Ph phase Phasor-->
+  <Parameter>
+    <DataDefID>2174</DataDefID>
+    <ParameterName>Angle Y-R</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.81.7.10.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2175</DataDefID>
+    <ParameterName>Angle B-R</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.81.7.20.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2176</DataDefID>
+    <ParameterName>Angle Between Two</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.81.7.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2177</DataDefID>
+    <ParameterName>Phase Sequence</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.128.7.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+   <Parameter>
+    <DataDefID>2178</DataDefID>
+    <ParameterName>Event Code</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.11.129.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  
+  <Parameter>
+    <DataDefID>2179</DataDefID>
+    <ParameterName>Event Code</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.11.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2180</DataDefID>
+    <ParameterName>Reason for switch Operation</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.50.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2181</DataDefID>
+    <ParameterName>kW Import Load Factor</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.0.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2182</DataDefID>
+    <ParameterName>kW Export Load Factor</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.0.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2183</DataDefID>
+    <ParameterName>kVA Import Load Factor</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.0.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2184</DataDefID>
+    <ParameterName>kVA Export Load Factor</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.0.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2185</DataDefID>
+    <ParameterName>Phase Sequence</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.96.7.30.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2186</DataDefID>
+    <ParameterName>Cumulative MD kW Export</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.2.2.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2187</DataDefID>
+    <ParameterName>Cumulative MD kVA Export</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.10.2.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2188</DataDefID>
+    <ParameterName>Cumulative Tamper Duration</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.128.16.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2189</DataDefID>
+    <ParameterName>Accuracy Class</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.96.128.15.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2190</DataDefID>
+    <ParameterName>Meter Month of Manufacture</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>0.0.96.128.17.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2191</DataDefID>
+    <ParameterName>Last Month Cumulative MD kW</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.2.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2192</DataDefID>
+    <ParameterName>Last Month Cumulative MD kVA</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.2.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  
+    <Parameter>
+    <DataDefID>2193</DataDefID>
+    <ParameterName>Maximum Demand kVAr Lag</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.5.6.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  
+      <Parameter>
+    <DataDefID>2194</DataDefID>
+    <ParameterName>Maximum Demand kVAr Lag Date Time</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.5.6.0.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2195</DataDefID>
+    <ParameterName>Maximum Demand kVAr Lead</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.8.6.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  
+
+  <Parameter>
+    <DataDefID>2196</DataDefID>
+    <ParameterName>Maximum Demand kVAr Lead Date Time</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.8.6.0.255</OBISCode>
+    <Attribute>5</Attribute>
+    <ClassID>4</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <!--TOD Average Export PF : DGVCL changes for billing-->
+  <Parameter>
+    <DataDefID>2197</DataDefID>
+    <ParameterName>TOD Average Export Power Factor - TZ1</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.84.0.1.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>2198</DataDefID>
+    <ParameterName>TOD Average Export Power Factor - TZ2</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.84.0.2.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>2199</DataDefID>
+    <ParameterName>TOD Average Export Power Factor - TZ3</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.84.0.3.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>2200</DataDefID>
+    <ParameterName>TOD Average Export Power Factor - TZ4</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.84.0.4.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>2201</DataDefID>
+    <ParameterName>TOD Average Export Power Factor - TZ5</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.84.0.5.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>2202</DataDefID>
+    <ParameterName>TOD Average Export Power Factor - TZ6</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.84.0.6.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>2203</DataDefID>
+    <ParameterName>TOD Average Export Power Factor - TZ7</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.84.0.7.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  - <Parameter>
+    <DataDefID>2204</DataDefID>
+    <ParameterName>TOD Average Export Power Factor - TZ8</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.84.0.8.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  
+  - <Parameter>
+    <DataDefID>2205</DataDefID>
+    <ParameterName>Cumulative Energy - kWh Lag</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.8.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  - <Parameter>
+    <DataDefID>2206</DataDefID>
+    <ParameterName>Cumulative Energy - kWh Lead</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.1.8.129.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  - <Parameter>
+    <DataDefID>2207</DataDefID>
+    <ParameterName>Cumulative Energy - kVAh Lag</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.8.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  - <Parameter>
+    <DataDefID>2208</DataDefID>
+    <ParameterName>Cumulative Energy - kVAh Lead</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.9.8.129.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <Parameter>
+    <DataDefID>2209</DataDefID>
+    <ParameterName>ByPass Current</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.11.7.128.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+
+  <Parameter>
+    <DataDefID>2210</DataDefID>
+    <ParameterName>Average Phase Current</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.128.27.0.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>3</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <!--CSPDCL Sapphire S2 Tender Specefic-->
+  <Parameter>
+    <DataDefID>2211</DataDefID>
+    <ParameterName>Billing Reset Type</ParameterName>
+    <MeterModel>0</MeterModel>
+    <OBISCode>1.0.96.128.19.255</OBISCode>
+    <Attribute>2</Attribute>
+    <ClassID>1</ClassID>
+    <DataIndex>0</DataIndex>
+  </Parameter>
+  <!--Last ID 2211-->
+</Repository>
+
+

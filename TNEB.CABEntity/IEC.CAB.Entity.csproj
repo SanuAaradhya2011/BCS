@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{92D059A2-84BA-47DE-BC55-0846C449BD91}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IEC.CAB.Entity</RootNamespace>
+    <AssemblyName>IEC.CAB.Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.16.0.18925.20022\lib\net40\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnomalyEntity.cs" />
+    <Compile Include="ApplicationLogEntity.cs" />
+    <Compile Include="ASCIIExportSettingsEntity.cs" />
+    <Compile Include="BillingEntity.cs" />
+    <Compile Include="BillingFactorEntity.cs" />
+    <Compile Include="BillingGeneralNFEntity.cs" />
+    <Compile Include="BillingResetEntity.cs" />
+    <Compile Include="BillingTariffInformationEntity.cs" />
+    <Compile Include="CategoryRightEntity.cs" />
+    <Compile Include="ConsumerImportEntity.cs" />
+    <Compile Include="CounterEntity.cs" />
+    <Compile Include="CumulativeDemandBillingTimeStampEntity.cs" />
+    <Compile Include="CumulativeDemandGeneralEntity.cs" />
+    <Compile Include="CumulativeEnergyEntity.cs" />
+    <Compile Include="CurrentPhaseEntity.cs" />
+    <Compile Include="CurrentTimeStampEntity.cs" />
+    <Compile Include="DemandElapsedTimeEntity.cs" />
+    <Compile Include="DisplayParameterEntity.cs" />
+    <Compile Include="DTMDailyProfileParameterEntity.cs" />
+    <Compile Include="EnergyEntity.cs" />
+    <Compile Include="FileUploadMasterEntity.cs" />
+    <Compile Include="GeneralEntity.cs" />
+    <Compile Include="GSMConfigEntity.cs" />
+    <Compile Include="GSMGroupScheduleEntity.cs" />
+    <Compile Include="GSMReadingStatusEntity.cs" />
+    <Compile Include="GSMScheduleEntity.cs" />
+    <Compile Include="IECAutoLockEntity.cs" />
+    <Compile Include="IECDailyLogEntity.cs" />
+    <Compile Include="IECkvarSelectionEntity.cs" />
+    <Compile Include="IECRS232LockEntity.cs" />
+    <Compile Include="IECTODEntity.cs" />
+    <Compile Include="IECUtilityEntity.cs" />
+    <Compile Include="LoadSurveyMeterDataList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LoadSurveyParameterEntity.cs" />
+    <Compile Include="LogInformationEntity.cs" />
+    <Compile Include="MDWithIPEntity.cs" />
+    <Compile Include="MeterAccuracyCheckEntity.cs" />
+    <Compile Include="MeterConfigurationsNFEntity.cs" />
+    <Compile Include="MeterDataEntity.cs" />
+    <Compile Include="MeterDataHeaderInfoEntity.cs" />
+    <Compile Include="NamePlateDetailEntity.cs" />
+    <Compile Include="RTCUpdateEntity.cs" />
+    <Compile Include="ProgrammingEntity.cs" />
+    <Compile Include="PowerFactorEntity.cs" />
+    <Compile Include="PhasorEntity.cs" />
+    <Compile Include="LoadSurveyEntity.cs" />
+    <Compile Include="InstantPowerEntity.cs" />
+    <Compile Include="FraudEnergyEntity.cs" />
+    <Compile Include="DTMLoadSurveyEntity.cs" />
+    <Compile Include="DTMDailyProfileEntity.cs" />
+    <Compile Include="CircleMasterEntity.cs" />
+    <Compile Include="CMRIMasterEntity.cs" />
+    <Compile Include="ConsumerTypeMasterEntity.cs" />
+    <Compile Include="DivisionMasterEntity.cs" />
+    <Compile Include="ExceptionLogEntity.cs" />
+    <Compile Include="MasterDataEntity.cs" />
+    <Compile Include="MeterMasterEntity.cs" />
+    <Compile Include="MeterModelMasterEntity.cs" />
+    <Compile Include="MeterTypeMasterEntity.cs" />
+    <Compile Include="MeterUnitMasterEntity.cs" />
+    <Compile Include="ModuleMasterEntity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TamperCounterEntity.cs" />
+    <Compile Include="TamperCounterGeneralEntity.cs" />
+    <Compile Include="TamperInformationEntity.cs" />
+    <Compile Include="TamperSnapshotEntity.cs" />
+    <Compile Include="TamperTypeEntity.cs" />
+    <Compile Include="TariffDemandEntity.cs" />
+    <Compile Include="TariffEnergyEntity.cs" />
+    <Compile Include="TariffEntity.cs" />
+    <Compile Include="TariffInformationEntity.cs" />
+    <Compile Include="UnitEntity.cs" />
+    <Compile Include="UserLogActivity.cs" />
+    <Compile Include="VoltagePhaseEntity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CAB.E650MeterConfiguration.Entity\Common.CAB.E650MeterConfiguration.Entity.csproj">
+      <Project>{ED428E9B-12E0-4385-8A9B-2AB28A943428}</Project>
+      <Name>Common.CAB.E650MeterConfiguration.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNEB.CABFramework\IEC.CAB.Framework.csproj">
+      <Project>{5A821211-487F-478E-AD65-C4AFA0EE4C82}</Project>
+      <Name>IEC.CAB.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  
+  -->
+</Project>

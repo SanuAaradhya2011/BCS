@@ -1,0 +1,1254 @@
+﻿<HVDSSettings> 
+
+  <Profile ProfileName = "General" ClassName = "DLMS650NamePlateDetailsEntity" Visible = "true" >
+
+    <ProfileParameter >
+      <HVDSName>Meter Serial Number</HVDSName>
+      <ColumnName>meterSerialNumber</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Manufacturer Name</HVDSName>
+      <ColumnName>manufacturername</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Firmware Version</HVDSName>
+      <ColumnName>firmwareVersionformeter</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Meter type (3P-3W / 3P-4W)</HVDSName>
+      <ColumnName>metertype</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Internal  CT ratio</HVDSName>
+      <ColumnName>internalCTratio</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Internal PT ratio</HVDSName>
+      <ColumnName>internalPTratio</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Category</HVDSName>
+      <ColumnName>Category</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <HVDSName>Year Of manufacture</HVDSName>
+      <ColumnName>meteryearofmanufacture</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Internal Firmware Version</HVDSName>
+      <ColumnName>InternalFirmwareVersion</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <!--<HVDSName>Meter Model No.</HVDSName>-->
+      <HVDSName>Model-Type</HVDSName>
+      <ColumnName>metermodelno</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <HVDSName>Voltage Rating</HVDSName>
+      <ColumnName>VoltageRating</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Current Rating</HVDSName>
+      <ColumnName>BasicCurrentRating</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+  </Profile>
+
+  <Profile ProfileName = "Billing" ClassName = "DLMS650BillingEntity" Visible = "true" >
+
+    <ProfileParameter >
+      <HVDSName>Billing Date</HVDSName>
+      <ColumnName>BillingDate</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>System Power Factor for Billing Period</HVDSName>
+      <ColumnName>SystemPowerFactorforBillingPeriod</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Active Energy</HVDSName>
+      <ColumnName>CumulativeEnergykWhTZ0</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Active Energy Tarrif1</HVDSName>
+      <ColumnName>CumulativeEnergykWhTZ1</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Active Energy Tarrif2</HVDSName>
+      <ColumnName>CumulativeEnergykWhTZ2</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Active Energy Tarrif3</HVDSName>
+      <ColumnName>CumulativeEnergykWhTZ3</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Active Energy Tarrif4</HVDSName>
+      <ColumnName>CumulativeEnergykWhTZ4</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Active Energy Tarrif5</HVDSName>
+      <ColumnName>CumulativeEnergykWhTZ5</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Active Energy Tarrif6</HVDSName>
+      <ColumnName>CumulativeEnergykWhTZ6</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Active Energy Tarrif7</HVDSName>
+      <ColumnName>CumulativeEnergykWhTZ7</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Active Energy Tarrif8</HVDSName>
+      <ColumnName>CumulativeEnergykWhTZ8</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Reactive Energy Lag</HVDSName>
+      <ColumnName>CumulativeEnergykvarhLag</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Reactive Energy Lead</HVDSName>
+      <ColumnName>CumulativeEnergykvarhLead</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Apparent Energy</HVDSName>
+      <ColumnName>CumulativeEnergykVAhTZ0</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Apparent Energy Tarrif1</HVDSName>
+      <ColumnName>CumulativeEnergykVAhTZ1</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Apparent Energy Tarrif2</HVDSName>
+      <ColumnName>CumulativeEnergykVAhTZ2</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Apparent Energy Tarrif3</HVDSName>
+      <ColumnName>CumulativeEnergykVAhTZ3</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Apparent Energy Tarrif4</HVDSName>
+      <ColumnName>CumulativeEnergykVAhTZ4</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Apparent Energy Tarrif5</HVDSName>
+      <ColumnName>CumulativeEnergykVAhTZ5</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Apparent Energy Tarrif6</HVDSName>
+      <ColumnName>CumulativeEnergykVAhTZ6</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Apparent Energy Tarrif7</HVDSName>
+      <ColumnName>CumulativeEnergykVAhTZ7</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Apparent Energy Tarrif8</HVDSName>
+      <ColumnName>CumulativeEnergykVAhTZ8</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Active</HVDSName>
+      <ColumnName>MDkWTZ0</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Active Date Time</HVDSName>
+      <ColumnName>MDkWDateTimeTZ0</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Active Tarrif1</HVDSName>
+      <ColumnName>MDkWTZ1</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Active Tarrif1 Date Time</HVDSName>
+      <ColumnName>MDkWDateTimeTZ1</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Active Tarrif2</HVDSName>
+      <ColumnName>MDkWTZ2</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Active Tarrif2 Date Time</HVDSName>
+      <ColumnName>MDkWDateTimeTZ2</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Active Tarrif3</HVDSName>
+      <ColumnName>MDkWTZ3</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Active Tarrif3 Date Time</HVDSName>
+      <ColumnName>MDkWDateTimeTZ3</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Active Tarrif4</HVDSName>
+      <ColumnName>MDkWTZ4</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Active Tarrif4 Date Time</HVDSName>
+      <ColumnName>MDkWDateTimeTZ4</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Active Tarrif5</HVDSName>
+      <ColumnName>MDkWTZ5</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Active Tarrif5 Date Time</HVDSName>
+      <ColumnName>MDkWDateTimeTZ5</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Active Tarrif6</HVDSName>
+      <ColumnName>MDkWTZ6</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Active Tarrif6 Date Time</HVDSName>
+      <ColumnName>MDkWDateTimeTZ6</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+     <ProfileParameter >
+      <HVDSName>MD Active Tarrif7</HVDSName>
+      <ColumnName>MDkWTZ7</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Active Tarrif7 Date Time</HVDSName>
+      <ColumnName>MDkWDateTimeTZ7</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Active Tarrif8</HVDSName>
+      <ColumnName>MDkWTZ8</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Active Tarrif8 Date Time</HVDSName>
+      <ColumnName>MDkWDateTimeTZ8</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Apparent</HVDSName>
+      <ColumnName>MDkVATZ0</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Apparent Date Time</HVDSName>
+      <ColumnName>MDkVADateTimeTZ0</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Apparent Tarrif1</HVDSName>
+      <ColumnName>MDkVATZ1</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Apparent Tarrif1 Date Time</HVDSName>
+      <ColumnName>MDkVADateTimeTZ1</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Apparent Tarrif2</HVDSName>
+      <ColumnName>MDkVATZ2</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Apparent Tarrif2 Date Time</HVDSName>
+      <ColumnName>MDkVADateTimeTZ2</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Apparent Tarrif3</HVDSName>
+      <ColumnName>MDkVATZ3</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Apparent Tarrif3 Date Time</HVDSName>
+      <ColumnName>MDkVADateTimeTZ3</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Apparent Tarrif4</HVDSName>
+      <ColumnName>MDkVATZ4</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Apparent Tarrif4 Date Time</HVDSName>
+      <ColumnName>MDkVADateTimeTZ4</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Apparent Tarrif5</HVDSName>
+      <ColumnName>MDkVATZ5</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Apparent Tarrif5 Date Time</HVDSName>
+      <ColumnName>MDkVADateTimeTZ5</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Apparent Tarrif6</HVDSName>
+      <ColumnName>MDkVATZ6</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Apparent Tarrif6 Date Time</HVDSName>
+      <ColumnName>MDkVADateTimeTZ6</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Apparent Tarrif7</HVDSName>
+      <ColumnName>MDkVATZ7</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Apparent Tarrif7 Date Time</HVDSName>
+      <ColumnName>MDkVADateTimeTZ7</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Apparent Tarrif8</HVDSName>
+      <ColumnName>MDkVATZ8</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Apparent Tarrif8 Date Time</HVDSName>
+      <ColumnName>MDkVADateTimeTZ8</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Billing Type</HVDSName>
+      <ColumnName>BillingResetType</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+  </Profile>
+
+  <Profile ProfileName = "Instant" ClassName = "DLMS650InstantaneousEntity" Visible = "true" >
+
+    <ProfileParameter >
+      <HVDSName>Real Time Clock Date and Time</HVDSName>
+      <ColumnName>Real Time Clock - Date and Time</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Current IR</HVDSName>
+      <ColumnName>Current - IR</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Current IY</HVDSName>
+      <ColumnName>Current - IY</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Current IB</HVDSName>
+      <ColumnName>Current - IB</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Phase Current</HVDSName>
+      <ColumnName>Phase Current</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Neutral Current</HVDSName>
+      <ColumnName>Neutral Current</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+    
+    <ProfileParameter >
+      <HVDSName>Voltage VRN</HVDSName>
+      <ColumnName>Voltage – VRN</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Voltage VYN</HVDSName>
+      <ColumnName>Voltage – VYN</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Voltage VBN</HVDSName>
+      <ColumnName>Voltage – VBN</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Phase Voltage</HVDSName>
+      <ColumnName>Phase Voltage</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Signed Power Factor R phase</HVDSName>
+      <ColumnName>Signed Power Factor - R phase</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Signed Power Factor Y phase</HVDSName>
+      <ColumnName>Signed Power Factor - Y phase</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Signed Power Factor B phase</HVDSName>
+      <ColumnName>Signed Power Factor - B phase</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Three Phase Power Factor PF</HVDSName>
+      <ColumnName>Three Phase Power Factor - PF</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Frequency</HVDSName>
+      <ColumnName>Frequency</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Apparent Power</HVDSName>
+      <ColumnName>Apparent Power - kVA</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Active Power (ABS)</HVDSName>
+      <ColumnName>Signed Active Power - kW (+ Forward - Reverse)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+<!-- single phase active and apparant power-->  
+    <ProfileParameter >
+      <HVDSName>Apparent Power Phase</HVDSName>
+      <ColumnName>Apparent Power Phase</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Apparent Power Neutral</HVDSName>
+      <ColumnName>Apparent Power Neutral</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Signed Active Power Phase(+Fw;-Rev)</HVDSName>
+      <ColumnName>Signed Active Power Phase(+Fw;-Rev)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Signed Active Power Neutral(+Fw;-Rev)</HVDSName>
+      <ColumnName>Signed Active Power Neutral(+Fw;-Rev)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <HVDSName>Signed Reactive Power (+ Lag; Lead)</HVDSName>
+      <ColumnName>Signed Reactive Power - kvar (+ Lag - Lead)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Number of Power Failures</HVDSName>
+      <ColumnName>Number of Power - Failures</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+    
+    <ProfileParameter >
+      <HVDSName>Present month Average Power Factor</HVDSName>
+      <ColumnName>Present month Average Power Factor</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Power Failure Duration</HVDSName>
+      <ColumnName>Cumulative Power-Failure Duration</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Power-On Duration</HVDSName>
+      <ColumnName>Cumulative Power-On Duration</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Tamper Count</HVDSName>
+      <ColumnName>Cumulative Tamper Count</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Billing Count</HVDSName>
+      <ColumnName>Cumulative Billing Count</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Programming Count</HVDSName>
+      <ColumnName>Cumulative Programming Count</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Billing Date</HVDSName>
+      <ColumnName>Billing Date</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Active Energy</HVDSName>
+      <ColumnName>Cumulative Energy - kWh</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Reactive Energy Lag</HVDSName>
+      <ColumnName>Cumulative Energy - kvarh - lag</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Reactive Energy Lead</HVDSName>
+      <ColumnName>Cumulative Energy - kvarh - lead</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Apparent Energy</HVDSName>
+      <ColumnName>Cumulative Energy - kVAh</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Maximum Active Demand</HVDSName>
+      <ColumnName>Maximum Demand – kW</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Maximum Active Demand DateTime</HVDSName>
+      <ColumnName>Maximum Demand – kW DateTime</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Maximum Apparent Demand</HVDSName>
+      <ColumnName>Maximum Demand – kVA</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Maximum Apparent Demand DateTime</HVDSName>
+      <ColumnName>Maximum Demand – kVA DateTime</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Maximum Active Demand</HVDSName>
+      <ColumnName>Cumulative Maximum Demand - kW</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Maximum Apparent Demand</HVDSName>
+      <ColumnName>Cumulative Maximum Demand - kVA</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Export Energy</HVDSName>
+      <ColumnName>Cumulative Export Energy - kWh</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Fundamental Energy kWh</HVDSName>
+      <ColumnName>Fundamental Energy kWh</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>DeFraud Energy kWh</HVDSName>
+      <ColumnName>Defraud Energy kWh(Magnet Tamper)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter>
+    
+    <ProfileParameter >
+      <HVDSName>Cum. Event Counter(Comp 1-Voltage)</HVDSName>
+      <ColumnName>Cum. Event Counter(Comp 1-Voltage)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cum. Event Counter(Comp 2-Current)</HVDSName>
+      <ColumnName>Cum. Event Counter(Comp 2-Current)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cum. Event Counter(Comp 3-Power Failure)</HVDSName>
+      <ColumnName>Cum. Event Counter(Comp 3-Power Failure)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cum. Event Counter(Comp 4-Transaction)</HVDSName>
+      <ColumnName>Cum. Event Counter(Comp 4-Transaction)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cum. Event Counter(Comp 5-Other)</HVDSName>
+      <ColumnName>Cum. Event Counter(Comp 5-Other)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cum. Event Counter(Comp 6-Non Roll-over)</HVDSName>
+      <ColumnName>Cum. Event Counter(Comp 6-Non Roll-over)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cum. Event Counter (Comp 7-Connect/Disconnect)</HVDSName>
+      <ColumnName>Cum. Event Counter (Comp 7-Connect/Disconnect)</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Present Month Consumption</HVDSName>
+      <ColumnName>Present Month Consumption</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Active Tarrif INR</HVDSName>
+      <ColumnName>Active Tarrif INR</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>OTA f/w upgrade counter for meter</HVDSName>
+      <ColumnName>OTA f/w upgrade counter for meter</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>OTA f/w upgrade counter for comms card</HVDSName>
+      <ColumnName>OTA f/w upgrade counter for comms card</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+    
+  </Profile>
+  
+  <Profile ProfileName = "Load Survey" ClassName = "DLMS650LoadSurveyEntity" Visible = "true" >
+    
+    <ProfileParameter >
+      <HVDSName>Real Time Clock Date and Time</HVDSName>
+      <ColumnName>realTimeClockDateandTime</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Current IR</HVDSName>
+      <ColumnName>rPhaseCurrent</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Current IY</HVDSName>
+      <ColumnName>yPhaseCurrent</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <HVDSName>Current IB</HVDSName>
+      <ColumnName>bPhaseCurrent</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Voltage VRN</HVDSName>
+      <ColumnName>rPhaseVoltage</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Voltage VYN</HVDSName>
+      <ColumnName>yPhaseVoltage</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Voltage VBN</HVDSName>
+      <ColumnName>bPhaseVoltage</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Block Active Energy</HVDSName>
+      <ColumnName>blockEnergykWh</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Block Reactive Energy lag</HVDSName>
+      <ColumnName>blockEnergykvarhlag</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Block Reactive Energy lead</HVDSName>
+      <ColumnName>blockEnergykvarhlead</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Block Apparent Energy</HVDSName>
+      <ColumnName>blockEnergykVAh</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Frequency</HVDSName>
+      <ColumnName>frequency</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Tamper Status</HVDSName>
+      <ColumnName>tamperStatus</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+   
+  </Profile>
+
+  <Profile ProfileName = "Tamper" ClassName = "DLMS650TamperEntity" Visible = "true" >
+
+    <ProfileParameter >
+      <HVDSName>RPhase PT link Missing (Missing Potential) Occurrence</HVDSName>
+      <ColumnName>1</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>RPhase PT link Missing (Missing Potential) Restoration</HVDSName>
+      <ColumnName>2</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>YPhase PT link Missing (Missing Potential) Occurrence</HVDSName>
+      <ColumnName>3</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>YPhase PT link Missing (Missing Potential) Restoration</HVDSName>
+      <ColumnName>4</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>BPhase PT link Missing (Missing Potential) Occurrence</HVDSName>
+      <ColumnName>5</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>BPhase PT link Missing (Missing Potential) Restoration</HVDSName>
+      <ColumnName>6</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Over Voltage in any Phase  Occurrence</HVDSName>
+      <ColumnName>7</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Over Voltage in any Phase  Restoration</HVDSName>
+      <ColumnName>8</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Low Voltage in any Phase  Occurrence</HVDSName>
+      <ColumnName>9</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Low Voltage in any Phase  Restoration</HVDSName>
+      <ColumnName>10</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Voltage Unbalance Occurrence</HVDSName>
+      <ColumnName>11</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Voltage Unbalance Restoration</HVDSName>
+      <ColumnName>12</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Phase R CT reverse Occurrence</HVDSName>
+      <ColumnName>51</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Phase R CT reverse Restoration</HVDSName>
+      <ColumnName>52</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Phase Y CT reverse Occurrence</HVDSName>
+      <ColumnName>53</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Phase Y CT reverse Restoration</HVDSName>
+      <ColumnName>54</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Phase B CT reverse Occurrence</HVDSName>
+      <ColumnName>55</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Phase B CT reverse Restoration</HVDSName>
+      <ColumnName>56</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Phase R CT Open Occurrence</HVDSName>
+      <ColumnName>57</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Phase R CT Open Restoration</HVDSName>
+      <ColumnName>58</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <HVDSName>Phase Y CT Open Occurrence</HVDSName>
+      <ColumnName>59</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Phase Y CT Open Restoration</HVDSName>
+      <ColumnName>60</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <HVDSName>Phase B CT Open Occurrence</HVDSName>
+      <ColumnName>61</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Phase B CT Open Restoration</HVDSName>
+      <ColumnName>62</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <HVDSName>Current Unbalance Occurrence</HVDSName>
+      <ColumnName>63</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Current Unbalance Restoration</HVDSName>
+      <ColumnName>64</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <HVDSName>CT Bypass Occurrence</HVDSName>
+      <ColumnName>65</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>CT Bypass Restoration</HVDSName>
+      <ColumnName>66</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <HVDSName>Over Current in any Phase Occurrence</HVDSName>
+      <ColumnName>67</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Over Current in any Phase Restoration</HVDSName>
+      <ColumnName>68</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Earth Loading/Current Bypass Occurrence</HVDSName>
+      <ColumnName>69</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Earth Loading/Current Bypass Restoration</HVDSName>
+      <ColumnName>70</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Power Failure Occurrence</HVDSName>
+      <ColumnName>101</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Power Failure Restoration</HVDSName>
+      <ColumnName>102</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Real Time Clock Date and Time</HVDSName>
+      <ColumnName>151</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Demand Integration Period</HVDSName>
+      <ColumnName>152</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <HVDSName>Profile Capture Period</HVDSName>
+      <ColumnName>153</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Single action Schedule for Billing Dates</HVDSName>
+      <ColumnName>154</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <HVDSName>Activity Calendar for Time Zones</HVDSName>
+      <ColumnName>155</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Permanent Magnet or AC/DC Electromagnet Occurence</HVDSName>
+      <ColumnName>201</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <HVDSName>Permanent Magnet or AC/DC Electromagnet Restoration</HVDSName>
+      <ColumnName>202</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Neutral Disturbance HF and DC Occurrence</HVDSName>
+      <ColumnName>203</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <HVDSName>Neutral Disturbance HF and DC Restoration</HVDSName>
+      <ColumnName>204</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Very Low PF Occurrence</HVDSName>
+      <ColumnName>205</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Very Low PF Restoration</HVDSName>
+      <ColumnName>206</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Single Wire Operation Occurrence</HVDSName>
+      <ColumnName>207</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Single Wire Operation Restoration</HVDSName>
+      <ColumnName>208</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <!--//SarkarA code change start 20180308 // add Current Mismatch Tamper-->
+    <ProfileParameter >
+      <Description>Current Mismatch Occurrence</Description>
+      <ColumnName>703</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <Description>Current Mismatch Restoration</Description>
+      <ColumnName>704</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+    <!--//SarkarA code change end 20180308 -->
+
+    <ProfileParameter >
+      <HVDSName>Meter Cover Opening Occurrence</HVDSName>
+      <ColumnName>251</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>kVAh Selection Changed</HVDSName>
+      <ColumnName>158</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <HVDSName>Voltage Phase Sequence Reversal - Occurrence</HVDSName>
+      <ColumnName>13</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Voltage Phase Sequence Reversal - Restoration</HVDSName>
+      <ColumnName>14</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>MD Reset</HVDSName>
+      <ColumnName>159</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <HVDSName>Display - Push Mode Config</HVDSName>
+      <ColumnName>160</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Display - Scroll Mode Config</HVDSName>
+      <ColumnName>161</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+    <ProfileParameter >
+      <HVDSName>Display - HR Mode Config</HVDSName>
+      <ColumnName>162</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Display - Scroll Time Config</HVDSName>
+      <ColumnName>163</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+  </Profile>
+
+  <Profile ProfileName = "Midnight Energies" ClassName = "DLMS650MidnightDataEntity" Visible = "true" >
+
+    <ProfileParameter >
+      <HVDSName>Date</HVDSName>
+      <ColumnName>realTimeClockDateandTime</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Active Energy</HVDSName>
+      <ColumnName>CumEnergykWh</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Reactive Energy lag</HVDSName>
+      <ColumnName>CumEnergykvarhlag</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Reactive Energy lead</HVDSName>
+      <ColumnName>CumEnergykvarhlead</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+    <ProfileParameter >
+      <HVDSName>Cumulative Apparent Energy</HVDSName>
+      <ColumnName>CumEnergykVAh</ColumnName>
+      <Visible>true</Visible>
+    </ProfileParameter >
+
+
+  </Profile>  
+
+</HVDSSettings>

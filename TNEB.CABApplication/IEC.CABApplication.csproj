@@ -1,0 +1,2011 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AFA752FB-1C26-4E43-9215-92C498D4F217}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CABApplication</RootNamespace>
+    <AssemblyName>CABApplication</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLs\System.Windows.Forms.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization.Design, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLs\System.Windows.Forms.DataVisualization.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBCS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBCS.Designer.cs">
+      <DependentUpon>AboutBCS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationLogDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationLogDetails.Designer.cs">
+      <DependentUpon>ApplicationLogDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AreaMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AreaMaster.Designer.cs">
+      <DependentUpon>AreaMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ASCIIExportFileWise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ASCIIExportFileWise.Designer.cs">
+      <DependentUpon>ASCIIExportFileWise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ASCIIExportItemSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ASCIIExportItemSettings.Designer.cs">
+      <DependentUpon>ASCIIExportItemSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ASCIIExportSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ASCIIExportSettings.Designer.cs">
+      <DependentUpon>ASCIIExportSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BackupFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackupFile.Designer.cs">
+      <DependentUpon>BackupFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CircleMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CircleMaster.Designer.cs">
+      <DependentUpon>CircleMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMRICommunication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMRICommunication.Designer.cs">
+      <DependentUpon>CMRICommunication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMRIID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMRIID.Designer.cs">
+      <DependentUpon>CMRIID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMRIProgramming.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMRIProgramming.Designer.cs">
+      <DependentUpon>CMRIProgramming.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMRIScheduleFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMRIScheduleFile.Designer.cs">
+      <DependentUpon>CMRIScheduleFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMRIScheduleFileNonTneb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMRIScheduleFileNonTneb.Designer.cs">
+      <DependentUpon>CMRIScheduleFileNonTneb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsumerExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsumerExport.Designer.cs">
+      <DependentUpon>ConsumerExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsumerExportSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsumerExportSettings.Designer.cs">
+      <DependentUpon>ConsumerExportSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsumerImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsumerImport.Designer.cs">
+      <DependentUpon>ConsumerImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CsvFileAdapter.cs" />
+    <Compile Include="DeleteFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteFile.Designer.cs">
+      <DependentUpon>DeleteFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="E650CMRICommunication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="E650CMRICommunication.designer.cs">
+      <DependentUpon>E650CMRICommunication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="E650MeterAccuracyCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="E650MeterAccuracyCheck.Designer.cs">
+      <DependentUpon>E650MeterAccuracyCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="E650MeterConfigurations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="E650MeterConfigurations.designer.cs">
+      <DependentUpon>E650MeterConfigurations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="E650MeterDataReadout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="E650MeterDataReadout.Designer.cs">
+      <DependentUpon>E650MeterDataReadout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExceptionLogDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExceptionLogDetails.Designer.cs">
+      <DependentUpon>ExceptionLogDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExportConsumerData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportConsumerData.Designer.cs">
+      <DependentUpon>ExportConsumerData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExportMeterData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportMeterData.Designer.cs">
+      <DependentUpon>ExportMeterData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileImport.Designer.cs">
+      <DependentUpon>FileImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FolderSelectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FolderSelectDialog.Designer.cs">
+      <DependentUpon>FolderSelectDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControls\GSMGroupInformation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControls\GSMGroupInformation.Designer.cs">
+      <DependentUpon>GSMGroupInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControls\GSMScheduleInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControls\GSMScheduleInfo.Designer.cs">
+      <DependentUpon>GSMScheduleInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graph Controls\frmLoadsurveyGraph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Graph Controls\frmLoadsurveyGraph.designer.cs">
+      <DependentUpon>frmLoadsurveyGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GroupDefinition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroupDefinition.Designer.cs">
+      <DependentUpon>GroupDefinition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GSMConfigurePort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSMConfigurePort.Designer.cs">
+      <DependentUpon>GSMConfigurePort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GSMConsumerList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSMConsumerList.Designer.cs">
+      <DependentUpon>GSMConsumerList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GSMGrouping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSMGrouping.Designer.cs">
+      <DependentUpon>GSMGrouping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GSMReadingStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSMReadingStatus.Designer.cs">
+      <DependentUpon>GSMReadingStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GSMScheduleActivation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSMScheduleActivation.Designer.cs">
+      <DependentUpon>GSMScheduleActivation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GSMScheduling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSMScheduling.Designer.cs">
+      <DependentUpon>GSMScheduling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GSMStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSMStatus.Designer.cs">
+      <DependentUpon>GSMStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadSurveyGraphs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadSurveyGraphs.Designer.cs">
+      <DependentUpon>LoadSurveyGraphs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogDetails.Designer.cs">
+      <DependentUpon>LogDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeterAccuracyCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeterAccuracyCheck.Designer.cs">
+      <DependentUpon>MeterAccuracyCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeterConfigurations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeterConfigurations.Designer.cs">
+      <DependentUpon>MeterConfigurations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeterConsumerFileList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeterConsumerFileList.Designer.cs">
+      <DependentUpon>MeterConsumerFileList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralConfiguration.Designer.cs">
+      <DependentUpon>GeneralConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DivisionMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DivisionMaster.Designer.cs">
+      <DependentUpon>DivisionMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeterDataList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeterDataList.Designer.cs">
+      <DependentUpon>MeterDataList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeterDataLoadSurvey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeterDataLoadSurvey.Designer.cs">
+      <DependentUpon>MeterDataLoadSurvey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeterDataProgramming.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeterDataProgramming.Designer.cs">
+      <DependentUpon>MeterDataProgramming.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeterFileList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeterFileList.Designer.cs">
+      <DependentUpon>MeterFileList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeterPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeterPassword.Designer.cs">
+      <DependentUpon>MeterPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeterProgrammingConfigSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeterProgrammingConfigSettings.Designer.cs">
+      <DependentUpon>MeterProgrammingConfigSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewGroupDefinition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewGroupDefinition.Designer.cs">
+      <DependentUpon>NewGroupDefinition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegionMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegionMaster.Designer.cs">
+      <DependentUpon>RegionMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMRIMasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMRIMasterForm.Designer.cs">
+      <DependentUpon>CMRIMasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsumerMeterDefinition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsumerMeterDefinition.Designer.cs">
+      <DependentUpon>ConsumerMeterDefinition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsumerMeterDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsumerMeterDetails.Designer.cs">
+      <DependentUpon>ConsumerMeterDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControls\CMRIMasterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControls\CMRIMasterControl.Designer.cs">
+      <DependentUpon>CMRIMasterControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeterDataReadoutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeterDataReadoutForm.Designer.cs">
+      <DependentUpon>MeterDataReadoutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PortSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PortSettingForm.Designer.cs">
+      <DependentUpon>PortSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FormControls\UserInformation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControls\UserInformation.designer.cs">
+      <DependentUpon>UserInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterProduct.Designer.cs">
+      <DependentUpon>RegisterProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Forms\DatabaseReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Forms\DatabaseReportForm.designer.cs">
+      <DependentUpon>DatabaseReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Forms\DateWiseBetween.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Forms\DateWiseBetween.designer.cs">
+      <DependentUpon>DateWiseBetween.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Forms\DaySpecificLoadSurvey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Forms\DaySpecificLoadSurvey.Designer.cs">
+      <DependentUpon>DaySpecificLoadSurvey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Forms\DTMDailyProfileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Forms\DTMDailyProfileForm.designer.cs">
+      <DependentUpon>DTMDailyProfileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Forms\DTMDailyProfileSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Forms\DTMDailyProfileSelectForm.designer.cs">
+      <DependentUpon>DTMDailyProfileSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Forms\FileReportDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FileReportDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Forms\FileSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Forms\FileSelectForm.designer.cs">
+      <DependentUpon>FileSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Forms\CABFileWise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Forms\CABFileWise.designer.cs">
+      <DependentUpon>CABFileWise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Forms\MeterSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Forms\MeterSelectForm.designer.cs">
+      <DependentUpon>MeterSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Forms\MeterWise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Forms\MeterWise.designer.cs">
+      <DependentUpon>MeterWise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Forms\PhasorDiagramForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Forms\PhasorDiagramForm.Designer.cs">
+      <DependentUpon>PhasorDiagramForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Forms\ReportDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Forms\ReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Forms\ReportForm.designer.cs">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Forms\SelectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Forms\SelectDialog.designer.cs">
+      <DependentUpon>SelectDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Forms\SelectDialogTNEB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Forms\SelectDialogTNEB.Designer.cs">
+      <DependentUpon>SelectDialogTNEB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\BillingDetailsReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingDetailsReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\BillingGeneralDetails.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingGeneralDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\BillingMechanism.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingMechanism.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\BillingTamperCounter.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingTamperCounter.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\CTRatio.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CTRatio.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\DTMDailyProfile.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DTMDailyProfile.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\DTMDailyProfileNew.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DTMDailyProfileNew.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\DTMLoadSurvey.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DTMLoadSurvey.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\DWBetBillingDetailsReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DWBetBillingDetailsReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\DWBetMeterDetails.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DWBetMeterDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\FraudEnergy.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FraudEnergy.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\LoadFactor.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoadFactor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\LoadSurvey.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoadSurvey.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\MainEnergy.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MainEnergy.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\MainEnergyConsumption.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MainEnergyConsumption.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\MasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\MaximumDemand.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MaximumDemand.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\MBillingDetailsReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MBillingDetailsReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\MeterDetails.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MeterDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\MeterInstantDetails.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MeterInstantDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\MMeterDetailsReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MMeterDetailsReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\PhasorReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PhasorReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\PowerFactor.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PowerFactor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\PowerOnHours.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PowerOnHours.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\PowerOnOffTamper.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PowerOnOffTamper.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\ProgrammingUpdates.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProgrammingUpdates.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\RTCUpdates.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RTCUpdates.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\Tamper.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tamper.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\TODDemand.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODDemand.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\TODKVAhConsumption.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODKVAhConsumption.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\TODKVAhEnergy.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODKVAhEnergy.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\TODKVARhLagConsumption.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODKVARhLagConsumption.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\TODKVARhLagEnergy.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODKVARhLagEnergy.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\TODKVARhLeadConsumption.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODKVARhLeadConsumption.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\TODKVARhLeadEnergy.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODKVARhLeadEnergy.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\TODKWhConsumption.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODKWhConsumption.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\TODKWhEnergy.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODKWhEnergy.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\TODPowerFactor.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODPowerFactor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFilesNew\TouConfiguration.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TouConfiguration.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\BillingDetailsReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingDetailsReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\BillingGeneralDetails.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingGeneralDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\BillingMechanism.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingMechanism.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\BillingReportTNEB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingReportTNEB.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\BillingTamperCounter.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingTamperCounter.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\CTRatio.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CTRatio.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\CumulativeEnergies.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CumulativeEnergies.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\CumulativeTamperEvents.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CumulativeTamperEvents.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\DailyenergyConsumption.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DailyenergyConsumption.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\DailyMaxDemandData.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DailyMaxDemandData.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\DailyVI_Profile.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DailyVI_Profile.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\DaySpecificLoadSurveyReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DaySpecificLoadSurveyReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\DemandProfileReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemandProfileReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\DetailedTamperReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DetailedTamperReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\DetailedTamperReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DetailedTamperReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\DTMDailyProfile.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DTMDailyProfile.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\DTMDailyProfileNew.cs">
+      <DependentUpon>DTMDailyProfileNew.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\DTMLoadSurvey.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DTMLoadSurvey.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\DWBetBillingDetailsReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DWBetBillingDetailsReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\DWBetMeterDetails.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DWBetMeterDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\EnergyProfile.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EnergyProfile.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\FraudEnergy.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FraudEnergy.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\InstantaneousData.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InstantaneousData.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\LoadFactor.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoadFactor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\LoadSurvey.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoadSurvey.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\MainEnergy.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MainEnergy.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\MainEnergyConsumption.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MainEnergyConsumption.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\MasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\MasterReportTNEB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MasterReportTNEB.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\MaximumDemand.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MaximumDemand.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\MBillingDetailsReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MBillingDetailsReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\MeterDetails.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MeterDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\MeterInstantDetails.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MeterInstantDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\MMeterDetailsReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MMeterDetailsReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\PhasorDiagramReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PhasorDiagramReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\PhasorReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PhasorReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\PowerFactor.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PowerFactor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\PowerOnHours.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PowerOnHours.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\PowerOnOffTamper.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PowerOnOffTamper.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\ProgrammingUpdates.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProgrammingUpdates.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\RTCUpdates.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RTCUpdates.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\Tamper.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tamper.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\TNEBMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TNEBMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\TODDemand.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODDemand.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\TODKVAhConsumption.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODKVAhConsumption.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\TODKVAhEnergy.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODKVAhEnergy.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\TODKVARhLagConsumption.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODKVARhLagConsumption.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\TODKVARhLagEnergy.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODKVARhLagEnergy.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\TODKVARhLeadConsumption.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODKVARhLeadConsumption.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\TODKVARhLeadEnergy.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODKVARhLeadEnergy.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\TODKWhConsumption.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODKWhConsumption.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\TODKWhEnergy.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODKWhEnergy.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RPTFiles\TODPowerFactor.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODPowerFactor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RestoreDialogBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RestoreDialogBox.Designer.cs">
+      <DependentUpon>RestoreDialogBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RestoreFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RestoreFile.Designer.cs">
+      <DependentUpon>RestoreFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardExport.Designer.cs">
+      <DependentUpon>StandardExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardImport.Designer.cs">
+      <DependentUpon>StandardImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemInfo.Designer.cs">
+      <DependentUpon>SystemInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="E650Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="E650Settings.Designer.cs">
+      <DependentUpon>E650Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UploadFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UploadFile.designer.cs">
+      <DependentUpon>UploadFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UploadFileController.cs" />
+    <Compile Include="UserInformations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInformations.Designer.cs">
+      <DependentUpon>UserInformations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility.Designer.cs">
+      <DependentUpon>Utility.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutBCS.resx">
+      <DependentUpon>AboutBCS.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationLogDetails.resx">
+      <DependentUpon>ApplicationLogDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AreaMaster.resx">
+      <DependentUpon>AreaMaster.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ASCIIExportFileWise.resx">
+      <DependentUpon>ASCIIExportFileWise.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ASCIIExportItemSettings.resx">
+      <DependentUpon>ASCIIExportItemSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ASCIIExportSettings.resx">
+      <DependentUpon>ASCIIExportSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BackupFile.resx">
+      <DependentUpon>BackupFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CircleMaster.resx">
+      <DependentUpon>CircleMaster.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMRICommunication.resx">
+      <DependentUpon>CMRICommunication.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMRIID.resx">
+      <DependentUpon>CMRIID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMRIProgramming.resx">
+      <DependentUpon>CMRIProgramming.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMRIScheduleFile.resx">
+      <DependentUpon>CMRIScheduleFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMRIScheduleFileNonTneb.resx">
+      <DependentUpon>CMRIScheduleFileNonTneb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsumerExport.resx">
+      <DependentUpon>ConsumerExport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsumerExportSettings.resx">
+      <DependentUpon>ConsumerExportSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsumerImport.resx">
+      <DependentUpon>ConsumerImport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteFile.resx">
+      <DependentUpon>DeleteFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="E650CMRICommunication.resx">
+      <DependentUpon>E650CMRICommunication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="E650MeterAccuracyCheck.resx">
+      <DependentUpon>E650MeterAccuracyCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="E650MeterConfigurations.resx">
+      <DependentUpon>E650MeterConfigurations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="E650MeterDataReadout.resx">
+      <DependentUpon>E650MeterDataReadout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExceptionLogDetails.resx">
+      <DependentUpon>ExceptionLogDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportConsumerData.resx">
+      <DependentUpon>ExportConsumerData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportMeterData.resx">
+      <DependentUpon>ExportMeterData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileImport.resx">
+      <DependentUpon>FileImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FolderSelectDialog.resx">
+      <DependentUpon>FolderSelectDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControls\GSMGroupInformation.resx">
+      <DependentUpon>GSMGroupInformation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControls\GSMScheduleInfo.resx">
+      <DependentUpon>GSMScheduleInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graph Controls\frmLoadsurveyGraph.resx">
+      <DependentUpon>frmLoadsurveyGraph.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupDefinition.resx">
+      <DependentUpon>GroupDefinition.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSMConfigurePort.resx">
+      <DependentUpon>GSMConfigurePort.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSMConsumerList.resx">
+      <DependentUpon>GSMConsumerList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSMGrouping.resx">
+      <DependentUpon>GSMGrouping.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSMReadingStatus.resx">
+      <DependentUpon>GSMReadingStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSMScheduleActivation.resx">
+      <DependentUpon>GSMScheduleActivation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSMScheduling.resx">
+      <DependentUpon>GSMScheduling.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSMStatus.resx">
+      <DependentUpon>GSMStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadSurveyGraphs.resx">
+      <DependentUpon>LoadSurveyGraphs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogDetails.resx">
+      <DependentUpon>LogDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeterAccuracyCheck.resx">
+      <DependentUpon>MeterAccuracyCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeterConfigurations.resx">
+      <DependentUpon>MeterConfigurations.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeterConsumerFileList.resx">
+      <DependentUpon>MeterConsumerFileList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralConfiguration.resx">
+      <DependentUpon>GeneralConfiguration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DivisionMaster.resx">
+      <DependentUpon>DivisionMaster.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeterDataList.resx">
+      <DependentUpon>MeterDataList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeterDataLoadSurvey.resx">
+      <DependentUpon>MeterDataLoadSurvey.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeterDataProgramming.resx">
+      <DependentUpon>MeterDataProgramming.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeterFileList.resx">
+      <DependentUpon>MeterFileList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeterPassword.resx">
+      <DependentUpon>MeterPassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeterProgrammingConfigSettings.resx">
+      <DependentUpon>MeterProgrammingConfigSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewGroupDefinition.resx">
+      <DependentUpon>NewGroupDefinition.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegionMaster.resx">
+      <DependentUpon>RegionMaster.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMRIMasterForm.resx">
+      <DependentUpon>CMRIMasterForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsumerMeterDefinition.resx">
+      <DependentUpon>ConsumerMeterDefinition.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsumerMeterDetails.resx">
+      <DependentUpon>ConsumerMeterDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControls\CMRIMasterControl.resx">
+      <DependentUpon>CMRIMasterControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControls\UserInformation.resx">
+      <DependentUpon>UserInformation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeterDataReadoutForm.resx">
+      <DependentUpon>MeterDataReadoutForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PortSettingForm.resx">
+      <DependentUpon>PortSettingForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterProduct.resx">
+      <DependentUpon>RegisterProduct.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Forms\DatabaseReportForm.resx">
+      <DependentUpon>DatabaseReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Forms\DateWiseBetween.resx">
+      <DependentUpon>DateWiseBetween.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Forms\DaySpecificLoadSurvey.resx">
+      <DependentUpon>DaySpecificLoadSurvey.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Forms\DTMDailyProfileForm.resx">
+      <DependentUpon>DTMDailyProfileForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Forms\DTMDailyProfileSelectForm.resx">
+      <DependentUpon>DTMDailyProfileSelectForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Forms\FileSelectForm.resx">
+      <DependentUpon>FileSelectForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Forms\CABFileWise.resx">
+      <DependentUpon>CABFileWise.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Forms\MeterSelectForm.resx">
+      <DependentUpon>MeterSelectForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Forms\MeterWise.resx">
+      <DependentUpon>MeterWise.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Forms\PhasorDiagramForm.resx">
+      <DependentUpon>PhasorDiagramForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Forms\ReportForm.resx">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Forms\SelectDialog.resx">
+      <DependentUpon>SelectDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Forms\SelectDialogTNEB.resx">
+      <DependentUpon>SelectDialogTNEB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\BillingDetailsReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BillingDetailsReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\BillingGeneralDetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BillingGeneralDetails.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\BillingMechanism.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BillingMechanism.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\BillingTamperCounter.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BillingTamperCounter.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\CTRatio.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CTRatio.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\DTMDailyProfile.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DTMDailyProfile.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\DTMDailyProfileNew.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DTMDailyProfileNew.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\DTMLoadSurvey.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DTMLoadSurvey.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\DWBetBillingDetailsReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DWBetBillingDetailsReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\DWBetMeterDetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DWBetMeterDetails.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\FraudEnergy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FraudEnergy.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\LoadFactor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LoadFactor.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\LoadSurvey.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LoadSurvey.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\MainEnergy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MainEnergy.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\MainEnergyConsumption.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MainEnergyConsumption.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\MasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MasterReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\MaximumDemand.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MaximumDemand.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\MBillingDetailsReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MBillingDetailsReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\MeterDetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MeterDetails.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\MeterInstantDetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MeterInstantDetails.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\MMeterDetailsReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MMeterDetailsReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\PhasorReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PhasorReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\PowerFactor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PowerFactor.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\PowerOnHours.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PowerOnHours.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\PowerOnOffTamper.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PowerOnOffTamper.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\ProgrammingUpdates.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ProgrammingUpdates.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\RTCUpdates.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RTCUpdates.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\Tamper.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Tamper.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\TODDemand.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODDemand.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\TODKVAhConsumption.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODKVAhConsumption.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\TODKVAhEnergy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODKVAhEnergy.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\TODKVARhLagConsumption.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODKVARhLagConsumption.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\TODKVARhLagEnergy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODKVARhLagEnergy.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\TODKVARhLeadConsumption.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODKVARhLeadConsumption.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\TODKVARhLeadEnergy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODKVARhLeadEnergy.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\TODKWhConsumption.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODKWhConsumption.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\TODKWhEnergy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODKWhEnergy.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\TODPowerFactor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODPowerFactor.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFilesNew\TouConfiguration.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TouConfiguration.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\BillingDetailsReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BillingDetailsReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\BillingGeneralDetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BillingGeneralDetails1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\BillingMechanism.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BillingMechanism1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\BillingReportTNEB.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BillingReportTNEB.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\BillingTamperCounter.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BillingTamperCounter1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\CTRatio.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CTRatio1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\CumulativeEnergies.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CumulativeEnergies.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\CumulativeTamperEvents.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CumulativeTamperEvents.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\DailyenergyConsumption.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DailyenergyConsumption.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\DailyMaxDemandData.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DailyMaxDemandData.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\DailyVI_Profile.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DailyVI_Profile.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\DaySpecificLoadSurveyReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DaySpecificLoadSurveyReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\DemandProfileReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DemandProfileReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\DetailedTamperReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DetailedTamperReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\DetailedTamperReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DetailedTamperReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\DTMDailyProfile.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DTMDailyProfile1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\DTMDailyProfileNew.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DTMDailyProfileNew1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\DTMLoadSurvey.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DTMLoadSurvey1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\DWBetBillingDetailsReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DWBetBillingDetailsReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\DWBetMeterDetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DWBetMeterDetails1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\EnergyProfile.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EnergyProfile.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\FraudEnergy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FraudEnergy.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\InstantaneousData.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InstantaneousData.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\LoadFactor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LoadFactor1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\LoadSurvey.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LoadSurvey1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\MainEnergy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MainEnergy1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\MainEnergyConsumption.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MainEnergyConsumption1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\MasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MasterReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\MasterReportTNEB.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MasterReportTNEB.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\MaximumDemand.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MaximumDemand1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\MBillingDetailsReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MBillingDetailsReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\MeterDetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MeterDetails1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\MeterInstantDetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MeterInstantDetails1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\MMeterDetailsReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MMeterDetailsReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\PhasorDiagramReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PhasorDiagramReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\PhasorReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PhasorReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\PowerFactor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PowerFactor1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\PowerOnHours.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PowerOnHours1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\PowerOnOffTamper.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PowerOnOffTamper1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\ProgrammingUpdates.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ProgrammingUpdates1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\RTCUpdates.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RTCUpdates1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\Tamper.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Tamper1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\TNEBMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TNEBMasterReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\TODDemand.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODDemand1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\TODKVAhConsumption.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODKVAhConsumption1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\TODKVAhEnergy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODKVAhEnergy1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\TODKVARhLagConsumption.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODKVARhLagConsumption1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\TODKVARhLagEnergy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODKVARhLagEnergy1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\TODKVARhLeadConsumption.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODKVARhLeadConsumption1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\TODKVARhLeadEnergy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODKVARhLeadEnergy1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\TODKWhConsumption.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODKWhConsumption1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\TODKWhEnergy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODKWhEnergy1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RPTFiles\TODPowerFactor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODPowerFactor1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestoreDialogBox.resx">
+      <DependentUpon>RestoreDialogBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestoreFile.resx">
+      <DependentUpon>RestoreFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandardExport.resx">
+      <DependentUpon>StandardExport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandardImport.resx">
+      <DependentUpon>StandardImport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemInfo.resx">
+      <DependentUpon>SystemInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="E650Settings.resx">
+      <DependentUpon>E650Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UploadFile.resx">
+      <DependentUpon>UploadFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInformations.resx">
+      <DependentUpon>UserInformations.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility.resx">
+      <DependentUpon>Utility.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E650MeterConfiguration\Common.CAB.E650MeterConfiguration.csproj">
+      <Project>{5205351E-A788-4D42-90DA-E87F9307D803}</Project>
+      <Name>Common.CAB.E650MeterConfiguration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EntityGenerator\Common.CAB.EntityGenerator.csproj">
+      <Project>{B9D4DE30-1F56-40D0-A44A-D16FC3C0A71B}</Project>
+      <Name>Common.CAB.EntityGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CAB.E650MeterConfiguration.Entity\Common.CAB.E650MeterConfiguration.Entity.csproj">
+      <Project>{ED428E9B-12E0-4385-8A9B-2AB28A943428}</Project>
+      <Name>Common.CAB.E650MeterConfiguration.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CAB.Mapper\IEC.CAB.Mapper.csproj">
+      <Project>{E2303497-2257-48D9-AEDF-0B9BA05F17AC}</Project>
+      <Name>IEC.CAB.Mapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CAB.Parser.Entity\Common.CAB.Parser.Entity.csproj">
+      <Project>{8CAD342E-EEAD-45B5-8440-200AEEE3D1C2}</Project>
+      <Name>Common.CAB.Parser.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CAB.Parser\Common.CAB.Parser.csproj">
+      <Project>{F5257B2A-E66A-4A87-A00C-03CE2798510E}</Project>
+      <Name>Common.CAB.Parser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CAB.Serialization\Common.CAB.Serialization.csproj">
+      <Project>{3B9CB8CE-14DE-4E12-AD8D-801D76FC257A}</Project>
+      <Name>Common.CAB.Serialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABCommunication.ApplicationLayer\Common.CAB.Communication.ApplicationLayer.csproj">
+      <Project>{6BC99087-067E-48FC-AF54-46C0DFE3C704}</Project>
+      <Name>Common.CAB.Communication.ApplicationLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABCommunication.Common\Common.CAB.Communication.Common.csproj">
+      <Project>{5374F8CA-F4A8-4F30-92C4-6A938FD12518}</Project>
+      <Name>Common.CAB.Communication.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABCommunication.PhysicalLayer\Common.CAB.Communication.PhysicalLayer.csproj">
+      <Project>{4596AFA2-A826-4248-86CB-ED0EC8A1CCE7}</Project>
+      <Name>Common.CAB.Communication.PhysicalLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABCommunication.WrapperLayer\Common.CAB.Communication.WrapperLayer.csproj">
+      <Project>{2F0A3EA8-812F-400C-A08F-174017151101}</Project>
+      <Name>Common.CAB.Communication.WrapperLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABContracts\IEC.CAB.Contracts.csproj">
+      <Project>{236E7E11-580E-4B3E-8106-F7AA249AFEF1}</Project>
+      <Name>IEC.CAB.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNEB.CHANNEL\IEC.CAB.CHANNEL.csproj">
+      <Project>{10AA1374-4A11-44A6-921F-81761D3A253F}</Project>
+      <Name>IEC.CAB.CHANNEL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNEB.CABAppControl\IEC.CAB.AppControl.csproj">
+      <Project>{06FBFF7A-BB32-4D84-AA34-3E7F64E20032}</Project>
+      <Name>IEC.CAB.AppControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNEB.CABBLL\IEC.CAB.BLL.csproj">
+      <Project>{4EB21011-8B2D-42E7-9B3D-4313F8DBBF06}</Project>
+      <Name>IEC.CAB.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNEB.CABDAL\IEC.CAB.DAL.csproj">
+      <Project>{CC40E488-B733-487F-ABD6-673569A151BB}</Project>
+      <Name>IEC.CAB.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNEB.CABEntity\IEC.CAB.Entity.csproj">
+      <Project>{92D059A2-84BA-47DE-BC55-0846C449BD91}</Project>
+      <Name>IEC.CAB.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNEB.CABExceptionFramework\IEC.CAB.ExceptionFramework.csproj">
+      <Project>{70C76E63-679D-4718-826A-5A22CD7557B8}</Project>
+      <Name>IEC.CAB.ExceptionFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNEB.CABFramework\IEC.CAB.Framework.csproj">
+      <Project>{5A821211-487F-478E-AD65-C4AFA0EE4C82}</Project>
+      <Name>IEC.CAB.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Help\TNEB_BCS.chm" />
+    <None Include="Reports\Forms\FileReportDataSet.xsc">
+      <DependentUpon>FileReportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Forms\FileReportDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FileReportDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\Forms\FileReportDataSet.xss">
+      <DependentUpon>FileReportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Forms\ReportDataSet.xsc">
+      <DependentUpon>ReportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Forms\ReportDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReportDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\Forms\ReportDataSet.xss">
+      <DependentUpon>ReportDataSet.xsd</DependentUpon>
+    </None>
+    <Content Include="xml\UtilityFeatures.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Help\emSTARnew.ico" />
+    <Content Include="xml\CommandRepository.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\Commands.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\config.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\DataDefinitionRepository.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\DisplayParameters.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\DisplayParameters_0.19.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\Repository.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\TamperDLMSToIECMapper.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\TNEBPUMADisplayParameters.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\TODConfiguration.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

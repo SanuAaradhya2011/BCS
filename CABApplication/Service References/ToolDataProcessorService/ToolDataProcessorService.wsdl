@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns=" " xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace=" " xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace=" /Imports">
+      <xsd:import schemaLocation="https://indelvr221.ap.bm.net/AuthenticationService/ToolDataProcessorService.svc?xsd=xsd0" namespace=" " />
+      <xsd:import schemaLocation="https://indelvr221.ap.bm.net/AuthenticationService/ToolDataProcessorService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ToolDataProcessor_UploadData_InputMessage">
+    <wsdl:part name="parameters" element="tns:UploadData" />
+  </wsdl:message>
+  <wsdl:message name="ToolDataProcessor_UploadData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UploadDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="ToolDataProcessor_Ping_InputMessage">
+    <wsdl:part name="parameters" element="tns:Ping" />
+  </wsdl:message>
+  <wsdl:message name="ToolDataProcessor_Ping_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PingResponse" />
+  </wsdl:message>
+  <wsdl:message name="ToolDataProcessor_HHUUploadData_InputMessage">
+    <wsdl:part name="parameters" element="tns:HHUUploadData" />
+  </wsdl:message>
+  <wsdl:message name="ToolDataProcessor_HHUUploadData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HHUUploadDataResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ToolDataProcessor">
+    <wsdl:operation name="UploadData">
+      <wsdl:input wsaw:Action="UploadData" message="tns:ToolDataProcessor_UploadData_InputMessage" />
+      <wsdl:output wsaw:Action=" /ToolDataProcessor/UploadDataResponse" message="tns:ToolDataProcessor_UploadData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Ping">
+      <wsdl:input wsaw:Action="Ping" message="tns:ToolDataProcessor_Ping_InputMessage" />
+      <wsdl:output wsaw:Action=" /ToolDataProcessor/PingResponse" message="tns:ToolDataProcessor_Ping_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HHUUploadData">
+      <wsdl:input wsaw:Action="HHUUploadData" message="tns:ToolDataProcessor_HHUUploadData_InputMessage" />
+      <wsdl:output wsaw:Action=" /ToolDataProcessor/HHUUploadDataResponse" message="tns:ToolDataProcessor_HHUUploadData_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

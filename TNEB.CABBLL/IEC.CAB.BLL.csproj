@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4EB21011-8B2D-42E7-9B3D-4313F8DBBF06}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IEC.CAB.BLL</RootNamespace>
+    <AssemblyName>IEC.CAB.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.16.0.18925.20022\lib\net40\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationLogBLL.cs" />
+    <Compile Include="ASCIIExportSettingsBLL.cs" />
+    <Compile Include="AutoLockBLL.cs" />
+    <Compile Include="BillingBLL.cs" />
+    <Compile Include="BillingResetBLL.cs" />
+    <Compile Include="CommonBLL.cs" />
+    <Compile Include="ConsumerTypeBLL.cs" />
+    <Compile Include="DailyLogBLL.cs" />
+    <Compile Include="DBGenerationBLL.cs" />
+    <Compile Include="DisplayParameterBLL.cs" />
+    <Compile Include="DTMDailyProfileBLL.cs" />
+    <Compile Include="DTMDailyProfileParameterBLL.cs" />
+    <Compile Include="DTMLoadSurveyBLL.cs" />
+    <Compile Include="ExceptionLogDetailsBLL.cs" />
+    <Compile Include="ExportImportBLL.cs" />
+    <Compile Include="GeneralBLL.cs" />
+    <Compile Include="GSMConfigBLL.cs" />
+    <Compile Include="GSMGroupScheduleBLL.cs" />
+    <Compile Include="GSMReadingStatusBLL.cs" />
+    <Compile Include="GSMScheduleBLL.cs" />
+    <Compile Include="InstantPowerBLL.cs" />
+    <Compile Include="kvarSelectionBLL.cs" />
+    <Compile Include="LoadSurveyParameterBLL.cs" />
+    <Compile Include="MDWithIPBLL.cs" />
+    <Compile Include="MeterDataHeaderInfoBLL.cs" />
+    <Compile Include="MeterModelBLL.cs" />
+    <Compile Include="MeterTypeBLL.cs" />
+    <Compile Include="MeterUnitBLL.cs" />
+    <Compile Include="NamePlateDetailBLL.cs" />
+    <Compile Include="PhasorBLL.cs" />
+    <Compile Include="ProgrammingBLL.cs" />
+    <Compile Include="CMRIMasterBLL.cs" />
+    <Compile Include="LoadSurveyBLL.cs" />
+    <Compile Include="MeterMasterBLL.cs" />
+    <Compile Include="ModuleMasterBLL.cs" />
+    <Compile Include="ReadOutBLL.cs" />
+    <Compile Include="ReportBLL.cs" />
+    <Compile Include="RS232BLL.cs" />
+    <Compile Include="RTCBLL.cs" />
+    <Compile Include="RTCUpdateBLL.cs" />
+    <Compile Include="SettingsBLL.cs" />
+    <Compile Include="TamperCounterBLL.cs" />
+    <Compile Include="TamperGeneralBLL.cs" />
+    <Compile Include="TamperSnapShotBLL.cs" />
+    <Compile Include="TamperTypeBLL.cs" />
+    <Compile Include="TariffBLL.cs" />
+    <Compile Include="TODBLL.cs" />
+    <Compile Include="UnitBLL.cs" />
+    <Compile Include="UserLogActivityBLL.cs" />
+    <Compile Include="UtilityBLL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TNEB.CABDAL\IEC.CAB.DAL.csproj">
+      <Project>{CC40E488-B733-487F-ABD6-673569A151BB}</Project>
+      <Name>IEC.CAB.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNEB.CABEntity\IEC.CAB.Entity.csproj">
+      <Project>{92D059A2-84BA-47DE-BC55-0846C449BD91}</Project>
+      <Name>IEC.CAB.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNEB.CABExceptionFramework\IEC.CAB.ExceptionFramework.csproj">
+      <Project>{70C76E63-679D-4718-826A-5A22CD7557B8}</Project>
+      <Name>IEC.CAB.ExceptionFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNEB.CABFramework\IEC.CAB.Framework.csproj">
+      <Project>{5A821211-487F-478E-AD65-C4AFA0EE4C82}</Project>
+      <Name>IEC.CAB.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

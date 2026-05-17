@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:i0="http://iec.ch/TC57/2011/abstract" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://iec.ch/TC57/2011/schema/message" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://iec.ch/TC57/2011/schema/message" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="BasicHttpBinding_Operations1_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false" />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:import namespace="http://iec.ch/TC57/2011/abstract" location="https://indelvr374/GSIS_CIM2ndEdition/CIM2ndEd.svc?wsdl=wsdl0" />
+  <wsdl:types />
+  <wsdl:binding name="BasicHttpBinding_Operations" type="i0:Operations">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PublishEvent">
+      <soap:operation soapAction="http://iec.ch/61968/PublishEvent" style="document" />
+      <wsdl:input name="PublishEventRequest">
+        <soap:header message="i0:PublishEventRequest_Headers" part="Password" use="literal" />
+        <soap:header message="i0:PublishEventRequest_Headers" part="UserName" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="PublishEventResponse">
+        <soap:header message="i0:PublishEventResponse_Headers" part="Password" use="literal" />
+        <soap:header message="i0:PublishEventResponse_Headers" part="UserName" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Request">
+      <soap:operation soapAction="http://iec.ch/61968/Request" style="document" />
+      <wsdl:input name="RequestRequest">
+        <soap:header message="i0:RequestRequest_Headers" part="Password" use="literal" />
+        <soap:header message="i0:RequestRequest_Headers" part="UserName" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="PublishEventResponse">
+        <soap:header message="i0:PublishEventResponse_Headers" part="Password" use="literal" />
+        <soap:header message="i0:PublishEventResponse_Headers" part="UserName" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Response">
+      <soap:operation soapAction="http://iec.ch/61968/Response" style="document" />
+      <wsdl:input name="PublishEventResponse">
+        <soap:header message="i0:PublishEventResponse_Headers" part="Password" use="literal" />
+        <soap:header message="i0:PublishEventResponse_Headers" part="UserName" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="PublishEventResponse">
+        <soap:header message="i0:PublishEventResponse_Headers" part="Password" use="literal" />
+        <soap:header message="i0:PublishEventResponse_Headers" part="UserName" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpBinding_Operations1" type="i0:Operations">
+    <wsp:PolicyReference URI="#BasicHttpBinding_Operations1_policy" />
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PublishEvent">
+      <soap:operation soapAction="http://iec.ch/61968/PublishEvent" style="document" />
+      <wsdl:input name="PublishEventRequest">
+        <soap:header message="i0:PublishEventRequest_Headers" part="Password" use="literal" />
+        <soap:header message="i0:PublishEventRequest_Headers" part="UserName" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="PublishEventResponse">
+        <soap:header message="i0:PublishEventResponse_Headers" part="Password" use="literal" />
+        <soap:header message="i0:PublishEventResponse_Headers" part="UserName" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Request">
+      <soap:operation soapAction="http://iec.ch/61968/Request" style="document" />
+      <wsdl:input name="RequestRequest">
+        <soap:header message="i0:RequestRequest_Headers" part="Password" use="literal" />
+        <soap:header message="i0:RequestRequest_Headers" part="UserName" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="PublishEventResponse">
+        <soap:header message="i0:PublishEventResponse_Headers" part="Password" use="literal" />
+        <soap:header message="i0:PublishEventResponse_Headers" part="UserName" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Response">
+      <soap:operation soapAction="http://iec.ch/61968/Response" style="document" />
+      <wsdl:input name="PublishEventResponse">
+        <soap:header message="i0:PublishEventResponse_Headers" part="Password" use="literal" />
+        <soap:header message="i0:PublishEventResponse_Headers" part="UserName" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="PublishEventResponse">
+        <soap:header message="i0:PublishEventResponse_Headers" part="Password" use="literal" />
+        <soap:header message="i0:PublishEventResponse_Headers" part="UserName" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>

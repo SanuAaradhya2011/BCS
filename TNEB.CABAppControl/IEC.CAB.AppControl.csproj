@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{06FBFF7A-BB32-4D84-AA34-3E7F64E20032}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IEC.CAB.AppControl</RootNamespace>
+    <AssemblyName>IEC.CAB.AppControl</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>obj\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.16.0.18925.20022\lib\net40\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BillingReset.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BillingReset.Designer.cs">
+      <DependentUpon>BillingReset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyLog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DailyLog.Designer.cs">
+      <DependentUpon>DailyLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayParamaters.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DisplayParamaters.Designer.cs">
+      <DependentUpon>DisplayParamaters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DropDownEnum.cs" />
+    <Compile Include="GridCalendarControl .cs" />
+    <Compile Include="kvarSelection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="kvarSelection.Designer.cs">
+      <DependentUpon>kvarSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CABButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CABForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CABGridControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CABGridControl.Designer.cs">
+      <DependentUpon>CABGridControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CABLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PremiumTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CABListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CABMessageBox.cs" />
+    <Compile Include="MdiChildForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MdiChildForm.designer.cs">
+      <DependentUpon>MdiChildForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MdiTabStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MdiTabStrip.designer.cs">
+      <DependentUpon>MdiTabStrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MdiTabStripButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MdiTabStripButton.designer.cs">
+      <DependentUpon>MdiTabStripButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageConstant.cs" />
+    <Compile Include="PhasorDiagram.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PhasorDiagram.Designer.cs">
+      <DependentUpon>PhasorDiagram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POPUP\ConsumerType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POPUP\ConsumerType.Designer.cs">
+      <DependentUpon>ConsumerType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POPUP\UnitMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POPUP\UnitMaster.Designer.cs">
+      <DependentUpon>UnitMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POPUP\MeterType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POPUP\MeterType.Designer.cs">
+      <DependentUpon>MeterType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="MDWithIP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MDWithIP.Designer.cs">
+      <DependentUpon>MDWithIP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reset.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Reset.Designer.cs">
+      <DependentUpon>Reset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RTC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RTC.Designer.cs">
+      <DependentUpon>RTC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TOUOperation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TOUOperation.Designer.cs">
+      <DependentUpon>TOUOperation.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BillingReset.resx">
+      <DependentUpon>BillingReset.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyLog.resx">
+      <DependentUpon>DailyLog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayParamaters.resx">
+      <DependentUpon>DisplayParamaters.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kvarSelection.resx">
+      <DependentUpon>kvarSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CABForm.resx">
+      <DependentUpon>CABForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CABGridControl.resx">
+      <DependentUpon>CABGridControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MdiChildForm.resx">
+      <DependentUpon>MdiChildForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MdiTabStripButton.resx">
+      <DependentUpon>MdiTabStripButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhasorDiagram.resx">
+      <DependentUpon>PhasorDiagram.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POPUP\ConsumerType.resx">
+      <DependentUpon>ConsumerType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POPUP\UnitMaster.resx">
+      <DependentUpon>UnitMaster.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POPUP\MeterType.resx">
+      <DependentUpon>MeterType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDWithIP.resx">
+      <DependentUpon>MDWithIP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reset.resx">
+      <DependentUpon>Reset.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RTC.resx">
+      <DependentUpon>RTC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TOUOperation.resx">
+      <DependentUpon>TOUOperation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CABControl.csproj" />
+    <Content Include="MdiTabStrip.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TNEB.CABBLL\IEC.CAB.BLL.csproj">
+      <Project>{4EB21011-8B2D-42E7-9B3D-4313F8DBBF06}</Project>
+      <Name>IEC.CAB.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNEB.CABEntity\IEC.CAB.Entity.csproj">
+      <Project>{92D059A2-84BA-47DE-BC55-0846C449BD91}</Project>
+      <Name>IEC.CAB.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNEB.CABFramework\IEC.CAB.Framework.csproj">
+      <Project>{5A821211-487F-478E-AD65-C4AFA0EE4C82}</Project>
+      <Name>IEC.CAB.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
+

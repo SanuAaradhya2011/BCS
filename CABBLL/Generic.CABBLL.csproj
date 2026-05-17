@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{988D73F9-B10E-41D9-BE34-FD67D11C393C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LTCTBLL</RootNamespace>
+    <AssemblyName>LTCTBLL</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  
+  -->
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.16.0.18925.20022\lib\net40\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnomalyBLL.cs" />
+    <Compile Include="ApplicationLogBLL.cs" />
+    <Compile Include="AreaBLL.cs" />
+    <Compile Include="AreaMeterBLL.cs" />
+    <Compile Include="ASCIIExportSettingsBLL.cs" />
+    <Compile Include="AutoLockBLL.cs" />
+    <Compile Include="BillingParameterBLL.cs" />
+    <Compile Include="BillingTypeBLL.cs" />
+    <Compile Include="CategoryRightBLL.cs" />
+    <Compile Include="CircleBLL.cs" />
+    <Compile Include="CommonBLL.cs" />
+    <Compile Include="ConsumerExportSettingsBLL.cs" />
+    <Compile Include="ConsumerTypeBLL.cs" />
+    <Compile Include="LoadLimitBLL.cs" />
+    <Compile Include="LoadSwitchBLL.cs" />
+    <Compile Include="ManualMDResetBLL.cs" />
+    <Compile Include="MeteringModeBLL.cs" />
+    <Compile Include="OpticalLockUnlockBLL.cs" />
+    <Compile Include="PaymentModeBLL.cs" />
+    <Compile Include="PulseEnergyBLL.cs" />
+    <Compile Include="RJLockUnlockBLL.cs" />
+    <Compile Include="RS485BLL.cs" />
+    <Compile Include="DailyLogBLL.cs" />
+    <Compile Include="DBGenerationBLL.cs" />
+    <Compile Include="DIPBLL.cs" />
+    <Compile Include="DisconnectControlBLL.cs" />
+    <Compile Include="DisplayParameterBLL.cs" />
+    <Compile Include="DivisionBLL.cs" />
+    <Compile Include="DLMS650BillingBLL.cs" />
+    <Compile Include="DLMS650CommonBLL.cs" />
+    <Compile Include="DLMS650GeneralBLL.cs" />
+    <Compile Include="DLMS650InstantaneousBLL.cs" />
+    <Compile Include="DLMS650LoadSurveyBLL.cs" />
+    <Compile Include="DLMS650MidnightDataBLL.cs" />
+    <Compile Include="DLMS650NamePlateBLL.cs" />
+    <Compile Include="DLMS650PhasorBLL.cs" />
+    <Compile Include="DLMS650StructureInfoBLL.cs" />
+    <Compile Include="DLMS650StructureOBISInfoBLL.cs" />
+    <Compile Include="DLMS650StructureUnitInfoBLL.cs" />
+    <Compile Include="DLMS650TamperMasterBLL.cs" />
+    <Compile Include="ExcelExportBLL.cs" />
+    <Compile Include="ExceptionLogDetailsBLL.cs" />
+    <Compile Include="FastDownLoadingBLL.cs" />
+    <Compile Include="FraudEnergyBLL.cs" />
+    <Compile Include="GPRSReportBLL.cs" />
+    <Compile Include="GroupDefinitionBLL.cs" />
+    <Compile Include="GSMConfigBLL.cs" />
+    <Compile Include="GSMGroupBLL.cs" />
+    <Compile Include="GSMGroupScheduleBLL.cs" />
+    <Compile Include="GSMLoggingBLL.cs" />
+    <Compile Include="GSMReadingStatusBLL.cs" />
+    <Compile Include="GSMReportingBLL.cs" />
+    <Compile Include="GSMScheduleBLL.cs" />
+    <Compile Include="GSMSchedulingStrategy\DailySchedulingStartegy.cs" />
+    <Compile Include="GSMSchedulingStrategy\SchedulingStrategyContext.cs" />
+    <Compile Include="GSMSchedulingStrategy\SchedulingStrategy.cs" />
+    <Compile Include="GSMSchedulingStrategy\MonthlySchedulingStrategy.cs" />
+    <Compile Include="GSMSchedulingStrategy\OneTimeOnlySchedulingStrategy.cs" />
+    <Compile Include="GSMSchedulingStrategy\WeeklySchedulingStrategy.cs" />
+    <Compile Include="GSMTaskBLL.cs" />
+    <Compile Include="kvarSelectionBLL.cs" />
+    <Compile Include="LoadControlBLL.cs" />
+    <Compile Include="LoadSurveyParameterBLL.cs" />
+    <Compile Include="LSIPBLL.cs" />
+    <Compile Include="ManualBillingBLL.cs" />
+    <Compile Include="MDWithIPBLL.cs" />
+    <Compile Include="MeterModelBLL.cs" />
+    <Compile Include="MeterTypeBLL.cs" />
+    <Compile Include="MeterUnitBLL.cs" />
+    <Compile Include="MidnightParameterBLL.cs" />
+    <Compile Include="RegionBLL.cs" />
+    <Compile Include="CategoryMasterBLL.cs" />
+    <Compile Include="CMRIMasterBLL.cs" />
+    <Compile Include="ConsumerMasterBLL.cs" />
+    <Compile Include="ConsumerMeterBLL.cs" />
+    <Compile Include="ConsumerMeterDefinitionBLL.cs" />
+    <Compile Include="DesignationMasterBLL.cs" />
+    <Compile Include="FileUploadMasterBLL.cs" />
+    <Compile Include="LoadSurveyBLL.cs" />
+    <Compile Include="MeterDataBLL.cs" />
+    <Compile Include="MeterMasterBLL.cs" />
+    <Compile Include="ModuleMasterBLL.cs" />
+    <Compile Include="ReportBLL.cs" />
+    <Compile Include="RS232BLL.cs" />
+    <Compile Include="RTCBLL.cs" />
+    <Compile Include="SearchControlBLL.cs" />
+    <Compile Include="SettingsBLL.cs" />
+    <Compile Include="SlidingDemandBLL.cs" />
+    <Compile Include="SoftwareBillingBLL.cs" />
+    <Compile Include="SuspectedConsumerBLL.cs" />
+    <Compile Include="SystemSettingsBLL.cs" />
+    <Compile Include="TabNameBLL.cs" />
+    <Compile Include="TamperCounterBLL.cs" />
+    <Compile Include="TamperParameterBLL.cs" />
+    <Compile Include="TamperTypeBLL.cs" />
+    <Compile Include="TextExportBLL.cs" />
+    <Compile Include="TodBLL.cs" />
+    <Compile Include="TOUBLL.cs" />
+    <Compile Include="UnitBLL.cs" />
+    <Compile Include="UserInformationBLL.cs" />
+    <Compile Include="UserLogActivityBLL.cs" />
+    <Compile Include="UserRightBLL.cs" />
+    <Compile Include="UtilityBLL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hunt.EPIC.Logging\Common.Hunt.EPIC.Logging.csproj">
+      <Project>{767ED638-2423-4588-95BE-1DB061975B2B}</Project>
+      <Name>Common.Hunt.EPIC.Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABDAL\Generic.CABDAL.csproj">
+      <Project>{24A0D0CC-2668-41C7-AB8E-20CD52E735F4}</Project>
+      <Name>Generic.CABDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABEntity\Generic.CABEntity.csproj">
+      <Project>{56A4EC2F-0685-497B-AC24-111F875E8F1A}</Project>
+      <Name>Generic.CABEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABExceptionFramework\Generic.CABExceptionFramework.csproj">
+      <Project>{555A6772-1779-4331-BEE8-5B6DF7E5189C}</Project>
+      <Name>Generic.CABExceptionFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CABFramework\Generic.CABFramework.csproj">
+      <Project>{CF4BBFC7-E739-4789-BB1E-4FFBA6F8C6C4}</Project>
+      <Name>Generic.CABFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Generic.Utilities.csproj">
+      <Project>{1C998CF6-4BD7-449E-AD67-7057FDA6C71D}</Project>
+      <Name>Generic.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

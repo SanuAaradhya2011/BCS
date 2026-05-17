@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ABCCodeDataSet" targetNamespace="http://tempuri.org/ABCCodeDataSet.xsd" xmlns:mstns="http://tempuri.org/ABCCodeDataSet.xsd" xmlns="http://tempuri.org/ABCCodeDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ABCCodeDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ABCCodeDataSet" msprop:Generator_DataSetName="ABCCodeDataSet" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DTABCCode" msprop:Generator_UserTableName="DTABCCode" msprop:Generator_RowDeletedName="DTABCCodeRowDeleted" msprop:Generator_RowChangedName="DTABCCodeRowChanged" msprop:Generator_RowClassName="DTABCCodeRow" msprop:Generator_RowChangingName="DTABCCodeRowChanging" msprop:Generator_RowEvArgName="DTABCCodeRowChangeEvent" msprop:Generator_RowEvHandlerName="DTABCCodeRowChangeEventHandler" msprop:Generator_TableClassName="DTABCCodeDataTable" msprop:Generator_TableVarName="tableDTABCCode" msprop:Generator_RowDeletingName="DTABCCodeRowDeleting" msprop:Generator_TablePropName="DTABCCode">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Meter_x0020_ID" msprop:Generator_UserColumnName="Meter ID" msprop:Generator_ColumnVarNameInTable="columnMeter_ID" msprop:Generator_ColumnPropNameInRow="Meter_ID" msprop:Generator_ColumnPropNameInTable="Meter_IDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Billing_x0020_kWh" msprop:Generator_UserColumnName="Billing kWh" msprop:Generator_ColumnVarNameInTable="columnBilling_kWh" msprop:Generator_ColumnPropNameInRow="Billing_kWh" msprop:Generator_ColumnPropNameInTable="Billing_kWhColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Billing_x0020_MD" msprop:Generator_UserColumnName="Billing MD" msprop:Generator_ColumnVarNameInTable="columnBilling_MD" msprop:Generator_ColumnPropNameInRow="Billing_MD" msprop:Generator_ColumnPropNameInTable="Billing_MDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Reverse_x0020_Tamper" msprop:Generator_UserColumnName="Reverse Tamper" msprop:Generator_ColumnVarNameInTable="columnReverse_Tamper" msprop:Generator_ColumnPropNameInRow="Reverse_Tamper" msprop:Generator_ColumnPropNameInTable="Reverse_TamperColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Single_x0020_Wire_x0020_Tamper" msprop:Generator_UserColumnName="Single Wire Tamper" msprop:Generator_ColumnVarNameInTable="columnSingle_Wire_Tamper" msprop:Generator_ColumnPropNameInRow="Single_Wire_Tamper" msprop:Generator_ColumnPropNameInTable="Single_Wire_TamperColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Earth_x0020_Tamper" msprop:Generator_UserColumnName="Earth Tamper" msprop:Generator_ColumnVarNameInTable="columnEarth_Tamper" msprop:Generator_ColumnPropNameInRow="Earth_Tamper" msprop:Generator_ColumnPropNameInTable="Earth_TamperColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ESD_x0020_Tamper" msprop:Generator_UserColumnName="ESD Tamper" msprop:Generator_ColumnVarNameInTable="columnESD_Tamper" msprop:Generator_ColumnPropNameInRow="ESD_Tamper" msprop:Generator_ColumnPropNameInTable="ESD_TamperColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Magnet_x0020_Tamper" msprop:Generator_UserColumnName="Magnet Tamper" msprop:Generator_ColumnVarNameInTable="columnMagnet_Tamper" msprop:Generator_ColumnPropNameInRow="Magnet_Tamper" msprop:Generator_ColumnPropNameInTable="Magnet_TamperColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Neu._x0020_Disturbance_x0020_" msprop:Generator_UserColumnName="Neu. Disturbance " msprop:Generator_ColumnVarNameInTable="_columnNeu__Disturbance_" msprop:Generator_ColumnPropNameInRow="_Neu__Disturbance_" msprop:Generator_ColumnPropNameInTable="_Neu__Disturbance_Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Datetime" msprop:Generator_UserColumnName="Datetime" msprop:Generator_ColumnVarNameInTable="columnDatetime" msprop:Generator_ColumnPropNameInRow="Datetime" msprop:Generator_ColumnPropNameInTable="DatetimeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DTABCType2" msprop:Generator_UserTableName="DTABCType2" msprop:Generator_RowDeletedName="DTABCType2RowDeleted" msprop:Generator_TableClassName="DTABCType2DataTable" msprop:Generator_RowChangedName="DTABCType2RowChanged" msprop:Generator_RowClassName="DTABCType2Row" msprop:Generator_RowChangingName="DTABCType2RowChanging" msprop:Generator_RowEvArgName="DTABCType2RowChangeEvent" msprop:Generator_RowEvHandlerName="DTABCType2RowChangeEventHandler" msprop:Generator_TablePropName="DTABCType2" msprop:Generator_TableVarName="tableDTABCType2" msprop:Generator_RowDeletingName="DTABCType2RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Meter_x0020_ID" msprop:Generator_UserColumnName="Meter ID" msprop:Generator_ColumnPropNameInRow="Meter_ID" msprop:Generator_ColumnVarNameInTable="columnMeter_ID" msprop:Generator_ColumnPropNameInTable="Meter_IDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BillDate" msprop:Generator_UserColumnName="BillDate" msprop:Generator_ColumnPropNameInRow="BillDate" msprop:Generator_ColumnVarNameInTable="columnBillDate" msprop:Generator_ColumnPropNameInTable="BillDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Energykwh" msprop:Generator_UserColumnName="Energykwh" msprop:Generator_ColumnPropNameInRow="Energykwh" msprop:Generator_ColumnVarNameInTable="columnEnergykwh" msprop:Generator_ColumnPropNameInTable="EnergykwhColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Demandkw" msprop:Generator_UserColumnName="Demandkw" msprop:Generator_ColumnPropNameInRow="Demandkw" msprop:Generator_ColumnVarNameInTable="columnDemandkw" msprop:Generator_ColumnPropNameInTable="DemandkwColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Tampercount" msprop:Generator_UserColumnName="Tampercount" msprop:Generator_ColumnPropNameInRow="Tampercount" msprop:Generator_ColumnVarNameInTable="columnTampercount" msprop:Generator_ColumnPropNameInTable="TampercountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Datetime" msprop:Generator_UserColumnName="Datetime" msprop:Generator_ColumnPropNameInRow="Datetime" msprop:Generator_ColumnVarNameInTable="columnDatetime" msprop:Generator_ColumnPropNameInTable="DatetimeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

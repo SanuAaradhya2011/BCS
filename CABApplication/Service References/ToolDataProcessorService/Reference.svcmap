@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="26c02376-ee37-4a64-b8c3-ef85b9b94f96" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://indelvr221.ap.bm.net/AuthenticationService/ToolDataProcessorService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ToolDataProcessorService.wsdl" MetadataType="Wsdl" ID="97b19fbb-f2cc-4721-9a74-9ab4b5fd370c" SourceId="1" SourceUrl="https://indelvr221.ap.bm.net/AuthenticationService/ToolDataProcessorService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="ToolDataProcessorService.xsd" MetadataType="Schema" ID="cebeb199-a5d3-45c0-8da1-ef49d5ffac11" SourceId="1" SourceUrl="https://indelvr221.ap.bm.net/AuthenticationService/ToolDataProcessorService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ToolDataProcessorService1.xsd" MetadataType="Schema" ID="c71a6135-639a-4396-ae33-941762c931c0" SourceId="1" SourceUrl="https://indelvr221.ap.bm.net/AuthenticationService/ToolDataProcessorService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ToolDataProcessor.wsdl" MetadataType="Wsdl" ID="aca57265-1f58-4a71-b49e-750e0530e112" SourceId="1" SourceUrl="https://indelvr221.ap.bm.net/AuthenticationService/ToolDataProcessorService.svc?wsdl" />
+    <MetadataFile FileName="ToolDataProcessorService.disco" MetadataType="Disco" ID="f260b451-57cf-4dab-aeb3-ac8def570310" SourceId="1" SourceUrl="https://indelvr221.ap.bm.net/AuthenticationService/ToolDataProcessorService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

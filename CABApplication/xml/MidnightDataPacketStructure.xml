@@ -1,0 +1,29 @@
+﻿<MidNightDataPacketStructure>
+  <Packet>
+    <Parameter>
+      <Name>CumulativeActiveEnergy</Name>
+      <Size>6</Size>
+      <Sequence>0</Sequence>
+    </Parameter>
+    <Parameter>
+      <Name>CumulativeReActiveLagEnergy</Name>
+      <Size>6</Size>
+      <Sequence>0</Sequence>
+    </Parameter>
+    <Parameter>
+      <Name>CumulativeReActiveLeadEnergy</Name>
+      <Size>6</Size>
+      <Sequence>0</Sequence>
+    </Parameter>
+    <Parameter>
+      <Name>CumulativeApparentEnergy</Name>
+      <Size>6</Size>
+      <Sequence>0</Sequence>
+    </Parameter>
+    <Parameter>
+      <Name>DateTime</Name>
+      <Size>3</Size>
+      <Sequence>1</Sequence>
+    </Parameter>
+  </Packet>
+</MidNightDataPacketStructure>

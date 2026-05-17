@@ -1,0 +1,20 @@
+﻿<Profile Type="General">
+  <Utility UtilityName ="PUMA|GPRSVER" Firmware="DEFAULT|4.45">
+    <CommandMethod Order="1"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="SNRMCommand" CommandParameter="" ValidatorName="HDLCValidator"  ValidatorParameter=""></CommandMethod>
+    <CommandMethod Order="2"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="AARQCommand" CommandParameter="" ValidatorName="AARQCommandValidator"  ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="3"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="fReadMeterSerialNumberCommand" CommandParameter="" ValidatorName="fMeterSerialNumberValidator"  ValidatorParameter="" IsRecursive="false" RecursiveType="COSEM"></CommandMethod>
+    <CommandMethod Order="4"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="Initialize_ReadMeterID" CommandParameter="0" ValidatorName="Initialize_ReadMeterIDValidator"  ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="5"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="Initialize_ReadMeterID" CommandParameter="1" ValidatorName="Initialize_ReadMeterIDValidator"  ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="6"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="Initialize_ReadMeterID" CommandParameter="2" ValidatorName="Initialize_ReadMeterIDValidator"  ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="7"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="Initialize_ReadMeterID" CommandParameter="3" ValidatorName="Initialize_ReadMeterIDValidator"  ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="8"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="Initialize_ReadMeterID" CommandParameter="4" ValidatorName="Initialize_ReadMeterIDValidator"  ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="9"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="Initialize_ReadMeterID" CommandParameter="5" ValidatorName="Initialize_ReadMeterIDValidator"  ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="10" MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="Initialize_ReadMeterID" CommandParameter="6" ValidatorName="Initialize_ReadMeterIDValidator"  ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="11" MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="DISCCommand" CommandParameter="" ValidatorName="HDLCValidator"  ValidatorParameter="" ></CommandMethod>
+  </Utility>
+  <Utility UtilityName ="NDPL">
+    <CommandMethod Order="1"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="SNRMCommand" CommandParameter="" ValidatorName="HDLCValidator"  ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="2"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="AARQCommand" CommandParameter="" ValidatorName="AARQCommandValidator"  ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="3"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="fReadMeterSerialNumberCommand" CommandParameter="" ValidatorName="fMeterSerialNumberValidator"  ValidatorParameter="" ></CommandMethod>
+  </Utility>
+</Profile>

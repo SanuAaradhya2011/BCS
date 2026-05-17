@@ -1,0 +1,738 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="B000002" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="B000001" xml:space="preserve">
+    <value>&amp;Login</value>
+  </data>
+  <data name="L000002" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="L000001" xml:space="preserve">
+    <value>Login Id</value>
+  </data>
+  <data name="A000001" xml:space="preserve">
+    <value>BCS</value>
+  </data>
+  <data name="M000001" xml:space="preserve">
+    <value>cannot be left blank</value>
+  </data>
+  <data name="C000001" xml:space="preserve">
+    <value>User Login</value>
+  </data>
+  <data name="M000002" xml:space="preserve">
+    <value>Login Failed. Please check the Login Id and Password</value>
+  </data>
+  <data name="B000003" xml:space="preserve">
+    <value>&amp;Add</value>
+  </data>
+  <data name="B000004" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="B000005" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="B000006" xml:space="preserve">
+    <value>&amp;Search</value>
+  </data>
+  <data name="B000007" xml:space="preserve">
+    <value>&amp;Find Now</value>
+  </data>
+  <data name="L000003" xml:space="preserve">
+    <value>Search Type</value>
+  </data>
+  <data name="L000004" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="L000005" xml:space="preserve">
+    <value>Login ID</value>
+  </data>
+  <data name="L000006" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="L000007" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="L000008" xml:space="preserve">
+    <value>Note:</value>
+  </data>
+  <data name="B000008" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="B000009" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="M000003" xml:space="preserve">
+    <value>From Date should be less than To Date</value>
+  </data>
+  <data name="L000009" xml:space="preserve">
+    <value>Note  :  Strict ( * ) marked field is mandatory to enter.</value>
+  </data>
+  <data name="M000004" xml:space="preserve">
+    <value>. It can accept alphabets and numbers from 0 to 9 only.</value>
+  </data>
+  <data name="M000005" xml:space="preserve">
+    <value>Confirm Password does not match</value>
+  </data>
+  <data name="M000006" xml:space="preserve">
+    <value>This field can accept only Alphabets and Space.</value>
+  </data>
+  <data name="M000007" xml:space="preserve">
+    <value>Invalid</value>
+  </data>
+  <data name="L000010" xml:space="preserve">
+    <value>Current Password</value>
+  </data>
+  <data name="L000011" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="M000008" xml:space="preserve">
+    <value>Password Changed Successfully.</value>
+  </data>
+  <data name="C000002" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="M000009" xml:space="preserve">
+    <value>Search Text can not be empty.</value>
+  </data>
+  <data name="M000010" xml:space="preserve">
+    <value>Invalid Search. It can not accept any special character.</value>
+  </data>
+  <data name="L000012" xml:space="preserve">
+    <value>CMRI Number</value>
+  </data>
+  <data name="L000013" xml:space="preserve">
+    <value>CMRI Description</value>
+  </data>
+  <data name="M000011" xml:space="preserve">
+    <value>already exists.</value>
+  </data>
+  <data name="B000010" xml:space="preserve">
+    <value>Enter &amp;New Meter Details</value>
+  </data>
+  <data name="L000014" xml:space="preserve">
+    <value>Consumer ID.</value>
+  </data>
+  <data name="L000015" xml:space="preserve">
+    <value>Consumer Name.</value>
+  </data>
+  <data name="L000016" xml:space="preserve">
+    <value>Consumer Type</value>
+  </data>
+  <data name="L000017" xml:space="preserve">
+    <value>Telephone Number</value>
+  </data>
+  <data name="L000018" xml:space="preserve">
+    <value>House Number</value>
+  </data>
+  <data name="L000019" xml:space="preserve">
+    <value>Street</value>
+  </data>
+  <data name="L000020" xml:space="preserve">
+    <value>City/Town</value>
+  </data>
+  <data name="L000021" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="L000022" xml:space="preserve">
+    <value>Meter Number</value>
+  </data>
+  <data name="L000023" xml:space="preserve">
+    <value>Meter Type</value>
+  </data>
+  <data name="L000024" xml:space="preserve">
+    <value>Meter Model</value>
+  </data>
+  <data name="L000025" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="L000026" xml:space="preserve">
+    <value>Installation Date</value>
+  </data>
+  <data name="L000027" xml:space="preserve">
+    <value>EMF</value>
+  </data>
+  <data name="L000028" xml:space="preserve">
+    <value>Contract Demand</value>
+  </data>
+  <data name="L000029" xml:space="preserve">
+    <value>Meter CT/PT</value>
+  </data>
+  <data name="L000030" xml:space="preserve">
+    <value>CT Primary (Amp)</value>
+  </data>
+  <data name="L000031" xml:space="preserve">
+    <value>CT Secondary (Amp)</value>
+  </data>
+  <data name="L000032" xml:space="preserve">
+    <value>CT Ratio</value>
+  </data>
+  <data name="L000033" xml:space="preserve">
+    <value>PT Primary (V)</value>
+  </data>
+  <data name="L000034" xml:space="preserve">
+    <value>PT Secondary (V)</value>
+  </data>
+  <data name="L000035" xml:space="preserve">
+    <value>PT Ratio</value>
+  </data>
+  <data name="L000036" xml:space="preserve">
+    <value>Installed </value>
+  </data>
+  <data name="L000037" xml:space="preserve">
+    <value>Activate Meter</value>
+  </data>
+  <data name="M000012" xml:space="preserve">
+    <value>This field can accept only Alphanumeric characters.</value>
+  </data>
+  <data name="L000038" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="M000013" xml:space="preserve">
+    <value>eg: abcd@hotmail.com</value>
+  </data>
+  <data name="M000014" xml:space="preserve">
+    <value>. It can accept only Numbers from 1-9</value>
+  </data>
+  <data name="B000011" xml:space="preserve">
+    <value>&amp;Browse...</value>
+  </data>
+  <data name="B000012" xml:space="preserve">
+    <value>&amp;Upload</value>
+  </data>
+  <data name="L000039" xml:space="preserve">
+    <value>Select File</value>
+  </data>
+  <data name="M000015" xml:space="preserve">
+    <value>. It can accept Characters, Numbers from 0 to 9 and Special Characters[#/,-]</value>
+  </data>
+  <data name="M000016" xml:space="preserve">
+    <value>CT Primary should be greater than CT Secondary</value>
+  </data>
+  <data name="M000017" xml:space="preserve">
+    <value>PT Primary should be greater than PT Secondary</value>
+  </data>
+  <data name="M000018" xml:space="preserve">
+    <value>Installed CT Primary should be greater than Installed CT Secondary</value>
+  </data>
+  <data name="M000019" xml:space="preserve">
+    <value>Installed PT Primary should be greater than Installed PT Secondary</value>
+  </data>
+  <data name="L000040" xml:space="preserve">
+    <value>indicates mandatory fields</value>
+  </data>
+  <data name="M000020" xml:space="preserve">
+    <value>User Deleted Successfully.</value>
+  </data>
+  <data name="M000021" xml:space="preserve">
+    <value>Data Saved Successfully.</value>
+  </data>
+  <data name="L000041" xml:space="preserve">
+    <value>Region Name</value>
+  </data>
+  <data name="B000013" xml:space="preserve">
+    <value>&amp;Pick</value>
+  </data>
+  <data name="M000022" xml:space="preserve">
+    <value>Region Master</value>
+  </data>
+  <data name="M000023" xml:space="preserve">
+    <value>Region Name cannot be empty.</value>
+  </data>
+  <data name="M000024" xml:space="preserve">
+    <value>Region Already Exist.</value>
+  </data>
+  <data name="M000025" xml:space="preserve">
+    <value>Are you sure to delete the Record.</value>
+  </data>
+  <data name="M000026" xml:space="preserve">
+    <value>Division Master</value>
+  </data>
+  <data name="M000027" xml:space="preserve">
+    <value>Division Name cannot be empty.</value>
+  </data>
+  <data name="M000028" xml:space="preserve">
+    <value>Division Already Exist.</value>
+  </data>
+  <data name="M000029" xml:space="preserve">
+    <value>Circle Master</value>
+  </data>
+  <data name="M000030" xml:space="preserve">
+    <value>Circle Name cannot be empty.</value>
+  </data>
+  <data name="M000031" xml:space="preserve">
+    <value>Circle Already Exist.</value>
+  </data>
+  <data name="L000042" xml:space="preserve">
+    <value>Circle Name</value>
+  </data>
+  <data name="L000043" xml:space="preserve">
+    <value>Division Name</value>
+  </data>
+  <data name="L000044" xml:space="preserve">
+    <value>Area Selection</value>
+  </data>
+  <data name="L000045" xml:space="preserve">
+    <value>CMRI Selection</value>
+  </data>
+  <data name="L000046" xml:space="preserve">
+    <value>CMRI</value>
+  </data>
+  <data name="L000047" xml:space="preserve">
+    <value>Available Meter</value>
+  </data>
+  <data name="L000048" xml:space="preserve">
+    <value>Selected Meter</value>
+  </data>
+  <data name="B000014" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="L000049" xml:space="preserve">
+    <value>Category Name</value>
+  </data>
+  <data name="M000032" xml:space="preserve">
+    <value>Category Master</value>
+  </data>
+  <data name="M000033" xml:space="preserve">
+    <value>Category already exist.</value>
+  </data>
+  <data name="M000034" xml:space="preserve">
+    <value>Category name can't be empty.</value>
+  </data>
+  <data name="L000050" xml:space="preserve">
+    <value>Designation Name</value>
+  </data>
+  <data name="M000035" xml:space="preserve">
+    <value>Designation Already exist.</value>
+  </data>
+  <data name="M000036" xml:space="preserve">
+    <value>Designation name can't be empty.</value>
+  </data>
+  <data name="M000037" xml:space="preserve">
+    <value>Designation Master</value>
+  </data>
+  <data name="M000038" xml:space="preserve">
+    <value>Unable to open the COM port.</value>
+  </data>
+  <data name="M000039" xml:space="preserve">
+    <value>Invalid response from meter.</value>
+  </data>
+  <data name="M000040" xml:space="preserve">
+    <value>Communication Fail.</value>
+  </data>
+  <data name="M000041" xml:space="preserve">
+    <value>Time Out !</value>
+  </data>
+  <data name="M000042" xml:space="preserve">
+    <value>Reading General and Billing Data.</value>
+  </data>
+  <data name="M000043" xml:space="preserve">
+    <value>Received Bytes :</value>
+  </data>
+  <data name="M000044" xml:space="preserve">
+    <value>Load survey date successfully read.</value>
+  </data>
+  <data name="M000045" xml:space="preserve">
+    <value>Enter File Name</value>
+  </data>
+  <data name="M000046" xml:space="preserve">
+    <value>Are you sure to overwrite the file ?</value>
+  </data>
+  <data name="M000047" xml:space="preserve">
+    <value>File name can't be empty.</value>
+  </data>
+  <data name="M000048" xml:space="preserve">
+    <value>File Saved Successfully.</value>
+  </data>
+  <data name="M000049" xml:space="preserve">
+    <value>Communication Fail. Please check the Configuration Settings.</value>
+  </data>
+  <data name="M000050" xml:space="preserve">
+    <value>Reading RTC updates.</value>
+  </data>
+  <data name="M000051" xml:space="preserve">
+    <value>Reading Transaction Data.</value>
+  </data>
+  <data name="M000052" xml:space="preserve">
+    <value>Reading programming updates.</value>
+  </data>
+  <data name="M000053" xml:space="preserve">
+    <value>Tamper Log Readout Comp  :</value>
+  </data>
+  <data name="M000054" xml:space="preserve">
+    <value>Reading Instant Phasor Data.</value>
+  </data>
+  <data name="M000055" xml:space="preserve">
+    <value>Failure in reading Phasor Diagram.</value>
+  </data>
+  <data name="M000056" xml:space="preserve">
+    <value>Invalid Bcc.  Bcc is not matching.</value>
+  </data>
+  <data name="M000057" xml:space="preserve">
+    <value>Reading Phasor Data.</value>
+  </data>
+  <data name="M000058" xml:space="preserve">
+    <value>Load Survey Readout  Day :</value>
+  </data>
+  <data name="M000059" xml:space="preserve">
+    <value>No Carrier Or No Network Coverage.</value>
+  </data>
+  <data name="M000060" xml:space="preserve">
+    <value>Error in sending command to the port.</value>
+  </data>
+  <data name="M000061" xml:space="preserve">
+    <value>Reading Tamper Data.</value>
+  </data>
+  <data name="M000062" xml:space="preserve">
+    <value>Reading Load survey Data.</value>
+  </data>
+  <data name="M000063" xml:space="preserve">
+    <value>Reading Fraud Energy Data.</value>
+  </data>
+  <data name="M000064" xml:space="preserve">
+    <value>Reading Reserve Energy Data.</value>
+  </data>
+  <data name="M000065" xml:space="preserve">
+    <value>Failure in reading Phasor Diagram.</value>
+  </data>
+  <data name="M000066" xml:space="preserve">
+    <value>Reading DTM Load survey Data.</value>
+  </data>
+  <data name="M000067" xml:space="preserve">
+    <value>Reading DTM Load survey Day.</value>
+  </data>
+  <data name="M000068" xml:space="preserve">
+    <value>Data Read successfully.</value>
+  </data>
+  <data name="M000069" xml:space="preserve">
+    <value>Cabcon</value>
+  </data>
+  <data name="M000070" xml:space="preserve">
+    <value>Compartment Number : </value>
+  </data>
+  <data name="L000051" xml:space="preserve">
+    <value>Search By</value>
+  </data>
+  <data name="C000003" xml:space="preserve">
+    <value>User Management</value>
+  </data>
+  <data name="M000071" xml:space="preserve">
+    <value>Login id already exist.</value>
+  </data>
+  <data name="M000072" xml:space="preserve">
+    <value>Are you sure you want to delete the user?</value>
+  </data>
+  <data name="M000073" xml:space="preserve">
+    <value>You can't delete the logged user.</value>
+  </data>
+  <data name="L000052" xml:space="preserve">
+    <value>Consumer Type</value>
+  </data>
+  <data name="M000074" xml:space="preserve">
+    <value>Consumer Type can't be empty.</value>
+  </data>
+  <data name="M000075" xml:space="preserve">
+    <value>Consumer Type already exist.</value>
+  </data>
+  <data name="L000053" xml:space="preserve">
+    <value>Meter Type</value>
+  </data>
+  <data name="M000076" xml:space="preserve">
+    <value>Meter Type can't be empty.</value>
+  </data>
+  <data name="M000077" xml:space="preserve">
+    <value>Meter Type already exist.</value>
+  </data>
+  <data name="L000054" xml:space="preserve">
+    <value>Unit Name</value>
+  </data>
+  <data name="M000078" xml:space="preserve">
+    <value>Unit name can't be empty.</value>
+  </data>
+  <data name="M000079" xml:space="preserve">
+    <value>Unit already exist.</value>
+  </data>
+  <data name="M000080" xml:space="preserve">
+    <value>Unit Master</value>
+  </data>
+  <data name="M000081" xml:space="preserve">
+    <value>Please select file from the list.</value>
+  </data>
+  <data name="M000082" xml:space="preserve">
+    <value>Please select atleast one report option.</value>
+  </data>
+  <data name="M000083" xml:space="preserve">
+    <value>Communication Fail. Unable to sign on.</value>
+  </data>
+  <data name="B000015" xml:space="preserve">
+    <value>Prepare CMRI</value>
+  </data>
+  <data name="B000016" xml:space="preserve">
+    <value>Read Data</value>
+  </data>
+  <data name="B000017" xml:space="preserve">
+    <value>Update RTC</value>
+  </data>
+  <data name="D000001" xml:space="preserve">
+    <value>Unable to connect with Database server. Please contact system administrator.</value>
+  </data>
+  <data name="B000018" xml:space="preserve">
+    <value>&amp;Import</value>
+  </data>
+  <data name="M000084" xml:space="preserve">
+    <value>File Name cannot be blank</value>
+  </data>
+  <data name="M000085" xml:space="preserve">
+    <value>Data Exported Successfully</value>
+  </data>
+  <data name="M000086" xml:space="preserve">
+    <value>Data Imported Successfully</value>
+  </data>
+  <data name="M000087" xml:space="preserve">
+    <value>File is Corrupted</value>
+  </data>
+  <data name="M000088" xml:space="preserve">
+    <value>Plesae select the Schedule File</value>
+  </data>
+  <data name="B000019" xml:space="preserve">
+    <value>C&amp;lear CMRI</value>
+  </data>
+  <data name="L000055" xml:space="preserve">
+    <value>Group Name</value>
+  </data>
+  <data name="L000056" xml:space="preserve">
+    <value>Sub-Group Name</value>
+  </data>
+  <data name="M000089" xml:space="preserve">
+    <value>Selected meters cannot be left blank</value>
+  </data>
+  <data name="M000090" xml:space="preserve">
+    <value>Please select a Group from the Tree</value>
+  </data>
+  <data name="M000091" xml:space="preserve">
+    <value>Subgroup Name Already Available</value>
+  </data>
+  <data name="M000092" xml:space="preserve">
+    <value>Data Updated Successfully</value>
+  </data>
+  <data name="M000093" xml:space="preserve">
+    <value>Are you sure you want to delete this record?</value>
+  </data>
+  <data name="M000094" xml:space="preserve">
+    <value>SubGroup Name "All" already exists.Cannot be added</value>
+  </data>
+  <data name="M000095" xml:space="preserve">
+    <value>SubGroup Name cannot be blank</value>
+  </data>
+  <data name="M000096" xml:space="preserve">
+    <value>SubGroup Name "All" cannot be deleted</value>
+  </data>
+  <data name="M000097" xml:space="preserve">
+    <value>Attempts exceeded. Access Denied.</value>
+  </data>
+  <data name="L000057" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="M000098" xml:space="preserve">
+    <value>Please select a file for upload.</value>
+  </data>
+  <data name="M000099" xml:space="preserve">
+    <value>Schedule file corrupted.</value>
+  </data>
+  <data name="L000058" xml:space="preserve">
+    <value>SIM Number</value>
+  </data>
+  <data name="M000100" xml:space="preserve">
+    <value>Meter SIM number should be 10 digits long.</value>
+  </data>
+  <data name="M000101" xml:space="preserve">
+    <value>It can accept only Numbers from 0-9</value>
+  </data>
+  <data name="B000020" xml:space="preserve">
+    <value>&amp;Update</value>
+  </data>
+  <data name="M000102" xml:space="preserve">
+    <value>Are you sure you want to delete this export setting ?</value>
+  </data>
+  <data name="M000103" xml:space="preserve">
+    <value>If any of the Installed PT Primary (v),Installed PT Secondary (v)  is entered then other is mandatory.</value>
+  </data>
+  <data name="M000104" xml:space="preserve">
+    <value>If any of the Installed CT Primary (Amp),Installed CT Secondary (Amp) is entered then other is mandatory.</value>
+  </data>
+  <data name="M000105" xml:space="preserve">
+    <value>Installed CT Ratio cant be empty.</value>
+  </data>
+  <data name="M000106" xml:space="preserve">
+    <value>Installed PT Ratio cant be empty.</value>
+  </data>
+  <data name="M000107" xml:space="preserve">
+    <value>Group Name</value>
+  </data>
+  <data name="M000108" xml:space="preserve">
+    <value>.Its Length should be between 7 and 16.</value>
+  </data>
+  <data name="M000109" xml:space="preserve">
+    <value>If Group Type is Area Wise selecting region and circle is mandatory.</value>
+  </data>
+  <data name="M000110" xml:space="preserve">
+    <value>Please select at least one meter in Selected Meters.</value>
+  </data>
+  <data name="M000111" xml:space="preserve">
+    <value>Please enter atleast 4 characters in Meter Number</value>
+  </data>
+  <data name="M000112" xml:space="preserve">
+    <value>Please select any region.</value>
+  </data>
+  <data name="M000113" xml:space="preserve">
+    <value>Please select any circle.</value>
+  </data>
+  <data name="M000114" xml:space="preserve">
+    <value>Please select any division.</value>
+  </data>
+  <data name="M000115" xml:space="preserve">
+    <value>Meter SIM No. can not be left blank when communication type is Remote.</value>
+  </data>
+  <data name="M000116" xml:space="preserve">
+    <value>Please input Valid Modem IMEI number.</value>
+  </data>
+  <data name="M000117" xml:space="preserve">
+    <value>Meter number does not exists or does not suppport selected communication.</value>
+  </data>
+  <data name="M000118" xml:space="preserve">
+    <value>Please select hour or days for which Load Survey to be read.</value>
+  </data>
+  <data name="M000119" xml:space="preserve">
+    <value>Please select hour or days for which Events to be read.</value>
+  </data>
+  <data name="B000021" xml:space="preserve">
+    <value>&amp;Delete All</value>
+  </data>
+  <data name="M000120" xml:space="preserve">
+    <value>Deleting this group will also delete all associated schedule(s).Are you sure you want to delete this group?</value>
+  </data>
+  <data name="M000121" xml:space="preserve">
+    <value>Enter Valid IPAddress</value>
+  </data>
+  <data name="M000122" xml:space="preserve">
+    <value>Enter Valid Port Number</value>
+  </data>
+</root>

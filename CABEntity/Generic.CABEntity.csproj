@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{56A4EC2F-0685-497B-AC24-111F875E8F1A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CABEntity</RootNamespace>
+    <AssemblyName>LNGEntity</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.16.0.18925.20022\lib\net40\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdhocMasterEntity.cs" />
+    <Compile Include="AnomalyDataPacketStructure.cs" />
+    <Compile Include="AnomalyEntity.cs" />
+    <Compile Include="ApplicationLogEntity.cs" />
+    <Compile Include="AreaEntity.cs" />
+    <Compile Include="AreaMeterEntity.cs" />
+    <Compile Include="ASCIIExportSettingsEntity.cs" />
+    <Compile Include="AutoLockEntity.cs" />
+    <Compile Include="BillingDataPacketStructure.cs" />
+    <Compile Include="BillingEntity.cs" />
+    <Compile Include="BillingGeneralNFEntity.cs" />
+    <Compile Include="BillingParameterEntity.cs" />
+    <Compile Include="BillingTypeEntity.cs" />
+    <Compile Include="CategoryRightEntity.cs" />
+    <Compile Include="CircleEntity.cs" />
+    <Compile Include="GSMConfigReportEntity.cs" />
+    <Compile Include="LoadLimitEntity.cs" />
+    <Compile Include="LoadSwitchEntity.cs" />
+    <Compile Include="LoadSwitchParameterEntity.cs" />
+    <Compile Include="ManualMDResetEntity.cs" />
+    <Compile Include="MeteringModeEntity.cs" />
+    <Compile Include="OpticalLockUnlockEntity.cs" />
+    <Compile Include="PaymentModeEntity.cs" />
+    <Compile Include="PulseEnergyEntity.cs" />
+    <Compile Include="RJLockUnlockEntity.cs" />
+    <Compile Include="RS485Entity.cs" />
+    <Compile Include="DIPEntity.cs" />
+    <Compile Include="DisconnectControlEntity.cs" />
+    <Compile Include="LoadControlEntity.cs" />
+    <Compile Include="LSIPEntity.cs" />
+    <Compile Include="ManualBillingEntity.cs" />
+    <Compile Include="RTCEntity.cs" />
+    <Compile Include="ConsumerExportSettingsEntity.cs" />
+    <Compile Include="ConsumerImportEntity.cs" />
+    <Compile Include="DailyConsumption.cs" />
+    <Compile Include="DailyLogEntity.cs" />
+    <Compile Include="DisplayParameterType.cs" />
+    <Compile Include="DivisionEntity.cs" />
+    <Compile Include="DLMS650BillingEntity.cs" />
+    <Compile Include="DLMS650InstantaneousEntity.cs" />
+    <Compile Include="DLMS650LoadSurveyEntity.cs" />
+    <Compile Include="DLMS650MidnightDataEntity.cs" />
+    <Compile Include="DLMS650NamePlateDetailsEntity.cs" />
+    <Compile Include="DLMS650TamperEntity.cs" />
+    <Compile Include="EnergyEntity.cs" />
+    <Compile Include="FastDownLoadingCommands.cs" />
+    <Compile Include="FastDownLoadingEntity.cs" />
+    <Compile Include="FraudEnergyEntity.cs" />
+    <Compile Include="GeneralDataPacketStructure.cs" />
+    <Compile Include="GlobalClass.cs" />
+    <Compile Include="GSMConfigEntity.cs" />
+    <Compile Include="GSMGroupEntity.cs" />
+    <Compile Include="GSMLoggingEntity.cs" />
+    <Compile Include="GSMReportEntity.cs" />
+    <Compile Include="GSMTaskEntity.cs" />
+    <Compile Include="GSMGroupScheduleEntity.cs" />
+    <Compile Include="GSMReadingStatusEntity.cs" />
+    <Compile Include="GSMScheduleEntity.cs" />
+    <Compile Include="GSMServiceEntity.cs" />
+    <Compile Include="InstantaneousDataPacketStructure.cs" />
+    <Compile Include="kvarSelectionEntity.cs" />
+    <Compile Include="LoadSurveyParameterEntity.cs" />
+    <Compile Include="LogInformationEntity.cs" />
+    <Compile Include="LSDataPacketStructure.cs" />
+    <Compile Include="MDWithIPEntity.cs" />
+    <Compile Include="MeterAccuracyCheckEntity.cs" />
+    <Compile Include="MeterConfigurationsNFEntity.cs" />
+    <Compile Include="MidNightDataPacketStructure.cs" />
+    <Compile Include="DTMDailyProfileParameterEntity.cs" />
+    <Compile Include="NamePlateDataPacketStructure.cs" />
+    <Compile Include="OBISInfoEntity.cs" />
+    <Compile Include="PCBAEntity.cs" />
+    <Compile Include="PhasorDataPacketStructure.cs" />
+    <Compile Include="PhasorEntity.cs" />
+    <Compile Include="RegionEntity.cs" />
+    <Compile Include="LoadSurveyEntity.cs" />
+    <Compile Include="CategoryMasterEntity.cs" />
+    <Compile Include="CircleMasterEntity.cs" />
+    <Compile Include="CMRIMasterEntity.cs" />
+    <Compile Include="ConsumerMasterEntity.cs" />
+    <Compile Include="ConsumerMeterEntity.cs" />
+    <Compile Include="ConsumerTypeMasterEntity.cs" />
+    <Compile Include="DesignationMasterEntity.cs" />
+    <Compile Include="DivisionMasterEntity.cs" />
+    <Compile Include="ExceptionLogEntity.cs" />
+    <Compile Include="FileUploadMasterEntity.cs" />
+    <Compile Include="GroupMasterEntity.cs" />
+    <Compile Include="MeterDataEntity.cs" />
+    <Compile Include="MeterMasterEntity.cs" />
+    <Compile Include="MeterModelMasterEntity.cs" />
+    <Compile Include="MeterTypeMasterEntity.cs" />
+    <Compile Include="MeterUnitMasterEntity.cs" />
+    <Compile Include="ModuleMasterEntity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RS232LockEntity.cs" />
+    <Compile Include="SlidingDemandEntity.cs" />
+    <Compile Include="SoftwareBillingEntity.cs" />
+    <Compile Include="StrcutureInformation.cs" />
+    <Compile Include="StructureInfoEntity.cs" />
+    <Compile Include="StructureUnitEntity.cs" />
+    <Compile Include="StructureUnitInformation.cs" />
+    <Compile Include="SubGroupMasterEntity.cs" />
+    <Compile Include="SubGroupMeterMasterEntity.cs" />
+    <Compile Include="SuspectedConsumerEntity.cs" />
+    <Compile Include="SystemSettingEntity.cs" />
+    <Compile Include="TabNameEntity.cs" />
+    <Compile Include="TamperCounterEntity.cs" />
+    <Compile Include="TamperDataPacketStructure.cs" />
+    <Compile Include="TamperParameterEntity.cs" />
+    <Compile Include="TamperTypeEntity.cs" />
+    <Compile Include="TODEntity.cs" />
+    <Compile Include="TOU.cs" />
+    <Compile Include="TOUEntity.cs" />
+    <Compile Include="UnitEntity.cs" />
+    <Compile Include="UserInformationEntity.cs" />
+    <Compile Include="UserLogActivity.cs" />
+    <Compile Include="UserRightEntity.cs" />
+    <Compile Include="Compat\CAB\**\*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CABFramework\Generic.CABFramework.csproj">
+      <Project>{CF4BBFC7-E739-4789-BB1E-4FFBA6F8C6C4}</Project>
+      <Name>Generic.CABFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  
+  -->
+</Project>

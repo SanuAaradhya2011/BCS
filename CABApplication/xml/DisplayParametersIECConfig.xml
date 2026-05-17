@@ -1,0 +1,1314 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NDLMS>
+  <PushDisplayParams>
+    <SNo>1</SNo>
+    <ID>24</ID>
+    <Description>LCD Segments On</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>2</SNo>
+    <ID>23</ID>
+    <Description>LCD Segments Off</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>3</SNo>
+    <ID>43</ID>
+    <Description>Meter ID/Meter ID MSB</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>4</SNo>
+    <ID>44</ID>
+    <Description>Meter ID LSB</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>5</SNo>
+    <ID>21</ID>
+    <Description>Time</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>6</SNo>
+    <ID>22</ID>
+    <Description>Date</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>7</SNo>
+    <ID>15</ID>
+    <Description>Instant Voltage</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>8</SNo>
+    <ID>28</ID>
+    <Description>Phase current</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>9</SNo>
+    <ID>29</ID>
+    <Description>Neutral current</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>10</SNo>
+    <ID>34</ID>
+    <Description>Line Frequency</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>11</SNo>
+    <ID>33</ID>
+    <Description>Instantaneous PF</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>12</SNo>
+    <ID>58</ID>
+    <Description>Instantaneous PF with sign</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>13</SNo>
+    <ID>16</ID>
+    <Description>Instant Metering Active Power</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>14</SNo>
+    <ID>17</ID>
+    <Description>Instant Neutral Active Power</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>15</SNo>
+    <ID>64</ID>
+    <Description>Inst. Apparent power</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>16</SNo>
+    <ID>65</ID>
+    <Description>Inst. Reactive power</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>17</SNo>
+    <ID>14</ID>
+    <Description>Active Rate</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>18</SNo>
+    <ID>59</ID>
+    <Description>Present Month Average PF</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>19</SNo>
+    <ID>18</ID>
+    <Description>Dial Test For Active Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>20</SNo>
+    <ID>66</ID>
+    <Description>Dial Test For Apparent Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>21</SNo>
+    <ID>67</ID>
+    <Description>Dial Test For Reactive Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>22</SNo>
+    <ID>62</ID>
+    <Description>Cumulative Apparent Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>23</SNo>
+    <ID>63</ID>
+    <Description>Cumulative Reactive Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>24</SNo>
+    <ID>1</ID>
+    <Description>Cumulative Active Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>25</SNo>
+    <ID>2</ID>
+    <Description>Active Energy Rate 1</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>26</SNo>
+    <ID>3</ID>
+    <Description>Active Energy Rate 2</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>27</SNo>
+    <ID>4</ID>
+    <Description>Active Energy Rate 3</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>28</SNo>
+    <ID>5</ID>
+    <Description>Active Energy Rate 4</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>29</SNo>
+    <ID>6</ID>
+    <Description>Active Energy Rate 5</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>30</SNo>
+    <ID>7</ID>
+    <Description>Active Energy Rate 6</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>31</SNo>
+    <ID>108</ID>
+    <Description>Active Energy Rate 7</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>32</SNo>
+    <ID>109</ID>
+    <Description>Active Energy Rate 8</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>33</SNo>
+    <ID>73</ID>
+    <Description>Apparent Energy rate 1</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>34</SNo>
+    <ID>74</ID>
+    <Description>Apparent Energy rate 2</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>35</SNo>
+    <ID>75</ID>
+    <Description>Apparent Energy rate 3</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>36</SNo>
+    <ID>76</ID>
+    <Description>Apparent Energy rate 4</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>37</SNo>
+    <ID>77</ID>
+    <Description>Apparent Energy rate 5</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>38</SNo>
+    <ID>78</ID>
+    <Description>Apparent Energy rate 6</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>39</SNo>
+    <ID>112</ID>
+    <Description>Apparent Energy rate 7</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>40</SNo>
+    <ID>113</ID>
+    <Description>Apparent Energy rate 8</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>41</SNo>
+    <ID>95</ID>
+    <Description>Active Billing Rate 1 Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>42</SNo>
+    <ID>96</ID>
+    <Description>Active Billing Rate 2 Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>43</SNo>
+    <ID>97</ID>
+    <Description>Active Billing Rate 3 Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>44</SNo>
+    <ID>98</ID>
+    <Description>Active Billing Rate 4 Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>45</SNo>
+    <ID>99</ID>
+    <Description>Active Billing Rate 5 Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>46</SNo>
+    <ID>100</ID>
+    <Description>Active Billing Rate 6 Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>47</SNo>
+    <ID>116</ID>
+    <Description>Active Billing Rate 7 Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>48</SNo>
+    <ID>117</ID>
+    <Description>Active Billing Rate 8 Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>49</SNo>
+    <ID>79</ID>
+    <Description>Apparent Billing Rate 1 Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>50</SNo>
+    <ID>80</ID>
+    <Description>Apparent Billing Rate 2 Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>51</SNo>
+    <ID>81</ID>
+    <Description>Apparent Billing Rate 3 Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>52</SNo>
+    <ID>82</ID>
+    <Description>Apparent Billing Rate 4 Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>53</SNo>
+    <ID>83</ID>
+    <Description>Apparent Billing Rate 5 Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>54</SNo>
+    <ID>84</ID>
+    <Description>Apparent Billing Rate 6 Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>55</SNo>
+    <ID>114</ID>
+    <Description>Apparent Billing Rate 7 Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>56</SNo>
+    <ID>115</ID>
+    <Description>Apparent Billing Rate 8 Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>57</SNo>
+    <ID>30</ID>
+    <Description>Max Demand Active (present)</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>58</SNo>
+    <ID>68</ID>
+    <Description>Max Demand Apparent (present)</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>59</SNo>
+    <ID>40</ID>
+    <Description>Billing Active Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>60</SNo>
+    <ID>69</ID>
+    <Description>Billing apparent MD</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>61</SNo>
+    <ID>70</ID>
+    <Description>Billing apparent Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>62</SNo>
+    <ID>39</ID>
+    <Description>Billing MD</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>63</SNo>
+    <ID>41</ID>
+    <Description>Billing Power on Hours</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>64</SNo>
+    <ID>42</ID>
+    <Description>Billing Average PF</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>65</SNo>
+    <ID>45</ID>
+    <Description>Rate 1 MD</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>66</SNo>
+    <ID>46</ID>
+    <Description>Rate 2 MD</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>67</SNo>
+    <ID>47</ID>
+    <Description>Rate 3 MD</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>68</SNo>
+    <ID>48</ID>
+    <Description>Rate 4 MD</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>69</SNo>
+    <ID>49</ID>
+    <Description>Rate 5 MD</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>70</SNo>
+    <ID>50</ID>
+    <Description>Rate 6 MD</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>71</SNo>
+    <ID>110</ID>
+    <Description>Rate 7 MD</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>72</SNo>
+    <ID>111</ID>
+    <Description>Rate 8 MD</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>73</SNo>
+    <ID>19</ID>
+    <Description>Demand reset counter</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>74</SNo>
+    <ID>20</ID>
+    <Description>Fraud Reset Counter</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>75</SNo>
+    <ID>51</ID>
+    <Description>Earth Tamper Count</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>76</SNo>
+    <ID>52</ID>
+    <Description>Reverse Tamper Count</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>77</SNo>
+    <ID>53</ID>
+    <Description>Magnet Tamper Count</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>78</SNo>
+    <ID>54</ID>
+    <Description>Single Wire Tamper Count</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>79</SNo>
+    <ID>57</ID>
+    <Description>Neutral Disturbance Tamper Count</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>80</SNo>
+    <ID>72</ID>
+    <Description>Case Tamper First Occurence</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>81</SNo>
+    <ID>55</ID>
+    <Description>Total Tamper Counts</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>82</SNo>
+    <ID>71</ID>
+    <Description>Total Transaction Event Counter</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>83</SNo>
+    <ID>56</ID>
+    <Description>Authenticated Billing Code-1</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>84</SNo>
+    <ID>102</ID>
+    <Description>Authenticated Billing Code-2</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>85</SNo>
+    <ID>60</ID>
+    <Description>Last bill date</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>86</SNo>
+    <ID>61</ID>
+    <Description>Last bill time</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>87</SNo>
+    <ID>36</ID>
+    <Description>Instantaneous Maximum Power</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>88</SNo>
+    <ID>37</ID>
+    <Description>RTC Battery Voltage</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>89</SNo>
+    <ID>38</ID>
+    <Description>TLV Voltage</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>90</SNo>
+    <ID>35</ID>
+    <Description>AC Magnetic Field</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>91</SNo>
+    <ID>85</ID>
+    <Description>Cumulative Active MD</Description>
+  </PushDisplayParams>
+
+ <PushDisplayParams>
+    <SNo>92</SNo>
+    <ID>86</ID>
+    <Description>Last To Last Billing Active Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>93</SNo>
+    <ID>87</ID>
+    <Description>Last To Last Billing Apparent Energy</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>94</SNo>
+    <ID>88</ID>
+    <Description>Last To Last Billing Avg. PF</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>95</SNo>
+    <ID>89</ID>
+    <Description>Last To Last Billing MD (kW)</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>96</SNo>
+    <ID>90</ID>
+    <Description>Total Power Off Hours</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>97</SNo>
+    <ID>91</ID>
+    <Description>Billing Power Off Hours</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>98</SNo>
+    <ID>92</ID>
+    <Description>Power Off Hours Since Last Reset</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>99</SNo>
+    <ID>93</ID>
+    <Description>Total Hours On Power</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>100</SNo>
+    <ID>94</ID>
+    <Description>Latest Tamper Occ/Rest</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>101</SNo>
+    <ID>101</ID>
+    <Description>Tamper Status</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>102</SNo>
+    <ID>103</ID>
+    <Description>Fraud Energy</Description>
+  </PushDisplayParams>
+
+ <PushDisplayParams>
+    <SNo>103</SNo>
+    <ID>104</ID>
+    <Description>ESD Tamper Count</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>104</SNo>
+    <ID>105</ID>
+    <Description>Present Annual MD</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>105</SNo>
+    <ID>106</ID>
+    <Description>Biiling Annual MD</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>106</SNo>
+    <ID>107</ID>
+    <Description>Present Month Power ON Hours</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>107</SNo>
+    <ID>118</ID>
+    <Description>Temperature</Description>
+  </PushDisplayParams>
+
+  <PushDisplayParams>
+    <SNo>108</SNo>
+    <ID>119</ID>
+    <Description>Metering Current</Description>
+  </PushDisplayParams>
+  
+  <PushDisplayParams>
+    <SNo>109</SNo>
+    <ID>120</ID>
+    <Description>First Tamper Occ</Description>
+  </PushDisplayParams>
+
+  <!--Auto Scroll parameters-->
+
+
+  <ScrollDisplayParams>
+    <SNo>1</SNo>
+    <ID>24</ID>
+    <Description>LCD Segments On</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>2</SNo>
+    <ID>23</ID>
+    <Description>LCD Segments Off</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>3</SNo>
+    <ID>43</ID>
+    <Description>Meter ID/Meter ID MSB</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>4</SNo>
+    <ID>44</ID>
+    <Description>Meter ID LSB</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>5</SNo>
+    <ID>21</ID>
+    <Description>Time</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>6</SNo>
+    <ID>22</ID>
+    <Description>Date</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>7</SNo>
+    <ID>15</ID>
+    <Description>Instant Voltage</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>8</SNo>
+    <ID>28</ID>
+    <Description>Phase current</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>9</SNo>
+    <ID>29</ID>
+    <Description>Neutral current</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>10</SNo>
+    <ID>34</ID>
+    <Description>Line Frequency</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>11</SNo>
+    <ID>33</ID>
+    <Description>Instantaneous PF</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>12</SNo>
+    <ID>58</ID>
+    <Description>Instantaneous PF with sign</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>13</SNo>
+    <ID>16</ID>
+    <Description>Instant Metering Active Power</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>14</SNo>
+    <ID>17</ID>
+    <Description>Instant Neutral Active Power</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>15</SNo>
+    <ID>64</ID>
+    <Description>Inst. Apparent power</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>16</SNo>
+    <ID>65</ID>
+    <Description>Inst. Reactive power</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>17</SNo>
+    <ID>14</ID>
+    <Description>Active Rate</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>18</SNo>
+    <ID>59</ID>
+    <Description>Present Month Average PF</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>19</SNo>
+    <ID>18</ID>
+    <Description>Dial Test For Active Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>20</SNo>
+    <ID>66</ID>
+    <Description>Dial Test For Apparent Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>21</SNo>
+    <ID>67</ID>
+    <Description>Dial Test For Reactive Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>22</SNo>
+    <ID>62</ID>
+    <Description>Cumulative Apparent Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>23</SNo>
+    <ID>63</ID>
+    <Description>Cumulative Reactive Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>24</SNo>
+    <ID>1</ID>
+    <Description>Cumulative Active Energy</Description>
+  </ScrollDisplayParams>
+
+ <ScrollDisplayParams>
+    <SNo>25</SNo>
+    <ID>2</ID>
+    <Description>Active Energy Rate 1</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>26</SNo>
+    <ID>3</ID>
+    <Description>Active Energy Rate 2</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>27</SNo>
+    <ID>4</ID>
+    <Description>Active Energy Rate 3</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>28</SNo>
+    <ID>5</ID>
+    <Description>Active Energy Rate 4</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>29</SNo>
+    <ID>6</ID>
+    <Description>Active Energy Rate 5</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>30</SNo>
+    <ID>7</ID>
+    <Description>Active Energy Rate 6</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>31</SNo>
+    <ID>108</ID>
+    <Description>Active Energy Rate 7</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>32</SNo>
+    <ID>109</ID>
+    <Description>Active Energy Rate 8</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>33</SNo>
+    <ID>73</ID>
+    <Description>Apparent Energy rate 1</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>34</SNo>
+    <ID>74</ID>
+    <Description>Apparent Energy rate 2</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>35</SNo>
+    <ID>75</ID>
+    <Description>Apparent Energy rate 3</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>36</SNo>
+    <ID>76</ID>
+    <Description>Apparent Energy rate 4</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>37</SNo>
+    <ID>77</ID>
+    <Description>Apparent Energy rate 5</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>38</SNo>
+    <ID>78</ID>
+    <Description>Apparent Energy rate 6</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>39</SNo>
+    <ID>112</ID>
+    <Description>Apparent Energy rate 7</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>40</SNo>
+    <ID>113</ID>
+    <Description>Apparent Energy rate 8</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>41</SNo>
+    <ID>95</ID>
+    <Description>Active Billing Rate 1 Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>42</SNo>
+    <ID>96</ID>
+    <Description>Active Billing Rate 2 Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>43</SNo>
+    <ID>97</ID>
+    <Description>Active Billing Rate 3 Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>44</SNo>
+    <ID>98</ID>
+    <Description>Active Billing Rate 4 Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>45</SNo>
+    <ID>99</ID>
+    <Description>Active Billing Rate 5 Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>46</SNo>
+    <ID>100</ID>
+    <Description>Active Billing Rate 6 Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>47</SNo>
+    <ID>116</ID>
+    <Description>Active Billing Rate 7 Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>48</SNo>
+    <ID>117</ID>
+    <Description>Active Billing Rate 8 Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>49</SNo>
+    <ID>79</ID>
+    <Description>Apparent Billing Rate 1 Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>50</SNo>
+    <ID>80</ID>
+    <Description>Apparent Billing Rate 2 Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>51</SNo>
+    <ID>81</ID>
+    <Description>Apparent Billing Rate 3 Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>52</SNo>
+    <ID>82</ID>
+    <Description>Apparent Billing Rate 4 Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>53</SNo>
+    <ID>83</ID>
+    <Description>Apparent Billing Rate 5 Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>54</SNo>
+    <ID>84</ID>
+    <Description>Apparent Billing Rate 6 Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>55</SNo>
+    <ID>114</ID>
+    <Description>Apparent Billing Rate 7 Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>56</SNo>
+    <ID>115</ID>
+    <Description>Apparent Billing Rate 8 Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>57</SNo>
+    <ID>30</ID>
+    <Description>Max Demand Active (present)</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>58</SNo>
+    <ID>68</ID>
+    <Description>Max Demand Apparent (present)</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>59</SNo>
+    <ID>40</ID>
+    <Description>Billing Active Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>60</SNo>
+    <ID>69</ID>
+    <Description>Billing apparent MD</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>61</SNo>
+    <ID>70</ID>
+    <Description>Billing apparent Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>62</SNo>
+    <ID>39</ID>
+    <Description>Billing MD</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>63</SNo>
+    <ID>41</ID>
+    <Description>Billing Power on Hours</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>64</SNo>
+    <ID>42</ID>
+    <Description>Billing Average PF</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>65</SNo>
+    <ID>45</ID>
+    <Description>Rate 1 MD</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>66</SNo>
+    <ID>46</ID>
+    <Description>Rate 2 MD</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>67</SNo>
+    <ID>47</ID>
+    <Description>Rate 3 MD</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>68</SNo>
+    <ID>48</ID>
+    <Description>Rate 4 MD</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>69</SNo>
+    <ID>49</ID>
+    <Description>Rate 5 MD</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>70</SNo>
+    <ID>50</ID>
+    <Description>Rate 6 MD</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>71</SNo>
+    <ID>110</ID>
+    <Description>Rate 7 MD</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>72</SNo>
+    <ID>111</ID>
+    <Description>Rate 8 MD</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>73</SNo>
+    <ID>19</ID>
+    <Description>Demand reset counter</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>74</SNo>
+    <ID>20</ID>
+    <Description>Fraud Reset Counter</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>75</SNo>
+    <ID>51</ID>
+    <Description>Earth Tamper Count</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>76</SNo>
+    <ID>52</ID>
+    <Description>Reverse Tamper Count</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>77</SNo>
+    <ID>53</ID>
+    <Description>Magnet Tamper Count</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>78</SNo>
+    <ID>54</ID>
+    <Description>Single Wire Tamper Count</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>79</SNo>
+    <ID>57</ID>
+    <Description>Neutral Disturbance Tamper Count</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>80</SNo>
+    <ID>72</ID>
+    <Description>Case Tamper First Occurence</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>81</SNo>
+    <ID>55</ID>
+    <Description>Total Tamper Counts</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>82</SNo>
+    <ID>71</ID>
+    <Description>Total Transaction Event Counter</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>83</SNo>
+    <ID>56</ID>
+    <Description>Authenticated Billing Code-1</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>84</SNo>
+    <ID>102</ID>
+    <Description>Authenticated Billing Code-2</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>85</SNo>
+    <ID>60</ID>
+    <Description>Last bill date</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>86</SNo>
+    <ID>61</ID>
+    <Description>Last bill time</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>87</SNo>
+    <ID>36</ID>
+    <Description>Instantaneous Maximum Power</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>88</SNo>
+    <ID>37</ID>
+    <Description>RTC Battery Voltage</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>89</SNo>
+    <ID>38</ID>
+    <Description>TLV Voltage</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>90</SNo>
+    <ID>35</ID>
+    <Description>AC Magnetic Field</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>91</SNo>
+    <ID>85</ID>
+    <Description>Cumulative Active MD</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>92</SNo>
+    <ID>86</ID>
+    <Description>Last To Last Billing Active Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>93</SNo>
+    <ID>87</ID>
+    <Description>Last To Last Billing Apparent Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>94</SNo>
+    <ID>88</ID>
+    <Description>Last To Last Billing Avg. PF</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>95</SNo>
+    <ID>89</ID>
+    <Description>Last To Last Billing MD (kW)</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>96</SNo>
+    <ID>90</ID>
+    <Description>Total Power Off Hours</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>97</SNo>
+    <ID>91</ID>
+    <Description>Billing Power Off Hours</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>98</SNo>
+    <ID>92</ID>
+    <Description>Power Off Hours Since Last Reset</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>99</SNo>
+    <ID>93</ID>
+    <Description>Total Hours On Power</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>100</SNo>
+    <ID>94</ID>
+    <Description>Latest Tamper Occ/Rest</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>101</SNo>
+    <ID>101</ID>
+    <Description>Tamper Status</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>102</SNo>
+    <ID>103</ID>
+    <Description>Fraud Energy</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>103</SNo>
+    <ID>104</ID>
+    <Description>ESD Tamper Count</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>104</SNo>
+    <ID>105</ID>
+    <Description>Present Annual MD</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>105</SNo>
+    <ID>106</ID>
+    <Description>Biiling Annual MD</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>106</SNo>
+    <ID>107</ID>
+    <Description>Present Month Power ON Hours</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>107</SNo>
+    <ID>118</ID>
+    <Description>Temperature</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>108</SNo>
+    <ID>119</ID>
+    <Description>Metering Current</Description>
+  </ScrollDisplayParams>
+
+  <ScrollDisplayParams>
+    <SNo>109</SNo>
+    <ID>120</ID>
+    <Description>First Tamper Occ</Description>
+  </ScrollDisplayParams>
+
+</NDLMS>

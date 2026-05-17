@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<DataPacket>
+  
+<DataPacketConfiguration MeterModel="2">
+  <IsDateTimeSensitive>false</IsDateTimeSensitive>
+  <DateTimeDataTypeID>0</DateTimeDataTypeID>
+  <IsNumberOfRecordsIncluded>true</IsNumberOfRecordsIncluded>
+  <DataElements>
+     
+    <DataElementConfiguration>
+      <SequenceNumber>0</SequenceNumber>
+      <Scalar>-3</Scalar>
+      <Unit>Wh</Unit>
+      <DataTypeID>1004</DataTypeID>
+      <LengthInBits>0</LengthInBits>
+      <Precision>2</Precision>
+      <LengthOfDataType>0</LengthOfDataType>
+      <DataDefID>31</DataDefID>
+      <DataElementID>0</DataElementID>
+      <DataElementConfigId>0</DataElementConfigId>
+    </DataElementConfiguration>
+    
+    <DataElementConfiguration>
+      <SequenceNumber>0</SequenceNumber>
+      <Scalar>-3</Scalar>
+      <Unit>Wh</Unit>
+      <DataTypeID>1004</DataTypeID>
+      <LengthInBits>48</LengthInBits>
+      <Precision>2</Precision>
+      <LengthOfDataType>6</LengthOfDataType>
+      <DataDefID>32</DataDefID>
+      <DataElementID>0</DataElementID>
+      <DataElementConfigId>0</DataElementConfigId>
+    </DataElementConfiguration>
+	
+    <DataElementConfiguration>
+      <SequenceNumber>0</SequenceNumber>
+      <Scalar>-3</Scalar>
+      <Unit>Wh</Unit>
+      <DataTypeID>1004</DataTypeID>
+      <LengthInBits>48</LengthInBits>
+      <Precision>2</Precision>
+      <LengthOfDataType>6</LengthOfDataType>
+      <DataDefID>33</DataDefID>
+      <DataElementID>0</DataElementID>
+      <DataElementConfigId>0</DataElementConfigId>
+    </DataElementConfiguration>
+	
+    <DataElementConfiguration>
+      <SequenceNumber>0</SequenceNumber>
+      <Scalar>-3</Scalar>
+      <Unit>Wh</Unit>
+      <DataTypeID>1004</DataTypeID>
+      <LengthInBits>48</LengthInBits>
+      <Precision>2</Precision>
+      <LengthOfDataType>6</LengthOfDataType>
+      <DataDefID>34</DataDefID>
+      <DataElementID>0</DataElementID>
+      <DataElementConfigId>0</DataElementConfigId>
+    </DataElementConfiguration>
+	
+	<DataElementConfiguration>
+      <SequenceNumber>0</SequenceNumber>
+      <Scalar>0</Scalar>
+      <Unit></Unit>
+      <DataTypeID>1008</DataTypeID>
+      <LengthInBits>24</LengthInBits>
+      <Precision>2</Precision>
+      <LengthOfDataType>3</LengthOfDataType>
+      <DataDefID>30</DataDefID>
+      <DataElementID>0</DataElementID>
+      <DataElementConfigId>0</DataElementConfigId>
+    </DataElementConfiguration>	
+	
+  </DataElements>
+  <PacketLength>27</PacketLength>
+  <ContainMultiple>true</ContainMultiple>
+</DataPacketConfiguration>
+
+<DataPacketConfiguration MeterModel="6">
+    <IsDateTimeSensitive>false</IsDateTimeSensitive>
+    <DateTimeDataTypeID>0</DateTimeDataTypeID>
+    <IsNumberOfRecordsIncluded>true</IsNumberOfRecordsIncluded>
+    <DataElements>
+
+      <DataElementConfiguration>
+        <SequenceNumber>0</SequenceNumber>
+        <Scalar>-3</Scalar>
+        <Unit>Wh</Unit>
+        <DataTypeID>1004</DataTypeID>
+        <LengthInBits>0</LengthInBits>
+        <Precision>2</Precision>
+        <LengthOfDataType>0</LengthOfDataType>
+        <DataDefID>31</DataDefID>
+        <DataElementID>0</DataElementID>
+        <DataElementConfigId>0</DataElementConfigId>
+      </DataElementConfiguration>
+
+      <DataElementConfiguration>
+        <SequenceNumber>0</SequenceNumber>
+        <Scalar>-3</Scalar>
+        <Unit>Wh</Unit>
+        <DataTypeID>1004</DataTypeID>
+        <LengthInBits>48</LengthInBits>
+        <Precision>2</Precision>
+        <LengthOfDataType>6</LengthOfDataType>
+        <DataDefID>32</DataDefID>
+        <DataElementID>0</DataElementID>
+        <DataElementConfigId>0</DataElementConfigId>
+      </DataElementConfiguration>
+
+      <DataElementConfiguration>
+        <SequenceNumber>0</SequenceNumber>
+        <Scalar>-3</Scalar>
+        <Unit>Wh</Unit>
+        <DataTypeID>1004</DataTypeID>
+        <LengthInBits>48</LengthInBits>
+        <Precision>2</Precision>
+        <LengthOfDataType>6</LengthOfDataType>
+        <DataDefID>33</DataDefID>
+        <DataElementID>0</DataElementID>
+        <DataElementConfigId>0</DataElementConfigId>
+      </DataElementConfiguration>
+
+      <DataElementConfiguration>
+        <SequenceNumber>0</SequenceNumber>
+        <Scalar>-3</Scalar>
+        <Unit>Wh</Unit>
+        <DataTypeID>1004</DataTypeID>
+        <LengthInBits>48</LengthInBits>
+        <Precision>2</Precision>
+        <LengthOfDataType>6</LengthOfDataType>
+        <DataDefID>34</DataDefID>
+        <DataElementID>0</DataElementID>
+        <DataElementConfigId>0</DataElementConfigId>
+      </DataElementConfiguration>
+
+      <DataElementConfiguration>
+        <SequenceNumber>0</SequenceNumber>
+        <Scalar>0</Scalar>
+        <Unit></Unit>
+        <DataTypeID>1008</DataTypeID>
+        <LengthInBits>24</LengthInBits>
+        <Precision>2</Precision>
+        <LengthOfDataType>3</LengthOfDataType>
+        <DataDefID>30</DataDefID>
+        <DataElementID>0</DataElementID>
+        <DataElementConfigId>0</DataElementConfigId>
+      </DataElementConfiguration>
+
+    </DataElements>
+    <PacketLength>27</PacketLength>
+    <ContainMultiple>true</ContainMultiple>
+  </DataPacketConfiguration>
+
+  <DataPacketConfiguration MeterModel="9">
+    <IsDateTimeSensitive>false</IsDateTimeSensitive>
+    <DateTimeDataTypeID>0</DateTimeDataTypeID>
+    <IsNumberOfRecordsIncluded>true</IsNumberOfRecordsIncluded>
+    <DataElements>
+
+      <DataElementConfiguration>
+        <SequenceNumber>0</SequenceNumber>
+        <Scalar>-3</Scalar>
+        <Unit>Wh</Unit>
+        <DataTypeID>1004</DataTypeID>
+        <LengthInBits>0</LengthInBits>
+        <Precision>2</Precision>
+        <LengthOfDataType>0</LengthOfDataType>
+        <DataDefID>31</DataDefID>
+        <DataElementID>0</DataElementID>
+        <DataElementConfigId>0</DataElementConfigId>
+      </DataElementConfiguration>
+
+      <DataElementConfiguration>
+        <SequenceNumber>0</SequenceNumber>
+        <Scalar>-3</Scalar>
+        <Unit>Wh</Unit>
+        <DataTypeID>1004</DataTypeID>
+        <LengthInBits>48</LengthInBits>
+        <Precision>2</Precision>
+        <LengthOfDataType>6</LengthOfDataType>
+        <DataDefID>32</DataDefID>
+        <DataElementID>0</DataElementID>
+        <DataElementConfigId>0</DataElementConfigId>
+      </DataElementConfiguration>
+
+      <DataElementConfiguration>
+        <SequenceNumber>0</SequenceNumber>
+        <Scalar>-3</Scalar>
+        <Unit>Wh</Unit>
+        <DataTypeID>1004</DataTypeID>
+        <LengthInBits>48</LengthInBits>
+        <Precision>2</Precision>
+        <LengthOfDataType>6</LengthOfDataType>
+        <DataDefID>33</DataDefID>
+        <DataElementID>0</DataElementID>
+        <DataElementConfigId>0</DataElementConfigId>
+      </DataElementConfiguration>
+
+      <DataElementConfiguration>
+        <SequenceNumber>0</SequenceNumber>
+        <Scalar>-3</Scalar>
+        <Unit>Wh</Unit>
+        <DataTypeID>1004</DataTypeID>
+        <LengthInBits>48</LengthInBits>
+        <Precision>2</Precision>
+        <LengthOfDataType>6</LengthOfDataType>
+        <DataDefID>34</DataDefID>
+        <DataElementID>0</DataElementID>
+        <DataElementConfigId>0</DataElementConfigId>
+      </DataElementConfiguration>
+
+      <DataElementConfiguration>
+        <SequenceNumber>0</SequenceNumber>
+        <Scalar>0</Scalar>
+        <Unit></Unit>
+        <DataTypeID>1008</DataTypeID>
+        <LengthInBits>24</LengthInBits>
+        <Precision>2</Precision>
+        <LengthOfDataType>3</LengthOfDataType>
+        <DataDefID>30</DataDefID>
+        <DataElementID>0</DataElementID>
+        <DataElementConfigId>0</DataElementConfigId>
+      </DataElementConfiguration>
+
+    </DataElements>
+    <PacketLength>27</PacketLength>
+    <ContainMultiple>true</ContainMultiple>
+  </DataPacketConfiguration>
+  
+</DataPacket>

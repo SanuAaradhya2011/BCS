@@ -1,0 +1,24 @@
+﻿<AnomalyPacketStructure>
+  <Packet>
+    <Parameter>
+      <Name>Flash</Name>
+      <Size>1</Size>
+      <Sequence>0</Sequence>
+    </Parameter>
+    <Parameter>
+      <Name>EEPROM</Name>
+      <Size>1</Size>
+      <Sequence>0</Sequence>
+    </Parameter>
+    <Parameter>
+      <Name>SMPS</Name>
+      <Size>1</Size>
+      <Sequence>0</Sequence>
+    </Parameter>
+    <Parameter>
+      <Name>RTC</Name>
+      <Size>1</Size>
+      <Sequence>0</Sequence>
+    </Parameter>
+  </Packet>
+</AnomalyPacketStructure>

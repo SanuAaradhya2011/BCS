@@ -1,0 +1,281 @@
+<MeterConfiguration>
+
+
+  <ConfigSection>
+    <Name>MDWithIP</Name>
+    <WriteCommand>015731023030393328Data2903Bcc</WriteCommand>
+    <ReadCommand>015231023030393328304329031A</ReadCommand>
+    <Parameters>
+      <Parameter>
+        <Name>MD1DemandType</Name>
+        <StartIndex>3</StartIndex>
+        <NumberOfBytes>1</NumberOfBytes>
+      </Parameter>
+      <Parameter>
+        <Name>MD1TimeInterval</Name>
+        <StartIndex>5</StartIndex>
+        <NumberOfBytes>1</NumberOfBytes>
+      </Parameter>
+      <Parameter>
+        <Name>MD1SubInterval</Name>
+        <StartIndex>7</StartIndex>
+        <NumberOfBytes>1</NumberOfBytes>
+      </Parameter>
+      <Parameter>
+        <Name>MD2DemandType</Name>
+        <StartIndex>11</StartIndex>
+        <NumberOfBytes>1</NumberOfBytes>
+      </Parameter>
+      <Parameter>
+        <Name>MD2TimeInterval</Name>
+        <StartIndex>13</StartIndex>
+        <NumberOfBytes>1</NumberOfBytes>
+      </Parameter>
+      <Parameter>
+        <Name>MD2SubInterval</Name>
+        <StartIndex>15</StartIndex>
+        <NumberOfBytes>1</NumberOfBytes>
+      </Parameter>
+    </Parameters>
+  </ConfigSection>
+
+  <ConfigSection>
+    <Name>kvahSelection</Name>
+    <WriteCommand>015731023031313128Data2903Bcc</WriteCommand>
+    <ReadCommand>0152310230313131283031290363</ReadCommand>
+    <Parameters>
+      <Parameter>
+        <Name>LagOnly</Name>
+        <StartIndex>0</StartIndex>
+        <NumberOfBytes>1</NumberOfBytes>
+      </Parameter>
+      <Parameter>
+        <Name>LagandLead</Name>
+        <StartIndex>5</StartIndex>
+        <NumberOfBytes>2</NumberOfBytes>
+      </Parameter>
+    </Parameters>
+  </ConfigSection>
+
+  <!--Added by Vivek on 9 August 2011-->
+  <!--START Display Parameters-->
+  <ConfigSection>
+    <Name>DisplayParameters</Name>
+    <WriteCommand>015731023037363928Data2903Bcc</WriteCommand>
+    <ReadCommand>015231023037363928Data2903Bcc</ReadCommand>
+    <Parameters>
+      <Parameter>
+        <Name>aa</Name>
+        <StartIndex>1</StartIndex>
+        <NumberOfBytes>2</NumberOfBytes>
+      </Parameter>
+    </Parameters>
+  </ConfigSection>
+
+  <ConfigSection>
+    <Name>ScrollMode</Name>
+    <WriteCommand>015731023039433428Data2903Bcc|015731023041384328Data2903Bcc</WriteCommand>
+    <ReadCommand>015231023039433428Data2903Bcc|015231023041384328Data2903Bcc</ReadCommand>
+    <Parameters>
+      <Parameter>
+        <Name>aa</Name>
+        <StartIndex>1</StartIndex>
+        <NumberOfBytes>2</NumberOfBytes>
+      </Parameter>
+    </Parameters>
+  </ConfigSection>
+
+  <ConfigSection>
+    <Name>PushMode</Name>
+    <WriteCommand>015731023042423828Data2903Bcc|015731023043453428Data2903Bcc</WriteCommand>
+    <ReadCommand>015231023042423828Data2903Bcc|015231023043453428Data2903Bcc</ReadCommand>
+    <Parameters>
+      <Parameter>
+        <Name>aa</Name>
+        <StartIndex>1</StartIndex>
+        <NumberOfBytes>2</NumberOfBytes>
+      </Parameter>
+    </Parameters>
+  </ConfigSection>
+
+  <ConfigSection>
+    <Name>HighResolutionMode</Name>
+    <WriteCommand>015731023044414328Data2903Bcc</WriteCommand>
+    <ReadCommand>015231023044414328Data2903Bcc</ReadCommand>
+    <Parameters>
+      <Parameter>
+        <Name>aa</Name>
+        <StartIndex>1</StartIndex>
+        <NumberOfBytes>2</NumberOfBytes>
+      </Parameter>
+    </Parameters>
+  </ConfigSection>
+
+  <ConfigSection>
+    <Name>DisplayTimeouts</Name>
+    <WriteCommand>015731023037364328Data2903Bcc</WriteCommand>
+    <ReadCommand>01523102303736432830372903Bcc</ReadCommand>
+    <Parameters>
+      <Parameter>
+        <Name>aa</Name>
+        <StartIndex>1</StartIndex>
+        <NumberOfBytes>2</NumberOfBytes>
+      </Parameter>
+    </Parameters>
+  </ConfigSection>
+  <!--END Display Paramaters-->
+
+  <!--Added by Swati on 25 August 2011-->
+  <!--START Daily Log-->
+  <ConfigSection>
+    <Name>DailyLog</Name>
+    <ReadCommand>01523102303036382830322903Bcc</ReadCommand>
+    <WriteCommand>015731023030363828Data2903Bcc</WriteCommand>
+    <DeleteCommand>3APass4D64Bcc0D0A</DeleteCommand>
+    <Parameters>
+      <Parameter>
+        <Name>aa</Name>
+        <StartIndex>1</StartIndex>
+        <NumberOfBytes>2</NumberOfBytes>
+      </Parameter>
+    </Parameters>
+  </ConfigSection>
+  <!--END Daily Log-->
+
+  <!--Added by Vivek on 26 August 2011-->
+  <!--START RTC Paramater-->
+  <ConfigSection>
+    <Name>RTC</Name>
+    <WriteCommand>3A31313131313131314D4330373031DataBcc0D0A</WriteCommand>
+    <ReadCommand>063035360D0A3A31313131313131314D410D0A</ReadCommand>
+    <Parameters>
+      <Parameter>
+        <Name>aa</Name>
+        <StartIndex>1</StartIndex>
+        <NumberOfBytes>2</NumberOfBytes>
+      </Parameter>
+    </Parameters>
+  </ConfigSection>
+  <!--END Display Paramaters-->
+
+  <!--Added by Vivek on 30 August 2011-->
+  <!--START Billing Reset-->
+  <ConfigSection>
+    <Name>BillingReset</Name>
+    <WriteCommand>3APass4D63Bcc0D0A</WriteCommand>
+    <ReadCommand></ReadCommand>
+    <Parameters>
+      <Parameter>
+        <Name>aa</Name>
+        <StartIndex>1</StartIndex>
+        <NumberOfBytes>2</NumberOfBytes>
+      </Parameter>
+    </Parameters>
+  </ConfigSection>
+  <!--END Billing Reset-->
+
+  <!--Added by Vivek on 24 Oct 2011-->
+  <!--START RS232 Lock-unlock-->
+  <ConfigSection>
+    <Name>LockUnlockRS232</Name>
+    <WriteCommand>015731023036413628Data2903Bcc</WriteCommand>
+    <ReadCommand>015231023036413628312903Bcc</ReadCommand>
+    <Parameters>
+      <Parameter>
+        <Name>aa</Name>
+        <StartIndex>1</StartIndex>
+        <NumberOfBytes>2</NumberOfBytes>
+      </Parameter>
+    </Parameters>
+  </ConfigSection>
+  <!--END Billing Reset-->
+
+
+  <!--TOD (added just to read the section name)-->
+  <ConfigSection>
+    <Name>TOD</Name>
+    <WriteCommand></WriteCommand>
+    <ReadCommand></ReadCommand>
+  </ConfigSection>
+  <!--Added by Mohsin on 29 Dec 2016-->
+  <ConfigSection>
+    <Name>TODSP</Name>
+    <WriteCommand></WriteCommand>
+    <ReadCommand></ReadCommand>
+  </ConfigSection>
+
+  <!--TOD--><!--
+		<Name>TOD</Name>
+		<WriteCommand>015731023031313128Data2903Bcc</WriteCommand>
+	    <ReadCommand>
+			<S1D1>"0152310230333130283230290363"</S1D1>
+			<S1D2>"0152310230333131283230290362"</S1D2>
+			<S1D3>"0152310230333132283230290361"</S1D3>
+			<S1D4>"0152310230333133283230290360"</S1D4>
+			<S1D5>"0152310230333134283230290367"</S1D5>
+			<S1D6>"0152310230333135283230290366"</S1D6>
+			<S1AcDate>"0152310230333136283037290360"</S1AcDate>
+			<S2D1>"0152310230333230283230290360"</S2D1>
+			<S2D2>"0152310230333231283230290361"</S2D2>
+			<S2D3>"0152310230333232283230290362"</S2D3>
+			<S2D4>"0152310230333233283230290363"</S2D4>
+			<S2D5>"0152310230333234283230290364"</S2D5>
+			<S2D6>"0152310230333235283230290365"</S2D6>
+			<S2AcDate>"0152310230333236283037290363"</S2AcDate>
+			<S3D1>"0152310230333330283230290361"</S3D1>
+			<S3D2>"0152310230333331283230290360"</S3D2>
+			<S3D3>"0152310230333332283230290363"</S3D3>
+			<S3D4>"0152310230333333283230290362"</S3D4>
+			<S3D5>"0152310230333334283230290365"</S3D5>
+			<S3D6>"0152310230333335283230290364"</S3D6>
+			<S3AcDate>"0152310230333336283037290362"</S3AcDate>
+			<S4D1>"0152310230333430283230290366"</S4D1>
+			<S4D2>"0152310230333431283230290367"</S4D2>
+			<S4D3>"0152310230333432283230290364"</S4D3>
+			<S4D4>"0152310230333433283230290365"</S4D4>
+			<S4D5>"0152310230333434283230290362"</S4D5>
+			<S4D6>"0152310230333435283230290363"</S4D6>
+			<S4AcDate>"0152310230333436283037290365"</S4AcDate>
+			<H1>"0152310230333530283233290364"</H1>
+			<H2>"0152310230333531283233290365"</H2>
+			<H3>"0152310230333532283233290366"</H3>
+			<H4>"0152310230333533283233290367"</H4>
+			<H5>"0152310230333534283233290360"</H5>
+			<H6>"0152310230333535283233290361"</H6>
+			<H7>"0152310230333536283233290362"</H7>
+			<H8>"0152310230333537283233290363"</H8>
+			<H9>"015231023033353828323329036C"</H9>
+			<H10>"015231023033353928323329036D"</H10>
+			<HAcDate>"0152310230333630283046290310"</HAcDate>
+		</ReadCommand>
+		<Parameters>
+			<Parameter>
+				<Name>aa</Name>
+				<StartIndex>1</StartIndex>
+				<NumberOfBytes>2</NumberOfBytes>
+			</Parameter>	
+		</Parameters>
+	</ConfigSection>-->-->
+
+  <!--Added by Swati on 2 September 2011-->
+  <!--START Billing Reset-->
+  <ConfigSection>
+    <Name>ModeOfBilling</Name>
+    <ReadCommand>01523102303641342830342903Bcc</ReadCommand>
+    <WriteCommand>015731023036413428Data2903Bcc</WriteCommand>
+  </ConfigSection>
+
+  <ConfigSection>
+    <Name>BillingPeriod</Name>
+    <ReadCommand>01523102303641352830312903Bcc</ReadCommand>
+    <WriteCommand>015731023036413528Data2903Bcc</WriteCommand>
+  </ConfigSection>
+
+  <ConfigSection>
+    <Name>ResetLockOutDays</Name>
+    <ReadCommand>01523102303141352830312903Bcc</ReadCommand>
+    <WriteCommand>015731023031413528Data2903Bcc</WriteCommand>
+  </ConfigSection>
+
+  <!--END Billing Reset-->
+</MeterConfiguration>

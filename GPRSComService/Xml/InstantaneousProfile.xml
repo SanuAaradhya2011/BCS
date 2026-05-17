@@ -1,0 +1,26 @@
+﻿<Profile Type="Instantaneous">
+  <Utility UtilityName ="PUMA|TNEB|GPRSVER" Firmware="DEFAULT|4.45">
+    <CommandMethod Order="1"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="SNRMCommand"                   ValidatorName="HDLCValidator"  ValidatorParameter=""></CommandMethod>
+    <CommandMethod Order="2"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="AARQCommand"                   ValidatorName="AARQCommandValidator"  ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="3"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadInstantaneousProfile"      ValidatorName="ValidateInstantaneousProfile"  CommandParameter="3"  ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="4"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadRecursiveInstananeousData" ValidatorName="ValidateRecursiveInstananeousData"  ValidatorParameter="" IsRecursive="true" RecursiveType="COSEM"></CommandMethod>
+    <CommandMethod Order="5"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadInstantaneousProfile"      ValidatorName="ValidateInstantaneousProfile"  CommandParameter="2"   ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="6"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadRecursiveInstananeousData" ValidatorName="ValidateRecursiveInstananeousData"  ValidatorParameter="" IsRecursive="true" RecursiveType="COSEM"></CommandMethod>
+    <CommandMethod Order="7"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="InstantScalerProfile"          ValidatorName="ValidateScalarProfile" CommandParameter="3"   ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="8"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadScalarProfileRecursive"    ValidatorName="ValidateScalarProfileRecursive"  ValidatorParameter="" IsRecursive="true" RecursiveType="COSEM" ></CommandMethod>
+    <CommandMethod Order="9"  MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="InstantScalerProfile"          ValidatorName="ValidateScalarProfile" CommandParameter="2"   ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="10" MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="ReadScalarProfileRecursive"    ValidatorName="ValidateScalarProfileRecursive"  ValidatorParameter="" IsRecursive="true" RecursiveType="COSEM"></CommandMethod>
+    <CommandMethod Order="11" MeterType ="PumaLTE650|PumaHTE650"          CommandName="ReadCumulativeKW"              ValidatorName="ValidateCumumativeKW"  CommandParameter="2"   ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="12" MeterType ="PumaLTE650|PumaHTE650"          CommandName="ReadCumulativeScalarKW"        ValidatorName="ValidateScalarProfile" CommandParameter="3"   ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="13" MeterType ="PumaLTE650|PumaHTE650"          CommandName="ReadScalarProfileRecursive"    ValidatorName="ValidateScalarProfileRecursive"  ValidatorParameter="" IsRecursive="true" RecursiveType="COSEM" ></CommandMethod>
+    <CommandMethod Order="14" MeterType ="PumaLTE650|PumaHTE650"          CommandName="ReadCumulativeKVA"             ValidatorName="ValidateCumulativeKVA" CommandParameter="2"   ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="15" MeterType ="PumaLTE650|PumaHTE650"          CommandName="ReadCumulativeScalarKVA"       ValidatorName="ValidateScalarProfile" CommandParameter="3"   ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="16" MeterType ="PumaLTE650|PumaHTE650"          CommandName="ReadScalarProfileRecursive"    ValidatorName="ValidateScalarProfileRecursive"  ValidatorParameter="" IsRecursive="true" RecursiveType="COSEM" ></CommandMethod>
+    <CommandMethod Order="17" MeterType ="PumaLTE650|RubyE250|PumaHTE650" CommandName="DISCCommand"                   ValidatorName="HDLCValidator"  ValidatorParameter="" ></CommandMethod>
+  </Utility>
+  <Utility UtilityName ="NDPL" Firmware="DEFAULT|4.50">
+    <CommandMethod Order="1" MeterType ="PumaLTE650|RubyE250|PumaHTE650"  CommandName="SNRMCommand" ValidatorName="HDLCValidator"  ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="2" MeterType ="PumaLTE650|RubyE250|PumaHTE650"  CommandName="AARQCommand" ValidatorName="AARQCommandValidator"  ValidatorParameter="" ></CommandMethod>
+    <CommandMethod Order="3" MeterType ="PumaLTE650|RubyE250|PumaHTE650"  CommandName="fReadMeterSerialNumberCommand" ValidatorName="fMeterSerialNumberValidator"  ValidatorParameter="" ></CommandMethod>
+  </Utility>
+</Profile>
