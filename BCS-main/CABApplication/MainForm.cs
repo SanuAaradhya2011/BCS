@@ -1836,7 +1836,7 @@ namespace CAB.UI
             }
         }
 
-        //DS report is now open in File wise mode only as per decision taken by Balgovind because before in ID wise and File wise both the case same report is opening
+        //DS report is now open in File wise mode only as per decision taken by  because before in ID wise and File wise both the case same report is opening
         private void midNightDataToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(ConfigInfo.ActiveMeterDataId))
@@ -1860,7 +1860,7 @@ namespace CAB.UI
             // SB code change End - 20180629 - Multiple Analysis View
         }
 
-        //LS report is now open in File wise mode only as per decision taken by Balgovind because before in ID wise and File wise both the case same report is opening
+        //LS report is now open in File wise mode only as per decision taken by  because before in ID wise and File wise both the case same report is opening
         private void loadSurveyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(ConfigInfo.ActiveMeterDataId))

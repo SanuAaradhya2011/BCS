@@ -531,7 +531,7 @@ namespace CABApplication
                             }
                         }
                         
-                        else if (ConfigSettings.GetValue("OtherManufacture") == "TRUE" && signatureInfo != "Non-Landis+GyrMeter")
+                        else if (ConfigSettings.GetValue("OtherManufacture") == "TRUE" && signatureInfo != "Cabcon")
                         {
                             MessageBox.Show("Setting saved as Non Cabcon Meter " + "\n" + "Connected Meter is Cabcon." + "\n" + "Please change the settings or change the meter.");
                             this.StatusMessageAsync = "";
@@ -716,9 +716,9 @@ namespace CABApplication
                         {
                             meterModelNumber = NamePlateConstants.BRPL_CBSP;
                         }
-                        else if (signatureInfo.Contains("Non-Landis+GyrMeter"))
+                        else if (signatureInfo.Contains("Cabcon"))
                         {
-                            meterModelNumber = NamePlateConstants.NonLandisMeter;
+                            meterModelNumber = NamePlateConstants.NonCabcon;
                         }
 
 
@@ -726,7 +726,7 @@ namespace CABApplication
                         {
                             meterModelNumber = NamePlateConstants.InvalidModelValue;
                         }
-                        if (meterModelNumber != NamePlateConstants.NonLandisMeter && meterModelNumber != 0)
+                        if (meterModelNumber != NamePlateConstants.NonCabcon && meterModelNumber != 0)
                         {
                             selectedMeterConfigProfile = CheckMeterConfiguration(meterModelNumber.ToString(), firmwareVersion.TrimStart('0'));
                         }
@@ -758,7 +758,7 @@ namespace CABApplication
                                 //SetGridRowAttributes(Color.LightGray, ProfileId.Midnight, "Readout Not Supported.");
                             }
                         }
-                        if (meterModelNumber == NamePlateConstants.SM110value || meterModelNumber == NamePlateConstants.NonLandisMeter)
+                        if (meterModelNumber == NamePlateConstants.SM110value || meterModelNumber == NamePlateConstants.NonCabcon)
                         {
                             if (selectedProfiles.Contains(ProfileId.Phasor))
                             {
@@ -767,7 +767,7 @@ namespace CABApplication
                                 //SetGridRowAttributes(Color.LightGray, ProfileId.Phasor, "Readout Not Supported.");
                             }
                         }
-                        if (selectedProfiles.Contains(ProfileId.LoadSwitch) && meterModelNumber == NamePlateConstants.NonLandisMeter)
+                        if (selectedProfiles.Contains(ProfileId.LoadSwitch) && meterModelNumber == NamePlateConstants.NonCabcon)
                         {
                             selectedProfiles.Remove(ProfileId.LoadSwitch);
                             SetGridRowAttributes(System.Drawing.Color.LightYellow, ProfileId.LoadSwitch + "Readout Not Supported.", dgvr.Cells["Status"]);

@@ -583,7 +583,7 @@ namespace CAB.BLL
                 meterModelRow[columnName] = NamePlateConstants.Sapphire_WCM;
             }
             
-            else if (meterModelNo == NamePlateConstants.NonLandisMeter)
+            else if (meterModelNo == NamePlateConstants.NonCabcon)
             {
                 meterModelRow[columnName] = NamePlateConstants.NonLandis;
             }

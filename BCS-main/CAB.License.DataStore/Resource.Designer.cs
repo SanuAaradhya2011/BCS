@@ -60,13 +60,18 @@ namespace CAB.License.DataStore {
             }
         }
         
-      
+        /// <summary>
+        ///   Looks up a localized string similar to SOFTWARE\\Cabcon\\AppData.
+        /// </summary>
         internal static string APPDATAPATH {
             get {
                 return ResourceManager.GetString("APPDATAPATH", resourceCulture);
             }
         }
         
+        /// <summary>
+        ///   Looks up a localized string similar to SOFTWARE\\Wow6432Node\\Cabcon\\AppData.
+        /// </summary>
         internal static string APPDATAPATH64 {
             get {
                 return ResourceManager.GetString("APPDATAPATH64", resourceCulture);

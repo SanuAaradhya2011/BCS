@@ -909,9 +909,7 @@ namespace CAB.IECChannel.Formatter
                         long powerOffHours = (ts.Days * 24 * 60 + ts.Hours * 60 + ts.Minutes) - Convert.ToInt64(instantEntity.TotalPowerOnMinutes.Substring(0, instantEntity.TotalPowerOnMinutes.ToUpper().IndexOf('M')));
                         instantEntity.TotalPowerOffMinutes = powerOffHours.ToString();// Need to calculate manufacture - pon
                     }
-                    /* As discuss with Balgovind and Mohsin we are commneting the below code because if meter dosent provde obis code "C.8.0.1" or "C.8.0" then there is no need to show Cumulative Power-On Duration with 00:00:00;00:00:00 value. It is better to hide the Property from Instant Profile*/
-                    //else
-                    //    instantEntity.TotalPowerOffMinutes = "0";// in case meter RTC is not set or power on minutes doesnt come
+                  
                 }
                 else
                 {

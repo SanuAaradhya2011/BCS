@@ -219,7 +219,7 @@ namespace Common.EntityMapper
                 dataElement = CommonMapper.GetDataElementByDataDefId(generalRecords, 2);
                 if ((!dataElement.Value.Contains("Cabcon")) && (!dataElement.Value.Contains("LGZ"))) //if not landis gyr /LGZ meter
                 {
-                    generalEntity.MeterModelNo = NamePlateConstants.NonLandisMeter.ToString();
+                    generalEntity.MeterModelNo = NamePlateConstants.NonCabcon.ToString();
                     generalEntity.VoltageRating = "---";
                     generalEntity.CurrentRating = "---";
                     generalEntity.MeterConstant = "---";
@@ -303,9 +303,9 @@ namespace Common.EntityMapper
         /// <param name="generalEntity"></param>
         public void MapSignatureData(string signatureData, DLMS650NamePlateDetailsEntity generalEntity)
         {
-             if (signatureData == "Non-CabconMeter" || generalEntity.MeterModelNo == NamePlateConstants.NonLandisMeter.ToString())
+             if (signatureData == "Non-CabconMeter" || generalEntity.MeterModelNo == NamePlateConstants.NonCabcon.ToString())
             {
-                generalEntity.MeterModelNo = NamePlateConstants.NonLandisMeter.ToString();
+                generalEntity.MeterModelNo = NamePlateConstants.NonCabcon.ToString();
             }
 
             else if (!string.IsNullOrEmpty(signatureData) && signatureData.Length > 19)

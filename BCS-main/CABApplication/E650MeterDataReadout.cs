@@ -1156,137 +1156,137 @@ namespace CABApplication
                                 meterModelNumber = NamePlateConstants.SmartM_Cipher_1PH;
                                 firmwareVersion = signatureInfo.Substring(signatureInfo.LastIndexOf('-') + 1, 10);
                             }
-                            else if (signatureInfo.Contains("lt"))
-                            {
-                                meterModelNumber = NamePlateConstants.TwoTOUltModelValue;
-                            }
-                            else if ((signatureInfo.Contains("LT")))
-                            {
-                                meterModelNumber = NamePlateConstants.PumaLTE650Value;
-                            }
-                            else if (signatureInfo.Contains("ST"))
-                            {
-                                meterModelNumber = NamePlateConstants.SapphireLTCT;
-                            }
-                            else if (signatureInfo.Contains("st"))
-                            {
-                                meterModelNumber = NamePlateConstants.SapphireLTCT_st;
-                            }
-                            else if (signatureInfo.ToUpper().Contains("HT") || signatureInfo.ToUpper().Contains("HK"))
-                            {
-                                meterModelNumber = NamePlateConstants.PumaHTE650Value;
-                            }
-                            else if (signatureInfo.ToUpper().Contains("HK"))
-                            {
-                                meterModelNumber = NamePlateConstants.PumaHTE650Value;
-                            }
-                            else if (signatureInfo.ToUpper().Contains("LC"))
-                            {
-                                meterModelNumber = NamePlateConstants.LTCTCortexValue;
-                            }
-                            else if (signatureInfo.Contains("uk"))
-                            {
-                                meterModelNumber = NamePlateConstants.Ruby6ukModelValue;
-                            }
-                            else if (signatureInfo.Contains("UK"))
-                            {
-                                meterModelNumber = NamePlateConstants.Ruby6Value;
-                            }
-                            else if (signatureInfo.ToUpper().Contains("WB"))
-                            {
-                                meterModelNumber = NamePlateConstants.WBValue;
-                            }
-                            else if (signatureInfo.ToUpper().Contains("BW"))
-                            {
-                                meterModelNumber = NamePlateConstants.WBLTValue;
-                            }
-                            else if (signatureInfo.ToUpper().Contains("SK"))
-                            {
-                                meterModelNumber = NamePlateConstants.RubyE150Value;
-                            }
-                            else if (signatureInfo.ToUpper().Contains("SF"))
-                            {
-                                meterModelNumber = NamePlateConstants.SFSP;
-                            }
-                            else if (signatureInfo.ToUpper().Contains("HM"))
-                            {
-                                meterModelNumber = NamePlateConstants.PumaHTE650MWValue;
-                            }
-                            //---Rohit-----------03-March-2016------- for UPCL-----TwoSeason------
-                            else if (signatureInfo.Contains("sc"))
-                            {
-                                meterModelNumber = NamePlateConstants.TwoTOUSapphireValue;
-                            }
-                            else if (signatureInfo.Contains("SC"))
-                            {
-                                meterModelNumber = NamePlateConstants.SapphireValue;
-                            }
-                            //---Rohit-----------21-March-2016------- for VB---1p DLMS--No Season-No Week-----
-                            //SarkarA code change start 20180122 // Add valid meter model name for model 33 "Sc"
-                            else if (signatureInfo.Contains("Sc"))
-                            {
-                                meterModelNumber = NamePlateConstants.ThreeTOUWCMValue;
-                            }
-                            //SarkarA code change end 20180122
-                            else if (signatureInfo.Contains("VB"))
-                            {
-                                meterModelNumber = NamePlateConstants.VBSPNoSeasonNoWeek;
-                            }
-                            //******* Meter Model Change Required Here ***********//
-                            else if (signatureInfo.ToUpper().Contains("VF"))
-                            {
-                                meterModelNumber = NamePlateConstants.VFSPNoSeasonNoWeek;
-                            }
-                            else if (signatureInfo.ToUpper().Contains("TN"))
-                            {
-                                meterModelNumber = NamePlateConstants.TNValue;
-                            }
-                            else if (signatureInfo.ToUpper().Contains("FS")) // single phase smart meter
-                            {
-                                meterModelNumber = NamePlateConstants.SM110value;
-                            }
-                            //******* Smart meter 3 phase WCM  ***********//
-                            else if (signatureInfo.ToUpper().Contains("FU"))
-                            {
-                                meterModelNumber = NamePlateConstants.Smartmeter_WCM;
-                            }
-                            //******* Smart meter 3 phase LTCT Falcon ***********//
-                            else if (signatureInfo.ToUpper().Contains("FL"))
-                            {
-                                meterModelNumber = NamePlateConstants.Smartmeter_LTCT;
-                            }
-                            //******* Smart meter 3 phase HTCT ***********//
-                            else if (signatureInfo.ToUpper().Contains("FH"))
-                            {
-                                meterModelNumber = NamePlateConstants.Smartmeter_HTCT;
-                            }
-                            //*******Sapphire 3 phase HTCT ***********//
-                            else if (signatureInfo.Contains("sm"))
-                            {
-                                meterModelNumber = NamePlateConstants.Sapphire_sm;
-                            }
-                            //******* Sapphire 3 phase HTCT ***********//
-                            else if (signatureInfo.Contains("SM"))
-                            {
-                                meterModelNumber = NamePlateConstants.Sapphire_SM;
-                            }
+                            //else if (signatureInfo.Contains("lt"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.TwoTOUltModelValue;
+                            //}
+                            //else if ((signatureInfo.Contains("LT")))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.PumaLTE650Value;
+                            //}
+                            //else if (signatureInfo.Contains("ST"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.SapphireLTCT;
+                            //}
+                            //else if (signatureInfo.Contains("st"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.SapphireLTCT_st;
+                            //}
+                            //else if (signatureInfo.ToUpper().Contains("HT") || signatureInfo.ToUpper().Contains("HK"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.PumaHTE650Value;
+                            //}
+                            //else if (signatureInfo.ToUpper().Contains("HK"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.PumaHTE650Value;
+                            //}
+                            //else if (signatureInfo.ToUpper().Contains("LC"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.LTCTCortexValue;
+                            //}
+                            //else if (signatureInfo.Contains("uk"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.Ruby6ukModelValue;
+                            //}
+                            //else if (signatureInfo.Contains("UK"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.Ruby6Value;
+                            //}
+                            //else if (signatureInfo.ToUpper().Contains("WB"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.WBValue;
+                            //}
+                            //else if (signatureInfo.ToUpper().Contains("BW"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.WBLTValue;
+                            //}
+                            //else if (signatureInfo.ToUpper().Contains("SK"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.RubyE150Value;
+                            //}
+                            //else if (signatureInfo.ToUpper().Contains("SF"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.SFSP;
+                            //}
+                            //else if (signatureInfo.ToUpper().Contains("HM"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.PumaHTE650MWValue;
+                            //}
+                            ////---Rohit-----------03-March-2016------- for UPCL-----TwoSeason------
+                            //else if (signatureInfo.Contains("sc"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.TwoTOUSapphireValue;
+                            //}
+                            //else if (signatureInfo.Contains("SC"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.SapphireValue;
+                            //}
+                            ////---Rohit-----------21-March-2016------- for VB---1p DLMS--No Season-No Week-----
+                            ////SarkarA code change start 20180122 // Add valid meter model name for model 33 "Sc"
+                            //else if (signatureInfo.Contains("Sc"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.ThreeTOUWCMValue;
+                            //}
+                            ////SarkarA code change end 20180122
+                            //else if (signatureInfo.Contains("VB"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.VBSPNoSeasonNoWeek;
+                            //}
+                            ////******* Meter Model Change Required Here ***********//
+                            //else if (signatureInfo.ToUpper().Contains("VF"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.VFSPNoSeasonNoWeek;
+                            //}
+                            //else if (signatureInfo.ToUpper().Contains("TN"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.TNValue;
+                            //}
+                            //else if (signatureInfo.ToUpper().Contains("FS")) // single phase smart meter
+                            //{
+                            //    meterModelNumber = NamePlateConstants.SM110value;
+                            //}
+                            ////******* Smart meter 3 phase WCM  ***********//
+                            //else if (signatureInfo.ToUpper().Contains("FU"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.Smartmeter_WCM;
+                            //}
+                            ////******* Smart meter 3 phase LTCT Falcon ***********//
+                            //else if (signatureInfo.ToUpper().Contains("FL"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.Smartmeter_LTCT;
+                            //}
+                            ////******* Smart meter 3 phase HTCT ***********//
+                            //else if (signatureInfo.ToUpper().Contains("FH"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.Smartmeter_HTCT;
+                            //}
+                            ////*******Sapphire 3 phase HTCT ***********//
+                            //else if (signatureInfo.Contains("sm"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.Sapphire_sm;
+                            //}
+                            ////******* Sapphire 3 phase HTCT ***********//
+                            //else if (signatureInfo.Contains("SM"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.Sapphire_SM;
+                            //}
 
-                            //*******Sapphire 3 phase HTCT ***********//
-                            else if (signatureInfo.Contains("sh"))
-                            {
-                                meterModelNumber = NamePlateConstants.Sapphire_sh;
-                            }
+                            ////*******Sapphire 3 phase HTCT ***********//
+                            //else if (signatureInfo.Contains("sh"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.Sapphire_sh;
+                            //}
 
-                            //******* Sapphire 3 phase HTCT ***********//
-                            else if (signatureInfo.Contains("SH"))
-                            {
-                                meterModelNumber = NamePlateConstants.Sapphire_SH;
-                            }
-                            //******* Sapphire S2 Three phase Low cost meter ***********//
-                            else if (signatureInfo.Contains("SPS201"))
-                            {
-                                meterModelNumber = NamePlateConstants.SapphireS2;
-                            }
+                            ////******* Sapphire 3 phase HTCT ***********//
+                            //else if (signatureInfo.Contains("SH"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.Sapphire_SH;
+                            //}
+                            ////******* Sapphire S2 Three phase Low cost meter ***********//
+                            //else if (signatureInfo.Contains("SPS201"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.SapphireS2;
+                            //}
                             //******* Sapphire S2 Three phase Low cost meter ***********//
                             else if (signatureInfo.Contains("SPS202"))
                             {
@@ -1325,44 +1325,44 @@ namespace CABApplication
 
 
                             //*******Vim series 2 meter ***********//
-                            else if (signatureInfo.Contains("vb"))
-                            {
-                                meterModelNumber = NamePlateConstants.VIM_Series2;
-                            }
-                            else if (signatureInfo.Contains("BF"))
-                            {
-                                meterModelNumber = NamePlateConstants.BYPL_7Slot;
-                            }
-                            else if (signatureInfo.Contains("RF"))
-                            {
-                                meterModelNumber = NamePlateConstants.BRPL_7Slot;
-                            }
-                            else if (signatureInfo.Contains("CF"))
-                            {
-                                meterModelNumber = NamePlateConstants.BYPL_FD;
-                            }
-                            else if (signatureInfo.Contains("CB"))  //user story 1016689
-                            {
-                                meterModelNumber = NamePlateConstants.BRPL_CBSP;
-                            }
-                            else if (signatureInfo.Contains("Non-Landis+GyrMeter"))
-                            {
-                                meterModelNumber = NamePlateConstants.NonLandisMeter;
-                            }
-                            else if (signatureInfo.Contains("W0"))  //user story 1016689
-                            {
-                                meterModelNumber = NamePlateConstants.Sapphire_Netmeter_WCM;
-                            }
-                            else if (signatureInfo.Contains("L0"))  //user story 1016689
-                            {
-                                meterModelNumber = NamePlateConstants.Sapphire_Netmeter_LTCT;
-                            }
+                            //else if (signatureInfo.Contains("vb"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.VIM_Series2;
+                            //}
+                            //else if (signatureInfo.Contains("BF"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.BYPL_7Slot;
+                            //}
+                            //else if (signatureInfo.Contains("RF"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.BRPL_7Slot;
+                            //}
+                            //else if (signatureInfo.Contains("CF"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.BYPL_FD;
+                            //}
+                            //else if (signatureInfo.Contains("CB"))  //user story 1016689
+                            //{
+                            //    meterModelNumber = NamePlateConstants.BRPL_CBSP;
+                            //}
+                            //else if (signatureInfo.Contains("Non-Landis+GyrMeter"))
+                            //{
+                            //    meterModelNumber = NamePlateConstants.NonCabcon;
+                            //}
+                            //else if (signatureInfo.Contains("W0"))  //user story 1016689
+                            //{
+                            //    meterModelNumber = NamePlateConstants.Sapphire_Netmeter_WCM;
+                            //}
+                            //else if (signatureInfo.Contains("L0"))  //user story 1016689
+                            //{
+                            //    meterModelNumber = NamePlateConstants.Sapphire_Netmeter_LTCT;
+                            //}
 
                             else
                             {
                                 meterModelNumber = NamePlateConstants.InvalidModelValue;
                             }
-                            if (meterModelNumber != NamePlateConstants.NonLandisMeter && meterModelNumber != 0)// Added for Non Landis gyr meters
+                            if (meterModelNumber != NamePlateConstants.NonCabcon && meterModelNumber != 0)// Added for Non Landis gyr meters
                             {
 
                                 selectedMeterConfigProfile = CheckMeterConfiguration(meterModelNumber.ToString(), firmwareVersion.TrimStart('0'));
@@ -1402,7 +1402,7 @@ namespace CABApplication
                                     SetGridRowAttributes(Color.LightGray, ProfileId.Midnight, "Readout Not Supported.");
                                 }
                             }
-                            if (meterModelNumber == NamePlateConstants.SM110value || meterModelNumber == NamePlateConstants.NonLandisMeter)// Added for non Landis gyr meters
+                            if (meterModelNumber == NamePlateConstants.SM110value || meterModelNumber == NamePlateConstants.NonCabcon)// Added for non Landis gyr meters
                             {
                                 if (selectedProfiles.Contains(ProfileId.Phasor))
                                 {
@@ -1410,7 +1410,7 @@ namespace CABApplication
                                     SetGridRowAttributes(Color.LightGray, ProfileId.Phasor, "Readout Not Supported.");
                                 }
                             }
-                            if (selectedProfiles.Contains(ProfileId.LoadSwitch) && meterModelNumber == NamePlateConstants.NonLandisMeter)
+                            if (selectedProfiles.Contains(ProfileId.LoadSwitch) && meterModelNumber == NamePlateConstants.NonCabcon)
                             {
                                 selectedProfiles.Remove(ProfileId.LoadSwitch);
                                 SetGridRowAttributes(Color.LightGray, ProfileId.LoadSwitch, "Readout Not Supported.");

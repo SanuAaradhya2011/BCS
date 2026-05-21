@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="APPDATAPATH" xml:space="preserve">
-    <value>SOFTWARE\\Landis+Gyr\\AppData</value>
+    <value>SOFTWARE\\Cabcon\\AppData</value>
   </data>
   <data name="APPDATAPATH64" xml:space="preserve">
-    <value>SOFTWARE\\Wow6432Node\\Landis+Gyr\\AppData</value>
+    <value>SOFTWARE\\Wow6432Node\\Cabcon\\AppData</value>
   </data>
   <data name="CLIENTINFO" xml:space="preserve">
     <value>AssemblyInfo</value>

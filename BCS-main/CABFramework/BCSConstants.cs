@@ -78,7 +78,7 @@ namespace CAB.Framework
         public const string THREE = "3";
         public const string FOUR = "4";        
     }
-    //BhardwajG : Constants used in Nameplate profile
+    
     public class NamePlateConstants
     {
         public static string SapphireS2_NeteMeterModel = string.Empty;
@@ -184,7 +184,7 @@ namespace CAB.Framework
         //******* Smart meter Ciphering 1 phase ***********//
         public const int SmartM_Cipher_1PH = 37;
     
-        public const int NonLandisMeter = 38;
+        public const int NonCabcon = 38;
         //******* VIM BRPL/BYPL with 7 slot TOU ***********//
         public const int BYPL_7Slot = 39;
         public const int BRPL_7Slot = 40;
