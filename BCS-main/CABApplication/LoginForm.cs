@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 using CAB.BLL;
@@ -275,12 +275,27 @@ namespace CAB.UI
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
+            // Parent transparent controls to the PictureBox so they show the background image
+            txtUserName.Parent = pictureBox1;
+            txtPassword.Parent = pictureBox1;
+            lngLabel1.Parent = pictureBox1;
+            lngLabel2.Parent = pictureBox1;
+            linklblRegister.Parent = pictureBox1;
+            lbl_ShowDemo.Parent = pictureBox1;
+
+            // Force transparency and remove borders so custom paint handles it
+            txtUserName.BackColor = Color.Transparent;
+            txtUserName.BorderStyle = BorderStyle.None;
+            txtPassword.BackColor = Color.Transparent;
+            txtPassword.BorderStyle = BorderStyle.None;
+
+            pictureBox1.Paint += PictureBox1_Paint;
+
             RegisterProduct registerProduct = new RegisterProduct();
             this.Text = Application.ProductName;
             linklblRegister.Visible = false;
             lbl_ShowDemo.Visible = false;
            
-
 
 
             //Check Product Registered Or Not
@@ -323,6 +338,19 @@ namespace CAB.UI
                 {
                     ConfigInfo.RightID = "111111110";
                 }
+            }
+        }
+
+        private void PictureBox1_Paint(object sender, PaintEventArgs e)
+        {
+            // Draw a stylish border around the transparent text boxes
+            using (Pen borderPen = new Pen(Color.FromArgb(180, 200, 220), 1))
+            {
+                Rectangle rectUser = new Rectangle(txtUserName.Left - 1, txtUserName.Top - 1, txtUserName.Width + 1, txtUserName.Height + 1);
+                e.Graphics.DrawRectangle(borderPen, rectUser);
+
+                Rectangle rectPass = new Rectangle(txtPassword.Left - 1, txtPassword.Top - 1, txtPassword.Width + 1, txtPassword.Height + 1);
+                e.Graphics.DrawRectangle(borderPen, rectPass);
             }
         }
 

@@ -31,8 +31,8 @@ namespace CAB.UI
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnLogin = new CAB.UI.Controls.CABButton();
-            this.txtPassword = new System.Windows.Forms.TextBox();
-            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.txtPassword = new CAB.UI.TransparentTextBox();
+            this.txtUserName = new CAB.UI.TransparentTextBox();
             this.btnCancel = new CAB.UI.Controls.CABButton();
             this.lngLabel1 = new CAB.UI.Controls.CABLabel();
             this.lngLabel2 = new CAB.UI.Controls.CABLabel();
@@ -75,7 +75,7 @@ namespace CAB.UI
             // 
             // txtPassword
             // 
-            this.txtPassword.BackColor = System.Drawing.Color.White;
+            this.txtPassword.BackColor = System.Drawing.Color.Transparent;
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
@@ -90,7 +90,7 @@ namespace CAB.UI
             // 
             // txtUserName
             // 
-            this.txtUserName.BackColor = System.Drawing.Color.White;
+            this.txtUserName.BackColor = System.Drawing.Color.Transparent;
             this.txtUserName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtUserName.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUserName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
@@ -210,8 +210,8 @@ namespace CAB.UI
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private CAB.UI.Controls.CABButton btnLogin;
-        private System.Windows.Forms.TextBox txtPassword;
-        private System.Windows.Forms.TextBox txtUserName;
+        private CAB.UI.TransparentTextBox txtPassword;
+        private CAB.UI.TransparentTextBox txtUserName;
         private CAB.UI.Controls.CABButton btnCancel;
         private CAB.UI.Controls.CABLabel lngLabel1;
 		private CAB.UI.Controls.CABLabel lngLabel2;

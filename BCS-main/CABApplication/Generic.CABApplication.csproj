@@ -237,6 +237,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TransparentTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="ABC2Decrypt.cs">
       <SubType>Form</SubType>
     </Compile>
